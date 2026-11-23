@@ -46,6 +46,31 @@ PHL_2024_URL = "https://phl.kehutanan.go.id/media/statistik/statistik_file_17884
 PHL_2022_URL = "https://phl.kehutanan.go.id/media/statistik/statistik_file_1726677781.pdf"
 SATUDATA_SAWIT_KAB_2023_URL = "https://satudata.pertanian.go.id/assets/docs/metadata/45_Luas_perkebunan_kelapa_sawit_di_kabupaten.xlsx"
 
+# BPS Next.js portal WAJIB pakai ?subject=557 (Pertanian, Kehutanan, Perikanan)
+# karena bare /id/statistics-table merender soft-404 ("Gagal Memuat Tabel Statistik").
+BPS_SUBJECT_PERTANIAN = "557"
+BPS_NATIONAL_SUBJECT_URL = f"https://www.bps.go.id/id/statistics-table?subject={BPS_SUBJECT_PERTANIAN}"
+BPS_NATIONAL_TABLES = {
+    "padi_sekam_padi": "https://www.bps.go.id/id/statistics-table/2/MTQ5OCMy/table.html",
+    "jagung": "https://www.bps.go.id/id/statistics-table/2/MjIwNCMy/table.html",
+    "kelapa_sawit": "https://www.bps.go.id/id/statistics-table/2/MjU2NiMy/table.html",
+    "tebu": "https://www.bps.go.id/id/statistics-table/2/MjU2NiMy/table.html",
+    "kayu_bulat": "https://www.bps.go.id/id/statistics-table/2/MjUxMiMy/table.html",
+}
+BPS_KOMODITAS_KEYWORDS = {
+    "padi_sekam_padi": "padi",
+    "jagung": "jagung",
+    "kelapa_sawit": "kelapa%20sawit",
+    "tebu": "tebu",
+    "kayu_bulat": "kayu",
+}
+PAPUA_INDUK_SUBDOMAIN = {
+    "92": ("papuabarat", "BPS Provinsi Papua Barat (induk)"),
+    "95": ("papua", "BPS Provinsi Papua (induk)"),
+    "96": ("papua", "BPS Provinsi Papua (induk)"),
+    "97": ("papua", "BPS Provinsi Papua (induk)"),
+}
+
 # 38 Provinsi Indonesia (kode BPS 2 digit / domain 4 digit, nama resmi, pulau, subdomain bps, portal Satu Data Pemprov terverifikasi)
 PROVINCES_38 = [
     # SUMATERA (10)
@@ -106,13 +131,33 @@ def make_session():
     return s
 
 
-def check_url(session, url, timeout=10, get_body=False):
+def detect_soft_404(html_text):
+    """Deteksi halaman soft-404 Next.js / HTML (HTTP 200 tapi konten error 404)."""
+    if not html_text:
+        return False
+    m_title = re.search(r"<title[^>]*>(.*?)</title>", html_text, re.S | re.I)
+    title = re.sub(r"\s+", " ", m_title.group(1)).strip().lower() if m_title else ""
+    if "gagal memuat" in title or "halaman tidak ditemukan" in title or "404" in title:
+        return True
+    clean = re.sub(r"<script[^>]*>.*?</script>", "", html_text, flags=re.S | re.I)
+    clean = re.sub(r"<style[^>]*>.*?</style>", "", clean, flags=re.S | re.I)
+    clean = re.sub(r"<[^>]+>", " ", clean)
+    clean = re.sub(r"\s+", " ", clean).lower()
+    return (
+        "404 - page not found" in clean
+        or "halaman yang anda cari tidak ditemukan" in clean
+    )
+
+
+def check_url(session, url, timeout=10, get_body=False, check_soft404=False):
     if not url:
         return None, None, "Tidak ada portal mandiri teridentifikasi"
     try:
-        if get_body:
+        if get_body or check_soft404:
             r = session.get(url, timeout=timeout, allow_redirects=True)
-            return r.status_code, r.text, None
+            if check_soft404 and r.status_code == 200 and detect_soft_404(r.text):
+                return "SOFT_404", r.text if get_body else None, "HTTP 200 tapi merender halaman 404 / Gagal Memuat"
+            return r.status_code, r.text if get_body else None, None
         r = session.head(url, timeout=timeout, allow_redirects=True)
         if r.status_code in (403, 405, 400):
             r = session.get(url, timeout=timeout, allow_redirects=True, stream=True)
@@ -164,13 +209,13 @@ def norm_prov(s: str) -> str:
 # STEP 1: PORTAL 38 PROVINSI
 # ==============================================================================
 def build_portal_38_provinsi(session):
-    print("\n[1/4] Live-hit 38 portal BPS Provinsi & Satu Data Pemprov...", flush=True)
+    print("\n[1/4] Live-hit 38 portal BPS Provinsi (?subject=557) & Satu Data Pemprov...", flush=True)
     rows = []
     for kd2, default_dom, prov, pulau, sub, pemprov_url in PROVINCES_38:
         bps_base = f"https://{sub}.bps.go.id"
-        bps_table = f"{bps_base}/id/statistics-table"
+        bps_table = f"{bps_base}/id/statistics-table?subject={BPS_SUBJECT_PERTANIAN}"
 
-        st_bps, body, err_bps = check_url(session, bps_table, timeout=12, get_body=True)
+        st_bps, body, err_bps = check_url(session, bps_table, timeout=12, get_body=True, check_soft404=True)
         detected_dom = default_dom
         if body:
             m = re.search(r'"domain(?:_id)?"\s*:\s*"(\d{4})"', body) or re.search(r'\\"domain(?:_id)?\\":\\"(\d{4})\\"', body)
@@ -184,14 +229,32 @@ def build_portal_38_provinsi(session):
 
         webapi_url = f"https://webapi.bps.go.id/v1/api/list/model/var/domain/{detected_dom}/key/{{BPS_API_KEY}}"
 
-        if st_bps == 200 and st_pemprov == 200:
-            rekom = "WebAPI BPS (pakai domain) / HTML BPS Provinsi + Portal Pemprov aktif"
-        elif st_bps == 200:
-            rekom = "WebAPI BPS (pakai domain) / HTML BPS Provinsi; Pemprov tidak aktif/terbatas"
+        # Jangan taruh hyperlink mati untuk 4 provinsi pemekaran Papua yang belum punya DNS subdomain BPS
+        if st_bps == 200:
+            url_bps_out = bps_base
+            url_table_out = bps_table
+            url_fallback = None
         else:
-            rekom = "Belum punya subdomain BPS mandiri; gunakan BDSP Kementan / BPS Nasional"
+            url_bps_out = None
+            url_table_out = None
+            induk_info = PAPUA_INDUK_SUBDOMAIN.get(kd2)
+            url_fallback = (
+                f"https://{induk_info[0]}.bps.go.id/id/statistics-table?subject={BPS_SUBJECT_PERTANIAN}"
+                if induk_info else BPS_NATIONAL_SUBJECT_URL
+            )
 
-        notes = [f"BPS: HTTP {st_bps}" if not err_bps else f"BPS: {err_bps}"]
+        if st_bps == 200 and st_pemprov == 200:
+            rekom = "WebAPI BPS (pakai domain) / Tabel BPS ?subject=557 + Portal Pemprov aktif"
+        elif st_bps == 200:
+            rekom = "WebAPI BPS (pakai domain) / Tabel BPS ?subject=557; Pemprov tidak aktif/terbatas"
+        else:
+            rekom = "Belum punya subdomain BPS mandiri; gunakan portal BPS induk, BPS Nasional (?subject=557), atau BDSP Kementan"
+
+        if st_bps == 200:
+            notes = ["BPS (?subject=557): HTTP 200 & terverifikasi bukan soft-404"]
+        else:
+            induk_lbl = PAPUA_INDUK_SUBDOMAIN.get(kd2, ("www", "BPS Nasional"))[1]
+            notes = [f"BPS: Subdomain {sub}.bps.go.id tidak aktif ({err_bps or st_bps}); gunakan {induk_lbl} di kolom fallback"]
         if pemprov_url:
             notes.append(f"Pemprov: HTTP {st_pemprov}" if not err_pemprov else f"Pemprov: {err_pemprov}")
         else:
@@ -204,8 +267,9 @@ def build_portal_38_provinsi(session):
             "provinsi": prov,
             "pulau": pulau,
             "masuk_5_pulau_pltu": pulau in {"Jawa", "Sumatera", "Kalimantan", "Sulawesi", "Papua"},
-            "url_bps_provinsi": bps_base,
-            "url_tabel_statistik_bps": bps_table,
+            "url_bps_provinsi": url_bps_out,
+            "url_tabel_statistik_bps": url_table_out,
+            "url_bps_fallback_induk": url_fallback,
             "status_http_bps": st_bps,
             "endpoint_webapi_bps": webapi_url,
             "url_satudata_pemprov": pemprov_url,
@@ -422,6 +486,7 @@ def build_5_komoditas_38_prov(session, df_portals):
         pulau = prow["pulau"]
         p_norm = norm_prov(prov)
         bps_url = prow["url_tabel_statistik_bps"]
+        bps_url_ref = bps_url if pd.notna(bps_url) and bps_url else prow["url_bps_fallback_induk"]
 
         prov_summary_log = []
         # Cek 4 komoditas pertanian/perkebunan di BDSP (level=03 Kab/Kota, 2010-2026)
@@ -479,7 +544,7 @@ def build_5_komoditas_38_prov(session, df_portals):
                 # Tidak ada di level Kab/Kota, tapi ada di level Provinsi!
                 all_p_yrs = sorted(set(jag_prov_only) | set(bps_yrs))
                 sumber_p = "BDSP Kementan (Level Provinsi) & BPS RI" if jag_prov_only else "BPS RI (Tabel Statistik Provinsi)"
-                url_p = BDSP_URL_LOKASI if jag_prov_only else "https://www.bps.go.id/id/statistics-table"
+                url_p = BDSP_URL_LOKASI if jag_prov_only else BPS_NATIONAL_TABLES[kom_lbl]
                 bdsp_results[kom_lbl] = {
                     "level": "PROVINSI",
                     "sumber": sumber_p,
@@ -498,7 +563,7 @@ def build_5_komoditas_38_prov(session, df_portals):
                 # Cek apakah BDSP punya daftar kab/kota tapi semua 0.00 (memang bukan sentra / tidak dipublikasikan)
                 bdsp_results[kom_lbl] = {
                     "level": "TIDAK_TERSEDIA",
-                    "sumber": f"BDSP Kementan & BPS ({bps_url})",
+                    "sumber": f"BDSP Kementan & BPS ({bps_url_ref})",
                     "url": BDSP_URL_LOKASI,
                     "metode": "POST_HTML_TABLE",
                     "http": st_post,
@@ -534,7 +599,7 @@ def build_5_komoditas_38_prov(session, df_portals):
                 "span": f"Provinsi (KLHK PHL): {format_year_spans(yrs_kayu)}",
                 "n_kab": "N/A (level Kab/Kota tidak tersedia seragam)",
                 "status": "HANYA_TINGKAT_PROVINSI",
-                "note": f"Data resmi tingkat Provinsi tersedia dari {' & '.join(src_parts)}. Level Kab/Kota belum tersedia seragam secara nasional di BDSP; cek BPS provinsi sentra ({bps_url}) jika ingin cari tabel daerah.",
+                "note": f"Data resmi tingkat Provinsi tersedia dari {' & '.join(src_parts)}. Level Kab/Kota belum tersedia seragam secara nasional di BDSP; cek katalog BPS provinsi ({bps_url_ref}) jika ingin cari tabel daerah.",
             }
         else:
             bdsp_results["kayu_bulat"] = {
@@ -556,6 +621,8 @@ def build_5_komoditas_38_prov(session, df_portals):
         # Susun tepat 5 baris per provinsi dalam urutan target: jagung, padi_sekam_padi, kayu_bulat, tebu, kelapa_sawit
         for kom_key in ["jagung", "padi_sekam_padi", "kayu_bulat", "tebu", "kelapa_sawit"]:
             d = bdsp_results[kom_key]
+            kw = BPS_KOMODITAS_KEYWORDS[kom_key]
+            url_bps_prov_kom = f"{bps_url}&keyword={kw}" if pd.notna(bps_url) and bps_url else None
             rows.append({
                 "kode_prov": kd2,
                 "provinsi": prov,
@@ -564,6 +631,8 @@ def build_5_komoditas_38_prov(session, df_portals):
                 "level_wilayah_tertinggi": d["level"],
                 "sumber_utama": d["sumber"],
                 "url_endpoint": d["url"],
+                "url_katalog_bps_provinsi": url_bps_prov_kom,
+                "url_tabel_bps_nasional": BPS_NATIONAL_TABLES[kom_key],
                 "metode_akses": d["metode"],
                 "status_http": d["http"],
                 "bisa_ambil_otomatis": d["auto"],
@@ -871,13 +940,14 @@ def build_ringkasan_sumber(session, df_portals, df_kom, df_pltu):
     # Hit check beberapa link tambahan penting untuk katalog Ringkasan_Sumber
     extra_checks = {
         "bdsp": check_url(session, BDSP_URL_LOKASI, timeout=10)[0],
-        "bps_1498": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MTQ5OCMy/table.html", timeout=10)[0],
-        "bps_2204": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MjIwNCMy/table.html", timeout=10)[0],
-        "bps_2566": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MjU2NiMy/table.html", timeout=10)[0],
-        "bps_132": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MTMyIzI=/table.html", timeout=10)[0],
-        "bps_2512": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MjUxMiMy/table.html", timeout=10)[0],
-        "bps_1973": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MTk3MyMy/table.html", timeout=10)[0],
-        "bps_riau_156": check_url(session, "https://riau.bps.go.id/id/statistics-table/2/MTU2IzI=/produksi-kayu-bulat.html", timeout=10)[0],
+        "bps_subject_557": check_url(session, BPS_NATIONAL_SUBJECT_URL, timeout=10, check_soft404=True)[0],
+        "bps_1498": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MTQ5OCMy/table.html", timeout=10, check_soft404=True)[0],
+        "bps_2204": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MjIwNCMy/table.html", timeout=10, check_soft404=True)[0],
+        "bps_2566": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MjU2NiMy/table.html", timeout=10, check_soft404=True)[0],
+        "bps_132": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MTMyIzI=/table.html", timeout=10, check_soft404=True)[0],
+        "bps_2512": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MjUxMiMy/table.html", timeout=10, check_soft404=True)[0],
+        "bps_1973": check_url(session, "https://www.bps.go.id/id/statistics-table/2/MTk3MyMy/table.html", timeout=10, check_soft404=True)[0],
+        "bps_riau_156": check_url(session, "https://riau.bps.go.id/id/statistics-table/2/MTU2IzI=/produksi-kayu-bulat.html", timeout=10, check_soft404=True)[0],
         "satudata_sawit": check_url(session, SATUDATA_SAWIT_KAB_2023_URL, timeout=10)[0],
         "phl_2024": check_url(session, PHL_2024_URL, timeout=10)[0],
         "phl_2023": check_url(session, "https://phl.kehutanan.go.id/media/statistik/statistik_file_1729494930.pdf", timeout=10)[0],
@@ -898,15 +968,15 @@ def build_ringkasan_sumber(session, df_portals, df_kom, df_pltu):
     summary_rows = [
         {
             "no": 1, "kategori_data": "Portal Provinsi",
-            "cakupan_komoditas_atau_topik": "Portal BPS 38 Provinsi (*.bps.go.id)",
+            "cakupan_komoditas_atau_topik": "Portal BPS 38 Provinsi (*.bps.go.id?subject=557)",
             "nama_sumber_instansi": "Badan Pusat Statistik (BPS)",
-            "url_endpoint": "https://www.bps.go.id/id/statistics-table",
+            "url_endpoint": BPS_NATIONAL_SUBJECT_URL,
             "metode_akses": "NEXTJS_JSON / WEBAPI_BPS",
-            "status_http": 200, "bisa_ambil_otomatis": "YA", "level_wilayah": "PROVINSI & KABKOTA",
+            "status_http": extra_checks["bps_subject_557"], "bisa_ambil_otomatis": "YA", "level_wilayah": "PROVINSI & KABKOTA",
             "tahun_awal_tersedia": 2010, "tahun_akhir_tersedia": 2025,
             "rentang_tahun_aktual": "Bervariasi per tabel & provinsi (lihat Tab Portal_38_Provinsi)",
-            "bukti_hasil_hit": f"{n_bps_ok}/38 portal BPS provinsi HTTP 200 (4 provinsi pemekaran Papua belum punya subdomain mandiri)",
-            "catatan_fakta": f"Portal WebAPI BPS aktif HTTP {extra_checks['webapi_bps']}; untuk mencari tabel Kab/Kota otomatis di seluruh 38 domain disarankan pakai 1 BPS_API_KEY gratis.",
+            "bukti_hasil_hit": f"{n_bps_ok}/38 portal BPS provinsi HTTP 200 & 0 soft-404 (?subject=557); 4 provinsi pemekaran Papua diarahkan ke portal BPS induk",
+            "catatan_fakta": f"Portal BPS Next.js WAJIB memakai ?subject=557 (Pertanian, Kehutanan, Perikanan) agar tidak memicu soft-404. WebAPI BPS aktif HTTP {extra_checks['webapi_bps']}.",
         },
         {
             "no": 2, "kategori_data": "Portal Provinsi",
