@@ -267,6 +267,45 @@ def parse_phl_pdf_tables(pdf_path, page_nums_1idx, years):
     return out
 
 
+def parse_phl_2022_text(pdf_path, page_nums_1idx, years):
+    """Ekstrak nilai per provinsi dari PDF KLHK PHL 2022 via extract_text() karena tidak berbatas garis vertikal."""
+    import pymupdf
+    doc = pymupdf.open(pdf_path)
+    full_txt = "\n".join(doc[p - 1].get_text("text") for p in page_nums_1idx)
+    lines = [re.sub(r"\s+", " ", ln).strip() for ln in full_txt.splitlines() if ln.strip()]
+    records = {}
+    i = 0
+    num_pat = re.compile(r"^(?:-|\d+(?:[.,]\d+)*)$")
+    while i < len(lines):
+        m = re.match(r"^(\d{1,2})(?:\s+(.+))?$", lines[i])
+        if m and 1 <= int(m.group(1)) <= 38:
+            name_parts = [m.group(2)] if m.group(2) else []
+            vals = []
+            j = i + 1
+            while j < len(lines) and len(vals) < len(years):
+                ln = lines[j]
+                if re.match(r"^\d{1,2}$", ln) and 1 <= int(ln) <= 38 and len(vals) > 0:
+                    break
+                if ln.upper().startswith("JUMLAH"):
+                    break
+                ln_fixed = re.sub(r"(\d)\s+(\d)", r"\1\2", ln)
+                toks = ln_fixed.split(" ")
+                if all(num_pat.match(t) for t in toks):
+                    for t in toks:
+                        if len(vals) < len(years):
+                            vals.append(parse_id_num_phl(t))
+                elif not vals:
+                    name_parts.append(ln)
+                j += 1
+            prov = norm_prov(" ".join(name_parts))
+            if prov and "TAHUN" not in prov and "JUMLAH" not in prov:
+                records[prov] = {years[k]: vals[k] for k in range(min(len(years), len(vals)))}
+            i = j
+        else:
+            i += 1
+    return records
+
+
 def get_phl_kayu_availability(session):
     """Pastikan PDF PHL 2024 (2020-2024) & PHL 2022 (2018-2022) tersedia lalu ekstrak tahun aktif per provinsi."""
     pdf_2024_path = os.path.join(PDF_DIR, "klhk_phl_2024.pdf")
@@ -277,8 +316,8 @@ def get_phl_kayu_availability(session):
 
     pbph_24 = parse_phl_pdf_tables(pdf_2024_path, [152], [2020, 2021, 2022, 2023, 2024])
     perh_24 = parse_phl_pdf_tables(pdf_2024_path, [155], [2020, 2021, 2022, 2023, 2024])
-    pbph_22 = parse_phl_pdf_tables(pdf_2022_path, [113, 114], [2018, 2019, 2020, 2021, 2022])
-    perh_22 = parse_phl_pdf_tables(pdf_2022_path, [117], [2018, 2019, 2020, 2021, 2022])
+    pbph_22 = parse_phl_2022_text(pdf_2022_path, [113, 114], [2018, 2019, 2020, 2021, 2022])
+    perh_22 = parse_phl_2022_text(pdf_2022_path, [117], [2018, 2019, 2020, 2021, 2022])
 
     combined = {}
     all_provs = set(pbph_24) | set(perh_24) | set(pbph_22) | set(perh_22)
@@ -642,6 +681,7 @@ def build_pltu_5_pulau_sources(session):
         cy = coal_w["commissioning_year"].dropna()
         y1_w, y2_w = (int(cy.min()), int(cy.max())) if len(cy) else (np.nan, np.nan)
         w_txt = ", ".join(f"{k}: {w_cnt.get(k,0)}" for k in ["Jawa", "Sumatera", "Kalimantan", "Sulawesi", "Papua"])
+        w_5 = sum(w_cnt.get(k, 0) for k in ["Jawa", "Sumatera", "Kalimantan", "Sulawesi", "Papua"])
         rows.append({
             "no": 2,
             "nama_sumber": "Global Power Plant Database (Indonesia - Coal)",
@@ -650,7 +690,7 @@ def build_pltu_5_pulau_sources(session):
             "metode_akses": "DIRECT_DOWNLOAD_CSV",
             "status_http": st_wri,
             "bisa_ambil_otomatis": "YA",
-            "cakupan_pulau": f"5 Pulau Utama lengkap ({w_txt}; Bali-Nusra: {w_cnt.get('Bali-Nusra Tenggara',0)})",
+            "cakupan_pulau": f"5 Pulau Utama lengkap ({w_txt}; Bali-Nusa Tenggara & lain: {len(coal_w) - w_5})",
             "jumlah_pltu_terdeteksi": len(coal_w),
             "tahun_awal_tersedia": y1_w,
             "tahun_akhir_tersedia": y2_w,
@@ -747,26 +787,50 @@ def build_pltu_5_pulau_sources(session):
 
     # 6. Ditjen Gatrik ESDM - Statistik Ketenagalistrikan
     gatrik_url = "https://gatrik.esdm.go.id/frontend/index/statistik"
-    st_gatrik, _, err_gatrik = check_url(session, gatrik_url, timeout=8)
-    rows.append({
-        "no": 6,
-        "nama_sumber": "Statistik Ketenagalistrikan (Ditjen Gatrik ESDM)",
-        "instansi": "Kementerian ESDM - Ditjen Ketenagalistrikan",
-        "url_sumber": gatrik_url,
-        "metode_akses": "MANUAL_BROWSER_INDONESIA",
-        "status_http": st_gatrik,
-        "bisa_ambil_otomatis": "TIDAK",
-        "cakupan_pulau": "Seluruh Indonesia (rekapitulasi sistem/provinsi dalam buku PDF)",
-        "jumlah_pltu_terdeteksi": np.nan,
+    st_gatrik, body_gatrik, err_gatrik = check_url(session, gatrik_url, timeout=12, get_body=True)
+    if st_gatrik == 200 and body_gatrik:
+        gatrik_pdfs = sorted(set(re.findall(r'[^"\'\s<>]+\.pdf', body_gatrik, re.I)))
+        gatrik_yrs = sorted(set(int(y) for y in re.findall(r'20(?:1\d|2[0-6])', " ".join(gatrik_pdfs) + " " + body_gatrik[:40000])))
+        y1_g, y2_g = (min(gatrik_yrs), max(gatrik_yrs)) if gatrik_yrs else (np.nan, np.nan)
+        rows.append({
+            "no": 6,
+            "nama_sumber": "Statistik Ketenagalistrikan (Ditjen Gatrik ESDM)",
+            "instansi": "Kementerian ESDM - Ditjen Ketenagalistrikan",
+            "url_sumber": gatrik_url,
+            "metode_akses": "PORTAL_PDF_WEB",
+            "status_http": st_gatrik,
+            "bisa_ambil_otomatis": "YA" if gatrik_pdfs else "SEBAGIAN",
+            "cakupan_pulau": "Seluruh Indonesia (rekapitulasi sistem/provinsi dalam buku PDF)",
+            "jumlah_pltu_terdeteksi": np.nan,
+            "tahun_awal_tersedia": y1_g,
+            "tahun_akhir_tersedia": y2_g,
+            "rentang_tahun_aktual": f"Arsip Statistik Ketenagalistrikan ({y1_g}-{y2_g}); {len(gatrik_pdfs)} tautan PDF" if gatrik_pdfs else "Halaman aktif HTTP 200 (tabel/PDF dimuat dinamis JS)",
+            "kolom_utama_tersedia": "Kapasitas terpasang nasional/sistem, konsumsi bahan bakar agregat batu bara per jenis pembangkit (bukan per-unit PLTU harian)",
+            "status_data": "TERSEDIA_PORTAL_PDF" if gatrik_pdfs else "HANYA_HALAMAN_DINAMIS",
+            "catatan_fakta": f"Portal Gatrik ESDM aktif HTTP 200 ({len(gatrik_pdfs)} file PDF terdeteksi di HTML); cocok sebagai referensi agregat nasional/sistem.",
+            "status_review_manual": "",
+            "catatan_user": "",
+        })
+    else:
+        rows.append({
+            "no": 6,
+            "nama_sumber": "Statistik Ketenagalistrikan (Ditjen Gatrik ESDM)",
+            "instansi": "Kementerian ESDM - Ditjen Ketenagalistrikan",
+            "url_sumber": gatrik_url,
+            "metode_akses": "MANUAL_BROWSER_INDONESIA",
+            "status_http": st_gatrik,
+            "bisa_ambil_otomatis": "TIDAK",
+            "cakupan_pulau": "Seluruh Indonesia (rekapitulasi sistem/provinsi dalam buku PDF)",
+            "jumlah_pltu_terdeteksi": np.nan,
             "tahun_awal_tersedia": np.nan,
-        "tahun_akhir_tersedia": np.nan,
-        "rentang_tahun_aktual": "Tidak dapat diverifikasi otomatis (koneksi reset/timeout dari skrip)",
-        "kolom_utama_tersedia": "Kapasitas terpasang nasional/sistem, konsumsi bahan bakar agregat batu bara per jenis pembangkit (bukan per-unit PLTU harian)",
-        "status_data": "ERROR_KONEKSI_OTOMATIS",
-        "catatan_fakta": f"Live-hit dari Python gagal ({st_gatrik}: {err_gatrik}); cek manual lewat browser bila diperlukan.",
-        "status_review_manual": "",
-        "catatan_user": "",
-    })
+            "tahun_akhir_tersedia": np.nan,
+            "rentang_tahun_aktual": f"Tidak dapat diverifikasi otomatis ({st_gatrik}: {err_gatrik})",
+            "kolom_utama_tersedia": "Kapasitas terpasang nasional/sistem, konsumsi bahan bakar agregat batu bara per jenis pembangkit (bukan per-unit PLTU harian)",
+            "status_data": "ERROR_KONEKSI_OTOMATIS",
+            "catatan_fakta": f"Live-hit dari Python gagal ({st_gatrik}: {err_gatrik}); cek manual lewat browser bila diperlukan.",
+            "status_review_manual": "",
+            "catatan_user": "",
+        })
 
     # 7. PT PLN (Persero) - Statistik PLN & RUPTL
     pln_stat_url = "https://web.pln.co.id/stakeholder/laporan-statistik"
