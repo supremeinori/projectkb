@@ -1,0 +1,143 @@
+﻿pltu_key,pltu_master_id,nama_pltu_standar,nama_climatetrace,nama_wri_gppd,nama_crea_2025,owner_operator,jenis_boiler,status_cofiring_2024,commissioning_year,latitude,longitude,pulau,masuk_5_pulau_pltu,wilayah_pln,entity_match_method
+1,PLTU_M001,Pomalaa Nickel power station,Pomalaa Nickel power station,,,PT Aneka Tambang Tbk; PT Aneka Tambang Tbk,,BELUM_TERCATAT_DI_CREA,,-4.1799,121.5929,Sulawesi,1,,ANCHOR_CLIMATETRACE
+2,PLTU_M002,Asahimas Chemical power station,Asahimas Chemical power station,,,PT Asahimas Chemical,,BELUM_TERCATAT_DI_CREA,,-6.0248,105.9426,Jawa,1,,ANCHOR_CLIMATETRACE
+3,PLTU_M003,Jababeka Industrial Estate power station,Jababeka Industrial Estate power station,,,PT Cikarang Listrindo Tbk,,BELUM_TERCATAT_DI_CREA,,-6.2908,107.1211,Jawa,1,,ANCHOR_CLIMATETRACE
+4,PLTU_M004,Perawang Mill power station,Perawang Mill power station,Perawang Mill power station,,PT Indah Kiat Pulp & Paper Tbk,,BELUM_TERCATAT_DI_CREA,2009,0.6922,101.6194,Sumatera,1,,ANCHOR_CLIMATETRACE+WRI
+5,PLTU_M005,Batu Hijau power station,Batu Hijau power station,Batu Hijau power station,,PT Amman Mineral Nusa Tenggara,,BELUM_TERCATAT_DI_CREA,1999,-8.9012,116.7382,Bali-Nusa Tenggara,0,,ANCHOR_CLIMATETRACE+WRI
+6,PLTU_M006,Bukit Asam Muara Enim power station,Bukit Asam Muara Enim power station,PLTU Bukit Asam,Bukit Asam 1-4,PT PLN (Persero),PC,OPERASI_COFIRING_2024,,-3.7321,103.7975,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+7,PLTU_M007,Banten Suralaya power station,Banten Suralaya power station,PLTU Banten 1 - Suralaya unit 8 | PLTU Suralaya,Suralaya 1-4 | Suralaya 5-7 | Suralaya 8,PT PLN (Persero); PT Barito Pacific Tbk,PC,OPERASI_COFIRING_2024,,-5.8892,106.0336,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+WRI+CREA
+8,PLTU_M008,Kalimantan Cement Works power station,Kalimantan Cement Works power station,,,PT Indocement Tunggal Prakarsa Tbk,,BELUM_TERCATAT_DI_CREA,,-3.2729,116.1059,Kalimantan,1,,ANCHOR_CLIMATETRACE
+9,PLTU_M009,Amamapare Port power station,Amamapare Port power station,Amamapare Port power station,,PT Freeport Indonesia,,BELUM_TERCATAT_DI_CREA,1998,-4.8278,136.8391,Papua,1,,ANCHOR_CLIMATETRACE+WRI
+10,PLTU_M010,Embalut power station,Embalut power station,,,PT Cahaya Fajar Kaltim,,BELUM_TERCATAT_DI_CREA,,-0.3731,117.0625,Kalimantan,1,,ANCHOR_CLIMATETRACE
+11,PLTU_M011,Tonasa Cement Plant power station,Tonasa Cement Plant power station,,,PT Semen Gresik,,BELUM_TERCATAT_DI_CREA,,-4.8167,119.5017,Sulawesi,1,,ANCHOR_CLIMATETRACE
+12,PLTU_M012,Ketapang Smelter power station,Ketapang Smelter power station,Ketapang Smelter power station,Ketapang 1-2,PT Well Harvest Winning Alumina Refinery,CFB,OPERASI_COFIRING_2024,2016,-2.3662,110.1573,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+13,PLTU_M013,Bengkayang Power Station,Bengkayang Power Station,,Bengkayang 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,0.8371,108.8736,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+CREA
+14,PLTU_M014,Indo Bharat Rayon power station,Indo Bharat Rayon power station,,,PT Indo Bharat Rayon,,BELUM_TERCATAT_DI_CREA,,-6.4858,107.3852,Jawa,1,,ANCHOR_CLIMATETRACE
+15,PLTU_M015,Bangko Tengah power station,Bangko Tengah power station,,,PT Huadian Bukit Asam Power,,BELUM_TERCATAT_DI_CREA,,-3.8387,103.8041,Sumatera,1,,ANCHOR_CLIMATETRACE
+16,PLTU_M016,PT Halmahera Persada Lygend Nickel Smelter power station,PT Halmahera Persada Lygend Nickel Smelter power station,,,PT Halmahera Persada Lygend; PT Obi Nickel Cobalt,,BELUM_TERCATAT_DI_CREA,,-1.5614,127.421,Maluku,0,,ANCHOR_CLIMATETRACE
+17,PLTU_M017,Delong Nickel Phase III power station,Delong Nickel Phase III power station,,,PT Gunbuster Nickel Industry,,BELUM_TERCATAT_DI_CREA,,-2.0047,121.4381,Sulawesi,1,,ANCHOR_CLIMATETRACE
+18,PLTU_M018,Sulawesi Labota power station,Sulawesi Labota power station,,,PT Sulawesi Mining Investment; Indonesia Wanjia Ferro Nickel Co Ltd; Indonesia Zhaohui Ferro Nickel Co Ltd; PT Walsin Nickel Industrial Indonesia,,BELUM_TERCATAT_DI_CREA,,-2.87,122.174,Sulawesi,1,,ANCHOR_CLIMATETRACE
+19,PLTU_M019,Tjiwi Kimia Paper Mill power station,Tjiwi Kimia Paper Mill power station,,,PT Pabrik Kertas Tjiwi Kimia Tbk,,BELUM_TERCATAT_DI_CREA,,-7.4365,112.4696,Jawa,1,,ANCHOR_CLIMATETRACE
+20,PLTU_M020,Cemindo Gemilang power station,Cemindo Gemilang power station,,,PT Cemindo Gemilang Tbk,,BELUM_TERCATAT_DI_CREA,,-6.9508,106.2502,Jawa,1,,ANCHOR_CLIMATETRACE
+21,PLTU_M021,FAJAR power station,FAJAR power station,,,PT Fajar Surya Wisesa Tbk,,BELUM_TERCATAT_DI_CREA,,-6.2726,107.124,Jawa,1,,ANCHOR_CLIMATETRACE
+22,PLTU_M022,Merak power station,Merak power station,Merak power station,,PT Merak Energi Indonesia,,BELUM_TERCATAT_DI_CREA,2014,-5.884,106.0642,Jawa,1,,ANCHOR_CLIMATETRACE+WRI
+23,PLTU_M023,Asam-Asam power station,Asam-Asam power station,PLTU Asam-asam 1 & 2,Asam Asam 1-4,PT PLN (Persero),PC,OPERASI_COFIRING_2024,,-3.9265,115.1058,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+24,PLTU_M024,Kendari - Rental,Kendari - Rental,,,,,BELUM_TERCATAT_DI_CREA,,-3.8953,122.5383,Sulawesi,1,,ANCHOR_CLIMATETRACE
+25,PLTU_M025,Ombilin power station,Ombilin power station,PLTU Ombilin - Sijantang - Sawahlunto,Ombilin 1-2,PT PLN (Persero),PC,OPERASI_COFIRING_2024,,-0.609,100.7537,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+26,PLTU_M026,PLN Paiton power station,PLN Paiton power station,PLTU Paiton I Unit 7 & 8,Paiton 1-2 | Paiton 9,PT PLN Nusantara Power PT; PT Paiton Energy Pte Ltd; PT Jawa Power,PC,OPERASI_COFIRING_2024,,-7.7147,113.585,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+WRI+CREA
+27,PLTU_M027,Sinar Mas Jambi Lontar power station,Sinar Mas Jambi Lontar power station,,,PT Lontar Papyrus Pulp & Paper Industry,,BELUM_TERCATAT_DI_CREA,,-1.0069,103.0821,Sumatera,1,,ANCHOR_CLIMATETRACE
+28,PLTU_M028,Tanjung Jati B power station,Tanjung Jati B power station,PLTU Tanjung Jati B | PLTU Tanjung Jati B - expansion,Tanjung Jati 1-2 | Tanjung Jati 3-4,PT Bhumi Jati Power,PC,TARGET_COFIRING_5_PLTU,,-6.4448,110.7435,Jawa,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+29,PLTU_M029,Banjarsari power station,Banjarsari power station,PLTU Banjarsari/Merapi Timur-Lahat,,PT Bukit Pembangkit Innovative,,BELUM_TERCATAT_DI_CREA,,-3.7251,103.6904,Sumatera,1,,ANCHOR_CLIMATETRACE+WRI
+30,PLTU_M030,Bandung Indosyntec power station,Bandung Indosyntec power station,,,PT Panasia Indo Resources Tbk,,BELUM_TERCATAT_DI_CREA,,-6.9705,107.6058,Jawa,1,,ANCHOR_CLIMATETRACE
+31,PLTU_M031,Cilacap Sumber power station,Cilacap Sumber power station,PLTU Cilacap 1 & 2 | Cilacap Sumber power station,,PT Sumber Segara Primadaya,,BELUM_TERCATAT_DI_CREA,2011,-7.6858,109.0898,Jawa,1,,ANCHOR_CLIMATETRACE+WRI
+32,PLTU_M032,Tanjung Kasam power station,Tanjung Kasam power station,PLTU Tanjung Kasam,,PT Tanjung Kasam Power,,BELUM_TERCATAT_DI_CREA,,1.0441,104.1357,Sumatera,1,,ANCHOR_CLIMATETRACE+WRI
+33,PLTU_M033,Central Java Power Project,Central Java Power Project,,,PT Bhimasena Power Indonesia,,BELUM_TERCATAT_DI_CREA,,-6.9008,109.8037,Jawa,1,,ANCHOR_CLIMATETRACE
+34,PLTU_M034,Kaltim Teluk Balikpapan power station,Kaltim Teluk Balikpapan power station,Kaltim Teluk Balikpapan power station,Teluk Balikpapan 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,2015,-1.1704,116.7887,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+35,PLTU_M035,Punagaya power station,Punagaya power station,,Punagaya 1-2,PT Bosowa Makassar,CFB,OPERASI_COFIRING_2024,,-5.6179,119.5512,Sulawesi,1,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",ANCHOR_CLIMATETRACE+CREA
+36,PLTU_M036,Labuhan Angin power station,Labuhan Angin power station,PLTU Labuhan Angin,Labuhan Angin 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,1.7519,98.7313,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+37,PLTU_M037,Pelabuhan Ratu power station,Pelabuhan Ratu power station,PLTU Jabar Selatan - Pelabuhan Ratu,Pelabuhan Ratu 1-3,PT PLN Indonesia Power,PC,OPERASI_COFIRING_2024,,-7.0242,106.5464,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+WRI+CREA
+38,PLTU_M038,Pacitan power station,Pacitan power station,Pacitan power station,Pacitan 1-2,PT PLN (Persero),PC,OPERASI_COFIRING_2024,2011,-8.2578,111.3736,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+WRI+CREA
+39,PLTU_M039,Banten Labuan power station,Banten Labuan power station,,Labuan 1-2,PT PLN Indonesia Power,PC,OPERASI_COFIRING_2024,,-6.3922,105.8278,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+CREA
+40,PLTU_M040,Cirebon power station,Cirebon power station,PLTU Cirebon,,PT Cirebon Electric Power,,BELUM_TERCATAT_DI_CREA,,-6.7703,108.6149,Jawa,1,,ANCHOR_CLIMATETRACE+WRI
+41,PLTU_M041,Rembang power station,Rembang power station,PLTU Jawa Tengah 1 - Rembang,Rembang 1-2,PT PLN (Persero),PC,OPERASI_COFIRING_2024,,-6.636,111.4749,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+WRI+CREA
+42,PLTU_M042,Banten Lontar power station,Banten Lontar power station,PLTU Banten 3 - Teluk Naga/Lontar,Lontar 1-3 + Expansi,PT PLN (Persero),PC,OPERASI_COFIRING_2024,,-6.0589,106.4643,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+WRI+CREA
+43,PLTU_M043,Tanjung Awar-Awar power station,Tanjung Awar-Awar power station,Tanjung Awar-Awar power station,Tanjung Awar Awar 1-2,PT PLN (Persero),PC,OPERASI_COFIRING_2024,2012,-6.8105,111.9955,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+WRI+CREA
+44,PLTU_M044,Teluk Sirih power station,Teluk Sirih power station,PLTU Sumbar - Teluk sirih Unit 1,Teluk Sirih 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,-1.0765,100.3724,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+45,PLTU_M045,Tarahan power station,Tarahan power station,PLTU Tarahan # 1  2 | PLTU Tarahan 3 & 4 - Sebalang,Tarahan 3-4,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,-5.5212,105.3535,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+46,PLTU_M046,Takalar power station,Takalar power station,,,PT PLN (Persero),,BELUM_TERCATAT_DI_CREA,,-5.6236,119.5508,Sulawesi,1,,ANCHOR_CLIMATETRACE
+47,PLTU_M047,Indramayu power station,Indramayu power station,PLTU Jawa Barat - Indramayu,Indramayu 1-3,PT PLN (Persero),PC,OPERASI_COFIRING_2024,,-6.2747,107.9704,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+WRI+CREA
+48,PLTU_M048,Adipala power station,Adipala power station,,Adipala,PT PLN (Persero),PC,OPERASI_COFIRING_2024,,-7.6859,109.1376,Jawa,1,"Jawa, Madura, Bali (JAMALI)",ANCHOR_CLIMATETRACE+CREA
+49,PLTU_M049,Kalteng-1 Pulang Pisau power station,Kalteng-1 Pulang Pisau power station,Kalteng-1 Pulang Pisau power station,Pulang Pisau 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,2015,-2.8225,114.2095,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+50,PLTU_M050,Nagan Raya power station,Nagan Raya power station,PLTU NAD-Nagan Raya,Nagan Raya 1-2,PT Meulaboh Power Generation; PT PLN (Persero); Unnamed special purpose vehicle,CFB,OPERASI_COFIRING_2024,,4.1077,96.1986,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+51,PLTU_M051,Shenhua Guohua power station,Shenhua Guohua power station,,,PT GH EMM Indonesia,,BELUM_TERCATAT_DI_CREA,,-3.4014,104.1186,Sumatera,1,,ANCHOR_CLIMATETRACE
+52,PLTU_M052,Tabalong Wisesa power station,Tabalong Wisesa power station,,,PT Makmur Sejahtera Wisesa,,BELUM_TERCATAT_DI_CREA,,-2.1586,115.4459,Kalimantan,1,,ANCHOR_CLIMATETRACE
+53,PLTU_M053,PLTU Tanjung Enim -Bukit Asam,PLTU Tanjung Enim -Bukit Asam,PLTU Tanjung Enim -Bukit Asam,,PLN-South Sumatera Generation Unit,,BELUM_TERCATAT_DI_CREA,,-3.7282,103.8071,Sumatera,1,,ANCHOR_CLIMATETRACE+WRI
+54,PLTU_M054,Lampung Sebalang power station,Lampung Sebalang power station,Lampung Sebalang power station,,PT PLN (Persero),,BELUM_TERCATAT_DI_CREA,2015,-5.5859,105.3872,Sumatera,1,,ANCHOR_CLIMATETRACE+WRI
+55,PLTU_M055,Pangkalan Susu power station,Pangkalan Susu power station,PLTU Pangkalan Susu 1 & 2,Pangkalan Susu 1-2,PT PLN (Persero),PC,OPERASI_COFIRING_2024,,4.1207,98.2582,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+56,PLTU_M056,Bangka Baru power station,Bangka Baru power station,,,PT PLN Wilayah Bangka Belitung,,BELUM_TERCATAT_DI_CREA,,-2.0792,106.1496,Sumatera,1,,ANCHOR_CLIMATETRACE
+57,PLTU_M057,Barru power station,Barru power station,PLTU Sulawesi Selatan - Barru/FTP1,Sulsel Barru 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,-4.2933,119.6313,Sulawesi,1,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",ANCHOR_CLIMATETRACE+WRI+CREA
+58,PLTU_M058,Pekanbaru Tenayan power station,Pekanbaru Tenayan power station,Pekanbaru Tenayan power station,Tenayan 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,2016,0.5644,101.5235,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+59,PLTU_M059,Sumsel-5 power station,Sumsel-5 power station,,,PT DSSP Power Sumsel,,BELUM_TERCATAT_DI_CREA,,-2.1563,103.7553,Sumatera,1,,ANCHOR_CLIMATETRACE
+60,PLTU_M060,PLTU Lati,PLTU Lati,,,,,BELUM_TERCATAT_DI_CREA,,2.2145,117.6188,Kalimantan,1,,ANCHOR_CLIMATETRACE
+61,PLTU_M061,Tabalong power station,Tabalong power station,PLTU Tabalong,,PT Tanjung Power Indonesia,,BELUM_TERCATAT_DI_CREA,,-2.1634,115.4408,Kalimantan,1,,ANCHOR_CLIMATETRACE+WRI
+62,PLTU_M062,Amurang power station,Amurang power station,Amurang power station,Amurang 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,2012,1.1825,124.4806,Sulawesi,1,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",ANCHOR_CLIMATETRACE+WRI+CREA
+63,PLTU_M063,Celukan Bawang power station,Celukan Bawang power station,Celukan Bawang power station,,Merryline International Pte Ltd; PT General Energy Indonesia,,BELUM_TERCATAT_DI_CREA,2015,-8.1963,114.8516,Bali-Nusa Tenggara,0,,ANCHOR_CLIMATETRACE+WRI
+64,PLTU_M064,Banten Serang power station,Banten Serang power station,Banten Serang power station,,PT Lestari Banten Energi; PT PLN (Persero); PT Barito Pacific Tbk,,BELUM_TERCATAT_DI_CREA,2017,-5.883,106.0459,Jawa,1,,ANCHOR_CLIMATETRACE+WRI
+65,PLTU_M065,Sulut-3 power station,Sulut-3 power station,,,PT Minahasa Cahaya Lestari,,BELUM_TERCATAT_DI_CREA,,1.3743,125.0855,Sulawesi,1,,ANCHOR_CLIMATETRACE
+66,PLTU_M066,Komering Agung Power Station,Komering Agung Power Station,,,,,BELUM_TERCATAT_DI_CREA,,-4.9765,105.1857,Sumatera,1,,ANCHOR_CLIMATETRACE
+67,PLTU_M067,Keban Agung power station,Keban Agung power station,Keban Agung power station,,PT Priamanaya Energi,,BELUM_TERCATAT_DI_CREA,2015,-3.7515,103.6481,Sumatera,1,,ANCHOR_CLIMATETRACE+WRI
+68,PLTU_M068,PLTU Sanggau,PLTU Sanggau,PLTU Sanggau,Sanggau 1-2,PLN,Stoker,OPERASI_COFIRING_2024,,0.0303,110.5555,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+WRI+CREA
+69,PLTU_M069,Jawa-7 power station,Jawa-7 power station,,,PT Shenhua Guohua Pembangkitan Jawa Bali,,BELUM_TERCATAT_DI_CREA,,-5.9917,106.1008,Jawa,1,,ANCHOR_CLIMATETRACE
+70,PLTU_M070,Kendari-3 power station,Kendari-3 power station,,,PT DSSP Power Kendari,,BELUM_TERCATAT_DI_CREA,,-4.0513,122.6534,Sulawesi,1,,ANCHOR_CLIMATETRACE
+71,PLTU_M071,Cilegon PTIP Power Station,Cilegon PTIP Power Station,,,PT Indorama Petrochemicals,,BELUM_TERCATAT_DI_CREA,,-6.0239,105.9501,Jawa,1,,ANCHOR_CLIMATETRACE
+72,PLTU_M072,Purwakarta Indorama power station,Purwakarta Indorama power station,Purwakarta Indorama Power Station,,PT PLN (Persero),,BELUM_TERCATAT_DI_CREA,2006,-6.5539,107.4137,Jawa,1,,ANCHOR_CLIMATETRACE+WRI
+73,PLTU_M073,Medan Steel Mill power station,Medan Steel Mill power station,Medan Steel Mill Power Plant,,PT Gahapi Nisco Steel,,BELUM_TERCATAT_DI_CREA,2017,3.6676,98.6654,Sumatera,1,,ANCHOR_CLIMATETRACE+WRI
+74,PLTU_M074,Bengkulu power station,Bengkulu power station,,,PT Tenaga Listrik Bengkulu,,BELUM_TERCATAT_DI_CREA,,-3.9123,102.2704,Sumatera,1,,ANCHOR_CLIMATETRACE
+75,PLTU_M075,Sulbagut-1 power station,Sulbagut-1 power station,,,PT Gorontalo Listrik Perdana,,BELUM_TERCATAT_DI_CREA,,0.9427,122.9416,Sulawesi,1,,ANCHOR_CLIMATETRACE
+76,PLTU_M076,Kalselteng-1 power station,Kalselteng-1 power station,,Kalselteng,PT Datang DSSP Power Indonesia,Stoker,TARGET_COFIRING_5_PLTU,,-1.3708,113.5672,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",ANCHOR_CLIMATETRACE+CREA
+77,PLTU_M077,Weda Bay power station,Weda Bay power station,,,PT Angel Nickel Industry; PT Indonesia Weda Bay Industrial Park; PT Sunny Metal Industry; PT Huake Nickel Indonesia,,BELUM_TERCATAT_DI_CREA,,0.4766,127.9948,Maluku,0,,ANCHOR_CLIMATETRACE
+78,PLTU_M078,Sulawesi Mining power station,Sulawesi Mining power station,Sulawesi Mining power station,,PT Indonesia Tsingshan Stainless Steel; PT Indonesia Guang Ching Nickel and Stainless Steel Industry; PT Sulawesi Mining Investment; Indonesia Morowali Power Co,,BELUM_TERCATAT_DI_CREA,2016,-2.8289,122.1556,Sulawesi,1,,ANCHOR_CLIMATETRACE+WRI
+79,PLTU_M079,Delong Nickel Phase II power station,Delong Nickel Phase II power station,,,PT Obsidian Stainless Steel,,BELUM_TERCATAT_DI_CREA,,-3.8283,122.4662,Sulawesi,1,,ANCHOR_CLIMATETRACE
+80,PLTU_M080,Delong Nickel Phase I power station,Delong Nickel Phase I power station,,,PT Virtue Dragon Nickel Industry,,BELUM_TERCATAT_DI_CREA,,-3.9072,122.4191,Sulawesi,1,,ANCHOR_CLIMATETRACE
+81,PLTU_M081,Kaltim-4 power station,Kaltim-4 power station,,,PT Indonesia Energi Dinamika,,BELUM_TERCATAT_DI_CREA,,-0.3642,117.0663,Kalimantan,1,,ANCHOR_CLIMATETRACE
+82,PLTU_M082,Kaltim FTP2 power station,Kaltim FTP2 power station,,,PT PLN (Persero),,BELUM_TERCATAT_DI_CREA,,0.0552,117.4946,Kalimantan,1,,ANCHOR_CLIMATETRACE
+83,PLTU_M083,Xinxing Ductile Iron Pipes power station,Xinxing Ductile Iron Pipes power station,,,PT Megah Surya Pertiwi,,BELUM_TERCATAT_DI_CREA,,-1.5305,127.419,Maluku,0,,ANCHOR_CLIMATETRACE
+84,PLTU_M084,Jinchuan Group WP&RKA power station,Jinchuan Group WP&RKA power station,,,WP&RKA Company,,BELUM_TERCATAT_DI_CREA,,-1.5661,127.4159,Maluku,0,,ANCHOR_CLIMATETRACE
+85,PLTU_M085,Qingdao Zhongsheng captive power station,Qingdao Zhongsheng captive power station,,,PT Metal Smeltindo Selaras,,BELUM_TERCATAT_DI_CREA,,-3.0404,122.2616,Sulawesi,1,,ANCHOR_CLIMATETRACE
+86,PLTU_M086,Nanshan Industrial Park power station,Nanshan Industrial Park power station,,,PT Bintan Alumina Indonesia,,BELUM_TERCATAT_DI_CREA,,0.9116,104.6505,Sumatera,1,,ANCHOR_CLIMATETRACE
+87,PLTU_M087,Indah Kiat Serang power station,Indah Kiat Serang power station,,,PT Indah Kiat Pulp & Paper Tbk,,BELUM_TERCATAT_DI_CREA,,-6.1254,106.2892,Jawa,1,,ANCHOR_CLIMATETRACE
+88,PLTU_M088,Wanxiang Nickel Indonesia power station,Wanxiang Nickel Indonesia power station,,,PT Wanxiang Steel Indonesia,,BELUM_TERCATAT_DI_CREA,,-2.731,122.0306,Sulawesi,1,,ANCHOR_CLIMATETRACE
+89,PLTU_M089,Timor-1 power station,Timor-1 power station,,,PT PLN (Persero),,BELUM_TERCATAT_DI_CREA,,-10.352,123.4599,Bali-Nusa Tenggara,0,,ANCHOR_CLIMATETRACE
+90,PLTU_M090,Sumsel-1 power station,Sumsel-1 power station,,,China Shenhua Energy Co Ltd; PT Lion Power Energy,,BELUM_TERCATAT_DI_CREA,,-3.4767,103.9992,Sumatera,1,,ANCHOR_CLIMATETRACE
+91,PLTU_M091,PT IHIP power station,PT IHIP power station,,,PT Baoshuo Taman Industry Investment Group,,BELUM_TERCATAT_DI_CREA,,-2.2579,121.769,Sulawesi,1,,ANCHOR_CLIMATETRACE
+92,PLTU_M092,Delong Nickel Phase IV power station,Delong Nickel Phase IV power station,,,PT Nadesico Nickel Industry,,BELUM_TERCATAT_DI_CREA,,-2.0166,121.4312,Sulawesi,1,,ANCHOR_CLIMATETRACE
+93,PLTU_M093,Banten Serang power station,Banten Serang power station,,,PT Lestari Banten Energi; PT PLN (Persero); PT Barito Pacific Tbk,,BELUM_TERCATAT_DI_CREA,,-5.8957,106.0234,Jawa,1,,ANCHOR_CLIMATETRACE
+94,PLTU_M094,Kalbar-1 power station,Kalbar-1 power station,,,PT PLN Indonesia Power; Golden Concord Holdings Ltd,,BELUM_TERCATAT_DI_CREA,,0.8163,108.8455,Kalimantan,1,,ANCHOR_CLIMATETRACE
+95,PLTU_M095,PALU TAWAELI,PALU TAWAELI,PLTU - Palu - Mpanau - Tawaeli,,PT. Pusaka Jaya Palu Power,,BELUM_TERCATAT_DI_CREA,,-0.7326,119.8557,Sulawesi,1,,ANCHOR_CLIMATETRACE+WRI
+96,PLTU_M096,Ketapang Bangun Sarana power station,Ketapang Bangun Sarana power station,,,Hangzhou Jinjiang Group Co Ltd; Hangzhou Jinjiang Group Co Ltd,,BELUM_TERCATAT_DI_CREA,,-2.2356,110.1066,Kalimantan,1,,ANCHOR_CLIMATETRACE
+97,PLTU_M097,Toba Pulp Lestari power station,Toba Pulp Lestari power station,,,PT Toba Pulp Lestari Tbk,,BELUM_TERCATAT_DI_CREA,,2.4637,99.1973,Sumatera,1,,ANCHOR_CLIMATETRACE
+98,PLTU_M098,South Pasific Viscose power station,South Pasific Viscose power station,,,South Pasific Viscose PT,,BELUM_TERCATAT_DI_CREA,,-6.4982,107.3996,Jawa,1,,ANCHOR_CLIMATETRACE
+99,PLTU_M099,Palu power station,Palu power station,,,PT PLN (Persero),,BELUM_TERCATAT_DI_CREA,,-0.6404,119.8076,Sulawesi,1,,ANCHOR_CLIMATETRACE
+100,PLTU_M100,Sulut-1 power station,Sulut-1 power station,,,PT PLN (Persero),,BELUM_TERCATAT_DI_CREA,,0.8902,123.4701,Sulawesi,1,,ANCHOR_CLIMATETRACE
+101,PLTU_M101,PLTU -Jeneponto I & II,,PLTU -Jeneponto I & II,,PT Bosowa Energy,,BELUM_TERCATAT_DI_CREA,,-5.6184,119.5506,Sulawesi,1,,WRI_ONLY
+102,PLTU_M102,PLTU Banten 2 - Labuhan,,PLTU Banten 2 - Labuhan,,PLN / 2010,,BELUM_TERCATAT_DI_CREA,,-6.3919,105.8288,Jawa,1,,WRI_ONLY
+103,PLTU_M103,PLTU Bilibili,,PLTU Bilibili,,PLN-South&South East Sulawesi Regional Unit,,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+104,PLTU_M104,PLTU Embalut - Tanjung Batu,,PLTU Embalut - Tanjung Batu,,PT. Cahaya Fajar Kaltim,,BELUM_TERCATAT_DI_CREA,,-0.5,117.15,Kalimantan,1,,WRI_ONLY
+105,PLTU_M105,PLTU Gresik,,PLTU Gresik,,PLN - Java Bali Generation Unit / PT. PJB,,BELUM_TERCATAT_DI_CREA,,-7.1633,112.6615,Jawa,1,,WRI_ONLY
+106,PLTU_M106,PLTU Hendratna,,PLTU Hendratna,,PT. Hendratna Plywood,,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+107,PLTU_M107,PLTU Kaur,,PLTU Kaur,,PLN,,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+108,PLTU_M108,PLTU Keramasan,,PLTU Keramasan,,PLN-South Sumatera Generation Unit,,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+109,PLTU_M109,PLTU Kupang,,PLTU Kupang,Kupang 1-2,PT. Indonesia Power & electrindo Perkasa Utama,CFB,OPERASI_COFIRING_2024,,-2.5213,121.357,Bali-Nusa Tenggara,0,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",WRI_ONLY+CREA
+110,PLTU_M110,PLTU Lati,,PLTU Lati,,PLN - East Kalimantan Regional Unit,,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+111,PLTU_M111,PLTU Listrindo,,PLTU Listrindo,,PT. Listrindo (IPP),,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+112,PLTU_M112,PLTU Muara Karang,,PLTU Muara Karang,,PLN - Java Bali Generation Unit / PT. PJB,,BELUM_TERCATAT_DI_CREA,,-6.1069,106.7882,Jawa,1,,WRI_ONLY
+113,PLTU_M113,PLTU Pakerin,,PLTU Pakerin,,PT. Pakerin (pulp industry),,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+114,PLTU_M114,PLTU Pangkalan Bun,,PLTU Pangkalan Bun,,PT. Energi Listrik Indonesia (subsidiary of PT. Eksploitasi Energi Indonesia),,BELUM_TERCATAT_DI_CREA,,-2.6833,111.6167,Kalimantan,1,,WRI_ONLY
+115,PLTU_M115,PLTU Perak,,PLTU Perak,,PLN - PT. Indonesia Power,,BELUM_TERCATAT_DI_CREA,,-7.2492,112.7508,Jawa,1,,WRI_ONLY
+116,PLTU_M116,PLTU Priok 3 & 4,,PLTU Priok 3 & 4,,PT. Indonesia Power,,BELUM_TERCATAT_DI_CREA,,-6.1071,106.8716,Jawa,1,,WRI_ONLY
+117,PLTU_M117,PLTU Rancong,,PLTU Rancong,,PT. Jorindo Aceh Power,,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+118,PLTU_M118,PLTU Simpang Belimbing,,PLTU Simpang Belimbing,,PT. Guo Hua Energy Musi Makmur,,BELUM_TERCATAT_DI_CREA,,-3.4,104.1158,Sumatera,1,,WRI_ONLY
+119,PLTU_M119,PLTU Suparma,,PLTU Suparma,,PT. Suparma (pulp industry),,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+120,PLTU_M120,PLTU Tambak Lorok,,PLTU Tambak Lorok,,PLN - PT. Indonesia Power,,BELUM_TERCATAT_DI_CREA,,-6.9507,110.4304,Jawa,1,,WRI_ONLY
+121,PLTU_M121,PLTU Tanjung Alam Perkasa,,PLTU Tanjung Alam Perkasa,,PT. Tanjung Alam Perkasa,,BELUM_TERCATAT_DI_CREA,,-2.5213,121.357,Sulawesi,1,,WRI_ONLY
+122,PLTU_M122,PLTU Tello,,PLTU Tello,,PLN-South&South East Sulawesi Regional Unit,,BELUM_TERCATAT_DI_CREA,,-5.14,119.4221,Sulawesi,1,,WRI_ONLY
+123,PLTU_M123,PLTU Tonasa II (Boiler Turbine Generator),,PLTU Tonasa II (Boiler Turbine Generator),,PT. Semen Gresik Tbk/PT. Semen Indonesia,,BELUM_TERCATAT_DI_CREA,,-4.7846,119.6163,Sulawesi,1,,WRI_ONLY
+124,PLTU_M124,Cikarang Babelan power station,,Cikarang Babelan power station,,PT Cikarang Listrindo,,BELUM_TERCATAT_DI_CREA,2017,-6.1161,107.052,Jawa,1,,WRI_ONLY
+125,PLTU_M125,PLTU Jeranjang 1-3,,,Jeranjang 1-3,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,,,Bali-Nusa Tenggara,0,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",CREA_ONLY
+126,PLTU_M126,PLTU Gorontalo 1-2,,,Gorontalo 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,,,Sulawesi,1,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",CREA_ONLY
+127,PLTU_M127,PLTU Pakaian 1-2,,,Pakaian 1-2,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Bali-Nusa Tenggara,0,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",CREA_ONLY
+128,PLTU_M128,PLTU Jadi Tanasa 1-3,,,Jadi Tanasa 1-3,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Sulawesi,1,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",CREA_ONLY
+129,PLTU_M129,PLTU Sumbawa Barat 1-2,,,Sumbawa Barat 1-2,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Bali-Nusa Tenggara,0,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",CREA_ONLY
+130,PLTU_M130,PLTU Holtekamp 1-2,,,Holtekamp 1-2,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Papua,1,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",CREA_ONLY
+131,PLTU_M131,PLTU Ampana 1-2,,,Ampana 1-2,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Sulawesi,1,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",CREA_ONLY
+132,PLTU_M132,PLTU Tidore 1-2,,,Tidore 1-2,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Maluku,0,"Sulawesi, Maluku, Papua, Nusa Tenggara (SULMAPANA)",CREA_ONLY
+133,PLTU_M133,PLTU Sintang 1-3,,,Sintang 1-3,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY
+134,PLTU_M134,PLTU Angka 1-2,,,Angka 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,,,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY
+135,PLTU_M135,PLTU Dia 1-2,,,Dia 1-2,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY
+136,PLTU_M136,PLTU Air Anyir 1-2,,,Air Anyir 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,,,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY
+137,PLTU_M137,PLTU Berlawanan 1-2,,,Berlawanan 1-2,PT PLN (Persero),CFB,OPERASI_COFIRING_2024,,,,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY
+138,PLTU_M138,PLTU Malinau 1-2,,,Malinau 1-2,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Kalimantan,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY
+139,PLTU_M139,PLTU Tembilahan 1-2,,,Tembilahan 1-2,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY
+140,PLTU_M140,PLTU Tanjung Balai Karimun 1-2,,,Tanjung Balai Karimun 1-2,PT PLN (Persero),Stoker,OPERASI_COFIRING_2024,,,,Sumatera,1,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY
+141,PLTU_M141,PLTU Lombok FTP 2,,,Lombok FTP 2,PT PLN (Persero),CFB,TARGET_COFIRING_5_PLTU,,,,Bali-Nusa Tenggara,0,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY
+142,PLTU_M142,PLTU Sofifi,,,Sofifi,PT PLN (Persero),Stoker,TARGET_COFIRING_5_PLTU,,,,Maluku,0,"Wilayah : Sumatera, Kalimantan (SUMKAL)",CREA_ONLY

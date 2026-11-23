@@ -1,0 +1,156 @@
+{
+  "training_samples_measured_hhv": 315,
+  "total_samples_scored": 2229,
+  "regimes": {
+    "FULL_PROX_ULT_8F": {
+      "best_model": "ExtraTrees",
+      "candidates": {
+        "Ridge": {
+          "cv5_r2": 0.642,
+          "cv5_rmse_mj_kg": 1.4653,
+          "cv5_mae_mj_kg": 1.0696
+        },
+        "SVR_RBF": {
+          "cv5_r2": 0.5496,
+          "cv5_rmse_mj_kg": 1.6434,
+          "cv5_mae_mj_kg": 1.1313
+        },
+        "RandomForest": {
+          "cv5_r2": 0.6455,
+          "cv5_rmse_mj_kg": 1.458,
+          "cv5_mae_mj_kg": 1.0308
+        },
+        "ExtraTrees": {
+          "cv5_r2": 0.6589,
+          "cv5_rmse_mj_kg": 1.4303,
+          "cv5_mae_mj_kg": 1.0121
+        },
+        "GradientBoosting": {
+          "cv5_r2": 0.6278,
+          "cv5_rmse_mj_kg": 1.494,
+          "cv5_mae_mj_kg": 1.047
+        },
+        "StackedHybrid_Ridge_ET_GBR": {
+          "cv5_r2": 0.6436,
+          "cv5_rmse_mj_kg": 1.4619,
+          "cv5_mae_mj_kg": 1.0532
+        }
+      },
+      "permutation_importance": {
+        "c_pct_db": 0.7073,
+        "ash_pct_db": 0.1233,
+        "h_pct_db": 0.0807,
+        "n_pct_db": 0.0804,
+        "o_pct_db": 0.073,
+        "vm_pct_db": 0.0599,
+        "s_pct_db": 0.0541,
+        "fc_pct_db": 0.0407
+      }
+    },
+    "ULTIMATE_ONLY_5F": {
+      "best_model": "Ridge",
+      "candidates": {
+        "Ridge": {
+          "cv5_r2": 0.6523,
+          "cv5_rmse_mj_kg": 1.444,
+          "cv5_mae_mj_kg": 1.0963
+        },
+        "SVR_RBF": {
+          "cv5_r2": 0.5201,
+          "cv5_rmse_mj_kg": 1.6963,
+          "cv5_mae_mj_kg": 1.17
+        },
+        "RandomForest": {
+          "cv5_r2": 0.6249,
+          "cv5_rmse_mj_kg": 1.4998,
+          "cv5_mae_mj_kg": 1.0687
+        },
+        "ExtraTrees": {
+          "cv5_r2": 0.6349,
+          "cv5_rmse_mj_kg": 1.4796,
+          "cv5_mae_mj_kg": 1.0687
+        },
+        "GradientBoosting": {
+          "cv5_r2": 0.6144,
+          "cv5_rmse_mj_kg": 1.5205,
+          "cv5_mae_mj_kg": 1.0849
+        },
+        "StackedHybrid_Ridge_ET_GBR": {
+          "cv5_r2": 0.6509,
+          "cv5_rmse_mj_kg": 1.447,
+          "cv5_mae_mj_kg": 1.0835
+        }
+      },
+      "permutation_importance": {
+        "c_pct_db": 1.1482,
+        "n_pct_db": 0.1046,
+        "o_pct_db": 0.0508,
+        "h_pct_db": 0.0085,
+        "s_pct_db": 0.0021
+      }
+    },
+    "PROXIMATE_ONLY_3F": {
+      "best_model": "SVR_RBF",
+      "candidates": {
+        "Ridge": {
+          "cv5_r2": 0.436,
+          "cv5_rmse_mj_kg": 1.839,
+          "cv5_mae_mj_kg": 1.3618
+        },
+        "SVR_RBF": {
+          "cv5_r2": 0.5252,
+          "cv5_rmse_mj_kg": 1.6873,
+          "cv5_mae_mj_kg": 1.2376
+        },
+        "RandomForest": {
+          "cv5_r2": 0.4789,
+          "cv5_rmse_mj_kg": 1.7678,
+          "cv5_mae_mj_kg": 1.296
+        },
+        "ExtraTrees": {
+          "cv5_r2": 0.5133,
+          "cv5_rmse_mj_kg": 1.7084,
+          "cv5_mae_mj_kg": 1.2712
+        },
+        "GradientBoosting": {
+          "cv5_r2": 0.3369,
+          "cv5_rmse_mj_kg": 1.9941,
+          "cv5_mae_mj_kg": 1.4436
+        },
+        "StackedHybrid_Ridge_ET_GBR": {
+          "cv5_r2": 0.5206,
+          "cv5_rmse_mj_kg": 1.6954,
+          "cv5_mae_mj_kg": 1.2707
+        }
+      },
+      "permutation_importance": {
+        "vm_pct_db": 0.5989,
+        "fc_pct_db": 0.504,
+        "ash_pct_db": 0.4551
+      }
+    }
+  },
+  "kmeans_clusters": [
+    {
+      "grade": "Grade A (High Calorie - Low Ash)",
+      "n_samples": 103,
+      "mean_hhv_mj_kg": 23.149,
+      "mean_ash_pct_db": 4.86,
+      "mean_sulfur_pct_db": 0.8742
+    },
+    {
+      "grade": "Grade B (Moderate / Conditioning Needed)",
+      "n_samples": 1952,
+      "mean_hhv_mj_kg": 18.825,
+      "mean_ash_pct_db": 4.282,
+      "mean_sulfur_pct_db": 0.136
+    },
+    {
+      "grade": "Grade C (High Ash / Slagging Risk)",
+      "n_samples": 174,
+      "mean_hhv_mj_kg": 15.605,
+      "mean_ash_pct_db": 18.299,
+      "mean_sulfur_pct_db": 0.2092
+    }
+  ]
+}
