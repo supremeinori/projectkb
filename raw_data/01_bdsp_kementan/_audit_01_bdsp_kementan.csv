@@ -1,0 +1,158 @@
+﻿sumber,komoditas,level_wilayah,kode_prov,provinsi,file_relatif,status_http,status_ekstrak,jumlah_baris,jumlah_wilayah_non_nol,tahun_awal_aktual,tahun_akhir_aktual,rentang_tahun_aktual,sel_positif,sel_nol_eksplisit,sel_null,max_selisih_vs_total_html,catatan
+bdsp_kementan,padi,PROVINSI,00,38 PROVINSI,01_bdsp_kementan/padi/provinsi/bdsp_padi_38_provinsi.csv,200,OK,38,38,2010.0,2025.0,2010-2025,540,106,0,0.0,Tabel provinsi 2010-2026 as-is (sts_angka=6 Angka Tetap)
+bdsp_kementan,kelapa_sawit,PROVINSI,0,38 PROVINSI,01_bdsp_kementan/kelapa_sawit/provinsi/bdsp_kelapa_sawit_38_provinsi.csv,200,OK,38,29,2010.0,2025.0,2010-2025,397,249,0,0.0,Tabel provinsi 2010-2026 as-is (sts_angka=6 Angka Tetap)
+bdsp_kementan,tebu,PROVINSI,0,38 PROVINSI,01_bdsp_kementan/tebu/provinsi/bdsp_tebu_38_provinsi.csv,200,OK,38,12,2010.0,2025.0,2010-2025,165,481,0,0.0,Tabel provinsi 2010-2026 as-is (sts_angka=6 Angka Tetap)
+bdsp_kementan,jagung,PROVINSI,0,38 PROVINSI,01_bdsp_kementan/jagung/provinsi/bdsp_jagung_38_provinsi.csv,200,OK,38,38,2010.0,2025.0,2010-2025,522,124,0,0.0,Tabel provinsi 2010-2026 as-is (sts_angka=6 Angka Tetap)
+bdsp_kementan,padi,KABKOTA,11,Aceh,01_bdsp_kementan/padi/kabkota/11_aceh.csv,200,OK,23,23,2010.0,2025.0,2010-2025,354,37,0,0.03,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,12,Sumatera Utara,01_bdsp_kementan/padi/kabkota/12_sumatera_utara.csv,200,OK,33,32,2010.0,2025.0,2010-2025,480,81,0,0.02,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,13,Sumatera Barat,01_bdsp_kementan/padi/kabkota/13_sumatera_barat.csv,200,OK,19,19,2010.0,2025.0,2010-2025,297,26,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,14,Riau,01_bdsp_kementan/padi/kabkota/14_riau.csv,200,OK,12,12,2010.0,2025.0,2010-2025,187,17,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,15,Jambi,01_bdsp_kementan/padi/kabkota/15_jambi.csv,200,OK,11,11,2010.0,2025.0,2010-2025,176,11,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,16,Sumatera Selatan,01_bdsp_kementan/padi/kabkota/16_sumatera_selatan.csv,200,OK,17,17,2010.0,2025.0,2010-2025,263,26,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,17,Bengkulu,01_bdsp_kementan/padi/kabkota/17_bengkulu.csv,200,OK,10,10,2010.0,2025.0,2010-2025,160,10,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,18,Lampung,01_bdsp_kementan/padi/kabkota/18_lampung.csv,200,OK,15,15,2010.0,2025.0,2010-2025,237,18,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,19,Kepulauan Bangka Belitung,01_bdsp_kementan/padi/kabkota/19_kepulauan_bangka_belitung.csv,200,OK,7,6,2010.0,2025.0,2010-2025,90,29,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,21,Kepulauan Riau,01_bdsp_kementan/padi/kabkota/21_kepulauan_riau.csv,200,OK,7,6,2010.0,2025.0,2010-2025,72,47,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,31,DKI Jakarta,01_bdsp_kementan/padi/kabkota/31_dki_jakarta.csv,200,OK,6,3,2013.0,2025.0,2013-2025,39,63,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,32,Jawa Barat,01_bdsp_kementan/padi/kabkota/32_jawa_barat.csv,200,OK,27,27,2010.0,2025.0,2010-2025,428,31,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,33,Jawa Tengah,01_bdsp_kementan/padi/kabkota/33_jawa_tengah.csv,200,OK,35,35,2010.0,2025.0,2010-2025,560,35,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,34,DI Yogyakarta,01_bdsp_kementan/padi/kabkota/34_di_yogyakarta.csv,200,OK,5,5,2010.0,2025.0,2010-2025,80,5,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,35,Jawa Timur,01_bdsp_kementan/padi/kabkota/35_jawa_timur.csv,200,OK,38,38,2010.0,2025.0,2010-2025,608,38,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,36,Banten,01_bdsp_kementan/padi/kabkota/36_banten.csv,200,OK,8,8,2010.0,2025.0,2010-2025,122,14,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,51,Bali,01_bdsp_kementan/padi/kabkota/51_bali.csv,200,OK,9,9,2010.0,2025.0,2010-2025,144,9,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,52,Nusa Tenggara Barat,01_bdsp_kementan/padi/kabkota/52_nusa_tenggara_barat.csv,200,OK,10,10,2010.0,2025.0,2010-2025,160,10,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,53,Nusa Tenggara Timur,01_bdsp_kementan/padi/kabkota/53_nusa_tenggara_timur.csv,200,OK,22,22,2010.0,2025.0,2010-2025,346,28,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,61,Kalimantan Barat,01_bdsp_kementan/padi/kabkota/61_kalimantan_barat.csv,200,OK,14,14,2010.0,2025.0,2010-2025,224,14,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,62,Kalimantan Tengah,01_bdsp_kementan/padi/kabkota/62_kalimantan_tengah.csv,200,OK,14,14,2010.0,2025.0,2010-2025,223,15,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,63,Kalimantan Selatan,01_bdsp_kementan/padi/kabkota/63_kalimantan_selatan.csv,200,OK,13,13,2010.0,2025.0,2010-2025,208,13,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,64,Kalimantan Timur,01_bdsp_kementan/padi/kabkota/64_kalimantan_timur.csv,200,OK,10,10,2010.0,2025.0,2010-2025,155,15,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,65,Kalimantan Utara,01_bdsp_kementan/padi/kabkota/65_kalimantan_utara.csv,200,OK,5,5,2013.0,2025.0,2013-2025,65,20,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,71,Sulawesi Utara,01_bdsp_kementan/padi/kabkota/71_sulawesi_utara.csv,200,OK,15,14,2010.0,2025.0,2010-2025,202,53,0,0.02,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,72,Sulawesi Tengah,01_bdsp_kementan/padi/kabkota/72_sulawesi_tengah.csv,200,OK,13,13,2010.0,2025.0,2010-2025,190,31,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,73,Sulawesi Selatan,01_bdsp_kementan/padi/kabkota/73_sulawesi_selatan.csv,200,OK,24,24,2010.0,2025.0,2010-2025,384,24,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,74,Sulawesi Tenggara,01_bdsp_kementan/padi/kabkota/74_sulawesi_tenggara.csv,200,OK,17,17,2010.0,2025.0,2010-2025,216,73,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,75,Gorontalo,01_bdsp_kementan/padi/kabkota/75_gorontalo.csv,200,OK,6,6,2012.0,2025.0,2012-2025,84,18,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,76,Sulawesi Barat,01_bdsp_kementan/padi/kabkota/76_sulawesi_barat.csv,200,OK,6,6,2010.0,2025.0,2010-2025,92,10,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,81,Maluku,01_bdsp_kementan/padi/kabkota/81_maluku.csv,200,OK,11,10,2014.0,2025.0,2014-2025,69,118,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,82,Maluku Utara,01_bdsp_kementan/padi/kabkota/82_maluku_utara.csv,200,OK,10,9,2010.0,2025.0,2010-2025,117,53,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,91,Papua Barat,01_bdsp_kementan/padi/kabkota/91_papua_barat.csv,200,OK,13,11,2010.0,2025.0,2010-2025,126,95,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,92,Papua Barat Daya,01_bdsp_kementan/padi/kabkota/92_papua_barat_daya.csv,200,OK,6,3,2023.0,2025.0,2023-2025,9,93,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,94,Papua,01_bdsp_kementan/padi/kabkota/94_papua.csv,200,OK,30,18,2010.0,2025.0,2010-2025,164,346,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,95,Papua Selatan,01_bdsp_kementan/padi/kabkota/95_papua_selatan.csv,200,OK,4,3,2024.0,2025.0,2024-2025,5,63,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,96,Papua Tengah,01_bdsp_kementan/padi/kabkota/96_papua_tengah.csv,200,OK,8,2,2024.0,2025.0,2024-2025,4,132,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,padi,KABKOTA,97,Papua Pegunungan,01_bdsp_kementan/padi/kabkota/97_papua_pegunungan.csv,200,OK,8,1,2024.0,2025.0,2024-2025,2,134,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,11,Aceh,01_bdsp_kementan/kelapa_sawit/kabkota/11_aceh.csv,200,OK,23,20,2010.0,2024.0,2010-2024,291,100,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,12,Sumatera Utara,01_bdsp_kementan/kelapa_sawit/kabkota/12_sumatera_utara.csv,200,OK,33,24,2010.0,2025.0,2010-2025,348,213,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,13,Sumatera Barat,01_bdsp_kementan/kelapa_sawit/kabkota/13_sumatera_barat.csv,200,OK,19,15,2010.0,2025.0,2010-2025,222,101,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,14,Riau,01_bdsp_kementan/kelapa_sawit/kabkota/14_riau.csv,200,OK,12,12,2010.0,2025.0,2010-2025,179,25,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,15,Jambi,01_bdsp_kementan/kelapa_sawit/kabkota/15_jambi.csv,200,OK,11,10,2010.0,2025.0,2010-2025,146,41,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,16,Sumatera Selatan,01_bdsp_kementan/kelapa_sawit/kabkota/16_sumatera_selatan.csv,200,OK,17,17,2010.0,2025.0,2010-2025,253,36,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,17,Bengkulu,01_bdsp_kementan/kelapa_sawit/kabkota/17_bengkulu.csv,200,OK,10,10,2010.0,2025.0,2010-2025,160,10,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,18,Lampung,01_bdsp_kementan/kelapa_sawit/kabkota/18_lampung.csv,200,OK,15,15,2010.0,2025.0,2010-2025,219,36,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,19,Kepulauan Bangka Belitung,01_bdsp_kementan/kelapa_sawit/kabkota/19_kepulauan_bangka_belitung.csv,200,OK,7,6,2010.0,2025.0,2010-2025,96,23,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,21,Kepulauan Riau,01_bdsp_kementan/kelapa_sawit/kabkota/21_kepulauan_riau.csv,200,OK,7,3,2010.0,2025.0,2010-2025,32,87,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,31,DKI Jakarta,01_bdsp_kementan/kelapa_sawit/kabkota/31_dki_jakarta.csv,200,OK,6,0,,,,0,102,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,kelapa_sawit,KABKOTA,32,Jawa Barat,01_bdsp_kementan/kelapa_sawit/kabkota/32_jawa_barat.csv,200,OK,27,8,2010.0,2025.0,2010-2025,72,387,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,33,Jawa Tengah,01_bdsp_kementan/kelapa_sawit/kabkota/33_jawa_tengah.csv,200,OK,35,0,,,,0,595,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,kelapa_sawit,KABKOTA,34,DI Yogyakarta,01_bdsp_kementan/kelapa_sawit/kabkota/34_di_yogyakarta.csv,200,OK,5,0,,,,0,85,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,kelapa_sawit,KABKOTA,35,Jawa Timur,01_bdsp_kementan/kelapa_sawit/kabkota/35_jawa_timur.csv,200,OK,38,0,,,,0,646,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,kelapa_sawit,KABKOTA,36,Banten,01_bdsp_kementan/kelapa_sawit/kabkota/36_banten.csv,200,OK,8,2,2010.0,2025.0,2010-2025,32,104,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,51,Bali,01_bdsp_kementan/kelapa_sawit/kabkota/51_bali.csv,200,OK,9,0,,,,0,153,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,kelapa_sawit,KABKOTA,52,Nusa Tenggara Barat,01_bdsp_kementan/kelapa_sawit/kabkota/52_nusa_tenggara_barat.csv,200,OK,10,0,,,,0,170,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,kelapa_sawit,KABKOTA,53,Nusa Tenggara Timur,01_bdsp_kementan/kelapa_sawit/kabkota/53_nusa_tenggara_timur.csv,200,OK,22,0,,,,0,374,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,kelapa_sawit,KABKOTA,61,Kalimantan Barat,01_bdsp_kementan/kelapa_sawit/kabkota/61_kalimantan_barat.csv,200,OK,14,14,2010.0,2025.0,2010-2025,212,26,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,62,Kalimantan Tengah,01_bdsp_kementan/kelapa_sawit/kabkota/62_kalimantan_tengah.csv,200,OK,14,14,2010.0,2025.0,2010-2025,211,27,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,63,Kalimantan Selatan,01_bdsp_kementan/kelapa_sawit/kabkota/63_kalimantan_selatan.csv,200,OK,13,12,2010.0,2025.0,2010-2025,170,51,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,64,Kalimantan Timur,01_bdsp_kementan/kelapa_sawit/kabkota/64_kalimantan_timur.csv,200,OK,10,10,2010.0,2025.0,2010-2025,136,34,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,65,Kalimantan Utara,01_bdsp_kementan/kelapa_sawit/kabkota/65_kalimantan_utara.csv,200,OK,5,4,2014.0,2025.0,2014-2025,45,40,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,71,Sulawesi Utara,01_bdsp_kementan/kelapa_sawit/kabkota/71_sulawesi_utara.csv,200,OK,15,0,,,,0,255,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,kelapa_sawit,KABKOTA,72,Sulawesi Tengah,01_bdsp_kementan/kelapa_sawit/kabkota/72_sulawesi_tengah.csv,200,OK,13,10,2010.0,2025.0,2010-2025,117,104,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,73,Sulawesi Selatan,01_bdsp_kementan/kelapa_sawit/kabkota/73_sulawesi_selatan.csv,200,OK,24,13,2010.0,2025.0,2010-2025,116,292,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,74,Sulawesi Tenggara,01_bdsp_kementan/kelapa_sawit/kabkota/74_sulawesi_tenggara.csv,200,OK,17,10,2011.0,2025.0,2011-2025,92,197,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,75,Gorontalo,01_bdsp_kementan/kelapa_sawit/kabkota/75_gorontalo.csv,200,OK,6,3,2014.0,2025.0,2014-2025,23,79,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,76,Sulawesi Barat,01_bdsp_kementan/kelapa_sawit/kabkota/76_sulawesi_barat.csv,200,OK,6,4,2010.0,2025.0,2010-2025,49,53,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,81,Maluku,01_bdsp_kementan/kelapa_sawit/kabkota/81_maluku.csv,200,OK,11,2,2013.0,2025.0,2013-2025,14,173,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,82,Maluku Utara,01_bdsp_kementan/kelapa_sawit/kabkota/82_maluku_utara.csv,200,OK,10,0,,,,0,170,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,kelapa_sawit,KABKOTA,91,Papua Barat,01_bdsp_kementan/kelapa_sawit/kabkota/91_papua_barat.csv,200,OK,13,5,2010.0,2025.0,2010-2025,44,177,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,92,Papua Barat Daya,01_bdsp_kementan/kelapa_sawit/kabkota/92_papua_barat_daya.csv,200,OK,6,2,2023.0,2025.0,2023-2025,6,96,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,94,Papua,01_bdsp_kementan/kelapa_sawit/kabkota/94_papua.csv,200,OK,30,5,2010.0,2025.0,2010-2025,35,475,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,95,Papua Selatan,01_bdsp_kementan/kelapa_sawit/kabkota/95_papua_selatan.csv,200,OK,4,1,2023.0,2025.0,2023-2025,3,65,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,96,Papua Tengah,01_bdsp_kementan/kelapa_sawit/kabkota/96_papua_tengah.csv,200,OK,8,2,2023.0,2025.0,2023-2025,6,130,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,kelapa_sawit,KABKOTA,97,Papua Pegunungan,01_bdsp_kementan/kelapa_sawit/kabkota/97_papua_pegunungan.csv,200,OK,8,0,,,,0,136,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,11,Aceh,01_bdsp_kementan/tebu/kabkota/11_aceh.csv,200,OK,23,0,,,,0,391,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,12,Sumatera Utara,01_bdsp_kementan/tebu/kabkota/12_sumatera_utara.csv,200,OK,33,2,2010.0,2023.0,2010-2023,27,534,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,13,Sumatera Barat,01_bdsp_kementan/tebu/kabkota/13_sumatera_barat.csv,200,OK,19,0,,,,0,323,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,14,Riau,01_bdsp_kementan/tebu/kabkota/14_riau.csv,200,OK,12,0,,,,0,204,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,15,Jambi,01_bdsp_kementan/tebu/kabkota/15_jambi.csv,200,OK,11,1,2010.0,2010.0,2010-2010,1,186,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,16,Sumatera Selatan,01_bdsp_kementan/tebu/kabkota/16_sumatera_selatan.csv,200,OK,17,5,2010.0,2025.0,2010-2025,41,248,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,17,Bengkulu,01_bdsp_kementan/tebu/kabkota/17_bengkulu.csv,200,OK,10,0,,,,0,170,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,18,Lampung,01_bdsp_kementan/tebu/kabkota/18_lampung.csv,200,OK,15,5,2010.0,2025.0,2010-2025,74,181,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,19,Kepulauan Bangka Belitung,01_bdsp_kementan/tebu/kabkota/19_kepulauan_bangka_belitung.csv,200,OK,7,0,,,,0,119,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,21,Kepulauan Riau,01_bdsp_kementan/tebu/kabkota/21_kepulauan_riau.csv,200,OK,7,0,,,,0,119,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,31,DKI Jakarta,01_bdsp_kementan/tebu/kabkota/31_dki_jakarta.csv,200,OK,6,0,,,,0,102,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,32,Jawa Barat,01_bdsp_kementan/tebu/kabkota/32_jawa_barat.csv,200,OK,27,7,2010.0,2025.0,2010-2025,96,363,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,33,Jawa Tengah,01_bdsp_kementan/tebu/kabkota/33_jawa_tengah.csv,200,OK,35,30,2010.0,2025.0,2010-2025,434,161,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,34,DI Yogyakarta,01_bdsp_kementan/tebu/kabkota/34_di_yogyakarta.csv,200,OK,5,4,2010.0,2025.0,2010-2025,64,21,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,35,Jawa Timur,01_bdsp_kementan/tebu/kabkota/35_jawa_timur.csv,200,OK,38,35,2010.0,2025.0,2010-2025,516,130,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,36,Banten,01_bdsp_kementan/tebu/kabkota/36_banten.csv,200,OK,8,0,,,,0,136,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,51,Bali,01_bdsp_kementan/tebu/kabkota/51_bali.csv,200,OK,9,0,,,,0,153,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,52,Nusa Tenggara Barat,01_bdsp_kementan/tebu/kabkota/52_nusa_tenggara_barat.csv,200,OK,10,1,2016.0,2025.0,2016-2025,9,161,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,53,Nusa Tenggara Timur,01_bdsp_kementan/tebu/kabkota/53_nusa_tenggara_timur.csv,200,OK,22,2,2012.0,2025.0,2012-2025,6,368,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,61,Kalimantan Barat,01_bdsp_kementan/tebu/kabkota/61_kalimantan_barat.csv,200,OK,14,0,,,,0,238,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,62,Kalimantan Tengah,01_bdsp_kementan/tebu/kabkota/62_kalimantan_tengah.csv,200,OK,14,0,,,,0,238,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,63,Kalimantan Selatan,01_bdsp_kementan/tebu/kabkota/63_kalimantan_selatan.csv,200,OK,13,0,,,,0,221,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,64,Kalimantan Timur,01_bdsp_kementan/tebu/kabkota/64_kalimantan_timur.csv,200,OK,10,0,,,,0,170,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,65,Kalimantan Utara,01_bdsp_kementan/tebu/kabkota/65_kalimantan_utara.csv,200,OK,5,0,,,,0,85,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,71,Sulawesi Utara,01_bdsp_kementan/tebu/kabkota/71_sulawesi_utara.csv,200,OK,15,0,,,,0,255,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,72,Sulawesi Tengah,01_bdsp_kementan/tebu/kabkota/72_sulawesi_tengah.csv,200,OK,13,0,,,,0,221,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,73,Sulawesi Selatan,01_bdsp_kementan/tebu/kabkota/73_sulawesi_selatan.csv,200,OK,24,7,2010.0,2025.0,2010-2025,67,341,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,74,Sulawesi Tenggara,01_bdsp_kementan/tebu/kabkota/74_sulawesi_tenggara.csv,200,OK,17,1,2021.0,2025.0,2021-2025,5,284,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,75,Gorontalo,01_bdsp_kementan/tebu/kabkota/75_gorontalo.csv,200,OK,6,2,2011.0,2025.0,2011-2025,29,73,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,tebu,KABKOTA,76,Sulawesi Barat,01_bdsp_kementan/tebu/kabkota/76_sulawesi_barat.csv,200,OK,6,0,,,,0,102,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,81,Maluku,01_bdsp_kementan/tebu/kabkota/81_maluku.csv,200,OK,11,0,,,,0,187,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,82,Maluku Utara,01_bdsp_kementan/tebu/kabkota/82_maluku_utara.csv,200,OK,10,0,,,,0,170,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,91,Papua Barat,01_bdsp_kementan/tebu/kabkota/91_papua_barat.csv,200,OK,13,0,,,,0,221,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,92,Papua Barat Daya,01_bdsp_kementan/tebu/kabkota/92_papua_barat_daya.csv,200,OK,6,0,,,,0,102,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,94,Papua,01_bdsp_kementan/tebu/kabkota/94_papua.csv,200,OK,30,0,,,,0,510,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,95,Papua Selatan,01_bdsp_kementan/tebu/kabkota/95_papua_selatan.csv,200,OK,4,0,,,,0,68,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,96,Papua Tengah,01_bdsp_kementan/tebu/kabkota/96_papua_tengah.csv,200,OK,8,0,,,,0,136,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,tebu,KABKOTA,97,Papua Pegunungan,01_bdsp_kementan/tebu/kabkota/97_papua_pegunungan.csv,200,OK,8,0,,,,0,136,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,jagung,KABKOTA,11,Aceh,01_bdsp_kementan/jagung/kabkota/11_aceh.csv,200,OK,23,22,2010.0,2019.0,2010-2019,201,190,0,0.05,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,12,Sumatera Utara,01_bdsp_kementan/jagung/kabkota/12_sumatera_utara.csv,200,OK,33,32,2010.0,2017.0,2010-2017,256,305,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,13,Sumatera Barat,01_bdsp_kementan/jagung/kabkota/13_sumatera_barat.csv,200,OK,19,19,2010.0,2018.0,2010-2018,160,163,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,14,Riau,01_bdsp_kementan/jagung/kabkota/14_riau.csv,200,OK,12,12,2010.0,2018.0,2010-2018,108,96,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,15,Jambi,01_bdsp_kementan/jagung/kabkota/15_jambi.csv,200,OK,11,11,2010.0,2018.0,2010-2018,99,88,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,16,Sumatera Selatan,01_bdsp_kementan/jagung/kabkota/16_sumatera_selatan.csv,200,OK,17,17,2010.0,2022.0,2010-2022,206,83,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,17,Bengkulu,01_bdsp_kementan/jagung/kabkota/17_bengkulu.csv,200,OK,10,10,2010.0,2018.0,2010-2018,90,80,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,18,Lampung,01_bdsp_kementan/jagung/kabkota/18_lampung.csv,200,OK,15,15,2010.0,2017.0,2010-2017,117,138,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,19,Kepulauan Bangka Belitung,01_bdsp_kementan/jagung/kabkota/19_kepulauan_bangka_belitung.csv,200,OK,7,7,2010.0,2022.0,2010-2022,80,39,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,21,Kepulauan Riau,01_bdsp_kementan/jagung/kabkota/21_kepulauan_riau.csv,200,OK,7,7,2010.0,2022.0,2010-2022,83,36,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,31,DKI Jakarta,01_bdsp_kementan/jagung/kabkota/31_dki_jakarta.csv,200,OK,6,6,2010.0,2015.0,2010-2015,10,92,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,32,Jawa Barat,01_bdsp_kementan/jagung/kabkota/32_jawa_barat.csv,200,OK,27,27,2010.0,2017.0,2010-2017,197,262,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,33,Jawa Tengah,01_bdsp_kementan/jagung/kabkota/33_jawa_tengah.csv,200,OK,35,34,2010.0,2022.0,2010-2022,414,181,0,0.03,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,34,DI Yogyakarta,01_bdsp_kementan/jagung/kabkota/34_di_yogyakarta.csv,200,OK,5,5,2010.0,2017.0,2010-2017,34,51,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,35,Jawa Timur,01_bdsp_kementan/jagung/kabkota/35_jawa_timur.csv,200,OK,38,38,2010.0,2017.0,2010-2017,251,395,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,36,Banten,01_bdsp_kementan/jagung/kabkota/36_banten.csv,200,OK,8,8,2010.0,2022.0,2010-2022,92,44,0,0.02,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,51,Bali,01_bdsp_kementan/jagung/kabkota/51_bali.csv,200,OK,9,9,2010.0,2017.0,2010-2017,67,86,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,52,Nusa Tenggara Barat,01_bdsp_kementan/jagung/kabkota/52_nusa_tenggara_barat.csv,200,OK,10,10,2010.0,2017.0,2010-2017,76,94,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,53,Nusa Tenggara Timur,01_bdsp_kementan/jagung/kabkota/53_nusa_tenggara_timur.csv,200,OK,22,22,2010.0,2022.0,2010-2022,258,116,0,0.02,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,61,Kalimantan Barat,01_bdsp_kementan/jagung/kabkota/61_kalimantan_barat.csv,200,OK,14,14,2010.0,2017.0,2010-2017,112,126,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,62,Kalimantan Tengah,01_bdsp_kementan/jagung/kabkota/62_kalimantan_tengah.csv,200,OK,14,14,2010.0,2017.0,2010-2017,106,132,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,63,Kalimantan Selatan,01_bdsp_kementan/jagung/kabkota/63_kalimantan_selatan.csv,200,OK,13,12,2010.0,2017.0,2010-2017,94,127,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,64,Kalimantan Timur,01_bdsp_kementan/jagung/kabkota/64_kalimantan_timur.csv,200,OK,10,10,2010.0,2022.0,2010-2022,111,59,0,0.02,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,65,Kalimantan Utara,01_bdsp_kementan/jagung/kabkota/65_kalimantan_utara.csv,200,OK,5,4,2013.0,2022.0,2013-2022,36,49,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,71,Sulawesi Utara,01_bdsp_kementan/jagung/kabkota/71_sulawesi_utara.csv,200,OK,15,15,2010.0,2016.0,2010-2016,104,151,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,72,Sulawesi Tengah,01_bdsp_kementan/jagung/kabkota/72_sulawesi_tengah.csv,200,OK,13,13,2010.0,2017.0,2010-2017,96,125,0,0.02,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,73,Sulawesi Selatan,01_bdsp_kementan/jagung/kabkota/73_sulawesi_selatan.csv,200,OK,24,24,2010.0,2017.0,2010-2017,191,217,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,74,Sulawesi Tenggara,01_bdsp_kementan/jagung/kabkota/74_sulawesi_tenggara.csv,200,OK,17,17,2010.0,2016.0,2010-2016,95,194,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,75,Gorontalo,01_bdsp_kementan/jagung/kabkota/75_gorontalo.csv,200,OK,6,6,2012.0,2017.0,2012-2017,30,72,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,76,Sulawesi Barat,01_bdsp_kementan/jagung/kabkota/76_sulawesi_barat.csv,200,OK,6,6,2010.0,2019.0,2010-2019,56,46,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,81,Maluku,01_bdsp_kementan/jagung/kabkota/81_maluku.csv,200,OK,11,11,2014.0,2022.0,2014-2022,62,125,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,82,Maluku Utara,01_bdsp_kementan/jagung/kabkota/82_maluku_utara.csv,200,OK,10,9,2010.0,2017.0,2010-2017,61,109,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,91,Papua Barat,01_bdsp_kementan/jagung/kabkota/91_papua_barat.csv,200,OK,13,13,2010.0,2019.0,2010-2019,102,119,0,0.01,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,92,Papua Barat Daya,01_bdsp_kementan/jagung/kabkota/92_papua_barat_daya.csv,200,OK,6,0,,,,0,102,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,jagung,KABKOTA,94,Papua,01_bdsp_kementan/jagung/kabkota/94_papua.csv,200,OK,30,22,2010.0,2019.0,2010-2019,164,346,0,0.0,As-is BDSP Kab/Kota
+bdsp_kementan,jagung,KABKOTA,95,Papua Selatan,01_bdsp_kementan/jagung/kabkota/95_papua_selatan.csv,200,OK,4,0,,,,0,68,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,jagung,KABKOTA,96,Papua Tengah,01_bdsp_kementan/jagung/kabkota/96_papua_tengah.csv,200,OK,8,0,,,,0,136,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+bdsp_kementan,jagung,KABKOTA,97,Papua Pegunungan,01_bdsp_kementan/jagung/kabkota/97_papua_pegunungan.csv,200,OK,8,0,,,,0,136,0,0.0,Seluruh kab/kota bernilai 0 atau kosong di BDSP (as-is)
+satudata_kementan,kelapa_sawit,KABKOTA,0,INDONESIA (38 PROVINSI),01_bdsp_kementan/satudata_kementan/sawit_kabkota_2023.csv,200,OK,552,232,2023.0,2023.0,2023,1560,2038,266,,"Konversi mentah 1:1 Excel resmi (baris 5..556 = 552 baris, termasuk 38 PROVINSI_HEADER + 514 KABKOTA)"
