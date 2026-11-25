@@ -23,11 +23,12 @@ from utils_raw import (  # noqa: E402
     write_raw_csv,
 )
 
-FOUR_FOLDERS = [
+RAW_FOLDERS = [
     "01_bdsp_kementan",
     "02_bps",
     "03_klhk_phl_kayu",
     "04_pltu_5_pulau",
+    "05_biomassa_komplementer",
 ]
 
 REQUIRED_PROVENANCE_COLS = {
@@ -102,7 +103,7 @@ def inspect_single_csv(csv_path: Path) -> dict:
             if len(sample_vals) > 0 and sample_vals.str.match(COMMA_NUM_PAT).any():
                 unparsed_id_num_cols.append(col)
 
-    rel_path = csv_path.relative_to(RAW_DIR)
+    rel_path = csv_path.resolve().relative_to(RAW_DIR.resolve())
     parts = rel_path.parts
     folder_utama = parts[0]
     subfolder = "/".join(parts[1:-1]) if len(parts) > 2 else ""
@@ -150,7 +151,7 @@ def inspect_single_csv(csv_path: Path) -> dict:
 
 def build_global_index() -> pd.DataFrame:
     records = []
-    for folder in FOUR_FOLDERS:
+    for folder in RAW_FOLDERS:
         base = RAW_DIR / folder
         if not base.exists():
             continue
@@ -387,11 +388,11 @@ def generate_audit_markdown(
     lines.append("")
     lines.append("---")
     lines.append("")
-    lines.append("## 1. Ringkasan Eksekutif Lintas 4 Folder")
+    lines.append("## 1. Ringkasan Eksekutif Lintas Folder Raw")
     lines.append("")
     lines.append("| Folder Utama | Jumlah File Raw CSV | Total Baris | Total Ukuran (KB) | QC PASS | UTF-8 BOM | Karakter Rusak |")
     lines.append("| :--- | :---: | :---: | :---: | :---: | :---: | :---: |")
-    for folder in FOUR_FOLDERS:
+    for folder in RAW_FOLDERS:
         sub = df_idx[df_idx["folder_utama"] == folder]
         lines.append(
             f"| `{folder}/` | {len(sub)} | {int(sub['jumlah_baris'].sum()):,} | "
@@ -404,7 +405,7 @@ def generate_audit_markdown(
     )
     lines.append("")
     lines.append("- **Integritas file eksisting:** `raw_data/03_karakteristik_biomassa_kimia_hhv.*` dan `raw_data/daftar_sumber_data.xlsx` **tidak disentuh**.")
-    lines.append("- **Aturan Zero-Merge:** Terpenuhi 100% (`1 tarikan asli = 1 file CSV`: 152 file BDSP kab/kota per provinsi + 4 provinsi + 1 Excel Satu Data; 37 file BPS RI per tahun; 4 tabel PDF KLHK PHL; 5 file API tahunan Climate TRACE + 1 WRI + 1 CREA).")
+    lines.append("- **Aturan Zero-Merge:** Terpenuhi 100% (`1 tarikan asli = 1 file CSV`: 152 file BDSP kab/kota per provinsi + 4 provinsi + 1 Excel Satu Data; 37 file BPS RI per tahun; 4 tabel PDF KLHK PHL; 5 file API tahunan Climate TRACE + 1 WRI + 1 CREA; serta 2 tabel komplementer biomassa 315 sampel & 30 referensi).")
 
     if n_warn > 0:
         lines.append("")

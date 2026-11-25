@@ -1,0 +1,7 @@
+﻿feedstock_category,jumlah_sampel,avg_hhv_mj_kg,median_hhv_mj_kg,avg_ash_wt_pct_db,avg_s_wt_pct_db,jumlah_n_imputed,jumlah_s_imputed,ref_unik_terpakai,total_ref_bibliografi
+grass/plant,60,17.587,17.71,7.268,0.1465,0,1,16,30
+husk/shell/pit,64,18.497,18.89,6.715,0.0648,1,6,11,30
+manure,41,15.067,15.12,22.047,0.5363,0,1,2,30
+organic residue/product,50,18.335,18.385,4.487,0.1028,1,1,11,30
+straw (stalk/cob/ear),50,17.025,17.0,7.712,0.1132,0,0,11,30
+untreated wood,50,19.338,19.535,1.605,0.0292,0,2,12,30

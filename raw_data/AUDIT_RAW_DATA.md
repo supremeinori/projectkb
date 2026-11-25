@@ -1,24 +1,25 @@
 # AUDIT RAW DATA — Fase 2 (100% Mentah per CSV, Zero-Merge)
 
-> **Tanggal Audit:** 2026-11-23 22:14:13  
+> **Tanggal Audit:** 2026-11-25 11:24:48  
 > **Mode Audit:** *Read-Only* (seluruh raw CSV di 4 folder tidak dimodifikasi)  
-> **Total File Raw CSV Terindeks:** **205 file** (4,788 total baris, 3,169.1 KB)  
+> **Total File Raw CSV Terindeks:** **207 file** (5,133 total baris, 3,270.8 KB)  
 > **Indeks Global:** `raw_data/_INDEX_RAW_DATA.csv`
 
 ---
 
-## 1. Ringkasan Eksekutif Lintas 4 Folder
+## 1. Ringkasan Eksekutif Lintas Folder Raw
 
 | Folder Utama | Jumlah File Raw CSV | Total Baris | Total Ukuran (KB) | QC PASS | UTF-8 BOM | Karakter Rusak |
 | :--- | :---: | :---: | :---: | :---: | :---: | :---: |
-| `01_bdsp_kementan/` | 157 | 2,868 | 852.9 | 157/157 | 157/157 | 0 |
-| `02_bps/` | 37 | 1,219 | 298.5 | 37/37 | 37/37 | 0 |
-| `03_klhk_phl_kayu/` | 4 | 79 | 18.2 | 4/4 | 4/4 | 0 |
-| `04_pltu_5_pulau/` | 7 | 622 | 1,999.5 | 7/7 | 7/7 | 0 |
-| **TOTAL** | **205** | **4,788** | **3,169.1** | **205/205** | **205/205** | **0** |
+| `01_bdsp_kementan/` | 157 | 2,868 | 855.7 | 157/157 | 157/157 | 0 |
+| `02_bps/` | 37 | 1,219 | 299.8 | 37/37 | 37/37 | 0 |
+| `03_klhk_phl_kayu/` | 4 | 79 | 18.3 | 4/4 | 4/4 | 0 |
+| `04_pltu_5_pulau/` | 7 | 622 | 2,000.1 | 7/7 | 7/7 | 0 |
+| `05_biomassa_komplementer/` | 2 | 345 | 96.8 | 2/2 | 2/2 | 0 |
+| **TOTAL** | **207** | **5,133** | **3,270.8** | **207/207** | **207/207** | **0** |
 
 - **Integritas file eksisting:** `raw_data/03_karakteristik_biomassa_kimia_hhv.*` dan `raw_data/daftar_sumber_data.xlsx` **tidak disentuh**.
-- **Aturan Zero-Merge:** Terpenuhi 100% (`1 tarikan asli = 1 file CSV`: 152 file BDSP kab/kota per provinsi + 4 provinsi + 1 Excel Satu Data; 37 file BPS RI per tahun; 4 tabel PDF KLHK PHL; 5 file API tahunan Climate TRACE + 1 WRI + 1 CREA).
+- **Aturan Zero-Merge:** Terpenuhi 100% (`1 tarikan asli = 1 file CSV`: 152 file BDSP kab/kota per provinsi + 4 provinsi + 1 Excel Satu Data; 37 file BPS RI per tahun; 4 tabel PDF KLHK PHL; 5 file API tahunan Climate TRACE + 1 WRI + 1 CREA; serta 2 tabel komplementer biomassa 315 sampel & 30 referensi).
 
 ---
 

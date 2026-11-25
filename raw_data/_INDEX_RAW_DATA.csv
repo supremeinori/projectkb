@@ -1,206 +1,208 @@
 ﻿folder_utama,subfolder,nama_file,path_relatif,sumber_instansi,satuan_asli,level_wilayah,jumlah_baris,jumlah_kolom,rentang_tahun,ukuran_kb,utf8_bom,ada_karakter_rusak,status_qc
-01_bdsp_kementan,jagung/kabkota,11_aceh.csv,01_bdsp_kementan/jagung/kabkota/11_aceh.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,23,32,2010-2019,6.56,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,12_sumatera_utara.csv,01_bdsp_kementan/jagung/kabkota/12_sumatera_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,33,32,2010-2017,9.62,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,13_sumatera_barat.csv,01_bdsp_kementan/jagung/kabkota/13_sumatera_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,19,32,2010-2018,5.62,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,14_riau.csv,01_bdsp_kementan/jagung/kabkota/14_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,12,32,2010-2018,3.48,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,15_jambi.csv,01_bdsp_kementan/jagung/kabkota/15_jambi.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010-2018,3.26,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,16_sumatera_selatan.csv,01_bdsp_kementan/jagung/kabkota/16_sumatera_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2022,5.42,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,17_bengkulu.csv,01_bdsp_kementan/jagung/kabkota/17_bengkulu.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2018,3.05,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,18_lampung.csv,01_bdsp_kementan/jagung/kabkota/18_lampung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2017,4.48,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,19_kepulauan_bangka_belitung.csv,01_bdsp_kementan/jagung/kabkota/19_kepulauan_bangka_belitung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2022,2.29,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,21_kepulauan_riau.csv,01_bdsp_kementan/jagung/kabkota/21_kepulauan_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2022,2.14,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,31_dki_jakarta.csv,01_bdsp_kementan/jagung/kabkota/31_dki_jakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2015,1.81,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,32_jawa_barat.csv,01_bdsp_kementan/jagung/kabkota/32_jawa_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,27,32,2010-2017,7.42,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,33_jawa_tengah.csv,01_bdsp_kementan/jagung/kabkota/33_jawa_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,35,32,2010-2022,10.65,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,11_aceh.csv,01_bdsp_kementan/jagung/kabkota/11_aceh.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,23,32,2010-2019,6.58,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,12_sumatera_utara.csv,01_bdsp_kementan/jagung/kabkota/12_sumatera_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,33,32,2010-2017,9.65,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,13_sumatera_barat.csv,01_bdsp_kementan/jagung/kabkota/13_sumatera_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,19,32,2010-2018,5.64,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,14_riau.csv,01_bdsp_kementan/jagung/kabkota/14_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,12,32,2010-2018,3.49,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,15_jambi.csv,01_bdsp_kementan/jagung/kabkota/15_jambi.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010-2018,3.27,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,16_sumatera_selatan.csv,01_bdsp_kementan/jagung/kabkota/16_sumatera_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2022,5.44,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,17_bengkulu.csv,01_bdsp_kementan/jagung/kabkota/17_bengkulu.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2018,3.06,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,18_lampung.csv,01_bdsp_kementan/jagung/kabkota/18_lampung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2017,4.5,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,19_kepulauan_bangka_belitung.csv,01_bdsp_kementan/jagung/kabkota/19_kepulauan_bangka_belitung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2022,2.3,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,21_kepulauan_riau.csv,01_bdsp_kementan/jagung/kabkota/21_kepulauan_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2022,2.15,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,31_dki_jakarta.csv,01_bdsp_kementan/jagung/kabkota/31_dki_jakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2015,1.82,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,32_jawa_barat.csv,01_bdsp_kementan/jagung/kabkota/32_jawa_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,27,32,2010-2017,7.45,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,33_jawa_tengah.csv,01_bdsp_kementan/jagung/kabkota/33_jawa_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,35,32,2010-2022,10.68,True,False,PASS
 01_bdsp_kementan,jagung/kabkota,34_di_yogyakarta.csv,01_bdsp_kementan/jagung/kabkota/34_di_yogyakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2010-2017,1.64,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,35_jawa_timur.csv,01_bdsp_kementan/jagung/kabkota/35_jawa_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,38,32,2010-2017,10.57,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,35_jawa_timur.csv,01_bdsp_kementan/jagung/kabkota/35_jawa_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,38,32,2010-2017,10.61,True,False,PASS
 01_bdsp_kementan,jagung/kabkota,36_banten.csv,01_bdsp_kementan/jagung/kabkota/36_banten.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2022,2.45,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,51_bali.csv,01_bdsp_kementan/jagung/kabkota/51_bali.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,9,32,2010-2017,2.7,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,52_nusa_tenggara_barat.csv,01_bdsp_kementan/jagung/kabkota/52_nusa_tenggara_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2017,3.23,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,53_nusa_tenggara_timur.csv,01_bdsp_kementan/jagung/kabkota/53_nusa_tenggara_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,22,32,2010-2022,7.25,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,61_kalimantan_barat.csv,01_bdsp_kementan/jagung/kabkota/61_kalimantan_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2017,4.14,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,62_kalimantan_tengah.csv,01_bdsp_kementan/jagung/kabkota/62_kalimantan_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2017,4.16,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,63_kalimantan_selatan.csv,01_bdsp_kementan/jagung/kabkota/63_kalimantan_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2017,3.97,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,64_kalimantan_timur.csv,01_bdsp_kementan/jagung/kabkota/64_kalimantan_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2022,3.15,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,65_kalimantan_utara.csv,01_bdsp_kementan/jagung/kabkota/65_kalimantan_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2013-2022,1.62,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,71_sulawesi_utara.csv,01_bdsp_kementan/jagung/kabkota/71_sulawesi_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2016,4.6,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,72_sulawesi_tengah.csv,01_bdsp_kementan/jagung/kabkota/72_sulawesi_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2017,3.92,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,73_sulawesi_selatan.csv,01_bdsp_kementan/jagung/kabkota/73_sulawesi_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,24,32,2010-2017,7.13,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,74_sulawesi_tenggara.csv,01_bdsp_kementan/jagung/kabkota/74_sulawesi_tenggara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2016,4.9,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,75_gorontalo.csv,01_bdsp_kementan/jagung/kabkota/75_gorontalo.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2012-2017,1.88,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,76_sulawesi_barat.csv,01_bdsp_kementan/jagung/kabkota/76_sulawesi_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2019,2.04,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,81_maluku.csv,01_bdsp_kementan/jagung/kabkota/81_maluku.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2014-2022,3.31,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,82_maluku_utara.csv,01_bdsp_kementan/jagung/kabkota/82_maluku_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2017,3.12,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,91_papua_barat.csv,01_bdsp_kementan/jagung/kabkota/91_papua_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2019,3.69,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,92_papua_barat_daya.csv,01_bdsp_kementan/jagung/kabkota/92_papua_barat_daya.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2026 (semua 0/null),1.77,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,94_papua.csv,01_bdsp_kementan/jagung/kabkota/94_papua.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,30,32,2010-2019,7.86,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,51_bali.csv,01_bdsp_kementan/jagung/kabkota/51_bali.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,9,32,2010-2017,2.71,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,52_nusa_tenggara_barat.csv,01_bdsp_kementan/jagung/kabkota/52_nusa_tenggara_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2017,3.24,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,53_nusa_tenggara_timur.csv,01_bdsp_kementan/jagung/kabkota/53_nusa_tenggara_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,22,32,2010-2022,7.27,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,61_kalimantan_barat.csv,01_bdsp_kementan/jagung/kabkota/61_kalimantan_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2017,4.16,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,62_kalimantan_tengah.csv,01_bdsp_kementan/jagung/kabkota/62_kalimantan_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2017,4.17,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,63_kalimantan_selatan.csv,01_bdsp_kementan/jagung/kabkota/63_kalimantan_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2017,3.98,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,64_kalimantan_timur.csv,01_bdsp_kementan/jagung/kabkota/64_kalimantan_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2022,3.16,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,65_kalimantan_utara.csv,01_bdsp_kementan/jagung/kabkota/65_kalimantan_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2013-2022,1.63,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,71_sulawesi_utara.csv,01_bdsp_kementan/jagung/kabkota/71_sulawesi_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2016,4.62,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,72_sulawesi_tengah.csv,01_bdsp_kementan/jagung/kabkota/72_sulawesi_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2017,3.93,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,73_sulawesi_selatan.csv,01_bdsp_kementan/jagung/kabkota/73_sulawesi_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,24,32,2010-2017,7.16,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,74_sulawesi_tenggara.csv,01_bdsp_kementan/jagung/kabkota/74_sulawesi_tenggara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2016,4.92,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,75_gorontalo.csv,01_bdsp_kementan/jagung/kabkota/75_gorontalo.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2012-2017,1.89,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,76_sulawesi_barat.csv,01_bdsp_kementan/jagung/kabkota/76_sulawesi_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2019,2.05,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,81_maluku.csv,01_bdsp_kementan/jagung/kabkota/81_maluku.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2014-2022,3.33,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,82_maluku_utara.csv,01_bdsp_kementan/jagung/kabkota/82_maluku_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2017,3.13,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,91_papua_barat.csv,01_bdsp_kementan/jagung/kabkota/91_papua_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2019,3.7,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,92_papua_barat_daya.csv,01_bdsp_kementan/jagung/kabkota/92_papua_barat_daya.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2026 (semua 0/null),1.78,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,94_papua.csv,01_bdsp_kementan/jagung/kabkota/94_papua.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,30,32,2010-2019,7.89,True,False,PASS
 01_bdsp_kementan,jagung/kabkota,95_papua_selatan.csv,01_bdsp_kementan/jagung/kabkota/95_papua_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,4,32,2010-2026 (semua 0/null),1.25,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,96_papua_tengah.csv,01_bdsp_kementan/jagung/kabkota/96_papua_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.22,True,False,PASS
-01_bdsp_kementan,jagung/kabkota,97_papua_pegunungan.csv,01_bdsp_kementan/jagung/kabkota/97_papua_pegunungan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.3,True,False,PASS
-01_bdsp_kementan,jagung/provinsi,bdsp_jagung_38_provinsi.csv,01_bdsp_kementan/jagung/provinsi/bdsp_jagung_38_provinsi.csv,BDSP Kementerian Pertanian,Ton,PROVINSI,38,29,2010-2025,10.96,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,11_aceh.csv,01_bdsp_kementan/kelapa_sawit/kabkota/11_aceh.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,23,32,2010-2024,7.0,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,12_sumatera_utara.csv,01_bdsp_kementan/kelapa_sawit/kabkota/12_sumatera_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,33,32,2010-2025,10.27,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,13_sumatera_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/13_sumatera_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,19,32,2010-2025,5.93,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,14_riau.csv,01_bdsp_kementan/kelapa_sawit/kabkota/14_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,12,32,2010-2025,4.17,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,15_jambi.csv,01_bdsp_kementan/kelapa_sawit/kabkota/15_jambi.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010-2025,3.67,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,16_sumatera_selatan.csv,01_bdsp_kementan/kelapa_sawit/kabkota/16_sumatera_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2025,5.76,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,17_bengkulu.csv,01_bdsp_kementan/kelapa_sawit/kabkota/17_bengkulu.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.38,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,18_lampung.csv,01_bdsp_kementan/kelapa_sawit/kabkota/18_lampung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2025,4.78,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,19_kepulauan_bangka_belitung.csv,01_bdsp_kementan/kelapa_sawit/kabkota/19_kepulauan_bangka_belitung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2025,2.59,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,96_papua_tengah.csv,01_bdsp_kementan/jagung/kabkota/96_papua_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.23,True,False,PASS
+01_bdsp_kementan,jagung/kabkota,97_papua_pegunungan.csv,01_bdsp_kementan/jagung/kabkota/97_papua_pegunungan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.31,True,False,PASS
+01_bdsp_kementan,jagung/provinsi,bdsp_jagung_38_provinsi.csv,01_bdsp_kementan/jagung/provinsi/bdsp_jagung_38_provinsi.csv,BDSP Kementerian Pertanian,Ton,PROVINSI,38,29,2010-2025,11.0,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,11_aceh.csv,01_bdsp_kementan/kelapa_sawit/kabkota/11_aceh.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,23,32,2010-2024,7.02,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,12_sumatera_utara.csv,01_bdsp_kementan/kelapa_sawit/kabkota/12_sumatera_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,33,32,2010-2025,10.3,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,13_sumatera_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/13_sumatera_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,19,32,2010-2025,5.95,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,14_riau.csv,01_bdsp_kementan/kelapa_sawit/kabkota/14_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,12,32,2010-2025,4.18,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,15_jambi.csv,01_bdsp_kementan/kelapa_sawit/kabkota/15_jambi.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010-2025,3.69,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,16_sumatera_selatan.csv,01_bdsp_kementan/kelapa_sawit/kabkota/16_sumatera_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2025,5.78,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,17_bengkulu.csv,01_bdsp_kementan/kelapa_sawit/kabkota/17_bengkulu.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.4,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,18_lampung.csv,01_bdsp_kementan/kelapa_sawit/kabkota/18_lampung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2025,4.8,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,19_kepulauan_bangka_belitung.csv,01_bdsp_kementan/kelapa_sawit/kabkota/19_kepulauan_bangka_belitung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2025,2.6,True,False,PASS
 01_bdsp_kementan,kelapa_sawit/kabkota,21_kepulauan_riau.csv,01_bdsp_kementan/kelapa_sawit/kabkota/21_kepulauan_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2025,2.15,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,31_dki_jakarta.csv,01_bdsp_kementan/kelapa_sawit/kabkota/31_dki_jakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2026 (semua 0/null),1.83,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,32_jawa_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/32_jawa_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,27,32,2010-2025,7.15,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,33_jawa_tengah.csv,01_bdsp_kementan/kelapa_sawit/kabkota/33_jawa_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,35,32,2010-2026 (semua 0/null),9.01,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,34_di_yogyakarta.csv,01_bdsp_kementan/kelapa_sawit/kabkota/34_di_yogyakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2010-2026 (semua 0/null),1.53,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,35_jawa_timur.csv,01_bdsp_kementan/kelapa_sawit/kabkota/35_jawa_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,38,32,2010-2026 (semua 0/null),9.73,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,36_banten.csv,01_bdsp_kementan/kelapa_sawit/kabkota/36_banten.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2025,2.33,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,51_bali.csv,01_bdsp_kementan/kelapa_sawit/kabkota/51_bali.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,9,32,2010-2026 (semua 0/null),2.56,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,52_nusa_tenggara_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/52_nusa_tenggara_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),2.99,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,53_nusa_tenggara_timur.csv,01_bdsp_kementan/kelapa_sawit/kabkota/53_nusa_tenggara_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,22,32,2010-2026 (semua 0/null),6.3,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,61_kalimantan_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/61_kalimantan_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2025,4.79,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,62_kalimantan_tengah.csv,01_bdsp_kementan/kelapa_sawit/kabkota/62_kalimantan_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2025,4.85,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,63_kalimantan_selatan.csv,01_bdsp_kementan/kelapa_sawit/kabkota/63_kalimantan_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,4.35,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,64_kalimantan_timur.csv,01_bdsp_kementan/kelapa_sawit/kabkota/64_kalimantan_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.43,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,31_dki_jakarta.csv,01_bdsp_kementan/kelapa_sawit/kabkota/31_dki_jakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2026 (semua 0/null),1.84,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,32_jawa_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/32_jawa_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,27,32,2010-2025,7.18,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,33_jawa_tengah.csv,01_bdsp_kementan/kelapa_sawit/kabkota/33_jawa_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,35,32,2010-2026 (semua 0/null),9.04,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,34_di_yogyakarta.csv,01_bdsp_kementan/kelapa_sawit/kabkota/34_di_yogyakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2010-2026 (semua 0/null),1.54,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,35_jawa_timur.csv,01_bdsp_kementan/kelapa_sawit/kabkota/35_jawa_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,38,32,2010-2026 (semua 0/null),9.76,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,36_banten.csv,01_bdsp_kementan/kelapa_sawit/kabkota/36_banten.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2025,2.34,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,51_bali.csv,01_bdsp_kementan/kelapa_sawit/kabkota/51_bali.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,9,32,2010-2026 (semua 0/null),2.57,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,52_nusa_tenggara_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/52_nusa_tenggara_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),3.0,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,53_nusa_tenggara_timur.csv,01_bdsp_kementan/kelapa_sawit/kabkota/53_nusa_tenggara_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,22,32,2010-2026 (semua 0/null),6.32,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,61_kalimantan_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/61_kalimantan_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2025,4.8,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,62_kalimantan_tengah.csv,01_bdsp_kementan/kelapa_sawit/kabkota/62_kalimantan_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2025,4.86,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,63_kalimantan_selatan.csv,01_bdsp_kementan/kelapa_sawit/kabkota/63_kalimantan_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,4.36,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,64_kalimantan_timur.csv,01_bdsp_kementan/kelapa_sawit/kabkota/64_kalimantan_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.44,True,False,PASS
 01_bdsp_kementan,kelapa_sawit/kabkota,65_kalimantan_utara.csv,01_bdsp_kementan/kelapa_sawit/kabkota/65_kalimantan_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2014-2025,1.71,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,71_sulawesi_utara.csv,01_bdsp_kementan/kelapa_sawit/kabkota/71_sulawesi_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2026 (semua 0/null),4.32,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,72_sulawesi_tengah.csv,01_bdsp_kementan/kelapa_sawit/kabkota/72_sulawesi_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,4.05,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,73_sulawesi_selatan.csv,01_bdsp_kementan/kelapa_sawit/kabkota/73_sulawesi_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,24,32,2010-2025,6.77,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,74_sulawesi_tenggara.csv,01_bdsp_kementan/kelapa_sawit/kabkota/74_sulawesi_tenggara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2011-2025,4.92,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,75_gorontalo.csv,01_bdsp_kementan/kelapa_sawit/kabkota/75_gorontalo.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2014-2025,1.86,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,71_sulawesi_utara.csv,01_bdsp_kementan/kelapa_sawit/kabkota/71_sulawesi_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2026 (semua 0/null),4.34,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,72_sulawesi_tengah.csv,01_bdsp_kementan/kelapa_sawit/kabkota/72_sulawesi_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,4.07,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,73_sulawesi_selatan.csv,01_bdsp_kementan/kelapa_sawit/kabkota/73_sulawesi_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,24,32,2010-2025,6.79,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,74_sulawesi_tenggara.csv,01_bdsp_kementan/kelapa_sawit/kabkota/74_sulawesi_tenggara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2011-2025,4.94,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,75_gorontalo.csv,01_bdsp_kementan/kelapa_sawit/kabkota/75_gorontalo.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2014-2025,1.87,True,False,PASS
 01_bdsp_kementan,kelapa_sawit/kabkota,76_sulawesi_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/76_sulawesi_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2025,2.06,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,81_maluku.csv,01_bdsp_kementan/kelapa_sawit/kabkota/81_maluku.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2013-2025,3.23,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,82_maluku_utara.csv,01_bdsp_kementan/kelapa_sawit/kabkota/82_maluku_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),3.02,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,91_papua_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/91_papua_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,3.74,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,92_papua_barat_daya.csv,01_bdsp_kementan/kelapa_sawit/kabkota/92_papua_barat_daya.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2023-2025,1.82,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,94_papua.csv,01_bdsp_kementan/kelapa_sawit/kabkota/94_papua.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,30,32,2010-2025,7.79,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,81_maluku.csv,01_bdsp_kementan/kelapa_sawit/kabkota/81_maluku.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2013-2025,3.24,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,82_maluku_utara.csv,01_bdsp_kementan/kelapa_sawit/kabkota/82_maluku_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),3.03,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,91_papua_barat.csv,01_bdsp_kementan/kelapa_sawit/kabkota/91_papua_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,3.76,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,92_papua_barat_daya.csv,01_bdsp_kementan/kelapa_sawit/kabkota/92_papua_barat_daya.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2023-2025,1.83,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,94_papua.csv,01_bdsp_kementan/kelapa_sawit/kabkota/94_papua.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,30,32,2010-2025,7.82,True,False,PASS
 01_bdsp_kementan,kelapa_sawit/kabkota,95_papua_selatan.csv,01_bdsp_kementan/kelapa_sawit/kabkota/95_papua_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,4,32,2023-2025,1.28,True,False,PASS
 01_bdsp_kementan,kelapa_sawit/kabkota,96_papua_tengah.csv,01_bdsp_kementan/kelapa_sawit/kabkota/96_papua_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2023-2025,2.29,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/kabkota,97_papua_pegunungan.csv,01_bdsp_kementan/kelapa_sawit/kabkota/97_papua_pegunungan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.34,True,False,PASS
-01_bdsp_kementan,kelapa_sawit/provinsi,bdsp_kelapa_sawit_38_provinsi.csv,01_bdsp_kementan/kelapa_sawit/provinsi/bdsp_kelapa_sawit_38_provinsi.csv,BDSP Kementerian Pertanian,Ton,PROVINSI,38,29,2010-2025,10.92,True,False,PASS
-01_bdsp_kementan,padi/kabkota,11_aceh.csv,01_bdsp_kementan/padi/kabkota/11_aceh.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,23,32,2010-2025,7.47,True,False,PASS
-01_bdsp_kementan,padi/kabkota,12_sumatera_utara.csv,01_bdsp_kementan/padi/kabkota/12_sumatera_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,33,32,2010-2025,10.92,True,False,PASS
-01_bdsp_kementan,padi/kabkota,13_sumatera_barat.csv,01_bdsp_kementan/padi/kabkota/13_sumatera_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,19,32,2010-2025,6.47,True,False,PASS
-01_bdsp_kementan,padi/kabkota,14_riau.csv,01_bdsp_kementan/padi/kabkota/14_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,12,32,2010-2025,3.94,True,False,PASS
-01_bdsp_kementan,padi/kabkota,15_jambi.csv,01_bdsp_kementan/padi/kabkota/15_jambi.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010-2025,3.72,True,False,PASS
-01_bdsp_kementan,padi/kabkota,16_sumatera_selatan.csv,01_bdsp_kementan/padi/kabkota/16_sumatera_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2025,5.92,True,False,PASS
-01_bdsp_kementan,padi/kabkota,17_bengkulu.csv,01_bdsp_kementan/padi/kabkota/17_bengkulu.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.43,True,False,PASS
-01_bdsp_kementan,padi/kabkota,18_lampung.csv,01_bdsp_kementan/padi/kabkota/18_lampung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2025,5.18,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/kabkota,97_papua_pegunungan.csv,01_bdsp_kementan/kelapa_sawit/kabkota/97_papua_pegunungan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.35,True,False,PASS
+01_bdsp_kementan,kelapa_sawit/provinsi,bdsp_kelapa_sawit_38_provinsi.csv,01_bdsp_kementan/kelapa_sawit/provinsi/bdsp_kelapa_sawit_38_provinsi.csv,BDSP Kementerian Pertanian,Ton,PROVINSI,38,29,2010-2025,10.96,True,False,PASS
+01_bdsp_kementan,padi/kabkota,11_aceh.csv,01_bdsp_kementan/padi/kabkota/11_aceh.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,23,32,2010-2025,7.49,True,False,PASS
+01_bdsp_kementan,padi/kabkota,12_sumatera_utara.csv,01_bdsp_kementan/padi/kabkota/12_sumatera_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,33,32,2010-2025,10.95,True,False,PASS
+01_bdsp_kementan,padi/kabkota,13_sumatera_barat.csv,01_bdsp_kementan/padi/kabkota/13_sumatera_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,19,32,2010-2025,6.49,True,False,PASS
+01_bdsp_kementan,padi/kabkota,14_riau.csv,01_bdsp_kementan/padi/kabkota/14_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,12,32,2010-2025,3.95,True,False,PASS
+01_bdsp_kementan,padi/kabkota,15_jambi.csv,01_bdsp_kementan/padi/kabkota/15_jambi.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010-2025,3.73,True,False,PASS
+01_bdsp_kementan,padi/kabkota,16_sumatera_selatan.csv,01_bdsp_kementan/padi/kabkota/16_sumatera_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2025,5.94,True,False,PASS
+01_bdsp_kementan,padi/kabkota,17_bengkulu.csv,01_bdsp_kementan/padi/kabkota/17_bengkulu.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.44,True,False,PASS
+01_bdsp_kementan,padi/kabkota,18_lampung.csv,01_bdsp_kementan/padi/kabkota/18_lampung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2025,5.19,True,False,PASS
 01_bdsp_kementan,padi/kabkota,19_kepulauan_bangka_belitung.csv,01_bdsp_kementan/padi/kabkota/19_kepulauan_bangka_belitung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2025,2.43,True,False,PASS
 01_bdsp_kementan,padi/kabkota,21_kepulauan_riau.csv,01_bdsp_kementan/padi/kabkota/21_kepulauan_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2025,2.17,True,False,PASS
-01_bdsp_kementan,padi/kabkota,31_dki_jakarta.csv,01_bdsp_kementan/padi/kabkota/31_dki_jakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2013-2025,1.9,True,False,PASS
-01_bdsp_kementan,padi/kabkota,32_jawa_barat.csv,01_bdsp_kementan/padi/kabkota/32_jawa_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,27,32,2010-2025,8.78,True,False,PASS
-01_bdsp_kementan,padi/kabkota,33_jawa_tengah.csv,01_bdsp_kementan/padi/kabkota/33_jawa_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,35,32,2010-2025,11.58,True,False,PASS
+01_bdsp_kementan,padi/kabkota,31_dki_jakarta.csv,01_bdsp_kementan/padi/kabkota/31_dki_jakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2013-2025,1.91,True,False,PASS
+01_bdsp_kementan,padi/kabkota,32_jawa_barat.csv,01_bdsp_kementan/padi/kabkota/32_jawa_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,27,32,2010-2025,8.8,True,False,PASS
+01_bdsp_kementan,padi/kabkota,33_jawa_tengah.csv,01_bdsp_kementan/padi/kabkota/33_jawa_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,35,32,2010-2025,11.61,True,False,PASS
 01_bdsp_kementan,padi/kabkota,34_di_yogyakarta.csv,01_bdsp_kementan/padi/kabkota/34_di_yogyakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2010-2025,1.87,True,False,PASS
-01_bdsp_kementan,padi/kabkota,35_jawa_timur.csv,01_bdsp_kementan/padi/kabkota/35_jawa_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,38,32,2010-2025,12.43,True,False,PASS
-01_bdsp_kementan,padi/kabkota,36_banten.csv,01_bdsp_kementan/padi/kabkota/36_banten.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2025,2.72,True,False,PASS
-01_bdsp_kementan,padi/kabkota,51_bali.csv,01_bdsp_kementan/padi/kabkota/51_bali.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,9,32,2010-2025,3.16,True,False,PASS
-01_bdsp_kementan,padi/kabkota,52_nusa_tenggara_barat.csv,01_bdsp_kementan/padi/kabkota/52_nusa_tenggara_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.7,True,False,PASS
-01_bdsp_kementan,padi/kabkota,53_nusa_tenggara_timur.csv,01_bdsp_kementan/padi/kabkota/53_nusa_tenggara_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,22,32,2010-2025,7.6,True,False,PASS
-01_bdsp_kementan,padi/kabkota,61_kalimantan_barat.csv,01_bdsp_kementan/padi/kabkota/61_kalimantan_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2025,4.77,True,False,PASS
-01_bdsp_kementan,padi/kabkota,62_kalimantan_tengah.csv,01_bdsp_kementan/padi/kabkota/62_kalimantan_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2025,4.78,True,False,PASS
-01_bdsp_kementan,padi/kabkota,63_kalimantan_selatan.csv,01_bdsp_kementan/padi/kabkota/63_kalimantan_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,4.65,True,False,PASS
-01_bdsp_kementan,padi/kabkota,64_kalimantan_timur.csv,01_bdsp_kementan/padi/kabkota/64_kalimantan_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.44,True,False,PASS
-01_bdsp_kementan,padi/kabkota,65_kalimantan_utara.csv,01_bdsp_kementan/padi/kabkota/65_kalimantan_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2013-2025,1.75,True,False,PASS
-01_bdsp_kementan,padi/kabkota,71_sulawesi_utara.csv,01_bdsp_kementan/padi/kabkota/71_sulawesi_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2025,4.97,True,False,PASS
-01_bdsp_kementan,padi/kabkota,72_sulawesi_tengah.csv,01_bdsp_kementan/padi/kabkota/72_sulawesi_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,4.42,True,False,PASS
-01_bdsp_kementan,padi/kabkota,73_sulawesi_selatan.csv,01_bdsp_kementan/padi/kabkota/73_sulawesi_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,24,32,2010-2025,8.26,True,False,PASS
-01_bdsp_kementan,padi/kabkota,74_sulawesi_tenggara.csv,01_bdsp_kementan/padi/kabkota/74_sulawesi_tenggara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2025,5.42,True,False,PASS
+01_bdsp_kementan,padi/kabkota,35_jawa_timur.csv,01_bdsp_kementan/padi/kabkota/35_jawa_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,38,32,2010-2025,12.47,True,False,PASS
+01_bdsp_kementan,padi/kabkota,36_banten.csv,01_bdsp_kementan/padi/kabkota/36_banten.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2025,2.73,True,False,PASS
+01_bdsp_kementan,padi/kabkota,51_bali.csv,01_bdsp_kementan/padi/kabkota/51_bali.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,9,32,2010-2025,3.17,True,False,PASS
+01_bdsp_kementan,padi/kabkota,52_nusa_tenggara_barat.csv,01_bdsp_kementan/padi/kabkota/52_nusa_tenggara_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.71,True,False,PASS
+01_bdsp_kementan,padi/kabkota,53_nusa_tenggara_timur.csv,01_bdsp_kementan/padi/kabkota/53_nusa_tenggara_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,22,32,2010-2025,7.62,True,False,PASS
+01_bdsp_kementan,padi/kabkota,61_kalimantan_barat.csv,01_bdsp_kementan/padi/kabkota/61_kalimantan_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2025,4.79,True,False,PASS
+01_bdsp_kementan,padi/kabkota,62_kalimantan_tengah.csv,01_bdsp_kementan/padi/kabkota/62_kalimantan_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2025,4.79,True,False,PASS
+01_bdsp_kementan,padi/kabkota,63_kalimantan_selatan.csv,01_bdsp_kementan/padi/kabkota/63_kalimantan_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,4.66,True,False,PASS
+01_bdsp_kementan,padi/kabkota,64_kalimantan_timur.csv,01_bdsp_kementan/padi/kabkota/64_kalimantan_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.45,True,False,PASS
+01_bdsp_kementan,padi/kabkota,65_kalimantan_utara.csv,01_bdsp_kementan/padi/kabkota/65_kalimantan_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2013-2025,1.76,True,False,PASS
+01_bdsp_kementan,padi/kabkota,71_sulawesi_utara.csv,01_bdsp_kementan/padi/kabkota/71_sulawesi_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2025,4.98,True,False,PASS
+01_bdsp_kementan,padi/kabkota,72_sulawesi_tengah.csv,01_bdsp_kementan/padi/kabkota/72_sulawesi_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,4.43,True,False,PASS
+01_bdsp_kementan,padi/kabkota,73_sulawesi_selatan.csv,01_bdsp_kementan/padi/kabkota/73_sulawesi_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,24,32,2010-2025,8.28,True,False,PASS
+01_bdsp_kementan,padi/kabkota,74_sulawesi_tenggara.csv,01_bdsp_kementan/padi/kabkota/74_sulawesi_tenggara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2025,5.43,True,False,PASS
 01_bdsp_kementan,padi/kabkota,75_gorontalo.csv,01_bdsp_kementan/padi/kabkota/75_gorontalo.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2012-2025,2.14,True,False,PASS
-01_bdsp_kementan,padi/kabkota,76_sulawesi_barat.csv,01_bdsp_kementan/padi/kabkota/76_sulawesi_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2025,2.23,True,False,PASS
-01_bdsp_kementan,padi/kabkota,81_maluku.csv,01_bdsp_kementan/padi/kabkota/81_maluku.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2014-2025,3.33,True,False,PASS
-01_bdsp_kementan,padi/kabkota,82_maluku_utara.csv,01_bdsp_kementan/padi/kabkota/82_maluku_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.29,True,False,PASS
-01_bdsp_kementan,padi/kabkota,91_papua_barat.csv,01_bdsp_kementan/padi/kabkota/91_papua_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,3.83,True,False,PASS
-01_bdsp_kementan,padi/kabkota,92_papua_barat_daya.csv,01_bdsp_kementan/padi/kabkota/92_papua_barat_daya.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2023-2025,1.78,True,False,PASS
-01_bdsp_kementan,padi/kabkota,94_papua.csv,01_bdsp_kementan/padi/kabkota/94_papua.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,30,32,2010-2025,7.9,True,False,PASS
-01_bdsp_kementan,padi/kabkota,95_papua_selatan.csv,01_bdsp_kementan/padi/kabkota/95_papua_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,4,32,2024-2025,1.25,True,False,PASS
-01_bdsp_kementan,padi/kabkota,96_papua_tengah.csv,01_bdsp_kementan/padi/kabkota/96_papua_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2024-2025,2.22,True,False,PASS
+01_bdsp_kementan,padi/kabkota,76_sulawesi_barat.csv,01_bdsp_kementan/padi/kabkota/76_sulawesi_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2025,2.24,True,False,PASS
+01_bdsp_kementan,padi/kabkota,81_maluku.csv,01_bdsp_kementan/padi/kabkota/81_maluku.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2014-2025,3.35,True,False,PASS
+01_bdsp_kementan,padi/kabkota,82_maluku_utara.csv,01_bdsp_kementan/padi/kabkota/82_maluku_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2025,3.31,True,False,PASS
+01_bdsp_kementan,padi/kabkota,91_papua_barat.csv,01_bdsp_kementan/padi/kabkota/91_papua_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2025,3.84,True,False,PASS
+01_bdsp_kementan,padi/kabkota,92_papua_barat_daya.csv,01_bdsp_kementan/padi/kabkota/92_papua_barat_daya.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2023-2025,1.79,True,False,PASS
+01_bdsp_kementan,padi/kabkota,94_papua.csv,01_bdsp_kementan/padi/kabkota/94_papua.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,30,32,2010-2025,7.93,True,False,PASS
+01_bdsp_kementan,padi/kabkota,95_papua_selatan.csv,01_bdsp_kementan/padi/kabkota/95_papua_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,4,32,2024-2025,1.26,True,False,PASS
+01_bdsp_kementan,padi/kabkota,96_papua_tengah.csv,01_bdsp_kementan/padi/kabkota/96_papua_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2024-2025,2.23,True,False,PASS
 01_bdsp_kementan,padi/kabkota,97_papua_pegunungan.csv,01_bdsp_kementan/padi/kabkota/97_papua_pegunungan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2024-2025,2.29,True,False,PASS
-01_bdsp_kementan,padi/provinsi,bdsp_padi_38_provinsi.csv,01_bdsp_kementan/padi/provinsi/bdsp_padi_38_provinsi.csv,BDSP Kementerian Pertanian,Ton,PROVINSI,38,29,2010-2025,11.58,True,False,PASS
-01_bdsp_kementan,satudata_kementan,sawit_kabkota_2023.csv,01_bdsp_kementan/satudata_kementan/sawit_kabkota_2023.csv,Satu Data Kementerian Pertanian,Luas: Ha; Produksi: Ton; Produktivitas: Kg/Ha; Petani: KK,KABKOTA,552,17,2023,159.22,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,11_aceh.csv,01_bdsp_kementan/tebu/kabkota/11_aceh.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,23,32,2010-2026 (semua 0/null),5.88,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,12_sumatera_utara.csv,01_bdsp_kementan/tebu/kabkota/12_sumatera_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,33,32,2010-2023,8.83,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,13_sumatera_barat.csv,01_bdsp_kementan/tebu/kabkota/13_sumatera_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,19,32,2010-2026 (semua 0/null),5.1,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,14_riau.csv,01_bdsp_kementan/tebu/kabkota/14_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,12,32,2010-2026 (semua 0/null),3.19,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,15_jambi.csv,01_bdsp_kementan/tebu/kabkota/15_jambi.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010,2.96,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,16_sumatera_selatan.csv,01_bdsp_kementan/tebu/kabkota/16_sumatera_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2025,4.82,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,17_bengkulu.csv,01_bdsp_kementan/tebu/kabkota/17_bengkulu.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),2.74,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,18_lampung.csv,01_bdsp_kementan/tebu/kabkota/18_lampung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2025,4.31,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,19_kepulauan_bangka_belitung.csv,01_bdsp_kementan/tebu/kabkota/19_kepulauan_bangka_belitung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2026 (semua 0/null),2.13,True,False,PASS
+01_bdsp_kementan,padi/provinsi,bdsp_padi_38_provinsi.csv,01_bdsp_kementan/padi/provinsi/bdsp_padi_38_provinsi.csv,BDSP Kementerian Pertanian,Ton,PROVINSI,38,29,2010-2025,11.61,True,False,PASS
+01_bdsp_kementan,satudata_kementan,sawit_kabkota_2023.csv,01_bdsp_kementan/satudata_kementan/sawit_kabkota_2023.csv,Satu Data Kementerian Pertanian,Luas: Ha; Produksi: Ton; Produktivitas: Kg/Ha; Petani: KK,KABKOTA,552,17,2023,159.76,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,11_aceh.csv,01_bdsp_kementan/tebu/kabkota/11_aceh.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,23,32,2010-2026 (semua 0/null),5.9,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,12_sumatera_utara.csv,01_bdsp_kementan/tebu/kabkota/12_sumatera_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,33,32,2010-2023,8.86,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,13_sumatera_barat.csv,01_bdsp_kementan/tebu/kabkota/13_sumatera_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,19,32,2010-2026 (semua 0/null),5.12,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,14_riau.csv,01_bdsp_kementan/tebu/kabkota/14_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,12,32,2010-2026 (semua 0/null),3.21,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,15_jambi.csv,01_bdsp_kementan/tebu/kabkota/15_jambi.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010,2.97,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,16_sumatera_selatan.csv,01_bdsp_kementan/tebu/kabkota/16_sumatera_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2010-2025,4.83,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,17_bengkulu.csv,01_bdsp_kementan/tebu/kabkota/17_bengkulu.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),2.75,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,18_lampung.csv,01_bdsp_kementan/tebu/kabkota/18_lampung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2025,4.32,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,19_kepulauan_bangka_belitung.csv,01_bdsp_kementan/tebu/kabkota/19_kepulauan_bangka_belitung.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2026 (semua 0/null),2.14,True,False,PASS
 01_bdsp_kementan,tebu/kabkota,21_kepulauan_riau.csv,01_bdsp_kementan/tebu/kabkota/21_kepulauan_riau.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,7,32,2010-2026 (semua 0/null),2.02,True,False,PASS
 01_bdsp_kementan,tebu/kabkota,31_dki_jakarta.csv,01_bdsp_kementan/tebu/kabkota/31_dki_jakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2026 (semua 0/null),1.79,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,32_jawa_barat.csv,01_bdsp_kementan/tebu/kabkota/32_jawa_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,27,32,2010-2025,7.09,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,33_jawa_tengah.csv,01_bdsp_kementan/tebu/kabkota/33_jawa_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,35,32,2010-2025,10.05,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,34_di_yogyakarta.csv,01_bdsp_kementan/tebu/kabkota/34_di_yogyakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2010-2025,1.67,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,35_jawa_timur.csv,01_bdsp_kementan/tebu/kabkota/35_jawa_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,38,32,2010-2025,11.23,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,36_banten.csv,01_bdsp_kementan/tebu/kabkota/36_banten.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.17,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,51_bali.csv,01_bdsp_kementan/tebu/kabkota/51_bali.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,9,32,2010-2026 (semua 0/null),2.49,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,52_nusa_tenggara_barat.csv,01_bdsp_kementan/tebu/kabkota/52_nusa_tenggara_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2016-2025,2.94,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,53_nusa_tenggara_timur.csv,01_bdsp_kementan/tebu/kabkota/53_nusa_tenggara_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,22,32,2012-2025,6.13,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,61_kalimantan_barat.csv,01_bdsp_kementan/tebu/kabkota/61_kalimantan_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2026 (semua 0/null),3.82,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,62_kalimantan_tengah.csv,01_bdsp_kementan/tebu/kabkota/62_kalimantan_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2026 (semua 0/null),3.91,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,63_kalimantan_selatan.csv,01_bdsp_kementan/tebu/kabkota/63_kalimantan_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2026 (semua 0/null),3.66,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,64_kalimantan_timur.csv,01_bdsp_kementan/tebu/kabkota/64_kalimantan_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),2.84,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,32_jawa_barat.csv,01_bdsp_kementan/tebu/kabkota/32_jawa_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,27,32,2010-2025,7.11,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,33_jawa_tengah.csv,01_bdsp_kementan/tebu/kabkota/33_jawa_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,35,32,2010-2025,10.09,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,34_di_yogyakarta.csv,01_bdsp_kementan/tebu/kabkota/34_di_yogyakarta.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2010-2025,1.68,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,35_jawa_timur.csv,01_bdsp_kementan/tebu/kabkota/35_jawa_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,38,32,2010-2025,11.27,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,36_banten.csv,01_bdsp_kementan/tebu/kabkota/36_banten.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.18,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,51_bali.csv,01_bdsp_kementan/tebu/kabkota/51_bali.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,9,32,2010-2026 (semua 0/null),2.5,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,52_nusa_tenggara_barat.csv,01_bdsp_kementan/tebu/kabkota/52_nusa_tenggara_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2016-2025,2.95,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,53_nusa_tenggara_timur.csv,01_bdsp_kementan/tebu/kabkota/53_nusa_tenggara_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,22,32,2012-2025,6.16,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,61_kalimantan_barat.csv,01_bdsp_kementan/tebu/kabkota/61_kalimantan_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2026 (semua 0/null),3.83,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,62_kalimantan_tengah.csv,01_bdsp_kementan/tebu/kabkota/62_kalimantan_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,14,32,2010-2026 (semua 0/null),3.93,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,63_kalimantan_selatan.csv,01_bdsp_kementan/tebu/kabkota/63_kalimantan_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2026 (semua 0/null),3.67,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,64_kalimantan_timur.csv,01_bdsp_kementan/tebu/kabkota/64_kalimantan_timur.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),2.86,True,False,PASS
 01_bdsp_kementan,tebu/kabkota,65_kalimantan_utara.csv,01_bdsp_kementan/tebu/kabkota/65_kalimantan_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,5,32,2010-2026 (semua 0/null),1.53,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,71_sulawesi_utara.csv,01_bdsp_kementan/tebu/kabkota/71_sulawesi_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2026 (semua 0/null),4.2,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,72_sulawesi_tengah.csv,01_bdsp_kementan/tebu/kabkota/72_sulawesi_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2026 (semua 0/null),3.54,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,73_sulawesi_selatan.csv,01_bdsp_kementan/tebu/kabkota/73_sulawesi_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,24,32,2010-2025,6.52,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,74_sulawesi_tenggara.csv,01_bdsp_kementan/tebu/kabkota/74_sulawesi_tenggara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2021-2025,4.62,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,75_gorontalo.csv,01_bdsp_kementan/tebu/kabkota/75_gorontalo.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2011-2025,1.85,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,76_sulawesi_barat.csv,01_bdsp_kementan/tebu/kabkota/76_sulawesi_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2026 (semua 0/null),1.81,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,81_maluku.csv,01_bdsp_kementan/tebu/kabkota/81_maluku.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010-2026 (semua 0/null),3.12,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,82_maluku_utara.csv,01_bdsp_kementan/tebu/kabkota/82_maluku_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),2.94,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,91_papua_barat.csv,01_bdsp_kementan/tebu/kabkota/91_papua_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2026 (semua 0/null),3.49,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,71_sulawesi_utara.csv,01_bdsp_kementan/tebu/kabkota/71_sulawesi_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,15,32,2010-2026 (semua 0/null),4.22,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,72_sulawesi_tengah.csv,01_bdsp_kementan/tebu/kabkota/72_sulawesi_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2026 (semua 0/null),3.56,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,73_sulawesi_selatan.csv,01_bdsp_kementan/tebu/kabkota/73_sulawesi_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,24,32,2010-2025,6.54,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,74_sulawesi_tenggara.csv,01_bdsp_kementan/tebu/kabkota/74_sulawesi_tenggara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,17,32,2021-2025,4.64,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,75_gorontalo.csv,01_bdsp_kementan/tebu/kabkota/75_gorontalo.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2011-2025,1.86,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,76_sulawesi_barat.csv,01_bdsp_kementan/tebu/kabkota/76_sulawesi_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2026 (semua 0/null),1.82,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,81_maluku.csv,01_bdsp_kementan/tebu/kabkota/81_maluku.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,11,32,2010-2026 (semua 0/null),3.13,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,82_maluku_utara.csv,01_bdsp_kementan/tebu/kabkota/82_maluku_utara.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,10,32,2010-2026 (semua 0/null),2.95,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,91_papua_barat.csv,01_bdsp_kementan/tebu/kabkota/91_papua_barat.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,13,32,2010-2026 (semua 0/null),3.5,True,False,PASS
 01_bdsp_kementan,tebu/kabkota,92_papua_barat_daya.csv,01_bdsp_kementan/tebu/kabkota/92_papua_barat_daya.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,6,32,2010-2026 (semua 0/null),1.76,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,94_papua.csv,01_bdsp_kementan/tebu/kabkota/94_papua.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,30,32,2010-2026 (semua 0/null),7.43,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,94_papua.csv,01_bdsp_kementan/tebu/kabkota/94_papua.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,30,32,2010-2026 (semua 0/null),7.46,True,False,PASS
 01_bdsp_kementan,tebu/kabkota,95_papua_selatan.csv,01_bdsp_kementan/tebu/kabkota/95_papua_selatan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,4,32,2010-2026 (semua 0/null),1.24,True,False,PASS
 01_bdsp_kementan,tebu/kabkota,96_papua_tengah.csv,01_bdsp_kementan/tebu/kabkota/96_papua_tengah.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.21,True,False,PASS
-01_bdsp_kementan,tebu/kabkota,97_papua_pegunungan.csv,01_bdsp_kementan/tebu/kabkota/97_papua_pegunungan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.28,True,False,PASS
-01_bdsp_kementan,tebu/provinsi,bdsp_tebu_38_provinsi.csv,01_bdsp_kementan/tebu/provinsi/bdsp_tebu_38_provinsi.csv,BDSP Kementerian Pertanian,Ton,PROVINSI,38,29,2010-2025,9.34,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2008.csv,02_bps/bps_ri/132_perkebunan_historis/2008.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2008,8.08,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2009.csv,02_bps/bps_ri/132_perkebunan_historis/2009.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2009,8.08,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2010.csv,02_bps/bps_ri/132_perkebunan_historis/2010.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2010,8.08,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2011.csv,02_bps/bps_ri/132_perkebunan_historis/2011.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2011,8.08,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2012.csv,02_bps/bps_ri/132_perkebunan_historis/2012.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2012,8.51,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2013.csv,02_bps/bps_ri/132_perkebunan_historis/2013.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2013,8.53,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2014.csv,02_bps/bps_ri/132_perkebunan_historis/2014.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2014,8.38,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2015.csv,02_bps/bps_ri/132_perkebunan_historis/2015.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2015,8.37,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2016.csv,02_bps/bps_ri/132_perkebunan_historis/2016.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2016,8.12,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2017.csv,02_bps/bps_ri/132_perkebunan_historis/2017.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2017,8.13,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2018.csv,02_bps/bps_ri/132_perkebunan_historis/2018.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2018,8.13,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2019.csv,02_bps/bps_ri/132_perkebunan_historis/2019.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2019,8.13,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2020.csv,02_bps/bps_ri/132_perkebunan_historis/2020.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2020,8.13,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2021.csv,02_bps/bps_ri/132_perkebunan_historis/2021.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2021,8.14,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2022.csv,02_bps/bps_ri/132_perkebunan_historis/2022.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2022,8.47,True,False,PASS
-02_bps,bps_ri/132_perkebunan_historis,2023.csv,02_bps/bps_ri/132_perkebunan_historis/2023.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2023,8.65,True,False,PASS
-02_bps,bps_ri/1498_padi,2018.csv,02_bps/bps_ri/1498_padi/2018.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2018,11.01,True,False,PASS
-02_bps,bps_ri/1498_padi,2019.csv,02_bps/bps_ri/1498_padi/2019.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2019,11.0,True,False,PASS
-02_bps,bps_ri/1498_padi,2020.csv,02_bps/bps_ri/1498_padi/2020.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2020,11.0,True,False,PASS
-02_bps,bps_ri/1498_padi,2021.csv,02_bps/bps_ri/1498_padi/2021.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2021,11.0,True,False,PASS
-02_bps,bps_ri/1498_padi,2022.csv,02_bps/bps_ri/1498_padi/2022.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2022,10.96,True,False,PASS
-02_bps,bps_ri/1498_padi,2023.csv,02_bps/bps_ri/1498_padi/2023.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2023,11.07,True,False,PASS
-02_bps,bps_ri/1498_padi,2024.csv,02_bps/bps_ri/1498_padi/2024.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2024,11.07,True,False,PASS
+01_bdsp_kementan,tebu/kabkota,97_papua_pegunungan.csv,01_bdsp_kementan/tebu/kabkota/97_papua_pegunungan.csv,BDSP Kementerian Pertanian,Ton,KABKOTA,8,32,2010-2026 (semua 0/null),2.29,True,False,PASS
+01_bdsp_kementan,tebu/provinsi,bdsp_tebu_38_provinsi.csv,01_bdsp_kementan/tebu/provinsi/bdsp_tebu_38_provinsi.csv,BDSP Kementerian Pertanian,Ton,PROVINSI,38,29,2010-2025,9.37,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2008.csv,02_bps/bps_ri/132_perkebunan_historis/2008.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2008,8.12,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2009.csv,02_bps/bps_ri/132_perkebunan_historis/2009.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2009,8.12,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2010.csv,02_bps/bps_ri/132_perkebunan_historis/2010.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2010,8.12,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2011.csv,02_bps/bps_ri/132_perkebunan_historis/2011.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2011,8.12,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2012.csv,02_bps/bps_ri/132_perkebunan_historis/2012.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2012,8.55,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2013.csv,02_bps/bps_ri/132_perkebunan_historis/2013.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2013,8.57,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2014.csv,02_bps/bps_ri/132_perkebunan_historis/2014.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2014,8.42,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2015.csv,02_bps/bps_ri/132_perkebunan_historis/2015.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2015,8.41,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2016.csv,02_bps/bps_ri/132_perkebunan_historis/2016.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2016,8.16,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2017.csv,02_bps/bps_ri/132_perkebunan_historis/2017.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2017,8.17,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2018.csv,02_bps/bps_ri/132_perkebunan_historis/2018.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2018,8.17,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2019.csv,02_bps/bps_ri/132_perkebunan_historis/2019.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2019,8.17,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2020.csv,02_bps/bps_ri/132_perkebunan_historis/2020.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2020,8.17,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2021.csv,02_bps/bps_ri/132_perkebunan_historis/2021.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2021,8.18,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2022.csv,02_bps/bps_ri/132_perkebunan_historis/2022.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2022,8.51,True,False,PASS
+02_bps,bps_ri/132_perkebunan_historis,2023.csv,02_bps/bps_ri/132_perkebunan_historis/2023.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,18,2023,8.68,True,False,PASS
+02_bps,bps_ri/1498_padi,2018.csv,02_bps/bps_ri/1498_padi/2018.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2018,11.04,True,False,PASS
+02_bps,bps_ri/1498_padi,2019.csv,02_bps/bps_ri/1498_padi/2019.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2019,11.04,True,False,PASS
+02_bps,bps_ri/1498_padi,2020.csv,02_bps/bps_ri/1498_padi/2020.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2020,11.04,True,False,PASS
+02_bps,bps_ri/1498_padi,2021.csv,02_bps/bps_ri/1498_padi/2021.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2021,11.04,True,False,PASS
+02_bps,bps_ri/1498_padi,2022.csv,02_bps/bps_ri/1498_padi/2022.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2022,11.0,True,False,PASS
+02_bps,bps_ri/1498_padi,2023.csv,02_bps/bps_ri/1498_padi/2023.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2023,11.11,True,False,PASS
+02_bps,bps_ri/1498_padi,2024.csv,02_bps/bps_ri/1498_padi/2024.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2024,11.11,True,False,PASS
 02_bps,bps_ri/1973_kayu_hph_pulau,2019.csv,02_bps/bps_ri/1973_kayu_hph_pulau/2019.csv,Badan Pusat Statistik (BPS RI),M3,PULAU,6,11,2019,1.46,True,False,PASS
-02_bps,bps_ri/1973_kayu_hph_pulau,2020.csv,02_bps/bps_ri/1973_kayu_hph_pulau/2020.csv,Badan Pusat Statistik (BPS RI),M3,PULAU,6,11,2020,1.46,True,False,PASS
-02_bps,bps_ri/1973_kayu_hph_pulau,2021.csv,02_bps/bps_ri/1973_kayu_hph_pulau/2021.csv,Badan Pusat Statistik (BPS RI),M3,PULAU,6,11,2021,1.46,True,False,PASS
-02_bps,bps_ri/1973_kayu_hph_pulau,2022.csv,02_bps/bps_ri/1973_kayu_hph_pulau/2022.csv,Badan Pusat Statistik (BPS RI),M3,PULAU,6,11,2022,1.46,True,False,PASS
-02_bps,bps_ri/2204_jagung,2020.csv,02_bps/bps_ri/2204_jagung/2020.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2020,10.99,True,False,PASS
-02_bps,bps_ri/2204_jagung,2021.csv,02_bps/bps_ri/2204_jagung/2021.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2021,10.99,True,False,PASS
-02_bps,bps_ri/2204_jagung,2022.csv,02_bps/bps_ri/2204_jagung/2022.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2022,11.01,True,False,PASS
-02_bps,bps_ri/2204_jagung,2023.csv,02_bps/bps_ri/2204_jagung/2023.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2023,11.07,True,False,PASS
-02_bps,bps_ri/2204_jagung,2024.csv,02_bps/bps_ri/2204_jagung/2024.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2024,11.03,True,False,PASS
-02_bps,bps_ri/2512_kayu_jenis_pohon,2020.csv,02_bps/bps_ri/2512_kayu_jenis_pohon/2020.csv,Badan Pusat Statistik (BPS RI),m3 / SM / Ton / Batang (sesuai label baris asli),NASIONAL,16,11,2020,4.65,True,False,PASS
-02_bps,bps_ri/2512_kayu_jenis_pohon,2021.csv,02_bps/bps_ri/2512_kayu_jenis_pohon/2021.csv,Badan Pusat Statistik (BPS RI),m3 / SM / Ton / Batang (sesuai label baris asli),NASIONAL,16,11,2021,4.65,True,False,PASS
-02_bps,bps_ri/2512_kayu_jenis_pohon,2022.csv,02_bps/bps_ri/2512_kayu_jenis_pohon/2022.csv,Badan Pusat Statistik (BPS RI),m3 / SM / Ton / Batang (sesuai label baris asli),NASIONAL,16,11,2022,4.65,True,False,PASS
-02_bps,bps_ri/2512_kayu_jenis_pohon,2023.csv,02_bps/bps_ri/2512_kayu_jenis_pohon/2023.csv,Badan Pusat Statistik (BPS RI),m3 / SM / Ton / Batang (sesuai label baris asli),NASIONAL,16,11,2023,4.65,True,False,PASS
-02_bps,bps_ri/2566_perkebunan,2024.csv,02_bps/bps_ri/2566_perkebunan/2024.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,17,2024,9.85,True,False,PASS
-03_klhk_phl_kayu,buku_2022,tabel_pbph_provinsi_2018_2022.csv,03_klhk_phl_kayu/buku_2022/tabel_pbph_provinsi_2018_2022.csv,Ditjen Pengelolaan Hutan Lestari (PHL) Kemenhut/KLHK,m3,PROVINSI,34,15,2018-2022,7.83,True,False,PASS
-03_klhk_phl_kayu,buku_2022,tabel_perhutani_provinsi_2018_2022.csv,03_klhk_phl_kayu/buku_2022/tabel_perhutani_provinsi_2018_2022.csv,Ditjen Pengelolaan Hutan Lestari (PHL) Kemenhut/KLHK,m3,PROVINSI,4,15,2018-2022,1.1,True,False,PASS
-03_klhk_phl_kayu,buku_2024,tabel_3_12_perhutani_provinsi_2020_2024.csv,03_klhk_phl_kayu/buku_2024/tabel_3_12_perhutani_provinsi_2020_2024.csv,Ditjen Pengelolaan Hutan Lestari (PHL) Kemenhut/KLHK,m3,PROVINSI,4,15,2020-2024,1.1,True,False,PASS
-03_klhk_phl_kayu,buku_2024,tabel_3_9_pbph_provinsi_2020_2024.csv,03_klhk_phl_kayu/buku_2024/tabel_3_9_pbph_provinsi_2020_2024.csv,Ditjen Pengelolaan Hutan Lestari (PHL) Kemenhut/KLHK,m3,PROVINSI,37,15,2020-2024,8.22,True,False,PASS
-04_pltu_5_pulau,climatetrace,2021.csv,04_pltu_5_pulau/climatetrace/2021.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2021,386.91,True,False,PASS
-04_pltu_5_pulau,climatetrace,2022.csv,04_pltu_5_pulau/climatetrace/2022.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2022,387.86,True,False,PASS
-04_pltu_5_pulau,climatetrace,2023.csv,04_pltu_5_pulau/climatetrace/2023.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2023,387.99,True,False,PASS
-04_pltu_5_pulau,climatetrace,2024.csv,04_pltu_5_pulau/climatetrace/2024.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2024,388.33,True,False,PASS
-04_pltu_5_pulau,climatetrace,2025.csv,04_pltu_5_pulau/climatetrace/2025.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2025,388.56,True,False,PASS
-04_pltu_5_pulau,crea_2025,tabel_a1_52_pltu_cofiring_2024.csv,04_pltu_5_pulau/crea_2025/tabel_a1_52_pltu_cofiring_2024.csv,"Centre for Research on Energy and Clean Air (CREA, Mei 2025)",Kapasitas: MW; Biomassa: Ton/thn; Listrik: MWh/thn; Emisi: tCO2/thn,UNIT_PLTU,52,24,2024,23.12,True,False,PASS
-04_pltu_5_pulau,wri_gppd,wri_gppd_coal_idn.csv,04_pltu_5_pulau/wri_gppd/wri_gppd_coal_idn.csv,World Resources Institute (WRI Global Power Plant Database v1.3.0),capacity_mw: MW; generation: GWh,UNIT_PLTU,70,43,commissioning 1998-2017,36.74,True,False,PASS
+02_bps,bps_ri/1973_kayu_hph_pulau,2020.csv,02_bps/bps_ri/1973_kayu_hph_pulau/2020.csv,Badan Pusat Statistik (BPS RI),M3,PULAU,6,11,2020,1.47,True,False,PASS
+02_bps,bps_ri/1973_kayu_hph_pulau,2021.csv,02_bps/bps_ri/1973_kayu_hph_pulau/2021.csv,Badan Pusat Statistik (BPS RI),M3,PULAU,6,11,2021,1.47,True,False,PASS
+02_bps,bps_ri/1973_kayu_hph_pulau,2022.csv,02_bps/bps_ri/1973_kayu_hph_pulau/2022.csv,Badan Pusat Statistik (BPS RI),M3,PULAU,6,11,2022,1.47,True,False,PASS
+02_bps,bps_ri/2204_jagung,2020.csv,02_bps/bps_ri/2204_jagung/2020.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2020,11.03,True,False,PASS
+02_bps,bps_ri/2204_jagung,2021.csv,02_bps/bps_ri/2204_jagung/2021.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2021,11.03,True,False,PASS
+02_bps,bps_ri/2204_jagung,2022.csv,02_bps/bps_ri/2204_jagung/2022.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2022,11.05,True,False,PASS
+02_bps,bps_ri/2204_jagung,2023.csv,02_bps/bps_ri/2204_jagung/2023.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2023,11.11,True,False,PASS
+02_bps,bps_ri/2204_jagung,2024.csv,02_bps/bps_ri/2204_jagung/2024.csv,Badan Pusat Statistik (BPS RI),Luas Panen: ha; Produktivitas: ku/ha; Produksi: ton,PROVINSI,39,13,2024,11.07,True,False,PASS
+02_bps,bps_ri/2512_kayu_jenis_pohon,2020.csv,02_bps/bps_ri/2512_kayu_jenis_pohon/2020.csv,Badan Pusat Statistik (BPS RI),m3 / SM / Ton / Batang (sesuai label baris asli),NASIONAL,16,11,2020,4.67,True,False,PASS
+02_bps,bps_ri/2512_kayu_jenis_pohon,2021.csv,02_bps/bps_ri/2512_kayu_jenis_pohon/2021.csv,Badan Pusat Statistik (BPS RI),m3 / SM / Ton / Batang (sesuai label baris asli),NASIONAL,16,11,2021,4.67,True,False,PASS
+02_bps,bps_ri/2512_kayu_jenis_pohon,2022.csv,02_bps/bps_ri/2512_kayu_jenis_pohon/2022.csv,Badan Pusat Statistik (BPS RI),m3 / SM / Ton / Batang (sesuai label baris asli),NASIONAL,16,11,2022,4.67,True,False,PASS
+02_bps,bps_ri/2512_kayu_jenis_pohon,2023.csv,02_bps/bps_ri/2512_kayu_jenis_pohon/2023.csv,Badan Pusat Statistik (BPS RI),m3 / SM / Ton / Batang (sesuai label baris asli),NASIONAL,16,11,2023,4.67,True,False,PASS
+02_bps,bps_ri/2566_perkebunan,2024.csv,02_bps/bps_ri/2566_perkebunan/2024.csv,Badan Pusat Statistik (BPS RI),Ribu Ton,PROVINSI,39,17,2024,9.89,True,False,PASS
+03_klhk_phl_kayu,buku_2022,tabel_pbph_provinsi_2018_2022.csv,03_klhk_phl_kayu/buku_2022/tabel_pbph_provinsi_2018_2022.csv,Ditjen Pengelolaan Hutan Lestari (PHL) Kemenhut/KLHK,m3,PROVINSI,34,15,2018-2022,7.86,True,False,PASS
+03_klhk_phl_kayu,buku_2022,tabel_perhutani_provinsi_2018_2022.csv,03_klhk_phl_kayu/buku_2022/tabel_perhutani_provinsi_2018_2022.csv,Ditjen Pengelolaan Hutan Lestari (PHL) Kemenhut/KLHK,m3,PROVINSI,4,15,2018-2022,1.11,True,False,PASS
+03_klhk_phl_kayu,buku_2024,tabel_3_12_perhutani_provinsi_2020_2024.csv,03_klhk_phl_kayu/buku_2024/tabel_3_12_perhutani_provinsi_2020_2024.csv,Ditjen Pengelolaan Hutan Lestari (PHL) Kemenhut/KLHK,m3,PROVINSI,4,15,2020-2024,1.11,True,False,PASS
+03_klhk_phl_kayu,buku_2024,tabel_3_9_pbph_provinsi_2020_2024.csv,03_klhk_phl_kayu/buku_2024/tabel_3_9_pbph_provinsi_2020_2024.csv,Ditjen Pengelolaan Hutan Lestari (PHL) Kemenhut/KLHK,m3,PROVINSI,37,15,2020-2024,8.26,True,False,PASS
+04_pltu_5_pulau,climatetrace,2021.csv,04_pltu_5_pulau/climatetrace/2021.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2021,387.0,True,False,PASS
+04_pltu_5_pulau,climatetrace,2022.csv,04_pltu_5_pulau/climatetrace/2022.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2022,387.96,True,False,PASS
+04_pltu_5_pulau,climatetrace,2023.csv,04_pltu_5_pulau/climatetrace/2023.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2023,388.09,True,False,PASS
+04_pltu_5_pulau,climatetrace,2024.csv,04_pltu_5_pulau/climatetrace/2024.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2024,388.43,True,False,PASS
+04_pltu_5_pulau,climatetrace,2025.csv,04_pltu_5_pulau/climatetrace/2025.csv,Climate TRACE Coalition (v6 API),Capacity: MW; Activity: MWh; Emissions: t CO2e_100yr,UNIT_PLTU,100,33,2025,388.66,True,False,PASS
+04_pltu_5_pulau,crea_2025,tabel_a1_52_pltu_cofiring_2024.csv,04_pltu_5_pulau/crea_2025/tabel_a1_52_pltu_cofiring_2024.csv,"Centre for Research on Energy and Clean Air (CREA, Mei 2025)",Kapasitas: MW; Biomassa: Ton/thn; Listrik: MWh/thn; Emisi: tCO2/thn,UNIT_PLTU,52,24,2024,23.17,True,False,PASS
+04_pltu_5_pulau,wri_gppd,wri_gppd_coal_idn.csv,04_pltu_5_pulau/wri_gppd/wri_gppd_coal_idn.csv,World Resources Institute (WRI Global Power Plant Database v1.3.0),capacity_mw: MW; generation: GWh,UNIT_PLTU,70,43,commissioning 1998-2017,36.81,True,False,PASS
+05_biomassa_komplementer,,biomass_hhv_315_samples.csv,05_biomassa_komplementer/biomass_hhv_315_samples.csv,"Mendeley Data (Biomass Dataset for HHV Prediction, n=315)",Proximate/Ultimate: wt% db (dry basis); HHV: MJ/kg,SAMPEL_LAB,315,20,,86.33,True,False,PASS
+05_biomassa_komplementer,,biomass_hhv_references.csv,05_biomassa_komplementer/biomass_hhv_references.csv,"Mendeley Data (Biomass Dataset for HHV Prediction, n=315)",Sitasi Pustaka,REFERENSI_LAB,30,8,,10.52,True,False,PASS

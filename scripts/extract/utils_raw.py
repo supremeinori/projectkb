@@ -114,6 +114,8 @@ def ensure_raw_folder_tree() -> list[Path]:
         RAW_DIR / "04_pltu_5_pulau" / "wri_gppd",
         RAW_DIR / "04_pltu_5_pulau" / "crea_2025",
         RAW_DIR / "04_pltu_5_pulau" / "gem_gcpt",
+        # Folder 5: Data Komplementer Karakteristik & HHV Biomassa (315 sampel + referensi)
+        RAW_DIR / "05_biomassa_komplementer",
     ]
     for d in dirs:
         d.mkdir(parents=True, exist_ok=True)
