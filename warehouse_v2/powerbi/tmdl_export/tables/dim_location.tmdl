@@ -1,0 +1,112 @@
+table dim_location
+	lineageTag: 7d432db2-c8aa-44d4-84e4-a7962dc7b269
+
+	column location_key
+		dataType: int64
+		lineageTag: 9d2bf6f3-4839-47c2-b4ce-8bcace8a9cc7
+		sourceColumn: location_key
+
+	column location_code
+		dataType: string
+		lineageTag: d7415a9c-ccbb-4e8d-bb03-f182221373e0
+		sourceColumn: location_code
+
+	column level_wilayah
+		dataType: string
+		lineageTag: 9c53ade5-1043-4058-a194-3cc93661bcc3
+		sourceColumn: level_wilayah
+
+	column kode_prov
+		dataType: int64
+		lineageTag: cd7cada7-9887-4420-ab16-965d951ebf4b
+		summarizeBy: none
+		sourceColumn: kode_prov
+
+	column nama_provinsi
+		dataType: string
+		lineageTag: 6dde7320-14e9-4e44-92e7-b91ae626bcd0
+		dataCategory: StateOrProvince
+		sourceColumn: nama_provinsi
+
+	column kode_kabkota
+		dataType: int64
+		lineageTag: 83a2e4ea-7d5b-4d60-9c2f-e7709e2ae708
+		summarizeBy: none
+		sourceColumn: kode_kabkota
+
+	column nama_kabkota
+		dataType: string
+		lineageTag: 95ffea42-061f-4554-a8d7-6e4e54b48a0d
+		sourceColumn: nama_kabkota
+
+	column pulau
+		dataType: string
+		lineageTag: e9cab501-0cab-40bf-8ab1-92b21733695c
+		sourceColumn: pulau
+
+	column masuk_5_pulau_pltu
+		dataType: int64
+		lineageTag: c89b409d-5b39-47e5-a576-4686d0267766
+		sourceColumn: masuk_5_pulau_pltu
+
+	column wilayah_pln
+		dataType: string
+		lineageTag: bf581a6d-6327-4868-8c35-1f8c2bd42d4d
+		sourceColumn: wilayah_pln
+
+	column latitude_centroid
+		dataType: double
+		lineageTag: f3be4e33-f2eb-4667-8d05-81a2703b8972
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: latitude_centroid
+
+	column longitude_centroid
+		dataType: double
+		lineageTag: 89264b44-fcc6-43fc-8f8b-00b8a137406a
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: longitude_centroid
+
+	column has_coordinates
+		dataType: int64
+		lineageTag: 54c98a94-145d-4134-906c-08f9d855ef39
+		sourceColumn: has_coordinates
+
+	column is_dob_papua_mapped
+		dataType: int64
+		lineageTag: 66eab24a-f4b5-4f7a-ae97-3e6234ae4f9d
+		sourceColumn: is_dob_papua_mapped
+
+	partition dim_location = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\tables\dim_location.csv"),
+				        [Delimiter=",", Columns=14, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"location_key", Int64.Type},
+				            {"location_code", type text},
+				            {"level_wilayah", type text},
+				            {"kode_prov", Int64.Type},
+				            {"nama_provinsi", type text},
+				            {"kode_kabkota", Int64.Type},
+				            {"nama_kabkota", type text},
+				            {"pulau", type text},
+				            {"masuk_5_pulau_pltu", Int64.Type},
+				            {"wilayah_pln", type text},
+				            {"latitude_centroid", type number},
+				            {"longitude_centroid", type number},
+				            {"has_coordinates", Int64.Type},
+				            {"is_dob_papua_mapped", Int64.Type}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

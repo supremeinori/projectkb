@@ -1,0 +1,414 @@
+table _Measures
+	lineageTag: b10bbbe0-3f3a-48ae-98b9-94250dea61e4
+
+	measure 'Mode Aktif Code' = SELECTEDVALUE( dim_view_mode[view_mode_code], "LATEST_COMPLETE" )
+		displayFolder: 00_Kontrol_Mode
+		lineageTag: 333d300e-6a25-4135-a915-a075d66a1223
+
+	measure 'Ref Tahun PLTU' = SELECTEDVALUE( dim_view_mode[pltu_reference_year], 2024 )
+		formatString: 0
+		displayFolder: 00_Kontrol_Mode
+		lineageTag: 373d4e0f-7618-4ad2-9efc-57042c44fd38
+
+	measure 'Catatan Cakupan Dinamis' =
+			SELECTEDVALUE(
+			    dim_view_mode[scope_note_id],
+			    "Pilih satu mode data (Latest Complete atau Anchor 2022) pada slicer Mode Data."
+			)
+		displayFolder: 00_Kontrol_Mode
+		lineageTag: aa5ac30b-5de7-4cde-b300-20ef2cd0e090
+
+	measure 'Teknologi Aktif Code' = SELECTEDVALUE( dim_conversion_tech[tech_code], "TECH01" )
+		displayFolder: 01_Suplai_Biomassa
+		lineageTag: c2c2ba11-5033-4168-b732-1ef124325b7c
+
+	measure 'Eligible Supply (Ton)' =
+			VAR _Mode = [Mode Aktif Code]
+			VAR _Tech = [Teknologi Aktif Code]
+			RETURN
+			IF(
+			    _Mode = "ANCHOR_2022",
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_supply_tons] ),
+			        fact_feedstock_potential[is_anchor_2022] = 1,
+			        fact_feedstock_potential[is_boiler_eligible] = 1,
+			        dim_conversion_tech[tech_code] = _Tech
+			    ),
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_supply_tons] ),
+			        fact_feedstock_potential[is_latest_complete_year] = 1,
+			        fact_feedstock_potential[is_boiler_eligible] = 1,
+			        dim_conversion_tech[tech_code] = _Tech
+			    )
+			)
+		formatString: #,##0
+		displayFolder: 01_Suplai_Biomassa
+		lineageTag: 945f4f57-45f8-4839-8a69-93d200c27996
+
+	measure 'Excluded Supply FS04 FS05 (Ton)' =
+			VAR _Mode = [Mode Aktif Code]
+			VAR _Tech = [Teknologi Aktif Code]
+			RETURN
+			IF(
+			    _Mode = "ANCHOR_2022",
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_supply_tons] ),
+			        fact_feedstock_potential[is_anchor_2022] = 1,
+			        fact_feedstock_potential[is_boiler_eligible] = 0,
+			        dim_conversion_tech[tech_code] = _Tech
+			    ),
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_supply_tons] ),
+			        fact_feedstock_potential[is_latest_complete_year] = 1,
+			        fact_feedstock_potential[is_boiler_eligible] = 0,
+			        dim_conversion_tech[tech_code] = _Tech
+			    )
+			)
+		formatString: #,##0
+		displayFolder: 01_Suplai_Biomassa
+		lineageTag: b93477a2-c4ae-4262-bf0b-1a28a343751a
+
+	measure 'Eligible Generation (MWh)' =
+			VAR _Mode = [Mode Aktif Code]
+			VAR _Tech = [Teknologi Aktif Code]
+			RETURN
+			IF(
+			    _Mode = "ANCHOR_2022",
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_generation_mwh] ),
+			        fact_feedstock_potential[is_anchor_2022] = 1,
+			        fact_feedstock_potential[is_boiler_eligible] = 1,
+			        dim_conversion_tech[tech_code] = _Tech
+			    ),
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_generation_mwh] ),
+			        fact_feedstock_potential[is_latest_complete_year] = 1,
+			        fact_feedstock_potential[is_boiler_eligible] = 1,
+			        dim_conversion_tech[tech_code] = _Tech
+			    )
+			)
+		formatString: #,##0
+		displayFolder: 01_Suplai_Biomassa
+		lineageTag: d3ed5f20-335f-41a0-b40c-46e5b933cfa7
+
+	measure 'Eligible Generation (GWh)' = DIVIDE( [Eligible Generation (MWh)], 1000 )
+		formatString: #,##0.0
+		displayFolder: 01_Suplai_Biomassa
+		lineageTag: 4ccb9238-62b2-4261-b081-2309b555c98a
+
+	measure 'Eligible Generation (TWh)' = DIVIDE( [Eligible Generation (MWh)], 1000000 )
+		formatString: #,##0.00
+		displayFolder: 01_Suplai_Biomassa
+		lineageTag: 6e54afb5-5ddb-4c77-8637-f730fdc1cabd
+
+	measure 'Eligible Capacity (MW)' =
+			VAR _Mode = [Mode Aktif Code]
+			VAR _Tech = [Teknologi Aktif Code]
+			RETURN
+			IF(
+			    _Mode = "ANCHOR_2022",
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_capacity_mw] ),
+			        fact_feedstock_potential[is_anchor_2022] = 1,
+			        fact_feedstock_potential[is_boiler_eligible] = 1,
+			        dim_conversion_tech[tech_code] = _Tech
+			    ),
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_capacity_mw] ),
+			        fact_feedstock_potential[is_latest_complete_year] = 1,
+			        fact_feedstock_potential[is_boiler_eligible] = 1,
+			        dim_conversion_tech[tech_code] = _Tech
+			    )
+			)
+		formatString: #,##0
+		displayFolder: 01_Suplai_Biomassa
+		lineageTag: 2e363bdb-7268-4b20-a6bd-8e3ce4d0eb59
+
+	measure 'Total Generation Semua Profil (GWh)' =
+			VAR _Mode = [Mode Aktif Code]
+			VAR _Tech = [Teknologi Aktif Code]
+			VAR _MWh =
+			    IF(
+			        _Mode = "ANCHOR_2022",
+			        CALCULATE( SUM( fact_feedstock_potential[estimated_generation_mwh] ), fact_feedstock_potential[is_anchor_2022] = 1, dim_conversion_tech[tech_code] = _Tech ),
+			        CALCULATE( SUM( fact_feedstock_potential[estimated_generation_mwh] ), fact_feedstock_potential[is_latest_complete_year] = 1, dim_conversion_tech[tech_code] = _Tech )
+			    )
+			RETURN
+			DIVIDE( _MWh, 1000 )
+		formatString: #,##0.0
+		displayFolder: 01_Suplai_Biomassa
+		lineageTag: 0aa6d9f1-7288-4512-8abb-4285bdc88648
+
+	measure 'Max Coal Replaced Supply (Mt)' =
+			VAR _Mode = [Mode Aktif Code]
+			VAR _Tech = [Teknologi Aktif Code]
+			VAR _Tons =
+			    IF(
+			        _Mode = "ANCHOR_2022",
+			        CALCULATE( SUM( fact_feedstock_potential[coal_replaced_tons] ), fact_feedstock_potential[is_anchor_2022] = 1, fact_feedstock_potential[is_boiler_eligible] = 1, dim_conversion_tech[tech_code] = _Tech ),
+			        CALCULATE( SUM( fact_feedstock_potential[coal_replaced_tons] ), fact_feedstock_potential[is_latest_complete_year] = 1, fact_feedstock_potential[is_boiler_eligible] = 1, dim_conversion_tech[tech_code] = _Tech )
+			    )
+			RETURN
+			DIVIDE( _Tons, 1000000 )
+		formatString: #,##0.00
+		displayFolder: 02_KPI_Eksekutif
+		lineageTag: 0f44fe7e-bf72-49b3-bd20-4973ceedb0e8
+
+	measure 'Max CO2e Offset Supply (Mt)' =
+			VAR _Mode = [Mode Aktif Code]
+			VAR _Tech = [Teknologi Aktif Code]
+			VAR _Tons =
+			    IF(
+			        _Mode = "ANCHOR_2022",
+			        CALCULATE( SUM( fact_feedstock_potential[co2_offset_tons] ), fact_feedstock_potential[is_anchor_2022] = 1, fact_feedstock_potential[is_boiler_eligible] = 1, dim_conversion_tech[tech_code] = _Tech ),
+			        CALCULATE( SUM( fact_feedstock_potential[co2_offset_tons] ), fact_feedstock_potential[is_latest_complete_year] = 1, fact_feedstock_potential[is_boiler_eligible] = 1, dim_conversion_tech[tech_code] = _Tech )
+			    )
+			RETURN
+			DIVIDE( _Tons, 1000000 )
+		formatString: #,##0.00
+		displayFolder: 02_KPI_Eksekutif
+		lineageTag: 7c07fb77-2077-42ff-ba5b-410dd9ca1cb5
+
+	measure 'Weighted Field LHV (MJ/kg)' =
+			VAR _Mode = [Mode Aktif Code]
+			VAR _Tech = [Teknologi Aktif Code]
+			VAR _Num =
+			    IF(
+			        _Mode = "ANCHOR_2022",
+			        CALCULATE(
+			            SUMX( fact_feedstock_potential, fact_feedstock_potential[estimated_supply_tons] * fact_feedstock_potential[effective_lhv_mj_kg] ),
+			            fact_feedstock_potential[is_anchor_2022] = 1,
+			            fact_feedstock_potential[is_boiler_eligible] = 1,
+			            dim_conversion_tech[tech_code] = _Tech
+			        ),
+			        CALCULATE(
+			            SUMX( fact_feedstock_potential, fact_feedstock_potential[estimated_supply_tons] * fact_feedstock_potential[effective_lhv_mj_kg] ),
+			            fact_feedstock_potential[is_latest_complete_year] = 1,
+			            fact_feedstock_potential[is_boiler_eligible] = 1,
+			            dim_conversion_tech[tech_code] = _Tech
+			        )
+			    )
+			RETURN
+			DIVIDE( _Num, [Eligible Supply (Ton)] )
+		formatString: #,##0.00
+		displayFolder: 02_KPI_Eksekutif
+		lineageTag: 739e31e3-1366-410e-b0a1-3fd38e47fd52
+
+	measure 'Energy Density Index vs Coal (%)' = DIVIDE( [Weighted Field LHV (MJ/kg)], 20 )
+		formatString: 0.0%
+		displayFolder: 02_KPI_Eksekutif
+		lineageTag: 8bf2585b-82cc-46e2-8898-7f87188d8844
+
+	measure 'Technical Suitability Score (%)' =
+			DIVIDE(
+			    [Eligible Supply (Ton)],
+			    [Eligible Supply (Ton)] + [Excluded Supply FS04 FS05 (Ton)]
+			)
+		formatString: 0.0%
+		displayFolder: 02_KPI_Eksekutif
+		lineageTag: 330de4d0-2ab9-4a63-a81a-a95c24214f1b
+
+	measure 'PLTU Generation CT (MWh)' =
+			VAR _PulauAktif = VALUES( dim_location[pulau] )
+			VAR _TahunPLTU = [Ref Tahun PLTU]
+			RETURN
+			CALCULATE(
+			    SUM( fact_pltu_operations[activity_generation_mwh] ),
+			    fact_pltu_operations[dataset_role] = "BASE_OPERATIONS_CT",
+			    dim_time[year] = _TahunPLTU,
+			    ALL( dim_location ),
+			    TREATAS( _PulauAktif, dim_location[pulau] )
+			)
+		formatString: #,##0
+		displayFolder: 03_Operasi_PLTU
+		lineageTag: 6a086d47-6302-4eca-ac3d-b8adcf28373e
+
+	measure 'PLTU Target 10% Co-Firing (GWh)' = DIVIDE( [PLTU Generation CT (MWh)] * 0.10, 1000 )
+		formatString: #,##0.0
+		displayFolder: 03_Operasi_PLTU
+		lineageTag: f3fbd700-09d5-4458-b796-cfb5ef68204c
+
+	measure 'Coverage vs 10% Target (%)' = DIVIDE( [Eligible Generation (GWh)], [PLTU Target 10% Co-Firing (GWh)] )
+		formatString: 0.0%
+		displayFolder: 03_Operasi_PLTU
+		lineageTag: 0054ca15-a55c-432c-9b34-5f52064d9416
+
+	measure 'CREA 2024 Actual Co-Firing (GWh)' =
+			VAR _PulauAktif = VALUES( dim_location[pulau] )
+			RETURN
+			DIVIDE(
+			    CALCULATE(
+			        SUM( fact_pltu_operations[biomass_electricity_mwh] ),
+			        fact_pltu_operations[dataset_role] = "COFIRING_REALIZATION_CREA",
+			        dim_time[year] = 2024,
+			        ALL( dim_location ),
+			        TREATAS( _PulauAktif, dim_location[pulau] )
+			    ),
+			    1000
+			)
+		formatString: #,##0.0
+		displayFolder: 03_Operasi_PLTU
+		lineageTag: 492607a2-82be-4bc2-a2fa-bd12f475089a
+
+	measure 'CREA 2024 Biomass Used (kt)' =
+			VAR _PulauAktif = VALUES( dim_location[pulau] )
+			RETURN
+			DIVIDE(
+			    CALCULATE(
+			        SUM( fact_pltu_operations[biomass_used_ton] ),
+			        fact_pltu_operations[dataset_role] = "COFIRING_REALIZATION_CREA",
+			        dim_time[year] = 2024,
+			        ALL( dim_location ),
+			        TREATAS( _PulauAktif, dim_location[pulau] )
+			    ),
+			    1000
+			)
+		formatString: #,##0.0
+		displayFolder: 03_Operasi_PLTU
+		lineageTag: 6678631e-439e-48ab-9c7a-4805d442374a
+
+	measure 'Sim Target Co-Firing (MWh)' =
+			VAR _Ratio = SELECTEDVALUE( 'Param CoFiring Pct'[Param CoFiring Pct], 0.10 )
+			RETURN
+			[PLTU Generation CT (MWh)] * _Ratio
+		formatString: #,##0
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: eec26f04-b9e3-4cd7-b8d2-f096394a9f10
+
+	measure 'Sim Target Co-Firing (GWh)' = DIVIDE( [Sim Target Co-Firing (MWh)], 1000 )
+		formatString: #,##0.0
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 7d60faf3-09d0-4fda-9da1-5c66146e1f57
+
+	measure 'Sim Realizable Supply-Capped (MWh)' =
+			SUMX(
+			    FILTER(
+			        VALUES( dim_location[pulau] ),
+			        CALCULATE( [Sim Target Co-Firing (MWh)] ) > 0
+			    ),
+			    VAR _TargetPulau = CALCULATE( [Sim Target Co-Firing (MWh)] )
+			    VAR _SuplaiPulau = CALCULATE( [Eligible Generation (MWh)] )
+			    RETURN
+			    MIN( _TargetPulau, _SuplaiPulau )
+			)
+		formatString: #,##0
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 044dcc30-0e5f-4a55-8011-54f597ff6600
+
+	measure 'Sim Realizable Supply-Capped (GWh)' = DIVIDE( [Sim Realizable Supply-Capped (MWh)], 1000 )
+		formatString: #,##0.0
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 34e2586d-8e4b-46fc-a674-3d1d74ab4ef0
+
+	measure 'Sim Defisit Pasokan (GWh)' = MAX( 0, [Sim Target Co-Firing (GWh)] - [Sim Realizable Supply-Capped (GWh)] )
+		formatString: #,##0.0
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 2903f876-8047-4433-9a26-386faaca1f69
+
+	measure 'Sim Gap Surplus/Defisit (GWh)' = [Eligible Generation (GWh)] - [Sim Target Co-Firing (GWh)]
+		formatString: #,##0.0
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 541ccde0-681d-4eb1-b9e3-a9b21f830858
+
+	measure 'Sim Efisiensi Aktif (Desimal)' = DIVIDE( SELECTEDVALUE( dim_conversion_tech[efficiency_pct], 33 ), 100 )
+		formatString: 0.00%
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 740de12f-1d3d-463b-93a9-036d8cd1e701
+
+	measure 'Sim Coal Saved Realizable (Mt)' =
+			VAR _CoalHHV = SELECTEDVALUE( 'Param Coal HHV'[Param Coal HHV], 20 )
+			VAR _Eff = [Sim Efisiensi Aktif (Desimal)]
+			VAR _ThermalGJ = DIVIDE( [Sim Realizable Supply-Capped (MWh)] * 3.6, _Eff )
+			VAR _CoalTons = DIVIDE( _ThermalGJ, _CoalHHV )
+			RETURN
+			DIVIDE( _CoalTons, 1000000 )
+		formatString: #,##0.00
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 2f9c950b-0bda-48f9-b5d1-46b9beac4e1f
+
+	measure 'Sim CO2e Offset Realizable (Mt)' =
+			VAR _Eff = [Sim Efisiensi Aktif (Desimal)]
+			VAR _ThermalGJ = DIVIDE( [Sim Realizable Supply-Capped (MWh)] * 3.6, _Eff )
+			VAR _CO2Tons = _ThermalGJ * 0.0946
+			RETURN
+			DIVIDE( _CO2Tons, 1000000 )
+		formatString: #,##0.00
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 02162c87-ec68-478c-a022-a9b1b8eca232
+
+	measure 'CREA 2024 per PLTU (GWh)' =
+			DIVIDE(
+			    CALCULATE(
+			        SUM( fact_pltu_operations[biomass_electricity_mwh] ),
+			        fact_pltu_operations[dataset_role] = "COFIRING_REALIZATION_CREA",
+			        dim_time[year] = 2024
+			    ),
+			    1000
+			)
+		formatString: #,##0.0
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 0d055d76-ad32-4c06-8602-db6d89f0ff7f
+
+	measure 'CREA 2024 Biomassa per PLTU (kt)' =
+			DIVIDE(
+			    CALCULATE(
+			        SUM( fact_pltu_operations[biomass_used_ton] ),
+			        fact_pltu_operations[dataset_role] = "COFIRING_REALIZATION_CREA",
+			        dim_time[year] = 2024
+			    ),
+			    1000
+			)
+		formatString: #,##0.0
+		displayFolder: 04_Simulator_WhatIf
+		lineageTag: 5449a5b6-2820-4710-827a-ae2916e0dbed
+
+	measure 'Tren Potensi Tanaman BDSP Layak (TWh)' =
+			VAR _Tech = [Teknologi Aktif Code]
+			RETURN
+			DIVIDE(
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_generation_mwh] ),
+			        fact_feedstock_potential[is_boiler_eligible] = 1,
+			        dim_conversion_tech[tech_code] = _Tech,
+			        dim_feedstock[feedstock_id] IN { "FS01", "FS02", "FS03", "FS06", "FS07", "FS08" }
+			    ),
+			    1000000
+			)
+		formatString: #,##0.00
+		displayFolder: 05_Tren_Historis
+		lineageTag: c0c6106f-b1e3-46a4-8a9a-4c9e23f71251
+
+	measure 'Tren Potensi Kayu KLHK Layak (TWh)' =
+			VAR _Tech = [Teknologi Aktif Code]
+			RETURN
+			DIVIDE(
+			    CALCULATE(
+			        SUM( fact_feedstock_potential[estimated_generation_mwh] ),
+			        fact_feedstock_potential[is_boiler_eligible] = 1,
+			        dim_conversion_tech[tech_code] = _Tech,
+			        dim_feedstock[feedstock_id] IN { "FS09", "FS10" }
+			    ),
+			    1000000
+			)
+		formatString: #,##0.00
+		displayFolder: 05_Tren_Historis
+		lineageTag: d98e38a1-43b2-42bf-a296-a29c64a48858
+
+	measure 'Warna Status Boiler' = IF( SELECTEDVALUE( dim_feedstock[boiler_status] ) = "Not Eligible", "#B42318", "#1B5E42" )
+		displayFolder: 06_Format_Warna
+		lineageTag: c39e495c-b408-4b12-97ce-dc798d6ead47
+
+	measure 'Warna Gap Simulator' = IF( [Sim Gap Surplus/Defisit (GWh)] < 0, "#B42318", "#1B5E42" )
+		displayFolder: 06_Format_Warna
+		lineageTag: 5dd3312c-f9cd-4525-943d-fec324b9ec78
+
+	column _Dummy
+		isHidden
+		lineageTag: c515fc0b-50be-40fd-a466-a3a4a2d91264
+		isNameInferred
+		sourceColumn: [_Dummy]
+
+	partition _Measures = calculated
+		mode: import
+		source = ROW("_Dummy", 0)
+

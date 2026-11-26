@@ -1,0 +1,69 @@
+table dim_shap_importance
+	lineageTag: 6aab9bc8-f5c9-45e4-a6e8-d8d89aaa0608
+
+	column scenario_code
+		dataType: string
+		lineageTag: bb86daca-e401-414b-bd65-17d36d20fce6
+		sourceColumn: scenario_code
+
+	column scenario_label
+		dataType: string
+		lineageTag: 7cc09800-cf9d-485f-bfaf-0e08a88e1938
+		sourceColumn: scenario_label
+
+	column feature_code
+		dataType: string
+		lineageTag: ba1b70df-4951-4408-b2da-4f6f506d24a7
+		sourceColumn: feature_code
+
+	column feature_label_id
+		dataType: string
+		lineageTag: 709cb32a-78cd-4674-979d-2c54ef670b0d
+		sourceColumn: feature_label_id
+
+	column mean_abs_shap_mj_kg
+		dataType: double
+		lineageTag: 0cdb5d75-1b23-49d7-9360-0a46b10d0a36
+		sourceColumn: mean_abs_shap_mj_kg
+
+	column rank_in_scenario
+		dataType: int64
+		lineageTag: 48935f74-7c12-4b16-8db0-4c796ccf620e
+		sourceColumn: rank_in_scenario
+
+	column model_algorithm
+		dataType: string
+		lineageTag: 700b1078-9508-409d-b46b-199807941063
+		sourceColumn: model_algorithm
+
+	column shap_backend
+		dataType: string
+		lineageTag: fbc0a3c9-eaa2-4c36-9752-010160e538ca
+		sourceColumn: shap_backend
+
+	partition dim_shap_importance = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\powerbi\dim_shap_importance.csv"),
+				        [Delimiter=",", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"scenario_code", type text},
+				            {"scenario_label", type text},
+				            {"feature_code", type text},
+				            {"feature_label_id", type text},
+				            {"mean_abs_shap_mj_kg", type number},
+				            {"rank_in_scenario", Int64.Type},
+				            {"model_algorithm", type text},
+				            {"shap_backend", type text}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

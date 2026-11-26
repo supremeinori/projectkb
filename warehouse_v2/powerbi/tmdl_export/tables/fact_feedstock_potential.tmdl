@@ -1,0 +1,188 @@
+table fact_feedstock_potential
+	lineageTag: 3bb69d40-d0ae-4396-b787-5ec64daf5250
+
+	column energy_fact_id
+		dataType: int64
+		isHidden
+		lineageTag: 0e05e9aa-7b3f-4798-bfb5-c57f19f01c5a
+		sourceColumn: energy_fact_id
+
+	column time_key
+		dataType: int64
+		isHidden
+		lineageTag: 435e9ea3-0930-430f-8a3e-dfc1c78c3c5c
+		sourceColumn: time_key
+
+	column location_key
+		dataType: int64
+		isHidden
+		lineageTag: 63ac52bd-84d4-4243-9d7a-4b8f3a54a38c
+		sourceColumn: location_key
+
+	column feedstock_key
+		dataType: int64
+		isHidden
+		lineageTag: 53acf5bd-69d6-4544-80f1-cea955de5c0e
+		sourceColumn: feedstock_key
+
+	column tech_key
+		dataType: int64
+		isHidden
+		lineageTag: 5e68d2b5-4b95-42cf-8515-916056bf7fbd
+		sourceColumn: tech_key
+
+	column level_wilayah_fakta
+		dataType: string
+		lineageTag: edd29644-730d-4c92-857a-13483ba35db5
+		sourceColumn: level_wilayah_fakta
+
+	column sumber_data
+		dataType: string
+		lineageTag: 46c3e880-9e4e-44d0-8f45-e60824ced214
+		sourceColumn: sumber_data
+
+	column cakupan_data
+		dataType: string
+		lineageTag: 08008e7f-6308-4618-bff0-d3698b387db4
+		sourceColumn: cakupan_data
+
+	column is_anchor_2022
+		dataType: int64
+		lineageTag: 7a5c8d36-969a-4bca-a687-0bc280d5aecf
+		sourceColumn: is_anchor_2022
+
+	column is_latest_complete_year
+		dataType: int64
+		lineageTag: 0f784bf9-a33c-4644-a1c1-1cdb33a56fe5
+		sourceColumn: is_latest_complete_year
+
+	column is_latest_available_year
+		dataType: int64
+		lineageTag: 55c75f45-3828-44e7-ab73-e47c84a4a613
+		sourceColumn: is_latest_available_year
+
+	column is_boiler_eligible
+		dataType: int64
+		lineageTag: 9c04a514-73f5-4303-aff4-db4acc6b319e
+		sourceColumn: is_boiler_eligible
+
+	column commodity_production_val
+		dataType: double
+		lineageTag: 1beb1326-42af-4022-8157-379344d3d04f
+		sourceColumn: commodity_production_val
+
+	column commodity_unit
+		dataType: string
+		lineageTag: 537b7c30-3bd8-4dbe-97aa-25b5e1ceb8d2
+		sourceColumn: commodity_unit
+
+	column rpr_ratio_used
+		dataType: double
+		lineageTag: 94a063f5-108b-4020-a682-6fe59da93203
+		sourceColumn: rpr_ratio_used
+
+	column recoverability_factor_used
+		dataType: double
+		lineageTag: 8100f894-ac71-4f65-997e-3617ec313862
+		sourceColumn: recoverability_factor_used
+
+	column estimated_supply_gross_tons
+		dataType: double
+		lineageTag: 11c69a16-ee59-433b-89c1-052b66e2cecc
+		sourceColumn: estimated_supply_gross_tons
+
+	column estimated_supply_tons
+		dataType: double
+		lineageTag: 0db1478d-4dc6-455e-9366-774990ec7208
+		sourceColumn: estimated_supply_tons
+
+	column moisture_lapangan_pct
+		dataType: double
+		lineageTag: 1e5ebc89-f9bd-44b7-9997-7dd7d937596a
+		sourceColumn: moisture_lapangan_pct
+
+	column predicted_hhv_mj_kg
+		dataType: double
+		lineageTag: 500d811c-885d-4183-9141-128f0c4bd917
+		sourceColumn: predicted_hhv_mj_kg
+
+	column effective_lhv_mj_kg
+		dataType: double
+		lineageTag: 40505eff-26a9-46b8-ae0d-7c039767f84d
+		sourceColumn: effective_lhv_mj_kg
+
+	column total_energy_potential_gj
+		dataType: double
+		lineageTag: 7cecd4c4-115b-4b79-ae72-038f31667155
+		sourceColumn: total_energy_potential_gj
+
+	column estimated_generation_mwh
+		dataType: double
+		lineageTag: 6bd1c711-15d6-4933-bc1e-56faeada82a4
+		sourceColumn: estimated_generation_mwh
+
+	column estimated_capacity_mw
+		dataType: double
+		lineageTag: 4d1fd32f-2547-43e7-83aa-0199ad803eff
+		sourceColumn: estimated_capacity_mw
+
+	column coal_replaced_tons
+		dataType: double
+		lineageTag: f68b643b-7e44-4ece-b6f4-7c29e684f67a
+		sourceColumn: coal_replaced_tons
+
+	column co2_offset_tons
+		dataType: double
+		lineageTag: 60defc1d-3c40-458f-8c5b-23d8c849d7d3
+		sourceColumn: co2_offset_tons
+
+	column ash_load_tons
+		dataType: double
+		lineageTag: 87b78fff-8e90-43dd-9295-6ff38e408258
+		sourceColumn: ash_load_tons
+
+	partition fact_feedstock_potential = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\tables\fact_feedstock_potential.csv"),
+				        [Delimiter=",", Columns=27, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"energy_fact_id", Int64.Type},
+				            {"time_key", Int64.Type},
+				            {"location_key", Int64.Type},
+				            {"feedstock_key", Int64.Type},
+				            {"tech_key", Int64.Type},
+				            {"level_wilayah_fakta", type text},
+				            {"sumber_data", type text},
+				            {"cakupan_data", type text},
+				            {"is_anchor_2022", Int64.Type},
+				            {"is_latest_complete_year", Int64.Type},
+				            {"is_latest_available_year", Int64.Type},
+				            {"is_boiler_eligible", Int64.Type},
+				            {"commodity_production_val", type number},
+				            {"commodity_unit", type text},
+				            {"rpr_ratio_used", type number},
+				            {"recoverability_factor_used", type number},
+				            {"estimated_supply_gross_tons", type number},
+				            {"estimated_supply_tons", type number},
+				            {"moisture_lapangan_pct", type number},
+				            {"predicted_hhv_mj_kg", type number},
+				            {"effective_lhv_mj_kg", type number},
+				            {"total_energy_potential_gj", type number},
+				            {"estimated_generation_mwh", type number},
+				            {"estimated_capacity_mw", type number},
+				            {"coal_replaced_tons", type number},
+				            {"co2_offset_tons", type number},
+				            {"ash_load_tons", type number}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

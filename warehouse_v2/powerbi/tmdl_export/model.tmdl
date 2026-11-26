@@ -1,0 +1,33 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["FolderProjectKB","dim_conversion_tech"]
+
+annotation PBIDesktopVersion = 2.141.1451.0 (25.03)+5007b75f0f7edbed506e31fcb76584cd6d711788
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_ProTooling = ["MCP-PBIModeling"]
+
+ref table 'Param CoFiring Pct'
+ref table 'Param Coal HHV'
+ref table _Measures
+ref table dim_conversion_tech
+ref table dim_time
+ref table dim_feedstock
+ref table dim_location
+ref table dim_power_plant
+ref table fact_feedstock_potential
+ref table fact_pltu_operations
+ref table dim_view_mode
+ref table dim_shap_importance
+ref table dim_ml_model_metrics
+ref table dim_phyllis2_validation
+
+ref cultureInfo en-US
+

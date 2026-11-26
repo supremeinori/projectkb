@@ -1,0 +1,133 @@
+table dim_power_plant
+	lineageTag: 43c9d99d-7a48-420c-8cad-10fcf1eb5c6f
+
+	column pltu_key
+		dataType: int64
+		lineageTag: e2bf31b9-4931-40ab-8c44-a2308e6515ee
+		sourceColumn: pltu_key
+
+	column pltu_master_id
+		dataType: string
+		lineageTag: 2d438c22-d41d-43c6-af92-d0ff40974591
+		sourceColumn: pltu_master_id
+
+	column nama_pltu_standar
+		dataType: string
+		lineageTag: 874b1926-33a8-4861-9eb2-6bd7cb3d4427
+		sourceColumn: nama_pltu_standar
+
+	column nama_climatetrace
+		dataType: string
+		lineageTag: 85c0d3b4-3806-4098-8849-286a2f625238
+		sourceColumn: nama_climatetrace
+
+	column nama_wri_gppd
+		dataType: string
+		lineageTag: 8028a8f2-5502-4b20-8101-3630036f47ee
+		sourceColumn: nama_wri_gppd
+
+	column nama_crea_2025
+		dataType: string
+		lineageTag: 18836267-b900-4f6e-93ca-d3eb5c421126
+		sourceColumn: nama_crea_2025
+
+	column owner_operator
+		dataType: string
+		lineageTag: cafbfbb8-6c63-4d5e-95bb-ea756df34571
+		sourceColumn: owner_operator
+
+	column jenis_boiler
+		dataType: string
+		lineageTag: 1dff9d7e-dbe9-49cb-a16f-bf582dd940f1
+		sourceColumn: jenis_boiler
+
+	column status_cofiring_2024
+		dataType: string
+		lineageTag: 4dbad8da-5482-4611-aacd-1dc0d3b94654
+		sourceColumn: status_cofiring_2024
+
+	column commissioning_year
+		dataType: int64
+		lineageTag: a8473f80-3783-4aef-a2a0-f048851c182b
+		sourceColumn: commissioning_year
+
+	column latitude
+		dataType: double
+		lineageTag: cb9352db-8d92-4ed7-a1ca-c3c00cd7cef9
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: latitude
+
+	column longitude
+		dataType: double
+		lineageTag: 66a64bfb-ab19-4dab-9224-68b6d8fe803d
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: longitude
+
+	column has_coordinates
+		dataType: int64
+		lineageTag: f7d84913-3302-4ea7-b0b1-a99bf05d911b
+		sourceColumn: has_coordinates
+
+	column pulau
+		dataType: string
+		lineageTag: 60cb8231-7e33-4071-82d9-607186260ab6
+		sourceColumn: pulau
+
+	column masuk_5_pulau_pltu
+		dataType: int64
+		lineageTag: 57aebe6f-cd16-47f7-aac1-7e48af7c2e93
+		sourceColumn: masuk_5_pulau_pltu
+
+	column wilayah_pln
+		dataType: string
+		lineageTag: 94919d8d-1ca0-4064-929f-7e511dcb6db5
+		sourceColumn: wilayah_pln
+
+	column entity_match_method
+		dataType: string
+		lineageTag: 4165fc79-e6e1-499c-b334-778053777ace
+		sourceColumn: entity_match_method
+
+	column name_audit_flag
+		dataType: string
+		lineageTag: 7836c902-fe86-4b34-8710-66529a6bc134
+		sourceColumn: name_audit_flag
+
+	partition dim_power_plant = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\tables\dim_power_plant.csv"),
+				        [Delimiter=",", Columns=18, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"pltu_key", Int64.Type},
+				            {"pltu_master_id", type text},
+				            {"nama_pltu_standar", type text},
+				            {"nama_climatetrace", type text},
+				            {"nama_wri_gppd", type text},
+				            {"nama_crea_2025", type text},
+				            {"owner_operator", type text},
+				            {"jenis_boiler", type text},
+				            {"status_cofiring_2024", type text},
+				            {"commissioning_year", Int64.Type},
+				            {"latitude", type number},
+				            {"longitude", type number},
+				            {"has_coordinates", Int64.Type},
+				            {"pulau", type text},
+				            {"masuk_5_pulau_pltu", Int64.Type},
+				            {"wilayah_pln", type text},
+				            {"entity_match_method", type text},
+				            {"name_audit_flag", type text}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

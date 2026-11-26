@@ -1,0 +1,127 @@
+table fact_pltu_operations
+	lineageTag: 9a0dfe00-768b-4e44-97a5-78281f0eb022
+
+	column pltu_fact_id
+		dataType: int64
+		isHidden
+		lineageTag: e3bc2c5a-7919-45d6-8e12-ee2718eda434
+		sourceColumn: pltu_fact_id
+
+	column time_key
+		dataType: int64
+		isHidden
+		lineageTag: ac7c0d74-d3cd-484f-827e-c5cf42d53c65
+		sourceColumn: time_key
+
+	column location_key
+		dataType: int64
+		isHidden
+		lineageTag: bb0d742c-3e08-4807-8abf-ed4a697e5f01
+		sourceColumn: location_key
+
+	column pltu_key
+		dataType: int64
+		isHidden
+		lineageTag: e63d2ea5-c2a9-4009-b178-51fae2507362
+		sourceColumn: pltu_key
+
+	column dataset_role
+		dataType: string
+		lineageTag: f8c4d27f-f3a0-496d-b09b-17b9d6a4943e
+		sourceColumn: dataset_role
+
+	column kode_sumber
+		dataType: string
+		lineageTag: f50e8483-e6c9-400e-bdc9-2c0193cf612e
+		sourceColumn: kode_sumber
+
+	column crea_block_count
+		dataType: int64
+		lineageTag: 49a79b51-d92f-4e67-a4d8-56d9dcdeba15
+		sourceColumn: crea_block_count
+
+	column capacity_mw
+		dataType: double
+		lineageTag: dcbb9f86-c122-4760-a739-cea5d59ee482
+		sourceColumn: capacity_mw
+
+	column jumlah_unit
+		dataType: int64
+		lineageTag: 99e863da-a99b-4740-a4de-e71ee5a18d72
+		sourceColumn: jumlah_unit
+
+	column activity_generation_mwh
+		dataType: double
+		lineageTag: cffe268c-6a81-4e32-bc49-fd1e9a41d5f6
+		sourceColumn: activity_generation_mwh
+
+	column capacity_factor_pct
+		dataType: double
+		lineageTag: 4b087537-739b-4858-9373-da173f6776f1
+		sourceColumn: capacity_factor_pct
+
+	column emissions_co2e_ton
+		dataType: double
+		lineageTag: 80546cb1-1d1a-4b3a-a727-50b9d053068e
+		sourceColumn: emissions_co2e_ton
+
+	column emissions_factor_t_per_mwh
+		dataType: double
+		lineageTag: cc8d6ce1-a7af-4aa8-a67f-24f409b53d7c
+		sourceColumn: emissions_factor_t_per_mwh
+
+	column cofiring_share_pct
+		dataType: double
+		lineageTag: 45718238-db88-4abb-8f8c-fa162a7461af
+		sourceColumn: cofiring_share_pct
+
+	column biomass_used_ton
+		dataType: double
+		lineageTag: 3d917cab-7e4f-4401-bde3-dbf7c8951716
+		sourceColumn: biomass_used_ton
+
+	column biomass_electricity_mwh
+		dataType: double
+		lineageTag: 7ad45793-f1af-4ea5-a1cf-4baf7225741a
+		sourceColumn: biomass_electricity_mwh
+
+	column biomass_emissions_tco2
+		dataType: double
+		lineageTag: 2b81635f-17c7-45d1-b543-857b03e6b6f8
+		sourceColumn: biomass_emissions_tco2
+
+	partition fact_pltu_operations = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\tables\fact_pltu_operations.csv"),
+				        [Delimiter=",", Columns=17, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"pltu_fact_id", Int64.Type},
+				            {"time_key", Int64.Type},
+				            {"location_key", Int64.Type},
+				            {"pltu_key", Int64.Type},
+				            {"dataset_role", type text},
+				            {"kode_sumber", type text},
+				            {"crea_block_count", Int64.Type},
+				            {"capacity_mw", type number},
+				            {"jumlah_unit", Int64.Type},
+				            {"activity_generation_mwh", type number},
+				            {"capacity_factor_pct", type number},
+				            {"emissions_co2e_ton", type number},
+				            {"emissions_factor_t_per_mwh", type number},
+				            {"cofiring_share_pct", type number},
+				            {"biomass_used_ton", type number},
+				            {"biomass_electricity_mwh", type number},
+				            {"biomass_emissions_tco2", type number}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

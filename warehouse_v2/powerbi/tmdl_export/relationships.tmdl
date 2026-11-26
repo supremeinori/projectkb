@@ -1,0 +1,28 @@
+relationship rel_ffp_feedstock
+	fromColumn: fact_feedstock_potential.feedstock_key
+	toColumn: dim_feedstock.feedstock_key
+
+relationship rel_ffp_location
+	fromColumn: fact_feedstock_potential.location_key
+	toColumn: dim_location.location_key
+
+relationship rel_ffp_time
+	fromColumn: fact_feedstock_potential.time_key
+	toColumn: dim_time.time_key
+
+relationship rel_ffp_tech
+	fromColumn: fact_feedstock_potential.tech_key
+	toColumn: dim_conversion_tech.tech_key
+
+relationship rel_fpltu_location
+	fromColumn: fact_pltu_operations.location_key
+	toColumn: dim_location.location_key
+
+relationship rel_fpltu_time
+	fromColumn: fact_pltu_operations.time_key
+	toColumn: dim_time.time_key
+
+relationship rel_fpltu_plant
+	fromColumn: fact_pltu_operations.pltu_key
+	toColumn: dim_power_plant.pltu_key
+

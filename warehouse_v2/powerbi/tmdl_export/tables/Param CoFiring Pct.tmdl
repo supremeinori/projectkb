@@ -1,0 +1,14 @@
+table 'Param CoFiring Pct'
+	lineageTag: ed5b81f2-27b0-4c3c-8e13-1fdf8347cc11
+
+	column 'Param CoFiring Pct'
+		formatString: 0%
+		lineageTag: 9542dc19-d18f-4eed-9914-78fc8dfa0983
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Param CoFiring Pct]
+
+	partition 'Param CoFiring Pct' = calculated
+		mode: import
+		source = SELECTCOLUMNS(GENERATESERIES(5, 20, 1), "Param CoFiring Pct", ROUND(DIVIDE([Value], 100), 2))
+

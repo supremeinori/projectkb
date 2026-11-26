@@ -1,0 +1,58 @@
+table dim_view_mode
+	lineageTag: 00a42488-bc38-4f3c-b94b-44e3e1bbbc96
+
+	column view_mode_key
+		dataType: int64
+		lineageTag: 8d696cdb-e99b-4d9d-a7c7-c30fe2aa10cb
+		sourceColumn: view_mode_key
+
+	column view_mode_code
+		dataType: string
+		lineageTag: 083ee53c-89d9-4c11-9746-9a570757cd44
+		sourceColumn: view_mode_code
+
+	column view_mode_label
+		dataType: string
+		lineageTag: fd4b3247-937d-4b73-b42a-0614cc45d3e3
+		sourceColumn: view_mode_label
+		sortByColumn: sort_order
+
+	column pltu_reference_year
+		dataType: int64
+		lineageTag: f02a6012-9299-4484-b08e-13a5da4f9409
+		sourceColumn: pltu_reference_year
+
+	column sort_order
+		dataType: int64
+		lineageTag: b35632a6-18a0-47a5-99b0-a55f95991597
+		sourceColumn: sort_order
+
+	column scope_note_id
+		dataType: string
+		lineageTag: d4103e58-bcd0-4dfd-b0b2-7b9516ffe7ab
+		sourceColumn: scope_note_id
+
+	partition dim_view_mode = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\powerbi\dim_view_mode.csv"),
+				        [Delimiter=",", Columns=6, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"view_mode_key", Int64.Type},
+				            {"view_mode_code", type text},
+				            {"view_mode_label", type text},
+				            {"pltu_reference_year", Int64.Type},
+				            {"sort_order", Int64.Type},
+				            {"scope_note_id", type text}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

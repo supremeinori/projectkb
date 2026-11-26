@@ -1,0 +1,75 @@
+table dim_conversion_tech
+	lineageTag: eb959ba8-3fc5-4eb5-a789-33439635c6f4
+
+	column tech_key
+		dataType: int64
+		lineageTag: b1250bb3-b573-425f-a9ea-fb381d552fba
+		sourceColumn: tech_key
+
+	column tech_code
+		dataType: string
+		lineageTag: 0fe00f8f-8dbd-4c69-9fa2-25979df7b192
+		sourceColumn: tech_code
+
+	column tech_name
+		dataType: string
+		lineageTag: c954b96f-556f-4153-b41d-58dec001c44e
+		sourceColumn: tech_name
+
+	column efficiency_pct
+		dataType: double
+		lineageTag: 02c74a2a-075c-4303-8a6a-f5472c7f35c0
+		sourceColumn: efficiency_pct
+
+	column capacity_factor_pct
+		dataType: double
+		lineageTag: 85bcaaec-d0f5-4bac-994a-194421574818
+		sourceColumn: capacity_factor_pct
+
+	column operating_hours_per_year
+		dataType: double
+		lineageTag: 10d7d3ea-9d62-4391-bd83-2257bec028e2
+		sourceColumn: operating_hours_per_year
+
+	column ash_limit_pct
+		dataType: double
+		lineageTag: d997416e-e160-4d72-9dd1-58f4feb20292
+		sourceColumn: ash_limit_pct
+
+	column sulfur_limit_pct
+		dataType: double
+		lineageTag: be78bc20-b4b9-4272-971b-51ce3301301c
+		sourceColumn: sulfur_limit_pct
+
+	column reference_note
+		dataType: string
+		lineageTag: baf65809-e644-4c63-9724-23ac33253cb8
+		sourceColumn: reference_note
+
+	partition dim_conversion_tech = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\tables\dim_conversion_tech.csv"),
+				        [Delimiter=",", Columns=9, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"tech_key", Int64.Type},
+				            {"tech_code", type text},
+				            {"tech_name", type text},
+				            {"efficiency_pct", type number},
+				            {"capacity_factor_pct", type number},
+				            {"operating_hours_per_year", type number},
+				            {"ash_limit_pct", type number},
+				            {"sulfur_limit_pct", type number},
+				            {"reference_note", type text}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

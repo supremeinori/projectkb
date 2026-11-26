@@ -1,0 +1,93 @@
+table dim_ml_model_metrics
+	lineageTag: 47f7219c-5028-4dc1-9f4e-6a9a3062fae0
+
+	column scenario_code
+		dataType: string
+		lineageTag: d69eb696-fda0-4f92-82dc-d84c442bb5bb
+		sourceColumn: scenario_code
+
+	column scenario_label
+		dataType: string
+		lineageTag: b79805cd-2b3a-4f3d-864c-ad931057103b
+		sourceColumn: scenario_label
+
+	column algorithm
+		dataType: string
+		lineageTag: f311a4b9-8fa3-4346-a501-8c0780e3d2cf
+		sourceColumn: algorithm
+
+	column cv_r2
+		dataType: double
+		lineageTag: fe58d737-cad9-4d45-b5a3-0edb02c450eb
+		sourceColumn: cv_r2
+
+	column cv_rmse_mj_kg
+		dataType: double
+		lineageTag: 2e99e35c-f89c-4a35-a144-39d2811091a8
+		sourceColumn: cv_rmse_mj_kg
+
+	column cv_mae_mj_kg
+		dataType: double
+		lineageTag: fd306513-132f-4424-9950-23c4c9207228
+		sourceColumn: cv_mae_mj_kg
+
+	column cv_mape_pct
+		dataType: double
+		lineageTag: 9cecd228-ae78-4c88-b0f4-7b25dbe4f9b3
+		sourceColumn: cv_mape_pct
+
+	column test_r2
+		dataType: double
+		lineageTag: c48e0f17-8d0d-43a7-a6fb-617348857a56
+		sourceColumn: test_r2
+
+	column test_rmse_mj_kg
+		dataType: double
+		lineageTag: 1f8bcfc7-b395-4cdd-930e-3b5876d5fb30
+		sourceColumn: test_rmse_mj_kg
+
+	column test_mae_mj_kg
+		dataType: double
+		lineageTag: a69ff66d-fb86-4f58-99da-c1dbbe76d395
+		sourceColumn: test_mae_mj_kg
+
+	column test_mape_pct
+		dataType: double
+		lineageTag: 286a7b9c-b00b-4fbf-8388-c36ea899bde2
+		sourceColumn: test_mape_pct
+
+	column is_selected_production
+		dataType: int64
+		lineageTag: b81a4595-3a63-47f8-af50-e7bc367a229d
+		sourceColumn: is_selected_production
+
+	partition dim_ml_model_metrics = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\powerbi\dim_ml_model_metrics.csv"),
+				        [Delimiter=",", Columns=12, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"scenario_code", type text},
+				            {"scenario_label", type text},
+				            {"algorithm", type text},
+				            {"cv_r2", type number},
+				            {"cv_rmse_mj_kg", type number},
+				            {"cv_mae_mj_kg", type number},
+				            {"cv_mape_pct", type number},
+				            {"test_r2", type number},
+				            {"test_rmse_mj_kg", type number},
+				            {"test_mae_mj_kg", type number},
+				            {"test_mape_pct", type number},
+				            {"is_selected_production", Int64.Type}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

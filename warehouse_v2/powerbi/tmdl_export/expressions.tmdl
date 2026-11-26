@@ -1,0 +1,8 @@
+/// Folder akar workspace ProjectKB untuk seluruh sumber CSV warehouse_v2.
+expression FolderProjectKB = "D:\UPN VY\Semester 5\BI\Tugas\projectkb" meta [IsParameterQuery=true, Type="Text", IsParameterQueryRequired=true]
+	lineageTag: 8ecc3cca-0bb1-43a1-90ca-927a30073ab8
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Text
+

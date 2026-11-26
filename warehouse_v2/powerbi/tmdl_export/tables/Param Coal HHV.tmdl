@@ -1,0 +1,14 @@
+table 'Param Coal HHV'
+	lineageTag: 1929ef10-ad76-4b98-af3c-b74be5da0285
+
+	column 'Param Coal HHV'
+		formatString: 0.0
+		lineageTag: 0400d4ae-d1b0-4dc8-9ffe-62dc5881c60d
+		summarizeBy: none
+		isNameInferred
+		sourceColumn: [Param Coal HHV]
+
+	partition 'Param Coal HHV' = calculated
+		mode: import
+		source = SELECTCOLUMNS(GENERATESERIES(36, 44, 1), "Param Coal HHV", ROUND(DIVIDE([Value], 2), 1))
+

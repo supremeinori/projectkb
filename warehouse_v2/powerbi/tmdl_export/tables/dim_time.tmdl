@@ -1,0 +1,64 @@
+table dim_time
+	lineageTag: 9ee8a498-6f7f-4b0c-b3f6-5ffd52fd8d02
+
+	column time_key
+		dataType: int64
+		lineageTag: f3a58941-117a-44a9-b557-75c6a821a050
+		sourceColumn: time_key
+
+	column year
+		dataType: int64
+		lineageTag: b9d199a5-4a8d-45d6-b3a8-bbad0cffaf7b
+		summarizeBy: none
+		sourceColumn: year
+
+	column decade
+		dataType: int64
+		lineageTag: bbb1a313-8495-4b1b-8d24-ea31dd1f5989
+		sourceColumn: decade
+
+	column is_bps_ksa_era
+		dataType: int64
+		lineageTag: 322167f0-4f86-4f73-858a-2ef9e886c8c2
+		sourceColumn: is_bps_ksa_era
+
+	column is_post_papua_split
+		dataType: int64
+		lineageTag: 35f8da50-0425-4d86-8039-778b77bc5fae
+		sourceColumn: is_post_papua_split
+
+	column is_anchor_2022
+		dataType: int64
+		lineageTag: f6fc4c3c-b1e5-4a6f-8988-b6818b351d40
+		sourceColumn: is_anchor_2022
+
+	column has_pltu_ct_data
+		dataType: int64
+		lineageTag: 21d635bf-a502-45e3-ae1d-0d7f68b2126e
+		sourceColumn: has_pltu_ct_data
+
+	partition dim_time = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\tables\dim_time.csv"),
+				        [Delimiter=",", Columns=7, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"time_key", Int64.Type},
+				            {"year", Int64.Type},
+				            {"decade", Int64.Type},
+				            {"is_bps_ksa_era", Int64.Type},
+				            {"is_post_papua_split", Int64.Type},
+				            {"is_anchor_2022", Int64.Type},
+				            {"has_pltu_ct_data", Int64.Type}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

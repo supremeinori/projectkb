@@ -1,0 +1,225 @@
+table dim_feedstock
+	lineageTag: 603067fd-2fb6-4af5-b191-34f4392fd113
+
+	column feedstock_key
+		dataType: int64
+		lineageTag: 4d4b80de-f38d-4f17-9df5-c5e865ac4910
+		sourceColumn: feedstock_key
+
+	column feedstock_id
+		dataType: string
+		lineageTag: 0d0ad561-de55-4718-b39f-a204779229c1
+		sourceColumn: feedstock_id
+
+	column feedstock_name
+		dataType: string
+		lineageTag: b9b8bc33-7c47-4c19-a69f-ccfc151ad06f
+		sourceColumn: feedstock_name
+
+	column komoditas_bps
+		dataType: string
+		lineageTag: 16493bae-00ae-4731-9d5c-a438f0a5e6e5
+		sourceColumn: komoditas_bps
+
+	column basis_produk_primer
+		dataType: string
+		lineageTag: 2daaf69a-5fa9-4b23-99df-d85856570008
+		sourceColumn: basis_produk_primer
+
+	column rpr_primer
+		dataType: double
+		lineageTag: f096f52f-ef88-489d-87f6-166dc7c447d2
+		sourceColumn: rpr_primer
+
+	column basis_alternatif_bps
+		dataType: string
+		lineageTag: 2cd4bace-6c91-4daa-9e23-e00f392fb90c
+		sourceColumn: basis_alternatif_bps
+
+	column rpr_alternatif_bps
+		dataType: double
+		lineageTag: ebfd4a34-60f3-4f91-8f74-7abeef6f90a2
+		sourceColumn: rpr_alternatif_bps
+
+	column recoverability_factor
+		dataType: double
+		lineageTag: f3d6fbb4-8bf0-4ecf-941b-f70f57b6ada2
+		sourceColumn: recoverability_factor
+
+	column moisture_lapangan_pct
+		dataType: double
+		lineageTag: 5ea4ec72-1eec-4847-b4d6-b116471ab38e
+		sourceColumn: moisture_lapangan_pct
+
+	column ash_db
+		dataType: double
+		lineageTag: 995c3618-2bd1-4c67-a70e-14bd83e71cd6
+		sourceColumn: ash_db
+
+	column vm_db
+		dataType: double
+		lineageTag: 061a2e89-8430-4371-9c01-7edc3cb71151
+		sourceColumn: vm_db
+
+	column fc_db
+		dataType: double
+		lineageTag: da9f6ab9-759c-4161-b1c0-6f3844c72db1
+		sourceColumn: fc_db
+
+	column c_db
+		dataType: double
+		lineageTag: 84672dae-ec38-4545-aaaf-3e3f1698fd0c
+		sourceColumn: c_db
+
+	column h_db
+		dataType: double
+		lineageTag: 49af2a24-610c-4827-8c0b-67c3efeb53ef
+		sourceColumn: h_db
+
+	column o_db
+		dataType: double
+		lineageTag: 16312b7d-2138-48bb-a671-6752ce26e305
+		sourceColumn: o_db
+
+	column n_db
+		dataType: double
+		lineageTag: 4d61c1b7-b855-4fd6-a7c5-b7474fd54ac1
+		sourceColumn: n_db
+
+	column s_db
+		dataType: double
+		lineageTag: 4b72e6e0-3994-4827-a7f9-5f5078f8d3f1
+		sourceColumn: s_db
+
+	column cl_db_pct
+		dataType: double
+		lineageTag: 201e5df2-f6dc-4156-8fcb-c02317e2d10e
+		sourceColumn: cl_db_pct
+
+	column alkali_total_db_pct
+		dataType: double
+		lineageTag: 8506700d-09ed-4295-865b-0c0cbd1c793a
+		sourceColumn: alkali_total_db_pct
+
+	column idt_oxidizing_c
+		dataType: double
+		lineageTag: d7af5630-6bcc-4d43-b440-1c6f225b6a62
+		sourceColumn: idt_oxidizing_c
+
+	column actual_hhv_db
+		dataType: double
+		lineageTag: 7933c3ca-0666-43b6-bd22-010847058296
+		sourceColumn: actual_hhv_db
+
+	column predicted_hhv_prox_db
+		dataType: double
+		lineageTag: c168ea61-7384-4561-872e-5ef0674ee941
+		sourceColumn: predicted_hhv_prox_db
+
+	column predicted_hhv_full_db
+		dataType: double
+		lineageTag: 9a578b94-37dc-4920-bf46-da90ed54cbeb
+		sourceColumn: predicted_hhv_full_db
+
+	column predicted_hhv_db
+		dataType: double
+		lineageTag: 9df1026d-702a-429f-90dc-30b56492002a
+		sourceColumn: predicted_hhv_db
+
+	column effective_lhv_lab_mj_kg
+		dataType: double
+		lineageTag: 2bafa824-bbe3-4a4e-b90f-26d90085f177
+		sourceColumn: effective_lhv_lab_mj_kg
+
+	column effective_lhv_field_mj_kg
+		dataType: double
+		lineageTag: b9e8e898-d8c4-4aa4-acdf-973d24ac6688
+		sourceColumn: effective_lhv_field_mj_kg
+
+	column high_moisture_flag
+		dataType: int64
+		lineageTag: 3401f48e-d0dc-4091-a758-8beadf6fe986
+		sourceColumn: high_moisture_flag
+
+	column boiler_status
+		dataType: string
+		lineageTag: caf3dd84-d19c-4cb1-ab36-b94584498b16
+		sourceColumn: boiler_status
+
+	column is_boiler_eligible
+		dataType: int64
+		lineageTag: 5f2d4c9a-9173-46c7-b3dc-6a4e867365a7
+		sourceColumn: is_boiler_eligible
+
+	column alkali_chlorine_flag
+		dataType: string
+		lineageTag: 947f65c9-92f3-4f9b-850f-ba5924b572f6
+		sourceColumn: alkali_chlorine_flag
+
+	column screening_recommendation
+		dataType: string
+		lineageTag: 214995d2-1f49-4bb5-b70f-fdb583b9e956
+		sourceColumn: screening_recommendation
+
+	column cluster_id
+		dataType: int64
+		lineageTag: e18ad7dd-da23-4662-86ef-3f50720ef5ec
+		sourceColumn: cluster_id
+
+	column cluster_label
+		dataType: string
+		lineageTag: 3158b2e2-761b-43e0-9372-ad09b7e3a744
+		sourceColumn: cluster_label
+
+	partition dim_feedstock = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\tables\dim_feedstock.csv"),
+				        [Delimiter=",", Columns=34, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"feedstock_key", Int64.Type},
+				            {"feedstock_id", type text},
+				            {"feedstock_name", type text},
+				            {"komoditas_bps", type text},
+				            {"basis_produk_primer", type text},
+				            {"rpr_primer", type number},
+				            {"basis_alternatif_bps", type text},
+				            {"rpr_alternatif_bps", type number},
+				            {"recoverability_factor", type number},
+				            {"moisture_lapangan_pct", type number},
+				            {"ash_db", type number},
+				            {"vm_db", type number},
+				            {"fc_db", type number},
+				            {"c_db", type number},
+				            {"h_db", type number},
+				            {"o_db", type number},
+				            {"n_db", type number},
+				            {"s_db", type number},
+				            {"cl_db_pct", type number},
+				            {"alkali_total_db_pct", type number},
+				            {"idt_oxidizing_c", type number},
+				            {"actual_hhv_db", type number},
+				            {"predicted_hhv_prox_db", type number},
+				            {"predicted_hhv_full_db", type number},
+				            {"predicted_hhv_db", type number},
+				            {"effective_lhv_lab_mj_kg", type number},
+				            {"effective_lhv_field_mj_kg", type number},
+				            {"high_moisture_flag", Int64.Type},
+				            {"boiler_status", type text},
+				            {"is_boiler_eligible", Int64.Type},
+				            {"alkali_chlorine_flag", type text},
+				            {"screening_recommendation", type text},
+				            {"cluster_id", Int64.Type},
+				            {"cluster_label", type text}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+

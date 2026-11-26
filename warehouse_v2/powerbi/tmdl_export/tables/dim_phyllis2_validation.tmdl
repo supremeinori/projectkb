@@ -1,0 +1,99 @@
+table dim_phyllis2_validation
+	lineageTag: 46de4442-a555-4f3f-ad47-6321ae344766
+
+	column feedstock_id
+		dataType: string
+		lineageTag: 079bcdf7-ef79-4ee6-886b-6aba751d2b46
+		sourceColumn: feedstock_id
+
+	column feedstock_name
+		dataType: string
+		lineageTag: 76308c09-2169-47f1-8e23-a41e66f7ef3c
+		sourceColumn: feedstock_name
+
+	column proximate_source
+		dataType: string
+		lineageTag: 192cfdd9-8e2c-49b3-8a14-b6ed56d06764
+		sourceColumn: proximate_source
+
+	column is_pure_phyllis2
+		dataType: int64
+		lineageTag: f3412a0d-1f0f-4c4c-8799-b001a0e0264c
+		sourceColumn: is_pure_phyllis2
+
+	column actual_hhv_db
+		dataType: double
+		lineageTag: b94f478a-57a7-46c0-8b7b-09fa5b055577
+		sourceColumn: actual_hhv_db
+
+	column predicted_hhv_prox_db
+		dataType: double
+		lineageTag: 867c01f5-207d-4e88-b2c2-3559cc0cbeae
+		sourceColumn: predicted_hhv_prox_db
+
+	column err_prox_pct
+		dataType: double
+		lineageTag: 5bb94537-dce8-4db6-8105-106d8e5ea9e1
+		sourceColumn: err_prox_pct
+
+	column predicted_hhv_full_db
+		dataType: double
+		lineageTag: d9341258-5484-4860-b074-ec700e8d7549
+		sourceColumn: predicted_hhv_full_db
+
+	column err_full_pct
+		dataType: double
+		lineageTag: 408e0027-a0c0-4890-b0af-96bb481a89f8
+		sourceColumn: err_full_pct
+
+	column effective_lhv_field_mj_kg
+		dataType: double
+		lineageTag: 05c0d8dd-f2fc-4267-b410-961047906fe2
+		sourceColumn: effective_lhv_field_mj_kg
+
+	column boiler_status
+		dataType: string
+		lineageTag: ca91e909-6932-4135-9f8e-32b1a193510a
+		sourceColumn: boiler_status
+
+	column alkali_chlorine_flag
+		dataType: string
+		lineageTag: 0a94c408-6103-4d16-ae67-95294d636e7e
+		sourceColumn: alkali_chlorine_flag
+
+	column cluster_label
+		dataType: string
+		lineageTag: 500685ba-bf59-472b-a4e8-eca40dc38e87
+		sourceColumn: cluster_label
+
+	partition dim_phyllis2_validation = m
+		mode: import
+		source =
+				let
+				    Sumber = Csv.Document(
+				        File.Contents(FolderProjectKB & "\warehouse_v2\powerbi\dim_phyllis2_validation.csv"),
+				        [Delimiter=",", Columns=13, Encoding=65001, QuoteStyle=QuoteStyle.Csv]
+				    ),
+				    Header = Table.PromoteHeaders(Sumber, [PromoteAllScalars=true]),
+				    TipeData = Table.TransformColumnTypes(
+				        Header,
+				        {
+				            {"feedstock_id", type text},
+				            {"feedstock_name", type text},
+				            {"proximate_source", type text},
+				            {"is_pure_phyllis2", Int64.Type},
+				            {"actual_hhv_db", type number},
+				            {"predicted_hhv_prox_db", type number},
+				            {"err_prox_pct", type number},
+				            {"predicted_hhv_full_db", type number},
+				            {"err_full_pct", type number},
+				            {"effective_lhv_field_mj_kg", type number},
+				            {"boiler_status", type text},
+				            {"alkali_chlorine_flag", type text},
+				            {"cluster_label", type text}
+				        },
+				        "en-US"
+				    )
+				in
+				    TipeData
+
