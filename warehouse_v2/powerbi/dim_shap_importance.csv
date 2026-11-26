@@ -1,0 +1,12 @@
+scenario_code,scenario_label,feature_code,feature_label_id,mean_abs_shap_mj_kg,rank_in_scenario,model_algorithm,shap_backend
+SCENARIO_B_FULL,Skenario B (Proximate + Ultimate),c_db,"Karbon (C, % dry basis)",0.8377,1,Random Forest,shap.TreeExplainer
+SCENARIO_B_FULL,Skenario B (Proximate + Ultimate),s_db,"Sulfur (S, % dry basis)",0.1986,2,Random Forest,shap.TreeExplainer
+SCENARIO_B_FULL,Skenario B (Proximate + Ultimate),ash_db,"Kadar Abu (Ash, % dry basis)",0.1481,3,Random Forest,shap.TreeExplainer
+SCENARIO_B_FULL,Skenario B (Proximate + Ultimate),n_db,"Nitrogen (N, % dry basis)",0.1294,4,Random Forest,shap.TreeExplainer
+SCENARIO_B_FULL,Skenario B (Proximate + Ultimate),fc_db,"Karbon Tetap (Fixed Carbon, %)",0.0654,5,Random Forest,shap.TreeExplainer
+SCENARIO_B_FULL,Skenario B (Proximate + Ultimate),h_db,"Hidrogen (H, % dry basis)",0.0552,6,Random Forest,shap.TreeExplainer
+SCENARIO_B_FULL,Skenario B (Proximate + Ultimate),vm_db,"Zat Terbang (Volatile Matter, %)",0.0375,7,Random Forest,shap.TreeExplainer
+SCENARIO_B_FULL,Skenario B (Proximate + Ultimate),o_db,"Oksigen (O, % dry basis)",0.0355,8,Random Forest,shap.TreeExplainer
+SCENARIO_A_PROX,Skenario A (Proximate-Only),ash_db,"Kadar Abu (Ash, % dry basis)",0.8303,1,Random Forest,shap.TreeExplainer
+SCENARIO_A_PROX,Skenario A (Proximate-Only),fc_db,"Karbon Tetap (Fixed Carbon, %)",0.1413,2,Random Forest,shap.TreeExplainer
+SCENARIO_A_PROX,Skenario A (Proximate-Only),vm_db,"Zat Terbang (Volatile Matter, %)",0.0616,3,Random Forest,shap.TreeExplainer

@@ -1,0 +1,282 @@
+kode_prov,provinsi,pulau,tahun,segmen_kayu,komoditas_bps,produksi_m3,produksi_ton_est,basis_produk,satuan_asli,cakupan_data,is_anchor_2022,is_latest_complete_year,is_latest_available_year,edisi_sumber
+11,Aceh,Sumatera,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+12,Sumatera Utara,Sumatera,2018,PBPH,Kayu,1338591.43,870084.4295,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+13,Sumatera Barat,Sumatera,2018,PBPH,Kayu,124656.73,81026.8745,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+14,Riau,Sumatera,2018,PBPH,Kayu,20552018.13,13358811.7845,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+15,Jambi,Sumatera,2018,PBPH,Kayu,4959301.37,3223545.8905,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+16,Sumatera Selatan,Sumatera,2018,PBPH,Kayu,7699530.59,5004694.8835,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+17,Bengkulu,Sumatera,2018,PBPH,Kayu,5340.72,3471.4680000000003,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+18,Lampung,Sumatera,2018,PBPH,Kayu,46293.22,30090.593,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+19,Kepulauan Bangka Belitung,Sumatera,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+21,Kepulauan Riau,Sumatera,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+31,DKI Jakarta,Jawa,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+32,Jawa Barat,Jawa,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+33,Jawa Tengah,Jawa,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+34,DI Yogyakarta,Jawa,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+35,Jawa Timur,Jawa,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+36,Banten,Jawa,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+51,Bali,Bali-Nusa Tenggara,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+52,Nusa Tenggara Barat,Bali-Nusa Tenggara,2018,PBPH,Kayu,3846.66,2500.329,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+53,Nusa Tenggara Timur,Bali-Nusa Tenggara,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+61,Kalimantan Barat,Kalimantan,2018,PBPH,Kayu,1355207.85,880885.1025,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+62,Kalimantan Tengah,Kalimantan,2018,PBPH,Kayu,3528818.07,2293731.7455,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+63,Kalimantan Selatan,Kalimantan,2018,PBPH,Kayu,33818.89,21982.2785,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+64,Kalimantan Timur,Kalimantan,2018,PBPH,Kayu,4491587.44,2919531.8360000006,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+65,Kalimantan Utara,Kalimantan,2018,PBPH,Kayu,1334772.26,867601.969,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+71,Sulawesi Utara,Sulawesi,2018,PBPH,Kayu,2598.41,1688.9665,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+72,Sulawesi Tengah,Sulawesi,2018,PBPH,Kayu,9383.24,6099.106,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+73,Sulawesi Selatan,Sulawesi,2018,PBPH,Kayu,15962.59,10375.683500000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+74,Sulawesi Tenggara,Sulawesi,2018,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+75,Gorontalo,Sulawesi,2018,PBPH,Kayu,1164.85,757.1524999999999,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+76,Sulawesi Barat,Sulawesi,2018,PBPH,Kayu,3834.73,2492.5745,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+81,Maluku,Maluku,2018,PBPH,Kayu,314259.4,204268.61000000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+82,Maluku Utara,Maluku,2018,PBPH,Kayu,67647.02,43970.563,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+91,Papua Barat,Papua,2018,PBPH,Kayu,749189.71,486973.3115,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+94,Papua,Papua,2018,PBPH,Kayu,475294.66,308941.529,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+32,Jawa Barat,Jawa,2018,Perum Perhutani,Kayu,125319.0,81457.35,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+33,Jawa Tengah,Jawa,2018,Perum Perhutani,Kayu,254596.0,165487.4,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+35,Jawa Timur,Jawa,2018,Perum Perhutani,Kayu,408476.0,265509.4,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+36,Banten,Jawa,2018,Perum Perhutani,Kayu,21543.0,14002.95,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+11,Aceh,Sumatera,2019,PBPH,Kayu,387.56,251.91400000000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+12,Sumatera Utara,Sumatera,2019,PBPH,Kayu,1221134.08,793737.1520000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+13,Sumatera Barat,Sumatera,2019,PBPH,Kayu,134397.55,87358.4075,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+14,Riau,Sumatera,2019,PBPH,Kayu,19986887.84,12991477.096,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+15,Jambi,Sumatera,2019,PBPH,Kayu,4961069.48,3224695.1620000005,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+16,Sumatera Selatan,Sumatera,2019,PBPH,Kayu,7635824.69,4963286.0485000005,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+17,Bengkulu,Sumatera,2019,PBPH,Kayu,4075.44,2649.036,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+18,Lampung,Sumatera,2019,PBPH,Kayu,87837.85,57094.60250000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+19,Kepulauan Bangka Belitung,Sumatera,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+21,Kepulauan Riau,Sumatera,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+31,DKI Jakarta,Jawa,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+32,Jawa Barat,Jawa,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+33,Jawa Tengah,Jawa,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+34,DI Yogyakarta,Jawa,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+35,Jawa Timur,Jawa,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+36,Banten,Jawa,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+51,Bali,Bali-Nusa Tenggara,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+52,Nusa Tenggara Barat,Bali-Nusa Tenggara,2019,PBPH,Kayu,33578.06,21825.738999999998,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+53,Nusa Tenggara Timur,Bali-Nusa Tenggara,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+61,Kalimantan Barat,Kalimantan,2019,PBPH,Kayu,1078987.51,701341.8815,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+62,Kalimantan Tengah,Kalimantan,2019,PBPH,Kayu,1209704.78,786308.1070000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+63,Kalimantan Selatan,Kalimantan,2019,PBPH,Kayu,2036777.2,1323905.18,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+64,Kalimantan Timur,Kalimantan,2019,PBPH,Kayu,4498175.36,2923813.984,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+65,Kalimantan Utara,Kalimantan,2019,PBPH,Kayu,1264892.46,822180.099,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+71,Sulawesi Utara,Sulawesi,2019,PBPH,Kayu,274.37,178.34050000000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+72,Sulawesi Tengah,Sulawesi,2019,PBPH,Kayu,8410.73,5466.9745,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+73,Sulawesi Selatan,Sulawesi,2019,PBPH,Kayu,6914.41,4494.3665,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+74,Sulawesi Tenggara,Sulawesi,2019,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+75,Gorontalo,Sulawesi,2019,PBPH,Kayu,50.65,32.9225,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+76,Sulawesi Barat,Sulawesi,2019,PBPH,Kayu,4087.75,2657.0375,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+81,Maluku,Maluku,2019,PBPH,Kayu,273046.83,177480.4395,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+82,Maluku Utara,Maluku,2019,PBPH,Kayu,104934.63,68207.5095,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+91,Papua Barat,Papua,2019,PBPH,Kayu,777309.37,505251.0905,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+94,Papua,Papua,2019,PBPH,Kayu,434995.62,282747.153,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+32,Jawa Barat,Jawa,2019,Perum Perhutani,Kayu,102333.0,66516.45,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+33,Jawa Tengah,Jawa,2019,Perum Perhutani,Kayu,275806.0,179273.9,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+35,Jawa Timur,Jawa,2019,Perum Perhutani,Kayu,398581.0,259077.65000000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+36,Banten,Jawa,2019,Perum Perhutani,Kayu,31168.0,20259.2,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2022
+11,Aceh,Sumatera,2020,PBPH,Kayu,1513.12,983.5279999999999,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+12,Sumatera Utara,Sumatera,2020,PBPH,Kayu,1406224.25,914045.7625000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+13,Sumatera Barat,Sumatera,2020,PBPH,Kayu,124452.78,80894.307,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+14,Riau,Sumatera,2020,PBPH,Kayu,23111900.61,15022735.3965,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+15,Jambi,Sumatera,2020,PBPH,Kayu,5862870.22,3810865.643,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+16,Sumatera Selatan,Sumatera,2020,PBPH,Kayu,9697101.14,6303115.741,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+17,Bengkulu,Sumatera,2020,PBPH,Kayu,5247.48,3410.8619999999996,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+18,Lampung,Sumatera,2020,PBPH,Kayu,25981.7,16888.105,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+19,Kepulauan Bangka Belitung,Sumatera,2020,PBPH,Kayu,499.72,324.81800000000004,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+21,Kepulauan Riau,Sumatera,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+31,DKI Jakarta,Jawa,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+34,DI Yogyakarta,Jawa,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+36,Banten,Jawa,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+51,Bali,Bali-Nusa Tenggara,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+52,Nusa Tenggara Barat,Bali-Nusa Tenggara,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+53,Nusa Tenggara Timur,Bali-Nusa Tenggara,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+61,Kalimantan Barat,Kalimantan,2020,PBPH,Kayu,791570.17,514520.61050000007,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+62,Kalimantan Tengah,Kalimantan,2020,PBPH,Kayu,2587525.11,1681891.3215,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+63,Kalimantan Selatan,Kalimantan,2020,PBPH,Kayu,35036.32,22773.608,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+64,Kalimantan Timur,Kalimantan,2020,PBPH,Kayu,4301887.29,2796226.7385,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+65,Kalimantan Utara,Kalimantan,2020,PBPH,Kayu,1212838.3,788344.895,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+71,Sulawesi Utara,Sulawesi,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+72,Sulawesi Tengah,Sulawesi,2020,PBPH,Kayu,8488.14,5517.291,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+73,Sulawesi Selatan,Sulawesi,2020,PBPH,Kayu,6851.2,4453.28,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+74,Sulawesi Tenggara,Sulawesi,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+75,Gorontalo,Sulawesi,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+76,Sulawesi Barat,Sulawesi,2020,PBPH,Kayu,235.96,153.37400000000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+81,Maluku,Maluku,2020,PBPH,Kayu,215453.06,140044.489,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+82,Maluku Utara,Maluku,2020,PBPH,Kayu,95258.53,61918.0445,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+91,Papua Barat,Papua,2020,PBPH,Kayu,707170.85,459661.0525,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+92,Papua Barat Daya,Papua,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+94,Papua,Papua,2020,PBPH,Kayu,463470.3,301255.695,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+95,Papua Selatan,Papua,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+96,Papua Tengah,Papua,2020,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2020,Perum Perhutani,Kayu,96887.0,62976.55,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2020,Perum Perhutani,Kayu,315864.0,205311.6,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2020,Perum Perhutani,Kayu,421081.0,273702.65,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+36,Banten,Jawa,2020,Perum Perhutani,Kayu,19869.0,12914.85,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+11,Aceh,Sumatera,2021,PBPH,Kayu,10096.0,6562.400000000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+12,Sumatera Utara,Sumatera,2021,PBPH,Kayu,1649079.0,1071901.35,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+13,Sumatera Barat,Sumatera,2021,PBPH,Kayu,116843.0,75947.95,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+14,Riau,Sumatera,2021,PBPH,Kayu,24010235.0,15606652.75,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+15,Jambi,Sumatera,2021,PBPH,Kayu,5210234.0,3386652.1,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+16,Sumatera Selatan,Sumatera,2021,PBPH,Kayu,10180335.0,6617217.75,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+17,Bengkulu,Sumatera,2021,PBPH,Kayu,7526.0,4891.900000000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+18,Lampung,Sumatera,2021,PBPH,Kayu,85200.0,55380.0,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+19,Kepulauan Bangka Belitung,Sumatera,2021,PBPH,Kayu,256.0,166.4,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+21,Kepulauan Riau,Sumatera,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+31,DKI Jakarta,Jawa,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+34,DI Yogyakarta,Jawa,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+36,Banten,Jawa,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+51,Bali,Bali-Nusa Tenggara,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+52,Nusa Tenggara Barat,Bali-Nusa Tenggara,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+53,Nusa Tenggara Timur,Bali-Nusa Tenggara,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+61,Kalimantan Barat,Kalimantan,2021,PBPH,Kayu,850212.0,552637.8,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+62,Kalimantan Tengah,Kalimantan,2021,PBPH,Kayu,3052940.0,1984411.0,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+63,Kalimantan Selatan,Kalimantan,2021,PBPH,Kayu,24632.0,16010.800000000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+64,Kalimantan Timur,Kalimantan,2021,PBPH,Kayu,4262300.0,2770495.0,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+65,Kalimantan Utara,Kalimantan,2021,PBPH,Kayu,1241355.0,806880.75,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+71,Sulawesi Utara,Sulawesi,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+72,Sulawesi Tengah,Sulawesi,2021,PBPH,Kayu,3142.0,2042.3000000000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+73,Sulawesi Selatan,Sulawesi,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+74,Sulawesi Tenggara,Sulawesi,2021,PBPH,Kayu,33013.0,21458.45,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+75,Gorontalo,Sulawesi,2021,PBPH,Kayu,1513.0,983.45,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+76,Sulawesi Barat,Sulawesi,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+81,Maluku,Maluku,2021,PBPH,Kayu,211030.0,137169.5,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+82,Maluku Utara,Maluku,2021,PBPH,Kayu,131947.0,85765.55,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+91,Papua Barat,Papua,2021,PBPH,Kayu,827202.0,537681.3,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+92,Papua Barat Daya,Papua,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+94,Papua,Papua,2021,PBPH,Kayu,574748.0,373586.2,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+95,Papua Selatan,Papua,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+96,Papua Tengah,Papua,2021,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2021,Perum Perhutani,Kayu,112317.0,73006.05,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2021,Perum Perhutani,Kayu,338443.0,219987.95,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2021,Perum Perhutani,Kayu,521633.0,339061.45,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+36,Banten,Jawa,2021,Perum Perhutani,Kayu,16315.0,10604.75,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+11,Aceh,Sumatera,2022,PBPH,Kayu,9569.0,6219.85,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+12,Sumatera Utara,Sumatera,2022,PBPH,Kayu,1978439.0,1285985.35,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+13,Sumatera Barat,Sumatera,2022,PBPH,Kayu,77528.0,50393.200000000004,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+14,Riau,Sumatera,2022,PBPH,Kayu,24608469.0,15995504.85,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+15,Jambi,Sumatera,2022,PBPH,Kayu,5519005.0,3587353.25,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+16,Sumatera Selatan,Sumatera,2022,PBPH,Kayu,10747393.0,6985805.45,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+17,Bengkulu,Sumatera,2022,PBPH,Kayu,1823.0,1184.95,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+18,Lampung,Sumatera,2022,PBPH,Kayu,37199.0,24179.350000000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+19,Kepulauan Bangka Belitung,Sumatera,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+21,Kepulauan Riau,Sumatera,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+31,DKI Jakarta,Jawa,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+34,DI Yogyakarta,Jawa,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+36,Banten,Jawa,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+51,Bali,Bali-Nusa Tenggara,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+52,Nusa Tenggara Barat,Bali-Nusa Tenggara,2022,PBPH,Kayu,1000.0,650.0,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+53,Nusa Tenggara Timur,Bali-Nusa Tenggara,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+61,Kalimantan Barat,Kalimantan,2022,PBPH,Kayu,1213452.0,788743.8,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+62,Kalimantan Tengah,Kalimantan,2022,PBPH,Kayu,3141360.0,2041884.0,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+63,Kalimantan Selatan,Kalimantan,2022,PBPH,Kayu,7819.0,5082.35,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+64,Kalimantan Timur,Kalimantan,2022,PBPH,Kayu,4218527.0,2742042.5500000003,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+65,Kalimantan Utara,Kalimantan,2022,PBPH,Kayu,1243960.0,808574.0,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+71,Sulawesi Utara,Sulawesi,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+72,Sulawesi Tengah,Sulawesi,2022,PBPH,Kayu,12678.0,8240.7,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+73,Sulawesi Selatan,Sulawesi,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+74,Sulawesi Tenggara,Sulawesi,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+75,Gorontalo,Sulawesi,2022,PBPH,Kayu,250.0,162.5,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+76,Sulawesi Barat,Sulawesi,2022,PBPH,Kayu,77.0,50.050000000000004,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+81,Maluku,Maluku,2022,PBPH,Kayu,249008.0,161855.2,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+82,Maluku Utara,Maluku,2022,PBPH,Kayu,118903.0,77286.95,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+91,Papua Barat,Papua,2022,PBPH,Kayu,590689.0,383947.85000000003,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+92,Papua Barat Daya,Papua,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+94,Papua,Papua,2022,PBPH,Kayu,548402.0,356461.3,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+95,Papua Selatan,Papua,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+96,Papua Tengah,Papua,2022,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2022,Perum Perhutani,Kayu,92390.0,60053.5,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2022,Perum Perhutani,Kayu,369626.0,240256.9,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2022,Perum Perhutani,Kayu,459872.0,298916.8,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+36,Banten,Jawa,2022,Perum Perhutani,Kayu,12780.0,8307.0,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,True,False,False,Statistik_PHL_2024
+11,Aceh,Sumatera,2023,PBPH,Kayu,10652.0,6923.8,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+12,Sumatera Utara,Sumatera,2023,PBPH,Kayu,2026454.0,1317195.1,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+13,Sumatera Barat,Sumatera,2023,PBPH,Kayu,131880.0,85722.0,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+14,Riau,Sumatera,2023,PBPH,Kayu,25732066.0,16725842.9,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+15,Jambi,Sumatera,2023,PBPH,Kayu,5764257.0,3746767.0500000003,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+16,Sumatera Selatan,Sumatera,2023,PBPH,Kayu,11122796.0,7229817.4,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+17,Bengkulu,Sumatera,2023,PBPH,Kayu,2033.0,1321.45,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+18,Lampung,Sumatera,2023,PBPH,Kayu,54525.0,35441.25,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+19,Kepulauan Bangka Belitung,Sumatera,2023,PBPH,Kayu,39.0,25.35,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+21,Kepulauan Riau,Sumatera,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+31,DKI Jakarta,Jawa,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+34,DI Yogyakarta,Jawa,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+36,Banten,Jawa,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+51,Bali,Bali-Nusa Tenggara,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+52,Nusa Tenggara Barat,Bali-Nusa Tenggara,2023,PBPH,Kayu,832.0,540.8000000000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+53,Nusa Tenggara Timur,Bali-Nusa Tenggara,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+61,Kalimantan Barat,Kalimantan,2023,PBPH,Kayu,1643070.0,1067995.5,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+62,Kalimantan Tengah,Kalimantan,2023,PBPH,Kayu,3150175.0,2047613.75,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+63,Kalimantan Selatan,Kalimantan,2023,PBPH,Kayu,99889.0,64927.850000000006,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+64,Kalimantan Timur,Kalimantan,2023,PBPH,Kayu,5318922.0,3457299.3000000003,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+65,Kalimantan Utara,Kalimantan,2023,PBPH,Kayu,1260042.0,819027.3,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+71,Sulawesi Utara,Sulawesi,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+72,Sulawesi Tengah,Sulawesi,2023,PBPH,Kayu,1001.0,650.65,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+73,Sulawesi Selatan,Sulawesi,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+74,Sulawesi Tenggara,Sulawesi,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+75,Gorontalo,Sulawesi,2023,PBPH,Kayu,725.0,471.25,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+76,Sulawesi Barat,Sulawesi,2023,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+81,Maluku,Maluku,2023,PBPH,Kayu,174837.0,113644.05,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+82,Maluku Utara,Maluku,2023,PBPH,Kayu,87901.0,57135.65,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+91,Papua Barat,Papua,2023,PBPH,Kayu,387175.0,251663.75,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+92,Papua Barat Daya,Papua,2023,PBPH,Kayu,1151.0,748.15,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+94,Papua,Papua,2023,PBPH,Kayu,276893.0,179980.45,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+95,Papua Selatan,Papua,2023,PBPH,Kayu,69937.0,45459.05,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+96,Papua Tengah,Papua,2023,PBPH,Kayu,24577.0,15975.050000000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2023,Perum Perhutani,Kayu,106187.0,69021.55,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2023,Perum Perhutani,Kayu,331314.0,215354.1,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2023,Perum Perhutani,Kayu,462002.0,300301.3,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+36,Banten,Jawa,2023,Perum Perhutani,Kayu,25598.0,16638.7,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,False,False,Statistik_PHL_2024
+11,Aceh,Sumatera,2024,PBPH,Kayu,10093.14,6560.541,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+12,Sumatera Utara,Sumatera,2024,PBPH,Kayu,1901593.3,1236035.645,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+13,Sumatera Barat,Sumatera,2024,PBPH,Kayu,191864.27,124711.7755,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+14,Riau,Sumatera,2024,PBPH,Kayu,23469514.12,15255184.178000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+15,Jambi,Sumatera,2024,PBPH,Kayu,5124389.93,3330853.4545,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+16,Sumatera Selatan,Sumatera,2024,PBPH,Kayu,10363894.83,6736531.6395000005,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+17,Bengkulu,Sumatera,2024,PBPH,Kayu,3979.26,2586.5190000000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+18,Lampung,Sumatera,2024,PBPH,Kayu,127606.09,82943.9585,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+19,Kepulauan Bangka Belitung,Sumatera,2024,PBPH,Kayu,3657.3,2377.2450000000003,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+21,Kepulauan Riau,Sumatera,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+31,DKI Jakarta,Jawa,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+34,DI Yogyakarta,Jawa,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+36,Banten,Jawa,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+51,Bali,Bali-Nusa Tenggara,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+52,Nusa Tenggara Barat,Bali-Nusa Tenggara,2024,PBPH,Kayu,1189.46,773.149,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+53,Nusa Tenggara Timur,Bali-Nusa Tenggara,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+61,Kalimantan Barat,Kalimantan,2024,PBPH,Kayu,1637676.76,1064489.894,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+62,Kalimantan Tengah,Kalimantan,2024,PBPH,Kayu,2914628.43,1894508.4795000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+63,Kalimantan Selatan,Kalimantan,2024,PBPH,Kayu,250687.41,162946.81650000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+64,Kalimantan Timur,Kalimantan,2024,PBPH,Kayu,6037592.68,3924435.242,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+65,Kalimantan Utara,Kalimantan,2024,PBPH,Kayu,1444476.71,938909.8615,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+71,Sulawesi Utara,Sulawesi,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+72,Sulawesi Tengah,Sulawesi,2024,PBPH,Kayu,400.37,260.2405,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+73,Sulawesi Selatan,Sulawesi,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+74,Sulawesi Tenggara,Sulawesi,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+75,Gorontalo,Sulawesi,2024,PBPH,Kayu,36189.29,23523.038500000002,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+76,Sulawesi Barat,Sulawesi,2024,PBPH,Kayu,,,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+81,Maluku,Maluku,2024,PBPH,Kayu,139132.47,90436.1055,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+82,Maluku Utara,Maluku,2024,PBPH,Kayu,268189.93,174323.4545,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+91,Papua Barat,Papua,2024,PBPH,Kayu,507395.68,329807.192,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+92,Papua Barat Daya,Papua,2024,PBPH,Kayu,5012.64,3258.2160000000003,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+94,Papua,Papua,2024,PBPH,Kayu,119158.54,77453.05099999999,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+95,Papua Selatan,Papua,2024,PBPH,Kayu,113672.39,73887.05350000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+96,Papua Tengah,Papua,2024,PBPH,Kayu,58867.01,38263.556500000006,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+32,Jawa Barat,Jawa,2024,Perum Perhutani,Kayu,65823.1,42785.01500000001,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+33,Jawa Tengah,Jawa,2024,Perum Perhutani,Kayu,291084.3,189204.795,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+35,Jawa Timur,Jawa,2024,Perum Perhutani,Kayu,431346.48,280375.212,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024
+36,Banten,Jawa,2024,Perum Perhutani,Kayu,27979.02,18186.363,m3 Kayu Bulat (rho 0.65),m3,KLHK_PHL_PBPH_PERHUTANI,False,True,True,Statistik_PHL_2024

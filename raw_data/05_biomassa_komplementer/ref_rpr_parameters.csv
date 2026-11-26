@@ -1,0 +1,11 @@
+feedstock_id,feedstock_name,komoditas_bps,basis_produk_primer,rpr_primer,basis_alternatif_bps,rpr_alternatif_bps,recoverability_factor,moisture_lapangan_pct,referensi_utama
+FS01,palm kernel shell,Kelapa Sawit,Ton TBS (FFB),0.065,Ton CPO (OER 22%),0.295,0.8,12.0,FAO Koopmans & Koppejan (1997); Ma et al. (1986)
+FS02,empty fruit bunches,Kelapa Sawit,Ton TBS (FFB),0.23,Ton CPO (OER 22%),1.045,0.65,55.0,FAO Koopmans & Koppejan (1997); Ma et al. (1986)
+FS03,palm fiber,Kelapa Sawit,Ton TBS (FFB),0.145,Ton CPO (OER 22%),0.659,0.7,40.0,FAO Koopmans & Koppejan (1997); Ma et al. (1986)
+FS04,rice husk,Padi,Ton Gabah (GKG),0.267,Ton Gabah (GKG),0.267,0.8,12.0,FAO Koopmans & Koppejan (1997); Bhattacharya et al. (1993)
+FS05,rice straw,Padi,Ton Gabah (GKG),1.757,Ton Gabah (GKG),1.757,0.4,15.0,FAO Koopmans & Koppejan (1997); Energies (2021)
+FS06,bagasse,Tebu,Ton Batang Tebu,0.29,Ton Gula (Rendemen 7.5%),3.867,0.8,50.0,FAO Koopmans & Koppejan (1997); Bhattacharya et al. (1993)
+FS07,corn cob,Jagung,Ton Pipilan Kering,0.273,Ton Pipilan Kering,0.273,0.8,12.0,FAO Koopmans & Koppejan (1997); Energypedia Indonesia
+FS08,corn stover,Jagung,Ton Pipilan Kering,2.0,Ton Pipilan Kering,2.0,0.5,15.0,FAO Koopmans & Koppejan (1997)
+FS09,sawdust,Kayu,Ton Kayu Bulat (Log),0.12,m3 Kayu Bulat (rho 0.65),0.078,0.8,20.0,FAO Koopmans & Koppejan (1997) - Sawmilling
+FS10,wood chips,Kayu,Ton Kayu Bulat (Log),0.34,m3 Kayu Bulat (rho 0.65),0.221,0.7,25.0,FAO Koopmans & Koppejan (1997) - Slabs/edgings/trimmings

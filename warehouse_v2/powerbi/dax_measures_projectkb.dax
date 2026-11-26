@@ -1,0 +1,356 @@
+// =============================================================================
+// KUMPULAN RUMUS DAX SIAP SALIN - PROJECTKB POWER BI DASHBOARD (WAREHOUSE V2)
+// Cara pakai: Buat tabel kosong bernama "_Measures" (Home -> Enter Data -> Load),
+// lalu klik kanan "_Measures" -> New Measure untuk setiap rumus di bawah ini.
+// =============================================================================
+
+// -----------------------------------------------------------------------------
+// GRUP 0: KONTROL MODE DUAL-VIEW & PARAMETER WHAT-IF
+// (Catatan: Buat 2 What-If Parameter dulu di Modeling -> New Parameter -> Numeric Range:
+//   1. Nama: "Param CoFiring Pct", Decimal, Min 0.05, Max 0.20, Increment 0.01, Default 0.10
+//   2. Nama: "Param Coal HHV",     Decimal, Min 18,   Max 22,   Increment 0.5,  Default 20)
+// -----------------------------------------------------------------------------
+
+Mode Aktif Code =
+SELECTEDVALUE( dim_view_mode[view_mode_code], "LATEST_COMPLETE" )
+
+Ref Tahun PLTU =
+SELECTEDVALUE( dim_view_mode[pltu_reference_year], 2024 )
+
+Catatan Cakupan Dinamis =
+SELECTEDVALUE(
+    dim_view_mode[scope_note_id],
+    "Pilih satu mode data (Latest Complete atau Anchor 2022) pada slicer Mode Data."
+)
+
+// -----------------------------------------------------------------------------
+// GRUP 1: METRIK SUPLAI & POTENSI BIOMASSA LAYAK BOILER (FS04 & FS05 DIKUNCI = 0)
+// Catatan proteksi pemula: _TechCode otomatis mengunci default "TECH01" (Co-Firing 33%)
+// jika slicer Teknologi belum disetel ke Single Select, agar TECH01 & TECH02 tidak terjumlah ganda.
+// -----------------------------------------------------------------------------
+
+Teknologi Aktif Code =
+SELECTEDVALUE( dim_conversion_tech[tech_code], "TECH01" )
+
+Eligible Supply (Ton) =
+VAR _Mode = [Mode Aktif Code]
+VAR _Tech = [Teknologi Aktif Code]
+RETURN
+IF(
+    _Mode = "ANCHOR_2022",
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_supply_tons] ),
+        fact_feedstock_potential[is_anchor_2022] = 1,
+        fact_feedstock_potential[is_boiler_eligible] = 1,
+        dim_conversion_tech[tech_code] = _Tech
+    ),
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_supply_tons] ),
+        fact_feedstock_potential[is_latest_complete_year] = 1,
+        fact_feedstock_potential[is_boiler_eligible] = 1,
+        dim_conversion_tech[tech_code] = _Tech
+    )
+)
+
+Excluded Supply FS04 FS05 (Ton) =
+VAR _Mode = [Mode Aktif Code]
+VAR _Tech = [Teknologi Aktif Code]
+RETURN
+IF(
+    _Mode = "ANCHOR_2022",
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_supply_tons] ),
+        fact_feedstock_potential[is_anchor_2022] = 1,
+        fact_feedstock_potential[is_boiler_eligible] = 0,
+        dim_conversion_tech[tech_code] = _Tech
+    ),
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_supply_tons] ),
+        fact_feedstock_potential[is_latest_complete_year] = 1,
+        fact_feedstock_potential[is_boiler_eligible] = 0,
+        dim_conversion_tech[tech_code] = _Tech
+    )
+)
+
+Eligible Generation (MWh) =
+VAR _Mode = [Mode Aktif Code]
+VAR _Tech = [Teknologi Aktif Code]
+RETURN
+IF(
+    _Mode = "ANCHOR_2022",
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_generation_mwh] ),
+        fact_feedstock_potential[is_anchor_2022] = 1,
+        fact_feedstock_potential[is_boiler_eligible] = 1,
+        dim_conversion_tech[tech_code] = _Tech
+    ),
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_generation_mwh] ),
+        fact_feedstock_potential[is_latest_complete_year] = 1,
+        fact_feedstock_potential[is_boiler_eligible] = 1,
+        dim_conversion_tech[tech_code] = _Tech
+    )
+)
+
+Eligible Generation (GWh) =
+DIVIDE( [Eligible Generation (MWh)], 1000 )
+
+Eligible Generation (TWh) =
+DIVIDE( [Eligible Generation (MWh)], 1000000 )
+
+Eligible Capacity (MW) =
+VAR _Mode = [Mode Aktif Code]
+VAR _Tech = [Teknologi Aktif Code]
+RETURN
+IF(
+    _Mode = "ANCHOR_2022",
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_capacity_mw] ),
+        fact_feedstock_potential[is_anchor_2022] = 1,
+        fact_feedstock_potential[is_boiler_eligible] = 1,
+        dim_conversion_tech[tech_code] = _Tech
+    ),
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_capacity_mw] ),
+        fact_feedstock_potential[is_latest_complete_year] = 1,
+        fact_feedstock_potential[is_boiler_eligible] = 1,
+        dim_conversion_tech[tech_code] = _Tech
+    )
+)
+
+// Digunakan khusus Halaman 3B (Drill-Through) untuk melihat komposisi seluruh profil (layak & tidak layak)
+Total Generation Semua Profil (GWh) =
+VAR _Mode = [Mode Aktif Code]
+VAR _Tech = [Teknologi Aktif Code]
+VAR _MWh =
+    IF(
+        _Mode = "ANCHOR_2022",
+        CALCULATE( SUM( fact_feedstock_potential[estimated_generation_mwh] ), fact_feedstock_potential[is_anchor_2022] = 1, dim_conversion_tech[tech_code] = _Tech ),
+        CALCULATE( SUM( fact_feedstock_potential[estimated_generation_mwh] ), fact_feedstock_potential[is_latest_complete_year] = 1, dim_conversion_tech[tech_code] = _Tech )
+    )
+RETURN
+DIVIDE( _MWh, 1000 )
+
+// -----------------------------------------------------------------------------
+// GRUP 2: 4 KPI BRIEF PROYEK (HALAMAN 1)
+// -----------------------------------------------------------------------------
+
+Max Coal Replaced Supply (Mt) =
+VAR _Mode = [Mode Aktif Code]
+VAR _Tech = [Teknologi Aktif Code]
+VAR _Tons =
+    IF(
+        _Mode = "ANCHOR_2022",
+        CALCULATE( SUM( fact_feedstock_potential[coal_replaced_tons] ), fact_feedstock_potential[is_anchor_2022] = 1, fact_feedstock_potential[is_boiler_eligible] = 1, dim_conversion_tech[tech_code] = _Tech ),
+        CALCULATE( SUM( fact_feedstock_potential[coal_replaced_tons] ), fact_feedstock_potential[is_latest_complete_year] = 1, fact_feedstock_potential[is_boiler_eligible] = 1, dim_conversion_tech[tech_code] = _Tech )
+    )
+RETURN
+DIVIDE( _Tons, 1000000 )
+
+Max CO2e Offset Supply (Mt) =
+VAR _Mode = [Mode Aktif Code]
+VAR _Tech = [Teknologi Aktif Code]
+VAR _Tons =
+    IF(
+        _Mode = "ANCHOR_2022",
+        CALCULATE( SUM( fact_feedstock_potential[co2_offset_tons] ), fact_feedstock_potential[is_anchor_2022] = 1, fact_feedstock_potential[is_boiler_eligible] = 1, dim_conversion_tech[tech_code] = _Tech ),
+        CALCULATE( SUM( fact_feedstock_potential[co2_offset_tons] ), fact_feedstock_potential[is_latest_complete_year] = 1, fact_feedstock_potential[is_boiler_eligible] = 1, dim_conversion_tech[tech_code] = _Tech )
+    )
+RETURN
+DIVIDE( _Tons, 1000000 )
+
+Weighted Field LHV (MJ/kg) =
+VAR _Mode = [Mode Aktif Code]
+VAR _Tech = [Teknologi Aktif Code]
+VAR _Num =
+    IF(
+        _Mode = "ANCHOR_2022",
+        CALCULATE(
+            SUMX( fact_feedstock_potential, fact_feedstock_potential[estimated_supply_tons] * fact_feedstock_potential[effective_lhv_mj_kg] ),
+            fact_feedstock_potential[is_anchor_2022] = 1,
+            fact_feedstock_potential[is_boiler_eligible] = 1,
+            dim_conversion_tech[tech_code] = _Tech
+        ),
+        CALCULATE(
+            SUMX( fact_feedstock_potential, fact_feedstock_potential[estimated_supply_tons] * fact_feedstock_potential[effective_lhv_mj_kg] ),
+            fact_feedstock_potential[is_latest_complete_year] = 1,
+            fact_feedstock_potential[is_boiler_eligible] = 1,
+            dim_conversion_tech[tech_code] = _Tech
+        )
+    )
+RETURN
+DIVIDE( _Num, [Eligible Supply (Ton)] )
+
+Energy Density Index vs Coal (%) =
+DIVIDE( [Weighted Field LHV (MJ/kg)], 20 )
+
+Technical Suitability Score (%) =
+DIVIDE(
+    [Eligible Supply (Ton)],
+    [Eligible Supply (Ton)] + [Excluded Supply FS04 FS05 (Ton)]
+)
+
+// -----------------------------------------------------------------------------
+// GRUP 3: OPERASI PLTU (CLIMATE TRACE) & REALISASI AKTUAL (CREA 2024)
+// Memakai TREATAS + ALL(dim_location) agar konteks PLTU level pulau tidak blank
+// saat pengguna melakukan Drill-Through ke level provinsi atau kab/kota (Hal. 3B).
+// -----------------------------------------------------------------------------
+
+PLTU Generation CT (MWh) =
+VAR _PulauAktif = VALUES( dim_location[pulau] )
+VAR _TahunPLTU = [Ref Tahun PLTU]
+RETURN
+CALCULATE(
+    SUM( fact_pltu_operations[activity_generation_mwh] ),
+    fact_pltu_operations[dataset_role] = "BASE_OPERATIONS_CT",
+    dim_time[year] = _TahunPLTU,
+    ALL( dim_location ),
+    TREATAS( _PulauAktif, dim_location[pulau] )
+)
+
+PLTU Target 10% Co-Firing (GWh) =
+DIVIDE( [PLTU Generation CT (MWh)] * 0.10, 1000 )
+
+Coverage vs 10% Target (%) =
+DIVIDE( [Eligible Generation (GWh)], [PLTU Target 10% Co-Firing (GWh)] )
+
+CREA 2024 Actual Co-Firing (GWh) =
+VAR _PulauAktif = VALUES( dim_location[pulau] )
+RETURN
+DIVIDE(
+    CALCULATE(
+        SUM( fact_pltu_operations[biomass_electricity_mwh] ),
+        fact_pltu_operations[dataset_role] = "COFIRING_REALIZATION_CREA",
+        dim_time[year] = 2024,
+        ALL( dim_location ),
+        TREATAS( _PulauAktif, dim_location[pulau] )
+    ),
+    1000
+)
+
+CREA 2024 Biomass Used (kt) =
+VAR _PulauAktif = VALUES( dim_location[pulau] )
+RETURN
+DIVIDE(
+    CALCULATE(
+        SUM( fact_pltu_operations[biomass_used_ton] ),
+        fact_pltu_operations[dataset_role] = "COFIRING_REALIZATION_CREA",
+        dim_time[year] = 2024,
+        ALL( dim_location ),
+        TREATAS( _PulauAktif, dim_location[pulau] )
+    ),
+    1000
+)
+
+// -----------------------------------------------------------------------------
+// GRUP 4: SIMULATOR WHAT-IF CO-FIRING (HALAMAN 4)
+// -----------------------------------------------------------------------------
+
+Sim Target Co-Firing (MWh) =
+VAR _Ratio = SELECTEDVALUE( 'Param CoFiring Pct'[Param CoFiring Pct], 0.10 )
+RETURN
+[PLTU Generation CT (MWh)] * _Ratio
+
+Sim Target Co-Firing (GWh) =
+DIVIDE( [Sim Target Co-Firing (MWh)], 1000 )
+
+// Supply-Capped per pulau: surplus Sumatera/Kalimantan tidak otomatis menutup defisit Jawa/Sulawesi
+Sim Realizable Supply-Capped (MWh) =
+SUMX(
+    FILTER(
+        VALUES( dim_location[pulau] ),
+        CALCULATE( [Sim Target Co-Firing (MWh)] ) > 0
+    ),
+    VAR _TargetPulau = CALCULATE( [Sim Target Co-Firing (MWh)] )
+    VAR _SuplaiPulau = CALCULATE( [Eligible Generation (MWh)] )
+    RETURN
+    MIN( _TargetPulau, _SuplaiPulau )
+)
+
+Sim Realizable Supply-Capped (GWh) =
+DIVIDE( [Sim Realizable Supply-Capped (MWh)], 1000 )
+
+Sim Defisit Pasokan (GWh) =
+MAX( 0, [Sim Target Co-Firing (GWh)] - [Sim Realizable Supply-Capped (GWh)] )
+
+Sim Gap Surplus/Defisit (GWh) =
+[Eligible Generation (GWh)] - [Sim Target Co-Firing (GWh)]
+
+Sim Efisiensi Aktif (Desimal) =
+DIVIDE( SELECTEDVALUE( dim_conversion_tech[efficiency_pct], 33 ), 100 )
+
+Sim Coal Saved Realizable (Mt) =
+VAR _CoalHHV = SELECTEDVALUE( 'Param Coal HHV'[Param Coal HHV], 20 )
+VAR _Eff = [Sim Efisiensi Aktif (Desimal)]
+VAR _ThermalGJ = DIVIDE( [Sim Realizable Supply-Capped (MWh)] * 3.6, _Eff )
+VAR _CoalTons = DIVIDE( _ThermalGJ, _CoalHHV )
+RETURN
+DIVIDE( _CoalTons, 1000000 )
+
+Sim CO2e Offset Realizable (Mt) =
+VAR _Eff = [Sim Efisiensi Aktif (Desimal)]
+VAR _ThermalGJ = DIVIDE( [Sim Realizable Supply-Capped (MWh)] * 3.6, _Eff )
+VAR _CO2Tons = _ThermalGJ * 0.0946
+RETURN
+DIVIDE( _CO2Tons, 1000000 )
+
+// Digunakan pada Halaman 4 Tab 2 (Tabel 48 PLTU Realisasi CREA 2024 per stasiun)
+CREA 2024 per PLTU (GWh) =
+DIVIDE(
+    CALCULATE(
+        SUM( fact_pltu_operations[biomass_electricity_mwh] ),
+        fact_pltu_operations[dataset_role] = "COFIRING_REALIZATION_CREA",
+        dim_time[year] = 2024
+    ),
+    1000
+)
+
+CREA 2024 Biomassa per PLTU (kt) =
+DIVIDE(
+    CALCULATE(
+        SUM( fact_pltu_operations[biomass_used_ton] ),
+        fact_pltu_operations[dataset_role] = "COFIRING_REALIZATION_CREA",
+        dim_time[year] = 2024
+    ),
+    1000
+)
+
+// -----------------------------------------------------------------------------
+// GRUP 5: TREN HISTORIS (HALAMAN 3 - TIDAK TERKUNCI MODE DUAL-VIEW)
+// -----------------------------------------------------------------------------
+
+Tren Potensi Tanaman BDSP Layak (TWh) =
+VAR _Tech = [Teknologi Aktif Code]
+RETURN
+DIVIDE(
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_generation_mwh] ),
+        fact_feedstock_potential[is_boiler_eligible] = 1,
+        dim_conversion_tech[tech_code] = _Tech,
+        dim_feedstock[feedstock_id] IN { "FS01", "FS02", "FS03", "FS06", "FS07", "FS08" }
+    ),
+    1000000
+)
+
+Tren Potensi Kayu KLHK Layak (TWh) =
+VAR _Tech = [Teknologi Aktif Code]
+RETURN
+DIVIDE(
+    CALCULATE(
+        SUM( fact_feedstock_potential[estimated_generation_mwh] ),
+        fact_feedstock_potential[is_boiler_eligible] = 1,
+        dim_conversion_tech[tech_code] = _Tech,
+        dim_feedstock[feedstock_id] IN { "FS09", "FS10" }
+    ),
+    1000000
+)
+
+// -----------------------------------------------------------------------------
+// GRUP 6: WARNA KONDISIONAL (HEX UNTUK CONDITIONAL FORMATTING POWER BI)
+// -----------------------------------------------------------------------------
+
+Warna Status Boiler =
+IF( SELECTEDVALUE( dim_feedstock[boiler_status] ) = "Not Eligible", "#B42318", "#1B5E42" )
+
+Warna Gap Simulator =
+IF( [Sim Gap Surplus/Defisit (GWh)] < 0, "#B42318", "#1B5E42" )

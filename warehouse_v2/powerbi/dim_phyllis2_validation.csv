@@ -1,0 +1,11 @@
+feedstock_id,feedstock_name,proximate_source,is_pure_phyllis2,actual_hhv_db,predicted_hhv_prox_db,err_prox_pct,predicted_hhv_full_db,err_full_pct,effective_lhv_field_mj_kg,boiler_status,alkali_chlorine_flag,cluster_label
+FS01,palm kernel shell,imputed_mendeley_pks_ratio,0,19.845,18.4476,7.04,18.9432,4.54,15.2747,Eligible,Data Unavailable,Cluster 1: High-Calorie / High-FC Shell & Char-Rich
+FS02,empty fruit bunches,phyllis2_measured,1,19.0014,18.262,3.89,18.7498,1.32,6.5591,Eligible,High Risk,Cluster 4: High-Volatile / Low-Ash Woody & Agro
+FS03,palm fiber,phyllis2_measured,1,19.844,19.2344,3.07,18.8461,5.03,9.595,Eligible,Moderate Risk,Cluster 1: High-Calorie / High-FC Shell & Char-Rich
+FS04,rice husk,phyllis2_measured,1,14.7088,16.1644,9.9,15.8279,7.61,12.6451,Not Eligible,Moderate Risk,Cluster 0: Moderate-Ash / Medium-Calorie Agro
+FS05,rice straw,phyllis2_measured,1,15.415,16.0423,4.07,15.8862,3.06,12.1743,Not Eligible,High Risk,Cluster 0: Moderate-Ash / Medium-Calorie Agro
+FS06,bagasse,phyllis2_measured,1,18.05,17.8733,0.98,18.0309,0.11,7.1703,Eligible,High Risk,Cluster 4: High-Volatile / Low-Ash Woody & Agro
+FS07,corn cob,phyllis2_measured,1,17.1,18.4312,7.78,18.3254,7.17,14.6731,Eligible,High Risk,Cluster 4: High-Volatile / Low-Ash Woody & Agro
+FS08,corn stover,phyllis2_measured,1,18.1375,17.5712,3.12,18.1341,0.02,14.0039,Eligible,High Risk,Cluster 4: High-Volatile / Low-Ash Woody & Agro
+FS09,sawdust,phyllis2_measured,1,19.9629,19.2539,3.55,19.8438,0.6,14.3366,Eligible,Low Risk,Cluster 4: High-Volatile / Low-Ash Woody & Agro
+FS10,wood chips,phyllis2_measured,1,20.3522,18.6668,8.28,19.4253,4.55,12.9664,Eligible,Low Risk,Cluster 4: High-Volatile / Low-Ash Woody & Agro

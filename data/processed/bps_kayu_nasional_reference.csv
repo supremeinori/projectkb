@@ -1,0 +1,9 @@
+sumber_kelompok,id_tabel_bps,kode_baris,label_baris,tahun,komoditas_bps,basis_produk,nilai_asli,satuan_asli,produksi_ton_ekuivalen,produksi_m3
+kayu_hph_pulau,1973#2,6,INDONESIA,2019,Kayu,m3 Kayu Bulat (rho 0.65),6174811.0,M3,4013627.15,6174811.0
+kayu_hph_pulau,1973#2,6,INDONESIA,2020,Kayu,m3 Kayu Bulat (rho 0.65),5260750.0,M3,3419487.5,5260750.0
+kayu_hph_pulau,1973#2,6,INDONESIA,2021,Kayu,m3 Kayu Bulat (rho 0.65),6055524.0,M3,3936090.6,6055524.0
+kayu_hph_pulau,1973#2,6,INDONESIA,2022,Kayu,m3 Kayu Bulat (rho 0.65),5764419.0,M3,3746872.35,5764419.0
+kayu_hti_nasional,2512#2,1,A. JUMLAH KAYU BULAT (M3),2020,Kayu,m3 Kayu Bulat (rho 0.65),46487679.0,m3,30216991.35,46487679.0
+kayu_hti_nasional,2512#2,1,A. JUMLAH KAYU BULAT (M3),2021,Kayu,m3 Kayu Bulat (rho 0.65),47562910.0,m3,30915891.5,47562910.0
+kayu_hti_nasional,2512#2,1,A. JUMLAH KAYU BULAT (M3),2022,Kayu,m3 Kayu Bulat (rho 0.65),49694376.0,m3,32301344.400000002,49694376.0
+kayu_hti_nasional,2512#2,1,A. JUMLAH KAYU BULAT (M3),2023,Kayu,m3 Kayu Bulat (rho 0.65),53961325.0,m3,35074861.25,53961325.0

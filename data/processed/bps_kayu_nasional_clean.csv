@@ -1,0 +1,49 @@
+kode_jenis_pohon,jenis_pohon,jenis_pohon_clean,tahun,komoditas_bps,produksi_m3,produksi_ton_est,basis_produk,sumber_segmen_kayu,cakupan_data,is_anchor_2022,is_latest_complete_year,is_latest_available_year,id_tabel_bps
+2,1. Akasia- kayu bulat (m3),Akasia,2020,Kayu,31987072.0,20791596.8,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+3,2. Damar- kayu bulat (m3),Damar,2020,Kayu,10094.0,6561.1,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+4,3. Eukaliptus- kayu bulat (m3),Eukaliptus,2020,Kayu,13350735.0,8677977.75,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+5,4. Jati- kayu bulat (m3),Jati,2020,Kayu,472725.0,307271.25,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+6,5. Karet- kayu bulat (m3),Karet,2020,Kayu,19007.0,12354.550000000001,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+7,6. Mahoni- kayu bulat (m3),Mahoni,2020,Kayu,77875.0,50618.75,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+8,7. Meranti- kayu bulat (m3),Meranti,2020,Kayu,70963.0,46125.950000000004,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+9,8. Pinus- kayu bulat (m3),Pinus,2020,Kayu,201402.0,130911.3,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+10,9. Rimba Campuran- kayu bulat (m3),Rimba Campuran,2020,Kayu,99620.0,64753.0,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+11,10. Sengon- kayu bulat (m3),Sengon,2020,Kayu,97848.0,63601.200000000004,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+12,11. Sonokeling- kayu bulat (m3),Sonokeling,2020,Kayu,15901.0,10335.65,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+13,12. Lainnya- kayu bulat (m3),Lainnya,2020,Kayu,84437.0,54884.05,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+2,1. Akasia- kayu bulat (m3),Akasia,2021,Kayu,30377156.0,19745151.400000002,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+3,2. Damar- kayu bulat (m3),Damar,2021,Kayu,15212.0,9887.800000000001,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+4,3. Eukaliptus- kayu bulat (m3),Eukaliptus,2021,Kayu,15806928.0,10274503.200000001,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+5,4. Jati- kayu bulat (m3),Jati,2021,Kayu,482510.0,313631.5,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+6,5. Karet- kayu bulat (m3),Karet,2021,Kayu,97714.0,63514.1,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+7,6. Mahoni- kayu bulat (m3),Mahoni,2021,Kayu,94134.0,61187.1,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+8,7. Meranti- kayu bulat (m3),Meranti,2021,Kayu,53468.0,34754.200000000004,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+9,8. Pinus- kayu bulat (m3),Pinus,2021,Kayu,240020.0,156013.0,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+10,9. Rimba Campuran- kayu bulat (m3),Rimba Campuran,2021,Kayu,77567.0,50418.55,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+11,10. Sengon- kayu bulat (m3),Sengon,2021,Kayu,152014.0,98809.1,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+12,11. Sonokeling- kayu bulat (m3),Sonokeling,2021,Kayu,8220.0,5343.0,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+13,12. Lainnya- kayu bulat (m3),Lainnya,2021,Kayu,157967.0,102678.55,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,False,False,2512#2
+2,1. Akasia- kayu bulat (m3),Akasia,2022,Kayu,28921358.0,18798882.7,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+3,2. Damar- kayu bulat (m3),Damar,2022,Kayu,8820.0,5733.0,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+4,3. Eukaliptus- kayu bulat (m3),Eukaliptus,2022,Kayu,19052214.0,12383939.1,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+5,4. Jati- kayu bulat (m3),Jati,2022,Kayu,494997.0,321748.05,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+6,5. Karet- kayu bulat (m3),Karet,2022,Kayu,43235.0,28102.75,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+7,6. Mahoni- kayu bulat (m3),Mahoni,2022,Kayu,61154.0,39750.1,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+8,7. Meranti- kayu bulat (m3),Meranti,2022,Kayu,167280.0,108732.0,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+9,8. Pinus- kayu bulat (m3),Pinus,2022,Kayu,226391.0,147154.15,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+10,9. Rimba Campuran- kayu bulat (m3),Rimba Campuran,2022,Kayu,206386.0,134150.9,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+11,10. Sengon- kayu bulat (m3),Sengon,2022,Kayu,128477.0,83510.05,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+12,11. Sonokeling- kayu bulat (m3),Sonokeling,2022,Kayu,8542.0,5552.3,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+13,12. Lainnya- kayu bulat (m3),Lainnya,2022,Kayu,375523.0,244089.95,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,True,False,False,2512#2
+2,1. Akasia- kayu bulat (m3),Akasia,2023,Kayu,29945762.0,19464745.3,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+3,2. Damar- kayu bulat (m3),Damar,2023,Kayu,10226.0,6646.900000000001,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+4,3. Eukaliptus- kayu bulat (m3),Eukaliptus,2023,Kayu,22037404.0,14324312.6,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+5,4. Jati- kayu bulat (m3),Jati,2023,Kayu,455988.0,296392.2,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+6,5. Karet- kayu bulat (m3),Karet,2023,Kayu,50012.0,32507.800000000003,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+7,6. Mahoni- kayu bulat (m3),Mahoni,2023,Kayu,58301.0,37895.65,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+8,7. Meranti- kayu bulat (m3),Meranti,2023,Kayu,242196.0,157427.4,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+9,8. Pinus- kayu bulat (m3),Pinus,2023,Kayu,293816.0,190980.4,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+10,9. Rimba Campuran- kayu bulat (m3),Rimba Campuran,2023,Kayu,463707.0,301409.55,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+11,10. Sengon- kayu bulat (m3),Sengon,2023,Kayu,158192.0,102824.8,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+12,11. Sonokeling- kayu bulat (m3),Sonokeling,2023,Kayu,6980.0,4537.0,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2
+13,12. Lainnya- kayu bulat (m3),Lainnya,2023,Kayu,238743.0,155182.95,m3 Kayu Bulat (rho 0.65),HTI_Pembudidaya_Kehutanan,HTI_PEMBUDIDAYA,False,True,True,2512#2

@@ -1,0 +1,48 @@
+no,material,feedstock_category,ash_db,vm_db,fc_db,c_db,h_db,o_db,n_db,s_db,hhv_db,reference_code,is_n_imputed_bold_brown,is_s_imputed_bold_brown,prox_sum,ult_sum,removal_stage,removal_reason
+103,Almond shells,husk/shell/pit,3.29,76.0,20.71,49.3,5.97,40.63,0.76,0.04,19.49,[24],False,False,100.0,99.99000000000002,deduplication,exact_duplicate_features_and_hhv
+113,Biomass mix,organic residue/product,12.49,69.36,18.14,49.59,5.79,28.87,2.43,0.74,18.4,[24],False,False,99.99,99.91,deduplication,exact_duplicate_features_and_hhv
+152,Olive pits,husk/shell/pit,1.72,82.0,16.28,52.8,6.69,38.25,0.45,0.05,21.59,[24],False,False,100.0,99.96,deduplication,exact_duplicate_features_and_hhv
+158,Palm kernel shells,husk/shell/pit,5.14,77.28,17.59,48.34,6.2,37.44,2.62,0.26,20.71,[24],False,False,100.01,100.00000000000001,deduplication,exact_duplicate_features_and_hhv
+162,Pepper plant,grass/plant,14.44,64.71,20.86,36.11,4.26,41.86,2.72,0.49,15.39,[24],False,False,100.00999999999999,99.87999999999998,deduplication,exact_duplicate_features_and_hhv
+165,Pistachio shell,husk/shell/pit,1.41,81.64,16.95,50.2,6.32,41.15,0.69,0.22,18.22,[24],False,False,100.0,99.99,deduplication,exact_duplicate_features_and_hhv
+167,Residue (forest),organic residue/product,0.2,79.8,20.0,53.16,6.25,40.0,0.3,0.09,19.5,[24],False,False,100.0,100.0,deduplication,exact_duplicate_features_and_hhv
+177,Rice husk,husk/shell/pit,22.5,61.2,16.3,38.2,5.6,33.7,0.0,0.0,16.47,[24],False,False,100.0,100.0,deduplication,exact_duplicate_features_and_hhv
+197,Sugarcane bagasse,organic residue/product,2.7,82.6,14.7,47.2,7.0,43.1,0.0,0.0,17.32,[24],False,False,100.0,100.00000000000001,deduplication,exact_duplicate_features_and_hhv
+213,Groundnut shell,husk/shell/pit,5.7,72.7,21.6,48.59,5.64,39.49,0.58,0.0,19.85,[25],False,False,100.0,100.0,deduplication,exact_duplicate_features_and_hhv
+215,Millet straw,straw (stalk/cob/ear),5.27,78.28,16.45,43.71,5.85,45.16,0.01,0.0,18.05,[25],False,False,100.0,100.0,deduplication,exact_duplicate_features_and_hhv
+217,Jawar straw,straw (stalk/cob/ear),8.88,75.97,15.15,42.1,5.6,43.38,0.04,0.0,17.95,[25],False,False,100.0,100.00000000000001,deduplication,exact_duplicate_features_and_hhv
+218,Rice straw,straw (stalk/cob/ear),20.38,65.7,13.91,35.68,4.62,39.14,0.28,0.0,14.85,[25],False,False,99.99,100.1,deduplication,exact_duplicate_features_and_hhv
+220,Rice husk bran,husk/shell/pit,18.64,61.83,19.53,38.92,5.12,36.77,0.55,0.0,15.29,[25],False,False,100.0,100.0,deduplication,exact_duplicate_features_and_hhv
+221,Coconut coir pith,organic residue/product,5.16,66.02,28.82,43.36,4.98,44.87,1.63,0.0,18.07,[25],False,False,100.0,100.0,deduplication,exact_duplicate_features_and_hhv
+224,Cotton gin waste,organic residue/product,1.61,83.41,14.97,42.66,6.05,49.5,0.18,0.0,17.48,[25],False,False,99.99,100.0,deduplication,exact_duplicate_features_and_hhv
+49,"Miscanthus (I,",grass/plant,2.28,80.34,9.42,50.69,6.07,26.78,0.29,0.07,16.41,[13],False,False,92.04,86.17999999999999,extreme_anomaly_filter,ult_sum_out_of_90_105 (86.18%)
+50,"Miscanthus (II,",grass/plant,1.55,83.42,10.14,52.62,6.12,24.69,0.05,0.1,16.49,[13],False,False,95.11,85.12999999999998,extreme_anomaly_filter,ult_sum_out_of_90_105 (85.13%)
+53,"Virginia Mallow (I,",grass/plant,2.82,79.98,8.17,49.42,6.14,28.26,0.59,0.06,16.14,[13],False,False,90.97,87.29,extreme_anomaly_filter,ult_sum_out_of_90_105 (87.29%)
+132,Dal lake weed,grass/plant,48.7,47.7,3.6,19.12,2.0,25.96,4.22,0.0,8.89,[24],False,False,100.0,100.0,extreme_anomaly_filter,hhv_out_of_10_28 (8.89 MJ/kg)
+228,"cattle manure, aged",manure,73.52,21.33,5.15,12.96,1.45,10.08,1.46,0.31,4.22,[2],False,False,100.0,99.78,extreme_anomaly_filter,hhv_out_of_10_28 (4.22 MJ/kg)
+229,dairy free-stall manure,manure,62.3,30.6,7.1,22.1,2.9,11.5,1.1,0.1,8.83,[2],False,False,100.0,100.0,extreme_anomaly_filter,hhv_out_of_10_28 (8.83 MJ/kg)
+235,"pig manure digestate, dried",manure,14.9,64.9,20.2,44.38,5.57,37.9,2.22,0.48,17.84,[2],False,False,100.00000000000001,105.45,extreme_anomaly_filter,ult_sum_out_of_90_105 (105.45%)
+242,Livestock (L1),manure,27.22,60.04,39.95,30.55,4.85,33.63,3.08,0.95,14.53,[26],False,False,127.21,100.28,extreme_anomaly_filter,prox_sum_out_of_90_105 (127.21%)
+243,Livestock (L2),manure,13.9,49.08,50.91,29.5,3.83,27.52,2.19,0.83,8.5,[26],False,False,113.88999999999999,77.77,extreme_anomaly_filter,prox_sum_out_of_90_105 (113.89%); ult_sum_out_of_90_105 (77.77%); hhv_out_of_10_28 (8.50 MJ/kg)
+244,Livestock (L3),manure,10.1,51.58,48.42,19.53,2.18,23.74,1.28,0.34,9.87,[26],False,False,110.1,57.17000000000001,extreme_anomaly_filter,prox_sum_out_of_90_105 (110.10%); ult_sum_out_of_90_105 (57.17%); hhv_out_of_10_28 (9.87 MJ/kg)
+245,Broiler manure (BR1),manure,20.78,81.31,18.68,38.69,5.6,33.62,3.69,0.62,16.66,[26],False,False,120.77000000000001,103.0,extreme_anomaly_filter,prox_sum_out_of_90_105 (120.77%)
+246,Broiler manure (BR2),manure,28.81,83.76,16.24,38.25,5.43,32.4,6.19,0.52,17.72,[26],False,False,128.81,111.6,extreme_anomaly_filter,prox_sum_out_of_90_105 (128.81%); ult_sum_out_of_90_105 (111.60%)
+247,Broiler manure (BR3),manure,30.95,81.57,18.43,37.85,5.24,34.02,6.93,0.44,16.77,[26],False,False,130.95,115.43000000000002,extreme_anomaly_filter,prox_sum_out_of_90_105 (130.95%); ult_sum_out_of_90_105 (115.43%)
+248,Duck manure (DU1),manure,12.86,55.61,44.39,15.81,2.26,25.07,1.81,0.62,10.47,[26],False,False,112.86,58.43,extreme_anomaly_filter,prox_sum_out_of_90_105 (112.86%); ult_sum_out_of_90_105 (58.43%)
+249,Duck manure (DU2),manure,9.28,79.49,20.51,35.97,4.82,28.68,3.88,0.63,16.25,[26],False,False,109.28,83.25999999999999,extreme_anomaly_filter,prox_sum_out_of_90_105 (109.28%); ult_sum_out_of_90_105 (83.26%)
+250,Duck manure (DU3),manure,10.49,73.87,26.13,39.41,5.06,33.89,1.45,0.29,14.89,[26],False,False,110.49,90.59,extreme_anomaly_filter,prox_sum_out_of_90_105 (110.49%)
+251,Pig manure (P1),manure,21.67,68.75,31.25,37.5,4.91,32.14,3.37,0.84,20.0,[26],False,False,121.67,100.43,extreme_anomaly_filter,prox_sum_out_of_90_105 (121.67%)
+252,Pig manure (P2),manure,23.65,81.75,18.25,43.9,6.4,30.32,3.9,0.82,23.3,[26],False,False,123.65,108.99000000000001,extreme_anomaly_filter,prox_sum_out_of_90_105 (123.65%); ult_sum_out_of_90_105 (108.99%)
+253,Pig manure (P3),manure,14.08,83.19,16.81,40.11,5.57,42.57,2.08,0.48,23.67,[26],False,False,114.08,104.89,extreme_anomaly_filter,prox_sum_out_of_90_105 (114.08%)
+254,Bovine manure (B1),manure,10.6,80.47,19.53,34.86,2.7,26.82,1.5,0.19,16.51,[26],False,False,110.6,76.66999999999999,extreme_anomaly_filter,prox_sum_out_of_90_105 (110.60%); ult_sum_out_of_90_105 (76.67%)
+255,Bovine manure (B2),manure,13.07,82.87,17.13,36.32,5.11,28.43,2.08,0.23,16.74,[26],False,False,113.07,85.24000000000001,extreme_anomaly_filter,prox_sum_out_of_90_105 (113.07%); ult_sum_out_of_90_105 (85.24%)
+256,Bovine manure (B3),manure,12.15,75.22,24.82,32.35,4.42,26.72,1.78,0.33,15.74,[26],False,False,112.19,77.75,extreme_anomaly_filter,prox_sum_out_of_90_105 (112.19%); ult_sum_out_of_90_105 (77.75%)
+257,Dairy manure (D1),manure,11.09,86.03,13.98,36.71,4.86,26.7,1.87,0.27,15.76,[26],False,False,111.10000000000001,81.5,extreme_anomaly_filter,prox_sum_out_of_90_105 (111.10%); ult_sum_out_of_90_105 (81.50%)
+258,Dairy manure (D2),manure,10.22,82.42,17.58,38.92,2.97,23.99,1.66,0.22,15.95,[26],False,False,110.22,77.97999999999999,extreme_anomaly_filter,prox_sum_out_of_90_105 (110.22%); ult_sum_out_of_90_105 (77.98%)
+259,Dairy manure (D3),manure,16.11,80.96,19.04,37.78,5.28,25.27,2.68,0.43,16.08,[26],False,False,116.10999999999999,87.55000000000001,extreme_anomaly_filter,prox_sum_out_of_90_105 (116.11%); ult_sum_out_of_90_105 (87.55%)
+260,Biogas manure (BM1),manure,11.32,73.74,26.26,34.23,4.61,25.87,1.93,0.35,13.43,[26],False,False,111.32000000000001,78.31,extreme_anomaly_filter,prox_sum_out_of_90_105 (111.32%); ult_sum_out_of_90_105 (78.31%)
+261,Biogas manure (BM2),manure,14.94,79.63,20.36,37.27,5.09,31.27,2.79,0.28,14.86,[26],False,False,114.92999999999999,91.64,extreme_anomaly_filter,prox_sum_out_of_90_105 (114.93%)
+262,Biogas manure (BM3),manure,13.07,74.31,25.68,35.9,4.68,29.01,2.16,0.57,13.29,[26],False,False,113.06,85.38999999999999,extreme_anomaly_filter,prox_sum_out_of_90_105 (113.06%); ult_sum_out_of_90_105 (85.39%)
+263,Digestate manure (DM1),manure,12.96,70.17,29.83,33.43,4.35,26.69,2.23,0.67,14.63,[26],False,False,112.96,80.33000000000001,extreme_anomaly_filter,prox_sum_out_of_90_105 (112.96%); ult_sum_out_of_90_105 (80.33%)
+264,Digestate manure (DM2),manure,14.45,75.28,24.73,36.69,4.63,28.1,2.03,0.37,14.68,[26],False,False,114.46000000000001,86.27000000000001,extreme_anomaly_filter,prox_sum_out_of_90_105 (114.46%); ult_sum_out_of_90_105 (86.27%)
+265,Digestate manure (DM3),manure,16.8,79.65,20.35,32.91,4.4,29.95,2.42,0.53,15.35,[26],False,False,116.80000000000001,87.00999999999999,extreme_anomaly_filter,prox_sum_out_of_90_105 (116.80%); ult_sum_out_of_90_105 (87.01%)

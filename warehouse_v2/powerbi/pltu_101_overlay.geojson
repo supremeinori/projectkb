@@ -1,0 +1,2126 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.5929,
+          -4.1799
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M001",
+        "nama_pltu": "Pomalaa Nickel power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Aneka Tambang Tbk; PT Aneka Tambang Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 254.0,
+        "ct_gen_gwh_2024": 360.09,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9426,
+          -6.0248
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M002",
+        "nama_pltu": "Asahimas Chemical power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Asahimas Chemical",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 301.35,
+        "ct_gen_gwh_2024": 1281.39,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.1211,
+          -6.2908
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M003",
+        "nama_pltu": "Jababeka Industrial Estate power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Cikarang Listrindo Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 1039.0,
+        "ct_gen_gwh_2024": 3036.0,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.6194,
+          0.6922
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M004",
+        "nama_pltu": "Perawang Mill power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Indah Kiat Pulp & Paper Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 765.5,
+        "ct_gen_gwh_2024": 3228.7,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7382,
+          -8.9012
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M005",
+        "nama_pltu": "Batu Hijau power station",
+        "pulau": "Bali-Nusa Tenggara",
+        "owner_operator": "PT Amman Mineral Nusa Tenggara",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 134.0,
+        "ct_gen_gwh_2024": 534.69,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7975,
+          -3.7321
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M006",
+        "nama_pltu": "Bukit Asam Muara Enim power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 310.4,
+        "ct_gen_gwh_2024": 1136.93,
+        "crea_bio_gwh_2024": 9.15,
+        "crea_bio_kt_2024": 10.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0336,
+          -5.8892
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M007",
+        "nama_pltu": "Banten Suralaya power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN (Persero); PT Barito Pacific Tbk",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 4065.0,
+        "ct_gen_gwh_2024": 17202.0,
+        "crea_bio_gwh_2024": 209.68,
+        "crea_bio_kt_2024": 203.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.1059,
+          -3.2729
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M008",
+        "nama_pltu": "Kalimantan Cement Works power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT Indocement Tunggal Prakarsa Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 12.7,
+        "ct_gen_gwh_2024": 6.8,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          136.8391,
+          -4.8278
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M009",
+        "nama_pltu": "Amamapare Port power station",
+        "pulau": "Papua",
+        "owner_operator": "PT Freeport Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 323.0,
+        "ct_gen_gwh_2024": 1956.6,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0625,
+          -0.3731
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M010",
+        "nama_pltu": "Embalut power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT Cahaya Fajar Kaltim",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 110.0,
+        "ct_gen_gwh_2024": 469.58,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5017,
+          -4.8167
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M011",
+        "nama_pltu": "Tonasa Cement Plant power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Semen Gresik",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 206.0,
+        "ct_gen_gwh_2024": 819.65,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.1573,
+          -2.3662
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M012",
+        "nama_pltu": "Ketapang Smelter power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT Well Harvest Winning Alumina Refinery",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 110.0,
+        "ct_gen_gwh_2024": 469.58,
+        "crea_bio_gwh_2024": 0.72,
+        "crea_bio_kt_2024": 0.94
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8736,
+          0.8371
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M013",
+        "nama_pltu": "Bengkayang Power Station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 110.0,
+        "ct_gen_gwh_2024": 469.58,
+        "crea_bio_gwh_2024": 3.9,
+        "crea_bio_kt_2024": 3.76
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3852,
+          -6.4858
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M014",
+        "nama_pltu": "Indo Bharat Rayon power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Indo Bharat Rayon",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 63.69,
+        "ct_gen_gwh_2024": 267.07,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8041,
+          -3.8387
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M015",
+        "nama_pltu": "Bangko Tengah power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Huadian Bukit Asam Power",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 1320.0,
+        "ct_gen_gwh_2024": 5634.7,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.421,
+          -1.5614
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M016",
+        "nama_pltu": "PT Halmahera Persada Lygend Nickel Smelter power station",
+        "pulau": "Maluku",
+        "owner_operator": "PT Halmahera Persada Lygend; PT Obi Nickel Cobalt",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 1250.0,
+        "ct_gen_gwh_2024": 5335.9,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4381,
+          -2.0047
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M017",
+        "nama_pltu": "Delong Nickel Phase III power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Gunbuster Nickel Industry",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 810.0,
+        "ct_gen_gwh_2024": 3457.8,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.174,
+          -2.87
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M018",
+        "nama_pltu": "Sulawesi Labota power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Sulawesi Mining Investment; Indonesia Wanjia Ferro Nickel Co Ltd; Indonesia Zhaohui Ferro Nickel Co Ltd; PT Walsin Nickel Industrial Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 3360.0,
+        "ct_gen_gwh_2024": 14343.0,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          112.4696,
+          -7.4365
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M019",
+        "nama_pltu": "Tjiwi Kimia Paper Mill power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Pabrik Kertas Tjiwi Kimia Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 398.41,
+        "ct_gen_gwh_2024": 1594.7,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2502,
+          -6.9508
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M020",
+        "nama_pltu": "Cemindo Gemilang power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Cemindo Gemilang Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 60.0,
+        "ct_gen_gwh_2024": 256.13,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.124,
+          -6.2726
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M021",
+        "nama_pltu": "FAJAR power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Fajar Surya Wisesa Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 55.0,
+        "ct_gen_gwh_2024": 234.78,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0642,
+          -5.884
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M022",
+        "nama_pltu": "Merak power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Merak Energi Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 120.0,
+        "ct_gen_gwh_2024": 512.27,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.1058,
+          -3.9265
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M023",
+        "nama_pltu": "Asam-Asam power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 360.0,
+        "ct_gen_gwh_2024": 1536.8,
+        "crea_bio_gwh_2024": 11.95,
+        "crea_bio_kt_2024": 10.87
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.5383,
+          -3.8953
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M024",
+        "nama_pltu": "Kendari - Rental",
+        "pulau": "Sulawesi",
+        "owner_operator": "Tidak tercatat",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 88.65,
+        "ct_gen_gwh_2024": 122.16,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.7537,
+          -0.609
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M025",
+        "nama_pltu": "Ombilin power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 9.79,
+        "crea_bio_kt_2024": 12.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.585,
+          -7.7147
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M026",
+        "nama_pltu": "PLN Paiton power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN Nusantara Power PT; PT Paiton Energy Pte Ltd; PT Jawa Power",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 4825.0,
+        "ct_gen_gwh_2024": 20598.0,
+        "crea_bio_gwh_2024": 195.15,
+        "crea_bio_kt_2024": 179.13
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.0821,
+          -1.0069
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M027",
+        "nama_pltu": "Sinar Mas Jambi Lontar power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Lontar Papyrus Pulp & Paper Industry",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 111.0,
+        "ct_gen_gwh_2024": 473.85,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.7435,
+          -6.4448
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M028",
+        "nama_pltu": "Tanjung Jati B power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Bhumi Jati Power",
+        "status_cofiring_2024": "TARGET_COFIRING_5_PLTU",
+        "ct_capacity_mw_2024": 4640.0,
+        "ct_gen_gwh_2024": 19808.0,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6904,
+          -3.7251
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M029",
+        "nama_pltu": "Banjarsari power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Bukit Pembangkit Innovative",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 220.0,
+        "ct_gen_gwh_2024": 939.15,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.6058,
+          -6.9705
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M030",
+        "nama_pltu": "Bandung Indosyntec power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Panasia Indo Resources Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 30.0,
+        "ct_gen_gwh_2024": 128.06,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.0898,
+          -7.6858
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M031",
+        "nama_pltu": "Cilacap Sumber power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Sumber Segara Primadaya",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 2260.0,
+        "ct_gen_gwh_2024": 9647.5,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.1357,
+          1.0441
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M032",
+        "nama_pltu": "Tanjung Kasam power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Tanjung Kasam Power",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 130.0,
+        "ct_gen_gwh_2024": 554.94,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.8037,
+          -6.9008
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M033",
+        "nama_pltu": "Central Java Power Project",
+        "pulau": "Jawa",
+        "owner_operator": "PT Bhimasena Power Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 1900.0,
+        "ct_gen_gwh_2024": 8110.9,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          116.7887,
+          -1.1704
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M034",
+        "nama_pltu": "Kaltim Teluk Balikpapan power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 220.0,
+        "ct_gen_gwh_2024": 939.15,
+        "crea_bio_gwh_2024": 0.88,
+        "crea_bio_kt_2024": 0.89
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5512,
+          -5.6179
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M035",
+        "nama_pltu": "Punagaya power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Bosowa Makassar",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 520.0,
+        "ct_gen_gwh_2024": 2219.9,
+        "crea_bio_gwh_2024": 17.44,
+        "crea_bio_kt_2024": 15.49
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.7313,
+          1.7519
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M036",
+        "nama_pltu": "Labuhan Angin power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 230.0,
+        "ct_gen_gwh_2024": 981.83,
+        "crea_bio_gwh_2024": 1.15,
+        "crea_bio_kt_2024": 1.25
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.5464,
+          -7.0242
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M037",
+        "nama_pltu": "Pelabuhan Ratu power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN Indonesia Power",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 1050.0,
+        "ct_gen_gwh_2024": 4482.4,
+        "crea_bio_gwh_2024": 58.11,
+        "crea_bio_kt_2024": 61.01
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.3736,
+          -8.2578
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M038",
+        "nama_pltu": "Pacitan power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 630.0,
+        "ct_gen_gwh_2024": 2689.4,
+        "crea_bio_gwh_2024": 97.34,
+        "crea_bio_kt_2024": 96.18
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.8278,
+          -6.3922
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M039",
+        "nama_pltu": "Banten Labuan power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN Indonesia Power",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 600.0,
+        "ct_gen_gwh_2024": 2561.3,
+        "crea_bio_gwh_2024": 70.0,
+        "crea_bio_kt_2024": 59.29
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.6149,
+          -6.7703
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M040",
+        "nama_pltu": "Cirebon power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Cirebon Electric Power",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 1584.0,
+        "ct_gen_gwh_2024": 6761.9,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.4749,
+          -6.636
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M041",
+        "nama_pltu": "Rembang power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 630.0,
+        "ct_gen_gwh_2024": 2689.4,
+        "crea_bio_gwh_2024": 108.19,
+        "crea_bio_kt_2024": 99.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.4643,
+          -6.0589
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M042",
+        "nama_pltu": "Banten Lontar power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 1260.0,
+        "ct_gen_gwh_2024": 5378.9,
+        "crea_bio_gwh_2024": 134.26,
+        "crea_bio_kt_2024": 116.54
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          111.9955,
+          -6.8105
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M043",
+        "nama_pltu": "Tanjung Awar-Awar power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 700.0,
+        "ct_gen_gwh_2024": 2988.1,
+        "crea_bio_gwh_2024": 56.67,
+        "crea_bio_kt_2024": 53.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          100.3724,
+          -1.0765
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M044",
+        "nama_pltu": "Teluk Sirih power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 224.0,
+        "ct_gen_gwh_2024": 956.22,
+        "crea_bio_gwh_2024": 21.03,
+        "crea_bio_kt_2024": 23.27
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3535,
+          -5.5212
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M045",
+        "nama_pltu": "Tarahan power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 64.2,
+        "crea_bio_kt_2024": 52.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.5508,
+          -5.6236
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M046",
+        "nama_pltu": "Takalar power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.9704,
+          -6.2747
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M047",
+        "nama_pltu": "Indramayu power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 990.0,
+        "ct_gen_gwh_2024": 4226.0,
+        "crea_bio_gwh_2024": 56.61,
+        "crea_bio_kt_2024": 53.84
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          109.1376,
+          -7.6859
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M048",
+        "nama_pltu": "Adipala power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 660.0,
+        "ct_gen_gwh_2024": 2817.5,
+        "crea_bio_gwh_2024": 79.94,
+        "crea_bio_kt_2024": 67.55
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.2095,
+          -2.8225
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M049",
+        "nama_pltu": "Kalteng-1 Pulang Pisau power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 120.0,
+        "ct_gen_gwh_2024": 512.27,
+        "crea_bio_gwh_2024": 30.47,
+        "crea_bio_kt_2024": 31.23
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          96.1986,
+          4.1077
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M050",
+        "nama_pltu": "Nagan Raya power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Meulaboh Power Generation; PT PLN (Persero); Unnamed special purpose vehicle",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 670.0,
+        "ct_gen_gwh_2024": 2859.9,
+        "crea_bio_gwh_2024": 16.18,
+        "crea_bio_kt_2024": 17.46
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.1186,
+          -3.4014
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M051",
+        "nama_pltu": "Shenhua Guohua power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT GH EMM Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 300.0,
+        "ct_gen_gwh_2024": 1280.63,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.4459,
+          -2.1586
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M052",
+        "nama_pltu": "Tabalong Wisesa power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT Makmur Sejahtera Wisesa",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 60.0,
+        "ct_gen_gwh_2024": 256.13,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.8071,
+          -3.7282
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M053",
+        "nama_pltu": "PLTU Tanjung Enim -Bukit Asam",
+        "pulau": "Sumatera",
+        "owner_operator": "PLN-South Sumatera Generation Unit",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 30.0,
+        "ct_gen_gwh_2024": 128.06,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.3872,
+          -5.5859
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M054",
+        "nama_pltu": "Lampung Sebalang power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.2582,
+          4.1207
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M055",
+        "nama_pltu": "Pangkalan Susu power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 840.0,
+        "ct_gen_gwh_2024": 3585.7,
+        "crea_bio_gwh_2024": 41.81,
+        "crea_bio_kt_2024": 43.12
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1496,
+          -2.0792
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M056",
+        "nama_pltu": "Bangka Baru power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT PLN Wilayah Bangka Belitung",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 60.0,
+        "ct_gen_gwh_2024": 256.13,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.6313,
+          -4.2933
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M057",
+        "nama_pltu": "Barru power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 18.28,
+        "crea_bio_kt_2024": 17.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.5235,
+          0.5644
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M058",
+        "nama_pltu": "Pekanbaru Tenayan power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 220.0,
+        "ct_gen_gwh_2024": 939.15,
+        "crea_bio_gwh_2024": 32.37,
+        "crea_bio_kt_2024": 31.3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7553,
+          -2.1563
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M059",
+        "nama_pltu": "Sumsel-5 power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT DSSP Power Sumsel",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 300.0,
+        "ct_gen_gwh_2024": 1280.63,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.6188,
+          2.2145
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M060",
+        "nama_pltu": "PLTU Lati",
+        "pulau": "Kalimantan",
+        "owner_operator": "Tidak tercatat",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 14.0,
+        "ct_gen_gwh_2024": 59.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          115.4408,
+          -2.1634
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M061",
+        "nama_pltu": "Tabalong power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT Tanjung Power Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          124.4806,
+          1.1825
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M062",
+        "nama_pltu": "Amurang power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 60.0,
+        "ct_gen_gwh_2024": 256.13,
+        "crea_bio_gwh_2024": 0.96,
+        "crea_bio_kt_2024": 1.07
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.8516,
+          -8.1963
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M063",
+        "nama_pltu": "Celukan Bawang power station",
+        "pulau": "Bali-Nusa Tenggara",
+        "owner_operator": "Merryline International Pte Ltd; PT General Energy Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 426.0,
+        "ct_gen_gwh_2024": 1818.6,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0459,
+          -5.883
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M064",
+        "nama_pltu": "Banten Serang power station (PLTU_M064)",
+        "pulau": "Jawa",
+        "owner_operator": "PT Lestari Banten Energi; PT PLN (Persero); PT Barito Pacific Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 660.0,
+        "ct_gen_gwh_2024": 2817.5,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          125.0855,
+          1.3743
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M065",
+        "nama_pltu": "Sulut-3 power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Minahasa Cahaya Lestari",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 100.0,
+        "ct_gen_gwh_2024": 426.89,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.1857,
+          -4.9765
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M066",
+        "nama_pltu": "Komering Agung Power Station",
+        "pulau": "Sumatera",
+        "owner_operator": "Tidak tercatat",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 14.0,
+        "ct_gen_gwh_2024": 59.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.6481,
+          -3.7515
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M067",
+        "nama_pltu": "Keban Agung power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Priamanaya Energi",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 270.0,
+        "ct_gen_gwh_2024": 1152.65,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.5555,
+          0.0303
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M068",
+        "nama_pltu": "PLTU Sanggau",
+        "pulau": "Kalimantan",
+        "owner_operator": "PLN",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 14.0,
+        "ct_gen_gwh_2024": 59.76,
+        "crea_bio_gwh_2024": 15.23,
+        "crea_bio_kt_2024": 19.38
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.1008,
+          -5.9917
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M069",
+        "nama_pltu": "Jawa-7 power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Shenhua Guohua Pembangkitan Jawa Bali",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 1982.0,
+        "ct_gen_gwh_2024": 8460.9,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.6534,
+          -4.0513
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M070",
+        "nama_pltu": "Kendari-3 power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT DSSP Power Kendari",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 100.0,
+        "ct_gen_gwh_2024": 426.89,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          105.9501,
+          -6.0239
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M071",
+        "nama_pltu": "Cilegon PTIP Power Station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Indorama Petrochemicals",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 40.0,
+        "ct_gen_gwh_2024": 170.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.4137,
+          -6.5539
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M072",
+        "nama_pltu": "Purwakarta Indorama power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 60.0,
+        "ct_gen_gwh_2024": 256.13,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.6654,
+          3.6676
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M073",
+        "nama_pltu": "Medan Steel Mill power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Gahapi Nisco Steel",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 30.0,
+        "ct_gen_gwh_2024": 128.06,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          102.2704,
+          -3.9123
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M074",
+        "nama_pltu": "Bengkulu power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Tenaga Listrik Bengkulu",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.9416,
+          0.9427
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M075",
+        "nama_pltu": "Sulbagut-1 power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Gorontalo Listrik Perdana",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 100.0,
+        "ct_gen_gwh_2024": 426.89,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          113.5672,
+          -1.3708
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M076",
+        "nama_pltu": "Kalselteng-1 power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT Datang DSSP Power Indonesia",
+        "status_cofiring_2024": "TARGET_COFIRING_5_PLTU",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.9948,
+          0.4766
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M077",
+        "nama_pltu": "Weda Bay power station",
+        "pulau": "Maluku",
+        "owner_operator": "PT Angel Nickel Industry; PT Indonesia Weda Bay Industrial Park; PT Sunny Metal Industry; PT Huake Nickel Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 2260.0,
+        "ct_gen_gwh_2024": 9647.5,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.1556,
+          -2.8289
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M078",
+        "nama_pltu": "Sulawesi Mining power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Indonesia Tsingshan Stainless Steel; PT Indonesia Guang Ching Nickel and Stainless Steel Industry; PT Sulawesi Mining Investment; Indonesia Morowali Power Co",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 2080.0,
+        "ct_gen_gwh_2024": 8879.3,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4662,
+          -3.8283
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M079",
+        "nama_pltu": "Delong Nickel Phase II power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Obsidian Stainless Steel",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 1840.0,
+        "ct_gen_gwh_2024": 7854.7,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.4191,
+          -3.9072
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M080",
+        "nama_pltu": "Delong Nickel Phase I power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Virtue Dragon Nickel Industry",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 530.0,
+        "ct_gen_gwh_2024": 2262.5,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.0663,
+          -0.3642
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M081",
+        "nama_pltu": "Kaltim-4 power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT Indonesia Energi Dinamika",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          117.4946,
+          0.0552
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M082",
+        "nama_pltu": "Kaltim FTP2 power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.419,
+          -1.5305
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M083",
+        "nama_pltu": "Xinxing Ductile Iron Pipes power station",
+        "pulau": "Maluku",
+        "owner_operator": "PT Megah Surya Pertiwi",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 152.0,
+        "ct_gen_gwh_2024": 648.88,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          127.4159,
+          -1.5661
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M084",
+        "nama_pltu": "Jinchuan Group WP&RKA power station",
+        "pulau": "Maluku",
+        "owner_operator": "WP&RKA Company",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 150.0,
+        "ct_gen_gwh_2024": 640.35,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.2616,
+          -3.0404
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M085",
+        "nama_pltu": "Qingdao Zhongsheng captive power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Metal Smeltindo Selaras",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 130.0,
+        "ct_gen_gwh_2024": 554.94,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104.6505,
+          0.9116
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M086",
+        "nama_pltu": "Nanshan Industrial Park power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Bintan Alumina Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 180.0,
+        "ct_gen_gwh_2024": 768.39,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.2892,
+          -6.1254
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M087",
+        "nama_pltu": "Indah Kiat Serang power station",
+        "pulau": "Jawa",
+        "owner_operator": "PT Indah Kiat Pulp & Paper Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 175.0,
+        "ct_gen_gwh_2024": 747.04,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          122.0306,
+          -2.731
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M088",
+        "nama_pltu": "Wanxiang Nickel Indonesia power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Wanxiang Steel Indonesia",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 130.0,
+        "ct_gen_gwh_2024": 554.94,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4599,
+          -10.352
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M089",
+        "nama_pltu": "Timor-1 power station",
+        "pulau": "Bali-Nusa Tenggara",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 100.0,
+        "ct_gen_gwh_2024": 426.89,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.9992,
+          -3.4767
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M090",
+        "nama_pltu": "Sumsel-1 power station",
+        "pulau": "Sumatera",
+        "owner_operator": "China Shenhua Energy Co Ltd; PT Lion Power Energy",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 0.0,
+        "ct_gen_gwh_2024": 0.0,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.769,
+          -2.2579
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M091",
+        "nama_pltu": "PT IHIP power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Baoshuo Taman Industry Investment Group",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 350.0,
+        "ct_gen_gwh_2024": 1494.3,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.4312,
+          -2.0166
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M092",
+        "nama_pltu": "Delong Nickel Phase IV power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT Nadesico Nickel Industry",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 330.0,
+        "ct_gen_gwh_2024": 1408.9,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          106.0234,
+          -5.8957
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M093",
+        "nama_pltu": "Banten Serang power station (PLTU_M093)",
+        "pulau": "Jawa",
+        "owner_operator": "PT Lestari Banten Energi; PT PLN (Persero); PT Barito Pacific Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 0.0,
+        "ct_gen_gwh_2024": 0.0,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          108.8455,
+          0.8163
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M094",
+        "nama_pltu": "Kalbar-1 power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "PT PLN Indonesia Power; Golden Concord Holdings Ltd",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 200.0,
+        "ct_gen_gwh_2024": 853.76,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8557,
+          -0.7326
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M095",
+        "nama_pltu": "PALU TAWAELI",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT. Pusaka Jaya Palu Power",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 66.0,
+        "ct_gen_gwh_2024": 281.75,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          110.1066,
+          -2.2356
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M096",
+        "nama_pltu": "Ketapang Bangun Sarana power station",
+        "pulau": "Kalimantan",
+        "owner_operator": "Hangzhou Jinjiang Group Co Ltd; Hangzhou Jinjiang Group Co Ltd",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 0.0,
+        "ct_gen_gwh_2024": 0.0,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          99.1973,
+          2.4637
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M097",
+        "nama_pltu": "Toba Pulp Lestari power station",
+        "pulau": "Sumatera",
+        "owner_operator": "PT Toba Pulp Lestari Tbk",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 50.0,
+        "ct_gen_gwh_2024": 213.46,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          107.3996,
+          -6.4982
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M098",
+        "nama_pltu": "South Pasific Viscose power station",
+        "pulau": "Jawa",
+        "owner_operator": "South Pasific Viscose PT",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 30.0,
+        "ct_gen_gwh_2024": 128.06,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          119.8076,
+          -0.6404
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M099",
+        "nama_pltu": "Palu power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 0.0,
+        "ct_gen_gwh_2024": 0.0,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          123.4701,
+          0.8902
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M100",
+        "nama_pltu": "Sulut-1 power station",
+        "pulau": "Sulawesi",
+        "owner_operator": "PT PLN (Persero)",
+        "status_cofiring_2024": "BELUM_TERCATAT_DI_CREA",
+        "ct_capacity_mw_2024": 0.0,
+        "ct_gen_gwh_2024": 0.0,
+        "crea_bio_gwh_2024": 0.0,
+        "crea_bio_kt_2024": 0.0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.357,
+          -2.5213
+        ]
+      },
+      "properties": {
+        "pltu_master_id": "PLTU_M109",
+        "nama_pltu": "PLTU Kupang",
+        "pulau": "Bali-Nusa Tenggara",
+        "owner_operator": "PT. Indonesia Power & electrindo Perkasa Utama",
+        "status_cofiring_2024": "OPERASI_COFIRING_2024",
+        "ct_capacity_mw_2024": 0.0,
+        "ct_gen_gwh_2024": 0.0,
+        "crea_bio_gwh_2024": 4.62,
+        "crea_bio_kt_2024": 4.55
+      }
+    }
+  ]
+}

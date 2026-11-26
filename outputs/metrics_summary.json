@@ -1,0 +1,484 @@
+{
+  "dataset": {
+    "source": "data/processed/mendeley_clean.csv",
+    "n_total": 268,
+    "n_train": 214,
+    "n_test": 54,
+    "split_strategy": "80/20 stratified by 4 HHV quartiles (random_state=42)",
+    "cv_strategy": "5-Fold StratifiedKFold on train HHV quartiles"
+  },
+  "scenario_a_proximate_only": {
+    "features": [
+      "ash_db",
+      "vm_db",
+      "fc_db"
+    ],
+    "best_algorithm": "Random Forest",
+    "best_overall_cv_algorithm": "Ridge Regression",
+    "best_params": {
+      "n_estimators": 180,
+      "min_samples_leaf": 2,
+      "max_features": 1.0,
+      "max_depth": 3
+    },
+    "all_models": [
+      {
+        "Skenario": "Skenario A (Proximate-Only)",
+        "Algoritma": "Ridge Regression",
+        "CV_R2": 0.44767291120583164,
+        "CV_RMSE": 1.514886510682508,
+        "CV_MAE": 1.1230641810141824,
+        "CV_MAPE_pct": 6.347977959441548,
+        "Test_R2": 0.5500562519678207,
+        "Test_RMSE": 1.24352922967576,
+        "Test_MAE": 1.04847348233023,
+        "Test_MAPE_pct": 6.097824060205021
+      },
+      {
+        "Skenario": "Skenario A (Proximate-Only)",
+        "Algoritma": "Random Forest",
+        "CV_R2": 0.3941456451947677,
+        "CV_RMSE": 1.5865948620307115,
+        "CV_MAE": 1.1955731344638683,
+        "CV_MAPE_pct": 6.770343115891668,
+        "Test_R2": 0.48592106215991215,
+        "Test_RMSE": 1.3292044684902224,
+        "Test_MAE": 1.14925967590331,
+        "Test_MAPE_pct": 6.61708763942407
+      },
+      {
+        "Skenario": "Skenario A (Proximate-Only)",
+        "Algoritma": "XGBoost",
+        "CV_R2": 0.38262258181615383,
+        "CV_RMSE": 1.601611936012098,
+        "CV_MAE": 1.1948328429961874,
+        "CV_MAPE_pct": 6.761355290973353,
+        "Test_R2": 0.49659146243681684,
+        "Test_RMSE": 1.3153374199673686,
+        "Test_MAE": 1.1430009368613914,
+        "Test_MAPE_pct": 6.583762368399995
+      }
+    ],
+    "best_metrics": {
+      "Skenario": "Skenario A (Proximate-Only)",
+      "Algoritma": "Random Forest",
+      "CV_R2": 0.3941456451947677,
+      "CV_RMSE": 1.5865948620307115,
+      "CV_MAE": 1.1955731344638683,
+      "CV_MAPE_pct": 6.770343115891668,
+      "Test_R2": 0.48592106215991215,
+      "Test_RMSE": 1.3292044684902224,
+      "Test_MAE": 1.14925967590331,
+      "Test_MAPE_pct": 6.61708763942407
+    },
+    "shap": {
+      "tree_algorithm": "Random Forest",
+      "shap_backend": "shap.TreeExplainer",
+      "mean_abs_shap_test": {
+        "ash_db": 0.8303,
+        "fc_db": 0.1413,
+        "vm_db": 0.0616
+      },
+      "figures": [
+        "02_shap_summary_proximate.png",
+        "02_shap_bar_proximate.png",
+        "02_shap_dependence_ash_proximate.png"
+      ]
+    }
+  },
+  "scenario_b_full_features": {
+    "features": [
+      "ash_db",
+      "vm_db",
+      "fc_db",
+      "c_db",
+      "h_db",
+      "o_db",
+      "n_db",
+      "s_db"
+    ],
+    "best_algorithm": "Random Forest",
+    "best_overall_cv_algorithm": "Ridge Regression",
+    "best_params": {
+      "n_estimators": 180,
+      "min_samples_leaf": 2,
+      "max_features": 1.0,
+      "max_depth": 6
+    },
+    "all_models": [
+      {
+        "Skenario": "Skenario B (Proximate + Ultimate)",
+        "Algoritma": "Ridge Regression",
+        "CV_R2": 0.5504240081530078,
+        "CV_RMSE": 1.3667323752777398,
+        "CV_MAE": 1.0331578494083384,
+        "CV_MAPE_pct": 5.854678826814399,
+        "Test_R2": 0.6980161260183633,
+        "Test_RMSE": 1.0187526776489457,
+        "Test_MAE": 0.8340893507183132,
+        "Test_MAPE_pct": 4.837459681838788
+      },
+      {
+        "Skenario": "Skenario B (Proximate + Ultimate)",
+        "Algoritma": "Random Forest",
+        "CV_R2": 0.5240982185560463,
+        "CV_RMSE": 1.4061789481826494,
+        "CV_MAE": 1.0721693864674566,
+        "CV_MAPE_pct": 6.065360982680157,
+        "Test_R2": 0.6883773142987772,
+        "Test_RMSE": 1.034883398897321,
+        "Test_MAE": 0.8510184554446832,
+        "Test_MAPE_pct": 4.936608049542142
+      },
+      {
+        "Skenario": "Skenario B (Proximate + Ultimate)",
+        "Algoritma": "XGBoost",
+        "CV_R2": 0.5079052216775086,
+        "CV_RMSE": 1.429902103221616,
+        "CV_MAE": 1.100022576234051,
+        "CV_MAPE_pct": 6.250618686920051,
+        "Test_R2": 0.6825392580971135,
+        "Test_RMSE": 1.0445323635215369,
+        "Test_MAE": 0.8732958560519746,
+        "Test_MAPE_pct": 5.016646854237691
+      }
+    ],
+    "best_metrics": {
+      "Skenario": "Skenario B (Proximate + Ultimate)",
+      "Algoritma": "Random Forest",
+      "CV_R2": 0.5240982185560463,
+      "CV_RMSE": 1.4061789481826494,
+      "CV_MAE": 1.0721693864674566,
+      "CV_MAPE_pct": 6.065360982680157,
+      "Test_R2": 0.6883773142987772,
+      "Test_RMSE": 1.034883398897321,
+      "Test_MAE": 0.8510184554446832,
+      "Test_MAPE_pct": 4.936608049542142
+    },
+    "shap": {
+      "tree_algorithm": "Random Forest",
+      "shap_backend": "shap.TreeExplainer",
+      "mean_abs_shap_test": {
+        "c_db": 0.8377,
+        "s_db": 0.1986,
+        "ash_db": 0.1481,
+        "n_db": 0.1294,
+        "fc_db": 0.0654,
+        "h_db": 0.0552,
+        "vm_db": 0.0375,
+        "o_db": 0.0355
+      },
+      "figures": [
+        "02_shap_summary_full.png",
+        "02_shap_bar_full.png",
+        "02_shap_dependence_ash_full.png"
+      ]
+    }
+  },
+  "subgroup_residual_audit": [
+    {
+      "Subkelompok Test Set": "Seluruh Test Set",
+      "n": 54,
+      "Skenario A RMSE": 1.3292,
+      "Skenario A MAE": 1.1493,
+      "Skenario B RMSE": 1.0349,
+      "Skenario B MAE": 0.851
+    },
+    {
+      "Subkelompok Test Set": "Tanpa Warning Neraca Massa",
+      "n": 47,
+      "Skenario A RMSE": 1.2681,
+      "Skenario A MAE": 1.0792,
+      "Skenario B RMSE": 1.024,
+      "Skenario B MAE": 0.8284
+    },
+    {
+      "Subkelompok Test Set": "Dengan mass_balance_warning",
+      "n": 7,
+      "Skenario A RMSE": 1.6829,
+      "Skenario A MAE": 1.6197,
+      "Skenario B RMSE": 1.1054,
+      "Skenario B MAE": 1.0031
+    },
+    {
+      "Subkelompok Test Set": "Biomassa Tanaman/Kayu (Non-Manure)",
+      "n": 50,
+      "Skenario A RMSE": 1.3371,
+      "Skenario A MAE": 1.1449,
+      "Skenario B RMSE": 1.0225,
+      "Skenario B MAE": 0.8318
+    },
+    {
+      "Subkelompok Test Set": "Kategori Manure",
+      "n": 4,
+      "Skenario A RMSE": 1.2268,
+      "Skenario A MAE": 1.2043,
+      "Skenario B RMSE": 1.1787,
+      "Skenario B MAE": 1.0908
+    }
+  ],
+  "external_validation_phyllis2": {
+    "summary_metrics": [
+      {
+        "Himpunan Uji": "10 Profil Lengkap (FS01-FS10)",
+        "n": 10,
+        "Skenario": "Skenario A (Proximate-Only)",
+        "MAE_MJ_kg": 0.9298034793790204,
+        "RMSE_MJ_kg": 1.0416796113028404,
+        "MAPE_pct": 5.168988584836592
+      },
+      {
+        "Himpunan Uji": "10 Profil Lengkap (FS01-FS10)",
+        "n": 10,
+        "Skenario": "Skenario B (Proximate + Ultimate)",
+        "MAE_MJ_kg": 0.6035528681684363,
+        "RMSE_MJ_kg": 0.7564423612568341,
+        "MAPE_pct": 3.4003886705142152
+      },
+      {
+        "Himpunan Uji": "9 Profil Murni (FS02-FS10)",
+        "n": 9,
+        "Skenario": "Skenario A (Proximate-Only)",
+        "MAE_MJ_kg": 0.8778434947532957,
+        "RMSE_MJ_kg": 0.9943236805155362,
+        "MAPE_pct": 4.960899474033579
+      },
+      {
+        "Himpunan Uji": "9 Profil Murni (FS02-FS10)",
+        "n": 9,
+        "Skenario": "Skenario B (Proximate + Ultimate)",
+        "MAE_MJ_kg": 0.5704142469985896,
+        "RMSE_MJ_kg": 0.7385275434367078,
+        "MAPE_pct": 3.273296300740966
+      }
+    ],
+    "per_feedstock": [
+      {
+        "feedstock_id": "FS01",
+        "feedstock_name": "palm kernel shell",
+        "proximate_source": "imputed_mendeley_pks_ratio",
+        "actual_hhv_db": 19.845,
+        "predicted_hhv_prox_db": 18.447556658989456,
+        "err_prox_pct": 7.04179058206371,
+        "predicted_hhv_full_db": 18.943199541302942,
+        "err_full_pct": 4.544219998473454,
+        "effective_lhv_lab_mj_kg": 16.613537392424035,
+        "actual_lhv_ar": 17.47,
+        "effective_lhv_field_mj_kg": 15.27471727980259,
+        "high_moisture_flag": false,
+        "boiler_status": "Eligible",
+        "alkali_chlorine_flag": "Data Unavailable",
+        "screening_recommendation": "Eligible - Verify Cl/Alkali Lab",
+        "cluster_id": 1,
+        "cluster_label": "Cluster 1: High-Calorie / High-FC Shell & Char-Rich"
+      },
+      {
+        "feedstock_id": "FS02",
+        "feedstock_name": "empty fruit bunches",
+        "proximate_source": "phyllis2_measured",
+        "actual_hhv_db": 19.0014,
+        "predicted_hhv_prox_db": 18.26201781851332,
+        "err_prox_pct": 3.8911984458338806,
+        "predicted_hhv_full_db": 18.74976603204806,
+        "err_full_pct": 1.3242917256198967,
+        "effective_lhv_lab_mj_kg": 15.625382541488507,
+        "actual_lhv_ar": 14.3925,
+        "effective_lhv_field_mj_kg": 6.559117227621627,
+        "high_moisture_flag": true,
+        "boiler_status": "Eligible",
+        "alkali_chlorine_flag": "High Risk",
+        "screening_recommendation": "Eligible - Needs Drying & Slagging Control",
+        "cluster_id": 4,
+        "cluster_label": "Cluster 4: High-Volatile / Low-Ash Woody & Agro"
+      },
+      {
+        "feedstock_id": "FS03",
+        "feedstock_name": "palm fiber",
+        "proximate_source": "phyllis2_measured",
+        "actual_hhv_db": 19.844,
+        "predicted_hhv_prox_db": 19.23436162151201,
+        "err_prox_pct": 3.072154699092873,
+        "predicted_hhv_full_db": 18.84607755842145,
+        "err_full_pct": 5.028837137565775,
+        "effective_lhv_lab_mj_kg": 13.941726184849967,
+        "actual_lhv_ar": 15.624,
+        "effective_lhv_field_mj_kg": 9.59501840641287,
+        "high_moisture_flag": false,
+        "boiler_status": "Eligible",
+        "alkali_chlorine_flag": "Moderate Risk",
+        "screening_recommendation": "Eligible - Moderate Alkali Control",
+        "cluster_id": 1,
+        "cluster_label": "Cluster 1: High-Calorie / High-FC Shell & Char-Rich"
+      },
+      {
+        "feedstock_id": "FS04",
+        "feedstock_name": "rice husk",
+        "proximate_source": "phyllis2_measured",
+        "actual_hhv_db": 14.7088,
+        "predicted_hhv_prox_db": 16.164446940348675,
+        "err_prox_pct": 9.896435741519873,
+        "predicted_hhv_full_db": 15.827915116863622,
+        "err_full_pct": 7.60847327357515,
+        "effective_lhv_lab_mj_kg": 13.279470113865143,
+        "actual_lhv_ar": 12.46,
+        "effective_lhv_field_mj_kg": 12.645125082007988,
+        "high_moisture_flag": false,
+        "boiler_status": "Not Eligible",
+        "alkali_chlorine_flag": "Moderate Risk",
+        "screening_recommendation": "Not Eligible - High Ash/Sulfur",
+        "cluster_id": 0,
+        "cluster_label": "Cluster 0: Moderate-Ash / Medium-Calorie Agro"
+      },
+      {
+        "feedstock_id": "FS05",
+        "feedstock_name": "rice straw",
+        "proximate_source": "phyllis2_measured",
+        "actual_hhv_db": 15.415,
+        "predicted_hhv_prox_db": 16.04229896456037,
+        "err_prox_pct": 4.069406192412396,
+        "predicted_hhv_full_db": 15.886174370901328,
+        "err_full_pct": 3.056596632509431,
+        "effective_lhv_lab_mj_kg": 13.466053320800937,
+        "actual_lhv_ar": 12.3825,
+        "effective_lhv_field_mj_kg": 12.174283390386126,
+        "high_moisture_flag": false,
+        "boiler_status": "Not Eligible",
+        "alkali_chlorine_flag": "High Risk",
+        "screening_recommendation": "Not Eligible - High Ash/Sulfur",
+        "cluster_id": 0,
+        "cluster_label": "Cluster 0: Moderate-Ash / Medium-Calorie Agro"
+      },
+      {
+        "feedstock_id": "FS06",
+        "feedstock_name": "bagasse",
+        "proximate_source": "phyllis2_measured",
+        "actual_hhv_db": 18.05,
+        "predicted_hhv_prox_db": 17.873301519461396,
+        "err_prox_pct": 0.9789389503523794,
+        "predicted_hhv_full_db": 18.030866809600674,
+        "err_full_pct": 0.10600105484391464,
+        "effective_lhv_lab_mj_kg": 13.127037181665417,
+        "actual_lhv_ar": 12.6291,
+        "effective_lhv_field_mj_kg": 7.170332441600337,
+        "high_moisture_flag": true,
+        "boiler_status": "Eligible",
+        "alkali_chlorine_flag": "High Risk",
+        "screening_recommendation": "Eligible - Needs Drying & Slagging Control",
+        "cluster_id": 4,
+        "cluster_label": "Cluster 4: High-Volatile / Low-Ash Woody & Agro"
+      },
+      {
+        "feedstock_id": "FS07",
+        "feedstock_name": "corn cob",
+        "proximate_source": "phyllis2_measured",
+        "actual_hhv_db": 17.1,
+        "predicted_hhv_prox_db": 18.431232469348178,
+        "err_prox_pct": 7.784985200866528,
+        "predicted_hhv_full_db": 18.325375624824307,
+        "err_full_pct": 7.165939326457928,
+        "effective_lhv_lab_mj_kg": 15.544410462451102,
+        "actual_lhv_ar": 15.05,
+        "effective_lhv_field_mj_kg": 14.673096460809871,
+        "high_moisture_flag": false,
+        "boiler_status": "Eligible",
+        "alkali_chlorine_flag": "High Risk",
+        "screening_recommendation": "Eligible - Needs Slagging/Cl Control",
+        "cluster_id": 4,
+        "cluster_label": "Cluster 4: High-Volatile / Low-Ash Woody & Agro"
+      },
+      {
+        "feedstock_id": "FS08",
+        "feedstock_name": "corn stover",
+        "proximate_source": "phyllis2_measured",
+        "actual_hhv_db": 18.1375,
+        "predicted_hhv_prox_db": 17.571221745159253,
+        "err_prox_pct": 3.122140619383853,
+        "predicted_hhv_full_db": 18.13408535644686,
+        "err_full_pct": 0.01882642896286164,
+        "effective_lhv_lab_mj_kg": 15.83612032484219,
+        "actual_lhv_ar": 16.2,
+        "effective_lhv_field_mj_kg": 14.00385823659983,
+        "high_moisture_flag": false,
+        "boiler_status": "Eligible",
+        "alkali_chlorine_flag": "High Risk",
+        "screening_recommendation": "Eligible - Needs Slagging/Cl Control",
+        "cluster_id": 4,
+        "cluster_label": "Cluster 4: High-Volatile / Low-Ash Woody & Agro"
+      },
+      {
+        "feedstock_id": "FS09",
+        "feedstock_name": "sawdust",
+        "proximate_source": "phyllis2_measured",
+        "actual_hhv_db": 19.9629,
+        "predicted_hhv_prox_db": 19.25388904218086,
+        "err_prox_pct": 3.5516430870221374,
+        "predicted_hhv_full_db": 19.84382369205245,
+        "err_full_pct": 0.596488025024178,
+        "effective_lhv_lab_mj_kg": 15.363742005808732,
+        "actual_lhv_ar": 14.6107,
+        "effective_lhv_field_mj_kg": 14.336598172201958,
+        "high_moisture_flag": false,
+        "boiler_status": "Eligible",
+        "alkali_chlorine_flag": "Low Risk",
+        "screening_recommendation": "Eligible - Direct Use",
+        "cluster_id": 4,
+        "cluster_label": "Cluster 4: High-Volatile / Low-Ash Woody & Agro"
+      },
+      {
+        "feedstock_id": "FS10",
+        "feedstock_name": "wood chips",
+        "proximate_source": "phyllis2_measured",
+        "actual_hhv_db": 20.3522,
+        "predicted_hhv_prox_db": 18.666795174650723,
+        "err_prox_pct": 8.281192329818285,
+        "predicted_hhv_full_db": 19.42531744103246,
+        "err_full_pct": 4.554213102109558,
+        "effective_lhv_lab_mj_kg": 13.388603560939513,
+        "actual_lhv_ar": 12.47,
+        "effective_lhv_field_mj_kg": 12.966413043546344,
+        "high_moisture_flag": false,
+        "boiler_status": "Eligible",
+        "alkali_chlorine_flag": "Low Risk",
+        "screening_recommendation": "Eligible - Direct Use",
+        "cluster_id": 4,
+        "cluster_label": "Cluster 4: High-Volatile / Low-Ash Woody & Agro"
+      }
+    ]
+  },
+  "kmeans_clustering": {
+    "features": [
+      "ash_db",
+      "vm_db",
+      "fc_db",
+      "s_db",
+      "hhv_db"
+    ],
+    "trained_on": "data/processed/mendeley_clean.csv (n=268)",
+    "candidates": [
+      {
+        "k": 3,
+        "inertia": 741.3971605876986,
+        "silhouette_score": 0.26165581994508286
+      },
+      {
+        "k": 4,
+        "inertia": 613.4776571972508,
+        "silhouette_score": 0.28413747979788506
+      },
+      {
+        "k": 5,
+        "inertia": 508.15426290808546,
+        "silhouette_score": 0.2975822645849094
+      }
+    ],
+    "selected_k": 5,
+    "selected_silhouette_score": 0.2975822645849094,
+    "cluster_labels": {
+      "0": "Cluster 0: Moderate-Ash / Medium-Calorie Agro",
+      "1": "Cluster 1: High-Calorie / High-FC Shell & Char-Rich",
+      "2": "Cluster 2: High-Ash / Low-Calorie Residue",
+      "3": "Cluster 3: Elevated-Sulfur / Rich-Organic",
+      "4": "Cluster 4: High-Volatile / Low-Ash Woody & Agro"
+    }
+  }
+}

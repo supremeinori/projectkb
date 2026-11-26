@@ -1,0 +1,561 @@
+location_key,location_code,level_wilayah,kode_prov,nama_provinsi,kode_kabkota,nama_kabkota,pulau,masuk_5_pulau_pltu,wilayah_pln,latitude_centroid,longitude_centroid,has_coordinates,is_dob_papua_mapped
+1,IDN_00,NASIONAL,,INDONESIA,,,Indonesia,0,Nasional,-2.5489,118.0149,1,0
+2,PULAU_SUMATERA,PULAU,,,,,Sumatera,1,Sumatera,-0.5,101.5,1,0
+3,PULAU_JAWA,PULAU,,,,,Jawa,1,JAMALI,-7.25,110.0,1,0
+4,PULAU_KALIMANTAN,PULAU,,,,,Kalimantan,1,Kalimantan,-0.5,114.5,1,0
+5,PULAU_SULAWESI,PULAU,,,,,Sulawesi,1,Sulawesi,-2.0,120.5,1,0
+6,PULAU_PAPUA,PULAU,,,,,Papua,1,Maluku-Papua,-4.0,138.0,1,0
+7,PULAU_BALI_NUSRA,PULAU,,,,,Bali-Nusa Tenggara,0,Nusa Tenggara,-8.65,118.5,1,0
+8,PULAU_MALUKU,PULAU,,,,,Maluku,0,Maluku-Papua,-1.5,128.0,1,0
+9,PROV_11,PROVINSI,11,Aceh,,,Sumatera,1,Sumatera,5.5483,95.3238,1,0
+10,PROV_12,PROVINSI,12,Sumatera Utara,,,Sumatera,1,Sumatera,3.5952,98.6722,1,0
+11,PROV_13,PROVINSI,13,Sumatera Barat,,,Sumatera,1,Sumatera,-0.9471,100.4172,1,0
+12,PROV_14,PROVINSI,14,Riau,,,Sumatera,1,Sumatera,0.5071,101.4478,1,0
+13,PROV_15,PROVINSI,15,Jambi,,,Sumatera,1,Sumatera,-1.6101,103.6131,1,0
+14,PROV_16,PROVINSI,16,Sumatera Selatan,,,Sumatera,1,Sumatera,-2.9761,104.7754,1,0
+15,PROV_17,PROVINSI,17,Bengkulu,,,Sumatera,1,Sumatera,-3.7928,102.2608,1,0
+16,PROV_18,PROVINSI,18,Lampung,,,Sumatera,1,Sumatera,-5.4292,105.261,1,0
+17,PROV_19,PROVINSI,19,Kepulauan Bangka Belitung,,,Sumatera,1,Sumatera,-2.1316,106.1169,1,0
+18,PROV_21,PROVINSI,21,Kepulauan Riau,,,Sumatera,1,Sumatera,0.9186,104.4665,1,0
+19,PROV_31,PROVINSI,31,DKI Jakarta,,,Jawa,1,JAMALI,-6.2088,106.8456,1,0
+20,PROV_32,PROVINSI,32,Jawa Barat,,,Jawa,1,JAMALI,-6.9175,107.6191,1,0
+21,PROV_33,PROVINSI,33,Jawa Tengah,,,Jawa,1,JAMALI,-6.9667,110.4167,1,0
+22,PROV_34,PROVINSI,34,DI Yogyakarta,,,Jawa,1,JAMALI,-7.7956,110.3695,1,0
+23,PROV_35,PROVINSI,35,Jawa Timur,,,Jawa,1,JAMALI,-7.2575,112.7521,1,0
+24,PROV_36,PROVINSI,36,Banten,,,Jawa,1,JAMALI,-6.12,106.1503,1,0
+25,PROV_51,PROVINSI,51,Bali,,,Bali-Nusa Tenggara,0,Nusa Tenggara,-8.6705,115.2126,1,0
+26,PROV_52,PROVINSI,52,Nusa Tenggara Barat,,,Bali-Nusa Tenggara,0,Nusa Tenggara,-8.5833,116.1167,1,0
+27,PROV_53,PROVINSI,53,Nusa Tenggara Timur,,,Bali-Nusa Tenggara,0,Nusa Tenggara,-10.1772,123.607,1,0
+28,PROV_61,PROVINSI,61,Kalimantan Barat,,,Kalimantan,1,Kalimantan,-0.0263,109.3425,1,0
+29,PROV_62,PROVINSI,62,Kalimantan Tengah,,,Kalimantan,1,Kalimantan,-2.2136,113.9108,1,0
+30,PROV_63,PROVINSI,63,Kalimantan Selatan,,,Kalimantan,1,Kalimantan,-3.3194,114.5908,1,0
+31,PROV_64,PROVINSI,64,Kalimantan Timur,,,Kalimantan,1,Kalimantan,-0.5022,117.1536,1,0
+32,PROV_65,PROVINSI,65,Kalimantan Utara,,,Kalimantan,1,Kalimantan,2.8375,117.3653,1,0
+33,PROV_71,PROVINSI,71,Sulawesi Utara,,,Sulawesi,1,Sulawesi,1.4748,124.8421,1,0
+34,PROV_72,PROVINSI,72,Sulawesi Tengah,,,Sulawesi,1,Sulawesi,-0.8917,119.8707,1,0
+35,PROV_73,PROVINSI,73,Sulawesi Selatan,,,Sulawesi,1,Sulawesi,-5.1477,119.4327,1,0
+36,PROV_74,PROVINSI,74,Sulawesi Tenggara,,,Sulawesi,1,Sulawesi,-3.9985,122.5129,1,0
+37,PROV_75,PROVINSI,75,Gorontalo,,,Sulawesi,1,Sulawesi,0.5435,123.0568,1,0
+38,PROV_76,PROVINSI,76,Sulawesi Barat,,,Sulawesi,1,Sulawesi,-2.6775,118.8861,1,0
+39,PROV_81,PROVINSI,81,Maluku,,,Maluku,0,Maluku-Papua,-3.6954,128.1814,1,0
+40,PROV_82,PROVINSI,82,Maluku Utara,,,Maluku,0,Maluku-Papua,0.7893,127.3878,1,0
+41,PROV_91,PROVINSI,91,Papua Barat,,,Papua,1,Maluku-Papua,-0.8615,134.062,1,0
+42,PROV_92,PROVINSI,92,Papua Barat Daya,,,Papua,1,Maluku-Papua,-0.8762,131.2558,1,0
+43,PROV_94,PROVINSI,94,Papua,,,Papua,1,Maluku-Papua,-2.5916,140.669,1,0
+44,PROV_95,PROVINSI,95,Papua Selatan,,,Papua,1,Maluku-Papua,-8.4932,140.4018,1,0
+45,PROV_96,PROVINSI,96,Papua Tengah,,,Papua,1,Maluku-Papua,-3.3667,135.496,1,0
+46,PROV_97,PROVINSI,97,Papua Pegunungan,,,Papua,1,Maluku-Papua,-4.0928,138.9438,1,0
+47,KAB_1101,KABKOTA,11,Aceh,1101,Kab. Simeulue,Sumatera,1,Sumatera,,,0,0
+48,KAB_1102,KABKOTA,11,Aceh,1102,Kab. Aceh Singkil,Sumatera,1,Sumatera,,,0,0
+49,KAB_1103,KABKOTA,11,Aceh,1103,Kab. Aceh Selatan,Sumatera,1,Sumatera,,,0,0
+50,KAB_1104,KABKOTA,11,Aceh,1104,Kab. Aceh Tenggara,Sumatera,1,Sumatera,,,0,0
+51,KAB_1105,KABKOTA,11,Aceh,1105,Kab. Aceh Timur,Sumatera,1,Sumatera,,,0,0
+52,KAB_1106,KABKOTA,11,Aceh,1106,Kab. Aceh Tengah,Sumatera,1,Sumatera,,,0,0
+53,KAB_1107,KABKOTA,11,Aceh,1107,Kab. Aceh Barat,Sumatera,1,Sumatera,,,0,0
+54,KAB_1108,KABKOTA,11,Aceh,1108,Kab. Aceh Besar,Sumatera,1,Sumatera,,,0,0
+55,KAB_1109,KABKOTA,11,Aceh,1109,Kab. Aceh Pidie,Sumatera,1,Sumatera,,,0,0
+56,KAB_1110,KABKOTA,11,Aceh,1110,Kab. Bireun,Sumatera,1,Sumatera,,,0,0
+57,KAB_1111,KABKOTA,11,Aceh,1111,Kab. Aceh Utara,Sumatera,1,Sumatera,,,0,0
+58,KAB_1112,KABKOTA,11,Aceh,1112,Kab. Aceh Barat Daya,Sumatera,1,Sumatera,,,0,0
+59,KAB_1113,KABKOTA,11,Aceh,1113,Kab. Gayo Lues,Sumatera,1,Sumatera,,,0,0
+60,KAB_1114,KABKOTA,11,Aceh,1114,Kab. Aceh Tamiang,Sumatera,1,Sumatera,,,0,0
+61,KAB_1115,KABKOTA,11,Aceh,1115,Kab. Nagan Raya,Sumatera,1,Sumatera,,,0,0
+62,KAB_1116,KABKOTA,11,Aceh,1116,Kab. Aceh Jaya,Sumatera,1,Sumatera,,,0,0
+63,KAB_1117,KABKOTA,11,Aceh,1117,Kab. Bener Meriah,Sumatera,1,Sumatera,,,0,0
+64,KAB_1118,KABKOTA,11,Aceh,1118,Kab. Pidie Jaya,Sumatera,1,Sumatera,,,0,0
+65,KAB_1171,KABKOTA,11,Aceh,1171,Kota Banda Aceh,Sumatera,1,Sumatera,,,0,0
+66,KAB_1172,KABKOTA,11,Aceh,1172,Kota Sabang,Sumatera,1,Sumatera,,,0,0
+67,KAB_1173,KABKOTA,11,Aceh,1173,Kota Langsa,Sumatera,1,Sumatera,,,0,0
+68,KAB_1174,KABKOTA,11,Aceh,1174,Kota Lhokseumawe,Sumatera,1,Sumatera,,,0,0
+69,KAB_1175,KABKOTA,11,Aceh,1175,Kota Subulussalam,Sumatera,1,Sumatera,,,0,0
+70,KAB_1201,KABKOTA,12,Sumatera Utara,1201,Kab. Nias,Sumatera,1,Sumatera,,,0,0
+71,KAB_1202,KABKOTA,12,Sumatera Utara,1202,Kab. Mandailing Natal,Sumatera,1,Sumatera,,,0,0
+72,KAB_1203,KABKOTA,12,Sumatera Utara,1203,Kab. Tapanuli Selatan,Sumatera,1,Sumatera,,,0,0
+73,KAB_1204,KABKOTA,12,Sumatera Utara,1204,Kab. Tapanuli Tengah,Sumatera,1,Sumatera,,,0,0
+74,KAB_1205,KABKOTA,12,Sumatera Utara,1205,Kab. Tapanuli Utara,Sumatera,1,Sumatera,,,0,0
+75,KAB_1206,KABKOTA,12,Sumatera Utara,1206,Kab. Toba Samosir,Sumatera,1,Sumatera,,,0,0
+76,KAB_1207,KABKOTA,12,Sumatera Utara,1207,Kab. Labuhan Batu,Sumatera,1,Sumatera,,,0,0
+77,KAB_1208,KABKOTA,12,Sumatera Utara,1208,Kab. Asahan,Sumatera,1,Sumatera,,,0,0
+78,KAB_1209,KABKOTA,12,Sumatera Utara,1209,Kab. Simalungun,Sumatera,1,Sumatera,,,0,0
+79,KAB_1210,KABKOTA,12,Sumatera Utara,1210,Kab. Dairi,Sumatera,1,Sumatera,,,0,0
+80,KAB_1211,KABKOTA,12,Sumatera Utara,1211,Kab. Karo,Sumatera,1,Sumatera,,,0,0
+81,KAB_1212,KABKOTA,12,Sumatera Utara,1212,Kab. Deli Serdang,Sumatera,1,Sumatera,,,0,0
+82,KAB_1213,KABKOTA,12,Sumatera Utara,1213,Kab. Langkat,Sumatera,1,Sumatera,,,0,0
+83,KAB_1214,KABKOTA,12,Sumatera Utara,1214,Kab. Nias Selatan,Sumatera,1,Sumatera,,,0,0
+84,KAB_1215,KABKOTA,12,Sumatera Utara,1215,Kab. Humbang Hasundutan,Sumatera,1,Sumatera,,,0,0
+85,KAB_1216,KABKOTA,12,Sumatera Utara,1216,Kab. PakPak Bharat,Sumatera,1,Sumatera,,,0,0
+86,KAB_1217,KABKOTA,12,Sumatera Utara,1217,Kab. Samosir,Sumatera,1,Sumatera,,,0,0
+87,KAB_1218,KABKOTA,12,Sumatera Utara,1218,Kab. Serdang Bedagai,Sumatera,1,Sumatera,,,0,0
+88,KAB_1219,KABKOTA,12,Sumatera Utara,1219,Kab. Batubara,Sumatera,1,Sumatera,,,0,0
+89,KAB_1220,KABKOTA,12,Sumatera Utara,1220,Kab. Padang Lawas Utara,Sumatera,1,Sumatera,,,0,0
+90,KAB_1221,KABKOTA,12,Sumatera Utara,1221,Kab. Padang Lawas,Sumatera,1,Sumatera,,,0,0
+91,KAB_1222,KABKOTA,12,Sumatera Utara,1222,Kab. Labuhan Batu Selatan,Sumatera,1,Sumatera,,,0,0
+92,KAB_1223,KABKOTA,12,Sumatera Utara,1223,Kab. Labuhan Batu Utara,Sumatera,1,Sumatera,,,0,0
+93,KAB_1224,KABKOTA,12,Sumatera Utara,1224,Kab. Nias Utara,Sumatera,1,Sumatera,,,0,0
+94,KAB_1225,KABKOTA,12,Sumatera Utara,1225,Kab. Nias Barat,Sumatera,1,Sumatera,,,0,0
+95,KAB_1271,KABKOTA,12,Sumatera Utara,1271,Kota Sibolga,Sumatera,1,Sumatera,,,0,0
+96,KAB_1272,KABKOTA,12,Sumatera Utara,1272,Kota Tanjung Balai,Sumatera,1,Sumatera,,,0,0
+97,KAB_1273,KABKOTA,12,Sumatera Utara,1273,Kota Pematang Siantar,Sumatera,1,Sumatera,,,0,0
+98,KAB_1274,KABKOTA,12,Sumatera Utara,1274,Kota Tebing Tinggi,Sumatera,1,Sumatera,,,0,0
+99,KAB_1275,KABKOTA,12,Sumatera Utara,1275,Kota Medan,Sumatera,1,Sumatera,,,0,0
+100,KAB_1276,KABKOTA,12,Sumatera Utara,1276,Kota Binjai,Sumatera,1,Sumatera,,,0,0
+101,KAB_1277,KABKOTA,12,Sumatera Utara,1277,Kota Padang Sidimpuan,Sumatera,1,Sumatera,,,0,0
+102,KAB_1278,KABKOTA,12,Sumatera Utara,1278,Kota Gunung Sitoli,Sumatera,1,Sumatera,,,0,0
+103,KAB_1301,KABKOTA,13,Sumatera Barat,1301,Kab. Kepulauan Mentawai,Sumatera,1,Sumatera,,,0,0
+104,KAB_1302,KABKOTA,13,Sumatera Barat,1302,Kab. Pesisir Selatan,Sumatera,1,Sumatera,,,0,0
+105,KAB_1303,KABKOTA,13,Sumatera Barat,1303,Kab. Solok,Sumatera,1,Sumatera,,,0,0
+106,KAB_1304,KABKOTA,13,Sumatera Barat,1304,Kab. Sijunjung,Sumatera,1,Sumatera,,,0,0
+107,KAB_1305,KABKOTA,13,Sumatera Barat,1305,Kab. Tanah Datar,Sumatera,1,Sumatera,,,0,0
+108,KAB_1306,KABKOTA,13,Sumatera Barat,1306,Kab. Padang Pariaman,Sumatera,1,Sumatera,,,0,0
+109,KAB_1307,KABKOTA,13,Sumatera Barat,1307,Kab. Agam,Sumatera,1,Sumatera,,,0,0
+110,KAB_1308,KABKOTA,13,Sumatera Barat,1308,Kab. Lima Puluh Kota,Sumatera,1,Sumatera,,,0,0
+111,KAB_1309,KABKOTA,13,Sumatera Barat,1309,Kab. Pasaman,Sumatera,1,Sumatera,,,0,0
+112,KAB_1310,KABKOTA,13,Sumatera Barat,1310,Kab. Solok Selatan,Sumatera,1,Sumatera,,,0,0
+113,KAB_1311,KABKOTA,13,Sumatera Barat,1311,Kab. Dharmas Raya,Sumatera,1,Sumatera,,,0,0
+114,KAB_1312,KABKOTA,13,Sumatera Barat,1312,Kab. Pasaman Barat,Sumatera,1,Sumatera,,,0,0
+115,KAB_1371,KABKOTA,13,Sumatera Barat,1371,Kota Padang,Sumatera,1,Sumatera,,,0,0
+116,KAB_1372,KABKOTA,13,Sumatera Barat,1372,Kota Solok,Sumatera,1,Sumatera,,,0,0
+117,KAB_1373,KABKOTA,13,Sumatera Barat,1373,Kota Sawah Lunto,Sumatera,1,Sumatera,,,0,0
+118,KAB_1374,KABKOTA,13,Sumatera Barat,1374,Kota Padang Panjang,Sumatera,1,Sumatera,,,0,0
+119,KAB_1375,KABKOTA,13,Sumatera Barat,1375,Kota Bukit Tinggi,Sumatera,1,Sumatera,,,0,0
+120,KAB_1376,KABKOTA,13,Sumatera Barat,1376,Kota Payakumbuh,Sumatera,1,Sumatera,,,0,0
+121,KAB_1377,KABKOTA,13,Sumatera Barat,1377,Kota Pariaman,Sumatera,1,Sumatera,,,0,0
+122,KAB_1401,KABKOTA,14,Riau,1401,Kab. Kuantan Singingi,Sumatera,1,Sumatera,,,0,0
+123,KAB_1402,KABKOTA,14,Riau,1402,Kab. Indragiri Hulu,Sumatera,1,Sumatera,,,0,0
+124,KAB_1403,KABKOTA,14,Riau,1403,Kab. Indragiri Hilir,Sumatera,1,Sumatera,,,0,0
+125,KAB_1404,KABKOTA,14,Riau,1404,Kab. Pelalawan,Sumatera,1,Sumatera,,,0,0
+126,KAB_1405,KABKOTA,14,Riau,1405,Kab. Siak,Sumatera,1,Sumatera,,,0,0
+127,KAB_1406,KABKOTA,14,Riau,1406,Kab. Kampar,Sumatera,1,Sumatera,,,0,0
+128,KAB_1407,KABKOTA,14,Riau,1407,Kab. Rokan Hulu,Sumatera,1,Sumatera,,,0,0
+129,KAB_1408,KABKOTA,14,Riau,1408,Kab. Bengkalis,Sumatera,1,Sumatera,,,0,0
+130,KAB_1409,KABKOTA,14,Riau,1409,Kab. Rokan Hilir,Sumatera,1,Sumatera,,,0,0
+131,KAB_1410,KABKOTA,14,Riau,1410,Kab. Kepulauan Meranti,Sumatera,1,Sumatera,,,0,0
+132,KAB_1471,KABKOTA,14,Riau,1471,Kota Pekanbaru,Sumatera,1,Sumatera,,,0,0
+133,KAB_1473,KABKOTA,14,Riau,1473,Kota Dumai,Sumatera,1,Sumatera,,,0,0
+134,KAB_1501,KABKOTA,15,Jambi,1501,Kab. Kerinci,Sumatera,1,Sumatera,,,0,0
+135,KAB_1502,KABKOTA,15,Jambi,1502,Kab. Merangin,Sumatera,1,Sumatera,,,0,0
+136,KAB_1503,KABKOTA,15,Jambi,1503,Kab. Sarolangun,Sumatera,1,Sumatera,,,0,0
+137,KAB_1504,KABKOTA,15,Jambi,1504,kab. Batang Hari,Sumatera,1,Sumatera,,,0,0
+138,KAB_1505,KABKOTA,15,Jambi,1505,Kab. Muaro Jambi,Sumatera,1,Sumatera,,,0,0
+139,KAB_1506,KABKOTA,15,Jambi,1506,Kab. Tanjung Jabung Timur,Sumatera,1,Sumatera,,,0,0
+140,KAB_1507,KABKOTA,15,Jambi,1507,Kab. Tanjung Jabung Barat,Sumatera,1,Sumatera,,,0,0
+141,KAB_1508,KABKOTA,15,Jambi,1508,Kab. Tebo,Sumatera,1,Sumatera,,,0,0
+142,KAB_1509,KABKOTA,15,Jambi,1509,Kab. Bungo,Sumatera,1,Sumatera,,,0,0
+143,KAB_1571,KABKOTA,15,Jambi,1571,Kota Jambi,Sumatera,1,Sumatera,,,0,0
+144,KAB_1572,KABKOTA,15,Jambi,1572,Kota Sungai Penuh,Sumatera,1,Sumatera,,,0,0
+145,KAB_1601,KABKOTA,16,Sumatera Selatan,1601,Kab. Ogan Komering Ulu,Sumatera,1,Sumatera,,,0,0
+146,KAB_1602,KABKOTA,16,Sumatera Selatan,1602,Kab. Ogan Komering Ilir,Sumatera,1,Sumatera,,,0,0
+147,KAB_1603,KABKOTA,16,Sumatera Selatan,1603,Kab. Muara Enim,Sumatera,1,Sumatera,,,0,0
+148,KAB_1604,KABKOTA,16,Sumatera Selatan,1604,Kab. Lahat,Sumatera,1,Sumatera,,,0,0
+149,KAB_1605,KABKOTA,16,Sumatera Selatan,1605,Kab. Musi Rawas,Sumatera,1,Sumatera,,,0,0
+150,KAB_1606,KABKOTA,16,Sumatera Selatan,1606,Kab. Musi Banyu Asin,Sumatera,1,Sumatera,,,0,0
+151,KAB_1607,KABKOTA,16,Sumatera Selatan,1607,Kab. Banyu Asin,Sumatera,1,Sumatera,,,0,0
+152,KAB_1608,KABKOTA,16,Sumatera Selatan,1608,Kab. OKU Selatan,Sumatera,1,Sumatera,,,0,0
+153,KAB_1609,KABKOTA,16,Sumatera Selatan,1609,Kab. OKU Timur,Sumatera,1,Sumatera,,,0,0
+154,KAB_1610,KABKOTA,16,Sumatera Selatan,1610,Kab. Ogan Ilir,Sumatera,1,Sumatera,,,0,0
+155,KAB_1611,KABKOTA,16,Sumatera Selatan,1611,Kab. Empat Lawang,Sumatera,1,Sumatera,,,0,0
+156,KAB_1612,KABKOTA,16,Sumatera Selatan,1612,Kab. Penukal Abab Lematang Ilir,Sumatera,1,Sumatera,,,0,0
+157,KAB_1613,KABKOTA,16,Sumatera Selatan,1613,Kab. Musi Rawas Utara,Sumatera,1,Sumatera,,,0,0
+158,KAB_1671,KABKOTA,16,Sumatera Selatan,1671,Kota Palembang,Sumatera,1,Sumatera,,,0,0
+159,KAB_1672,KABKOTA,16,Sumatera Selatan,1672,Kota Prabumulih,Sumatera,1,Sumatera,,,0,0
+160,KAB_1673,KABKOTA,16,Sumatera Selatan,1673,Kota Pagaralam,Sumatera,1,Sumatera,,,0,0
+161,KAB_1674,KABKOTA,16,Sumatera Selatan,1674,Kota Lubuk Linggau,Sumatera,1,Sumatera,,,0,0
+162,KAB_1701,KABKOTA,17,Bengkulu,1701,Kab. Bengkulu Selatan,Sumatera,1,Sumatera,,,0,0
+163,KAB_1702,KABKOTA,17,Bengkulu,1702,Kab. Rejang Lebong,Sumatera,1,Sumatera,,,0,0
+164,KAB_1703,KABKOTA,17,Bengkulu,1703,Kab. Bengkulu Utara,Sumatera,1,Sumatera,,,0,0
+165,KAB_1704,KABKOTA,17,Bengkulu,1704,Kab. Kaur,Sumatera,1,Sumatera,,,0,0
+166,KAB_1705,KABKOTA,17,Bengkulu,1705,Kab. Seluma,Sumatera,1,Sumatera,,,0,0
+167,KAB_1706,KABKOTA,17,Bengkulu,1706,Kab. Muko Muko,Sumatera,1,Sumatera,,,0,0
+168,KAB_1707,KABKOTA,17,Bengkulu,1707,Kab. Lebong,Sumatera,1,Sumatera,,,0,0
+169,KAB_1708,KABKOTA,17,Bengkulu,1708,Kab. Kepahiang,Sumatera,1,Sumatera,,,0,0
+170,KAB_1709,KABKOTA,17,Bengkulu,1709,Kab. Bengkulu Tengah,Sumatera,1,Sumatera,,,0,0
+171,KAB_1771,KABKOTA,17,Bengkulu,1771,Kota Bengkulu,Sumatera,1,Sumatera,,,0,0
+172,KAB_1801,KABKOTA,18,Lampung,1801,Kab. Lampung Barat,Sumatera,1,Sumatera,,,0,0
+173,KAB_1802,KABKOTA,18,Lampung,1802,Kab. Tanggamus,Sumatera,1,Sumatera,,,0,0
+174,KAB_1803,KABKOTA,18,Lampung,1803,Kab. Lampung Selatan,Sumatera,1,Sumatera,,,0,0
+175,KAB_1804,KABKOTA,18,Lampung,1804,Kab. Lampung Timur,Sumatera,1,Sumatera,,,0,0
+176,KAB_1805,KABKOTA,18,Lampung,1805,Kab. Lampung Tengah,Sumatera,1,Sumatera,,,0,0
+177,KAB_1806,KABKOTA,18,Lampung,1806,Kab. Lampung Utara,Sumatera,1,Sumatera,,,0,0
+178,KAB_1807,KABKOTA,18,Lampung,1807,Kab. Way Kanan,Sumatera,1,Sumatera,,,0,0
+179,KAB_1808,KABKOTA,18,Lampung,1808,Kab. Tulang Bawang,Sumatera,1,Sumatera,,,0,0
+180,KAB_1809,KABKOTA,18,Lampung,1809,Kab. Pesawaran,Sumatera,1,Sumatera,,,0,0
+181,KAB_1810,KABKOTA,18,Lampung,1810,Kab. Pringsewu,Sumatera,1,Sumatera,,,0,0
+182,KAB_1811,KABKOTA,18,Lampung,1811,Kab. Mesuji,Sumatera,1,Sumatera,,,0,0
+183,KAB_1812,KABKOTA,18,Lampung,1812,Kab. Tulang Bawang Barat,Sumatera,1,Sumatera,,,0,0
+184,KAB_1813,KABKOTA,18,Lampung,1813,Kab. Pesisir Barat,Sumatera,1,Sumatera,,,0,0
+185,KAB_1871,KABKOTA,18,Lampung,1871,Kota Bandar Lampung,Sumatera,1,Sumatera,,,0,0
+186,KAB_1872,KABKOTA,18,Lampung,1872,Kota Metro,Sumatera,1,Sumatera,,,0,0
+187,KAB_1901,KABKOTA,19,Kepulauan Bangka Belitung,1901,Kab. Bangka,Sumatera,1,Sumatera,,,0,0
+188,KAB_1902,KABKOTA,19,Kepulauan Bangka Belitung,1902,Kab. Belitung,Sumatera,1,Sumatera,,,0,0
+189,KAB_1903,KABKOTA,19,Kepulauan Bangka Belitung,1903,Kab. Bangka Barat,Sumatera,1,Sumatera,,,0,0
+190,KAB_1904,KABKOTA,19,Kepulauan Bangka Belitung,1904,Kab. Bangka Tengah,Sumatera,1,Sumatera,,,0,0
+191,KAB_1905,KABKOTA,19,Kepulauan Bangka Belitung,1905,Kab. Bangka Selatan,Sumatera,1,Sumatera,,,0,0
+192,KAB_1906,KABKOTA,19,Kepulauan Bangka Belitung,1906,Kab. Belitung Timur,Sumatera,1,Sumatera,,,0,0
+193,KAB_1971,KABKOTA,19,Kepulauan Bangka Belitung,1971,Kota Pangkal Pinang,Sumatera,1,Sumatera,,,0,0
+194,KAB_2101,KABKOTA,21,Kepulauan Riau,2101,Kab. Karimun,Sumatera,1,Sumatera,,,0,0
+195,KAB_2102,KABKOTA,21,Kepulauan Riau,2102,Kab. Bintan,Sumatera,1,Sumatera,,,0,0
+196,KAB_2103,KABKOTA,21,Kepulauan Riau,2103,Kab. Natuna,Sumatera,1,Sumatera,,,0,0
+197,KAB_2104,KABKOTA,21,Kepulauan Riau,2104,Kab. Lingga,Sumatera,1,Sumatera,,,0,0
+198,KAB_2105,KABKOTA,21,Kepulauan Riau,2105,Kab. Kepulauan Anambas,Sumatera,1,Sumatera,,,0,0
+199,KAB_2171,KABKOTA,21,Kepulauan Riau,2171,Kota Batam,Sumatera,1,Sumatera,,,0,0
+200,KAB_2172,KABKOTA,21,Kepulauan Riau,2172,Kota Tanjung Pinang,Sumatera,1,Sumatera,,,0,0
+201,KAB_3101,KABKOTA,31,DKI Jakarta,3101,Kab. Kepulauan Seribu,Jawa,1,JAMALI,,,0,0
+202,KAB_3171,KABKOTA,31,DKI Jakarta,3171,Kota Jakarta Selatan,Jawa,1,JAMALI,,,0,0
+203,KAB_3172,KABKOTA,31,DKI Jakarta,3172,Kota Jakarta Timur,Jawa,1,JAMALI,,,0,0
+204,KAB_3173,KABKOTA,31,DKI Jakarta,3173,Kota Jakarta Pusat,Jawa,1,JAMALI,,,0,0
+205,KAB_3174,KABKOTA,31,DKI Jakarta,3174,Kota Jakarta Barat,Jawa,1,JAMALI,,,0,0
+206,KAB_3175,KABKOTA,31,DKI Jakarta,3175,Kota Jakarta Utara,Jawa,1,JAMALI,,,0,0
+207,KAB_3201,KABKOTA,32,Jawa Barat,3201,Kab. Bogor,Jawa,1,JAMALI,,,0,0
+208,KAB_3202,KABKOTA,32,Jawa Barat,3202,Kab. Sukabumi,Jawa,1,JAMALI,,,0,0
+209,KAB_3203,KABKOTA,32,Jawa Barat,3203,Kab. Cianjur,Jawa,1,JAMALI,,,0,0
+210,KAB_3204,KABKOTA,32,Jawa Barat,3204,Kab. Bandung,Jawa,1,JAMALI,,,0,0
+211,KAB_3205,KABKOTA,32,Jawa Barat,3205,Kab. Garut,Jawa,1,JAMALI,,,0,0
+212,KAB_3206,KABKOTA,32,Jawa Barat,3206,Kab. Tasikmalaya,Jawa,1,JAMALI,,,0,0
+213,KAB_3207,KABKOTA,32,Jawa Barat,3207,Kab. Ciamis,Jawa,1,JAMALI,,,0,0
+214,KAB_3208,KABKOTA,32,Jawa Barat,3208,Kab. Kuningan,Jawa,1,JAMALI,,,0,0
+215,KAB_3209,KABKOTA,32,Jawa Barat,3209,Kab. Cirebon,Jawa,1,JAMALI,,,0,0
+216,KAB_3210,KABKOTA,32,Jawa Barat,3210,Kab. Majalengka,Jawa,1,JAMALI,,,0,0
+217,KAB_3211,KABKOTA,32,Jawa Barat,3211,Kab. Sumedang,Jawa,1,JAMALI,,,0,0
+218,KAB_3212,KABKOTA,32,Jawa Barat,3212,Kab. Indramayu,Jawa,1,JAMALI,,,0,0
+219,KAB_3213,KABKOTA,32,Jawa Barat,3213,Kab. Subang,Jawa,1,JAMALI,,,0,0
+220,KAB_3214,KABKOTA,32,Jawa Barat,3214,Kab. Purwakarta,Jawa,1,JAMALI,,,0,0
+221,KAB_3215,KABKOTA,32,Jawa Barat,3215,Kab. Karawang,Jawa,1,JAMALI,,,0,0
+222,KAB_3216,KABKOTA,32,Jawa Barat,3216,Kab. Bekasi,Jawa,1,JAMALI,,,0,0
+223,KAB_3217,KABKOTA,32,Jawa Barat,3217,Kab. Bandung Barat,Jawa,1,JAMALI,,,0,0
+224,KAB_3218,KABKOTA,32,Jawa Barat,3218,Kab. Pangandaran,Jawa,1,JAMALI,,,0,0
+225,KAB_3271,KABKOTA,32,Jawa Barat,3271,Kota Bogor,Jawa,1,JAMALI,,,0,0
+226,KAB_3272,KABKOTA,32,Jawa Barat,3272,Kota Sukabumi,Jawa,1,JAMALI,,,0,0
+227,KAB_3273,KABKOTA,32,Jawa Barat,3273,Kota Bandung,Jawa,1,JAMALI,,,0,0
+228,KAB_3274,KABKOTA,32,Jawa Barat,3274,Kota Cirebon,Jawa,1,JAMALI,,,0,0
+229,KAB_3275,KABKOTA,32,Jawa Barat,3275,Kota Bekasi,Jawa,1,JAMALI,,,0,0
+230,KAB_3276,KABKOTA,32,Jawa Barat,3276,Kota Depok,Jawa,1,JAMALI,,,0,0
+231,KAB_3277,KABKOTA,32,Jawa Barat,3277,Kota Cimahi,Jawa,1,JAMALI,,,0,0
+232,KAB_3278,KABKOTA,32,Jawa Barat,3278,Kota Tasikmalaya,Jawa,1,JAMALI,,,0,0
+233,KAB_3279,KABKOTA,32,Jawa Barat,3279,Kota Banjar,Jawa,1,JAMALI,,,0,0
+234,KAB_3301,KABKOTA,33,Jawa Tengah,3301,Kab. Cilacap,Jawa,1,JAMALI,,,0,0
+235,KAB_3302,KABKOTA,33,Jawa Tengah,3302,Kab. Banyumas,Jawa,1,JAMALI,,,0,0
+236,KAB_3303,KABKOTA,33,Jawa Tengah,3303,Kab. Purbalingga,Jawa,1,JAMALI,,,0,0
+237,KAB_3304,KABKOTA,33,Jawa Tengah,3304,Kab. Banjarnegara,Jawa,1,JAMALI,,,0,0
+238,KAB_3305,KABKOTA,33,Jawa Tengah,3305,Kab. Kebumen,Jawa,1,JAMALI,,,0,0
+239,KAB_3306,KABKOTA,33,Jawa Tengah,3306,Kab. Purworejo,Jawa,1,JAMALI,,,0,0
+240,KAB_3307,KABKOTA,33,Jawa Tengah,3307,Kab. Wonosobo,Jawa,1,JAMALI,,,0,0
+241,KAB_3308,KABKOTA,33,Jawa Tengah,3308,Kab. Magelang,Jawa,1,JAMALI,,,0,0
+242,KAB_3309,KABKOTA,33,Jawa Tengah,3309,Kab. Boyolali,Jawa,1,JAMALI,,,0,0
+243,KAB_3310,KABKOTA,33,Jawa Tengah,3310,Kab. Klaten,Jawa,1,JAMALI,,,0,0
+244,KAB_3311,KABKOTA,33,Jawa Tengah,3311,Kab. Sukoharjo,Jawa,1,JAMALI,,,0,0
+245,KAB_3312,KABKOTA,33,Jawa Tengah,3312,Kab. Wonogiri,Jawa,1,JAMALI,,,0,0
+246,KAB_3313,KABKOTA,33,Jawa Tengah,3313,Kab. Karanganyar,Jawa,1,JAMALI,,,0,0
+247,KAB_3314,KABKOTA,33,Jawa Tengah,3314,Kab. Sragen,Jawa,1,JAMALI,,,0,0
+248,KAB_3315,KABKOTA,33,Jawa Tengah,3315,Kab. Grobogan,Jawa,1,JAMALI,,,0,0
+249,KAB_3316,KABKOTA,33,Jawa Tengah,3316,Kab. Blora,Jawa,1,JAMALI,,,0,0
+250,KAB_3317,KABKOTA,33,Jawa Tengah,3317,Kab. Rembang,Jawa,1,JAMALI,,,0,0
+251,KAB_3318,KABKOTA,33,Jawa Tengah,3318,Kab. Pati,Jawa,1,JAMALI,,,0,0
+252,KAB_3319,KABKOTA,33,Jawa Tengah,3319,Kab. Kudus,Jawa,1,JAMALI,,,0,0
+253,KAB_3320,KABKOTA,33,Jawa Tengah,3320,Kab. Jepara,Jawa,1,JAMALI,,,0,0
+254,KAB_3321,KABKOTA,33,Jawa Tengah,3321,Kab. Demak,Jawa,1,JAMALI,,,0,0
+255,KAB_3322,KABKOTA,33,Jawa Tengah,3322,Kab. Semarang,Jawa,1,JAMALI,,,0,0
+256,KAB_3323,KABKOTA,33,Jawa Tengah,3323,Kab. Temanggung,Jawa,1,JAMALI,,,0,0
+257,KAB_3324,KABKOTA,33,Jawa Tengah,3324,Kab. Kendal,Jawa,1,JAMALI,,,0,0
+258,KAB_3325,KABKOTA,33,Jawa Tengah,3325,Kab. Batang,Jawa,1,JAMALI,,,0,0
+259,KAB_3326,KABKOTA,33,Jawa Tengah,3326,Kab. Pekalongan,Jawa,1,JAMALI,,,0,0
+260,KAB_3327,KABKOTA,33,Jawa Tengah,3327,Kab. Pemalang,Jawa,1,JAMALI,,,0,0
+261,KAB_3328,KABKOTA,33,Jawa Tengah,3328,Kab. Tegal,Jawa,1,JAMALI,,,0,0
+262,KAB_3329,KABKOTA,33,Jawa Tengah,3329,Kab. Brebes,Jawa,1,JAMALI,,,0,0
+263,KAB_3371,KABKOTA,33,Jawa Tengah,3371,Kota Magelang,Jawa,1,JAMALI,,,0,0
+264,KAB_3372,KABKOTA,33,Jawa Tengah,3372,Kota Surakarta,Jawa,1,JAMALI,,,0,0
+265,KAB_3373,KABKOTA,33,Jawa Tengah,3373,Kota Salatiga,Jawa,1,JAMALI,,,0,0
+266,KAB_3374,KABKOTA,33,Jawa Tengah,3374,Kota Semarang,Jawa,1,JAMALI,,,0,0
+267,KAB_3375,KABKOTA,33,Jawa Tengah,3375,Kota Pekalongan,Jawa,1,JAMALI,,,0,0
+268,KAB_3376,KABKOTA,33,Jawa Tengah,3376,Kota Tegal,Jawa,1,JAMALI,,,0,0
+269,KAB_3401,KABKOTA,34,DI Yogyakarta,3401,Kab. Kulon Progo,Jawa,1,JAMALI,,,0,0
+270,KAB_3402,KABKOTA,34,DI Yogyakarta,3402,Kab. Bantul,Jawa,1,JAMALI,,,0,0
+271,KAB_3403,KABKOTA,34,DI Yogyakarta,3403,Kab. Gunung Kidul,Jawa,1,JAMALI,,,0,0
+272,KAB_3404,KABKOTA,34,DI Yogyakarta,3404,Kab. Sleman,Jawa,1,JAMALI,,,0,0
+273,KAB_3471,KABKOTA,34,DI Yogyakarta,3471,Kota Yogyakarta,Jawa,1,JAMALI,,,0,0
+274,KAB_3501,KABKOTA,35,Jawa Timur,3501,Kab. Pacitan,Jawa,1,JAMALI,,,0,0
+275,KAB_3502,KABKOTA,35,Jawa Timur,3502,Kab. Ponorogo,Jawa,1,JAMALI,,,0,0
+276,KAB_3503,KABKOTA,35,Jawa Timur,3503,Kab. Trenggalek,Jawa,1,JAMALI,,,0,0
+277,KAB_3504,KABKOTA,35,Jawa Timur,3504,Kab. Tulungagung,Jawa,1,JAMALI,,,0,0
+278,KAB_3505,KABKOTA,35,Jawa Timur,3505,Kab. Blitar,Jawa,1,JAMALI,,,0,0
+279,KAB_3506,KABKOTA,35,Jawa Timur,3506,Kab. Kediri,Jawa,1,JAMALI,,,0,0
+280,KAB_3507,KABKOTA,35,Jawa Timur,3507,Kab. Malang,Jawa,1,JAMALI,,,0,0
+281,KAB_3508,KABKOTA,35,Jawa Timur,3508,Kab. Lumajang,Jawa,1,JAMALI,,,0,0
+282,KAB_3509,KABKOTA,35,Jawa Timur,3509,Kab. Jember,Jawa,1,JAMALI,,,0,0
+283,KAB_3510,KABKOTA,35,Jawa Timur,3510,Kab. Banyuwangi,Jawa,1,JAMALI,,,0,0
+284,KAB_3511,KABKOTA,35,Jawa Timur,3511,Kab. Bondowoso,Jawa,1,JAMALI,,,0,0
+285,KAB_3512,KABKOTA,35,Jawa Timur,3512,Kab. Situbondo,Jawa,1,JAMALI,,,0,0
+286,KAB_3513,KABKOTA,35,Jawa Timur,3513,Kab. Probolinggo,Jawa,1,JAMALI,,,0,0
+287,KAB_3514,KABKOTA,35,Jawa Timur,3514,Kab. Pasuruan,Jawa,1,JAMALI,,,0,0
+288,KAB_3515,KABKOTA,35,Jawa Timur,3515,Kab. Sidoarjo,Jawa,1,JAMALI,,,0,0
+289,KAB_3516,KABKOTA,35,Jawa Timur,3516,Kab. Mojokerto,Jawa,1,JAMALI,,,0,0
+290,KAB_3517,KABKOTA,35,Jawa Timur,3517,Kab. Jombang,Jawa,1,JAMALI,,,0,0
+291,KAB_3518,KABKOTA,35,Jawa Timur,3518,Kab. Nganjuk,Jawa,1,JAMALI,,,0,0
+292,KAB_3519,KABKOTA,35,Jawa Timur,3519,Kab. Madiun,Jawa,1,JAMALI,,,0,0
+293,KAB_3520,KABKOTA,35,Jawa Timur,3520,Kab. Magetan,Jawa,1,JAMALI,,,0,0
+294,KAB_3521,KABKOTA,35,Jawa Timur,3521,Kab. Ngawi,Jawa,1,JAMALI,,,0,0
+295,KAB_3522,KABKOTA,35,Jawa Timur,3522,Kab. Bojonegoro,Jawa,1,JAMALI,,,0,0
+296,KAB_3523,KABKOTA,35,Jawa Timur,3523,Kab. Tuban,Jawa,1,JAMALI,,,0,0
+297,KAB_3524,KABKOTA,35,Jawa Timur,3524,Kab. Lamongan,Jawa,1,JAMALI,,,0,0
+298,KAB_3525,KABKOTA,35,Jawa Timur,3525,Kab. Gresik,Jawa,1,JAMALI,,,0,0
+299,KAB_3526,KABKOTA,35,Jawa Timur,3526,Kab. Bangkalan,Jawa,1,JAMALI,,,0,0
+300,KAB_3527,KABKOTA,35,Jawa Timur,3527,Kab. Sampang,Jawa,1,JAMALI,,,0,0
+301,KAB_3528,KABKOTA,35,Jawa Timur,3528,Kab. Pamekasan,Jawa,1,JAMALI,,,0,0
+302,KAB_3529,KABKOTA,35,Jawa Timur,3529,Kab. Sumenep,Jawa,1,JAMALI,,,0,0
+303,KAB_3571,KABKOTA,35,Jawa Timur,3571,Kota Kediri,Jawa,1,JAMALI,,,0,0
+304,KAB_3572,KABKOTA,35,Jawa Timur,3572,Kota Blitar,Jawa,1,JAMALI,,,0,0
+305,KAB_3573,KABKOTA,35,Jawa Timur,3573,Kota Malang,Jawa,1,JAMALI,,,0,0
+306,KAB_3574,KABKOTA,35,Jawa Timur,3574,Kota Probolinggo,Jawa,1,JAMALI,,,0,0
+307,KAB_3575,KABKOTA,35,Jawa Timur,3575,Kota Pasuruan,Jawa,1,JAMALI,,,0,0
+308,KAB_3576,KABKOTA,35,Jawa Timur,3576,Kota Mojokerto,Jawa,1,JAMALI,,,0,0
+309,KAB_3577,KABKOTA,35,Jawa Timur,3577,Kota Madiun,Jawa,1,JAMALI,,,0,0
+310,KAB_3578,KABKOTA,35,Jawa Timur,3578,Kota Surabaya,Jawa,1,JAMALI,,,0,0
+311,KAB_3579,KABKOTA,35,Jawa Timur,3579,Kota Batu,Jawa,1,JAMALI,,,0,0
+312,KAB_3601,KABKOTA,36,Banten,3601,Kab. Pandeglang,Jawa,1,JAMALI,,,0,0
+313,KAB_3602,KABKOTA,36,Banten,3602,Kab. Lebak,Jawa,1,JAMALI,,,0,0
+314,KAB_3603,KABKOTA,36,Banten,3603,Kab. Tangerang,Jawa,1,JAMALI,,,0,0
+315,KAB_3604,KABKOTA,36,Banten,3604,Kab. Serang,Jawa,1,JAMALI,,,0,0
+316,KAB_3671,KABKOTA,36,Banten,3671,Kota Tangerang,Jawa,1,JAMALI,,,0,0
+317,KAB_3672,KABKOTA,36,Banten,3672,Kota Cilegon,Jawa,1,JAMALI,,,0,0
+318,KAB_3673,KABKOTA,36,Banten,3673,Kota Serang,Jawa,1,JAMALI,,,0,0
+319,KAB_3674,KABKOTA,36,Banten,3674,Kota Tangerang Selatan,Jawa,1,JAMALI,,,0,0
+320,KAB_5101,KABKOTA,51,Bali,5101,Kab. Jembrana,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+321,KAB_5102,KABKOTA,51,Bali,5102,Kab. Tabanan,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+322,KAB_5103,KABKOTA,51,Bali,5103,Kab. Badung,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+323,KAB_5104,KABKOTA,51,Bali,5104,Kab. Gianyar,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+324,KAB_5105,KABKOTA,51,Bali,5105,Kab. Klungkung,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+325,KAB_5106,KABKOTA,51,Bali,5106,Kab. Bangli,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+326,KAB_5107,KABKOTA,51,Bali,5107,Kab. Karang Asem,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+327,KAB_5108,KABKOTA,51,Bali,5108,Kab. Buleleng,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+328,KAB_5171,KABKOTA,51,Bali,5171,Kota Denpasar,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+329,KAB_5201,KABKOTA,52,Nusa Tenggara Barat,5201,Kab. Lombok Barat,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+330,KAB_5202,KABKOTA,52,Nusa Tenggara Barat,5202,Kab. Lombok Tengah,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+331,KAB_5203,KABKOTA,52,Nusa Tenggara Barat,5203,Kab. Lombok Timur,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+332,KAB_5204,KABKOTA,52,Nusa Tenggara Barat,5204,Kab. Sumbawa,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+333,KAB_5205,KABKOTA,52,Nusa Tenggara Barat,5205,Kab. Dompu,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+334,KAB_5206,KABKOTA,52,Nusa Tenggara Barat,5206,Kab. Bima,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+335,KAB_5207,KABKOTA,52,Nusa Tenggara Barat,5207,Kab. Sumbawa Barat,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+336,KAB_5208,KABKOTA,52,Nusa Tenggara Barat,5208,Kab. Lombok Utara,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+337,KAB_5271,KABKOTA,52,Nusa Tenggara Barat,5271,Kota Mataram,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+338,KAB_5272,KABKOTA,52,Nusa Tenggara Barat,5272,Kota Bima,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+339,KAB_5301,KABKOTA,53,Nusa Tenggara Timur,5301,Kab. Sumba Barat,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+340,KAB_5302,KABKOTA,53,Nusa Tenggara Timur,5302,Kab. Sumba Timur,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+341,KAB_5303,KABKOTA,53,Nusa Tenggara Timur,5303,Kab. Kupang,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+342,KAB_5304,KABKOTA,53,Nusa Tenggara Timur,5304,Kab. Timor Tengah Selatan,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+343,KAB_5305,KABKOTA,53,Nusa Tenggara Timur,5305,Kab. Timor Tengah Utara,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+344,KAB_5306,KABKOTA,53,Nusa Tenggara Timur,5306,Kab. Belu,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+345,KAB_5307,KABKOTA,53,Nusa Tenggara Timur,5307,Kab. Alor,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+346,KAB_5308,KABKOTA,53,Nusa Tenggara Timur,5308,Kab: Lembata,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+347,KAB_5309,KABKOTA,53,Nusa Tenggara Timur,5309,Kab. Flores Timur,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+348,KAB_5310,KABKOTA,53,Nusa Tenggara Timur,5310,Kab. Sikka,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+349,KAB_5311,KABKOTA,53,Nusa Tenggara Timur,5311,Kab. Ende,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+350,KAB_5312,KABKOTA,53,Nusa Tenggara Timur,5312,Kab. Ngada,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+351,KAB_5313,KABKOTA,53,Nusa Tenggara Timur,5313,Kab. Manggarai,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+352,KAB_5314,KABKOTA,53,Nusa Tenggara Timur,5314,Kab. Rote Ndao,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+353,KAB_5315,KABKOTA,53,Nusa Tenggara Timur,5315,Kab. Manggarai Barat,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+354,KAB_5316,KABKOTA,53,Nusa Tenggara Timur,5316,Kab. Sumba Tengah,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+355,KAB_5317,KABKOTA,53,Nusa Tenggara Timur,5317,Kab. Sumba Barat Daya,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+356,KAB_5318,KABKOTA,53,Nusa Tenggara Timur,5318,Kab. Nagekeo,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+357,KAB_5319,KABKOTA,53,Nusa Tenggara Timur,5319,Kab. Manggarai Timur,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+358,KAB_5320,KABKOTA,53,Nusa Tenggara Timur,5320,Kab. Sabu Raijua,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+359,KAB_5321,KABKOTA,53,Nusa Tenggara Timur,5321,Kab. Malaka,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+360,KAB_5371,KABKOTA,53,Nusa Tenggara Timur,5371,Kota Kupang,Bali-Nusa Tenggara,0,Nusa Tenggara,,,0,0
+361,KAB_6101,KABKOTA,61,Kalimantan Barat,6101,Kab. Sambas,Kalimantan,1,Kalimantan,,,0,0
+362,KAB_6102,KABKOTA,61,Kalimantan Barat,6102,Kab. Bengkayang,Kalimantan,1,Kalimantan,,,0,0
+363,KAB_6103,KABKOTA,61,Kalimantan Barat,6103,Kab. Landak,Kalimantan,1,Kalimantan,,,0,0
+364,KAB_6104,KABKOTA,61,Kalimantan Barat,6104,Kab. Mempawah,Kalimantan,1,Kalimantan,,,0,0
+365,KAB_6105,KABKOTA,61,Kalimantan Barat,6105,Kab. Sanggau,Kalimantan,1,Kalimantan,,,0,0
+366,KAB_6106,KABKOTA,61,Kalimantan Barat,6106,Kab. Ketapang,Kalimantan,1,Kalimantan,,,0,0
+367,KAB_6107,KABKOTA,61,Kalimantan Barat,6107,Kab. Sintang,Kalimantan,1,Kalimantan,,,0,0
+368,KAB_6108,KABKOTA,61,Kalimantan Barat,6108,Kab. Kapuas Hulu,Kalimantan,1,Kalimantan,,,0,0
+369,KAB_6109,KABKOTA,61,Kalimantan Barat,6109,Kab. Sekadau,Kalimantan,1,Kalimantan,,,0,0
+370,KAB_6110,KABKOTA,61,Kalimantan Barat,6110,Kab. Melawi,Kalimantan,1,Kalimantan,,,0,0
+371,KAB_6111,KABKOTA,61,Kalimantan Barat,6111,Kab. Kayong Utara,Kalimantan,1,Kalimantan,,,0,0
+372,KAB_6112,KABKOTA,61,Kalimantan Barat,6112,Kab. Kubu Raya,Kalimantan,1,Kalimantan,,,0,0
+373,KAB_6171,KABKOTA,61,Kalimantan Barat,6171,Kota Pontianak,Kalimantan,1,Kalimantan,,,0,0
+374,KAB_6172,KABKOTA,61,Kalimantan Barat,6172,Kota Singkawang,Kalimantan,1,Kalimantan,,,0,0
+375,KAB_6201,KABKOTA,62,Kalimantan Tengah,6201,Kab. Kota Waringin Barat,Kalimantan,1,Kalimantan,,,0,0
+376,KAB_6202,KABKOTA,62,Kalimantan Tengah,6202,Kab. Kota Waringin Timur,Kalimantan,1,Kalimantan,,,0,0
+377,KAB_6203,KABKOTA,62,Kalimantan Tengah,6203,Kab. Kapuas,Kalimantan,1,Kalimantan,,,0,0
+378,KAB_6204,KABKOTA,62,Kalimantan Tengah,6204,Kab. Barito Selatan,Kalimantan,1,Kalimantan,,,0,0
+379,KAB_6205,KABKOTA,62,Kalimantan Tengah,6205,Kab. Barito Utara,Kalimantan,1,Kalimantan,,,0,0
+380,KAB_6206,KABKOTA,62,Kalimantan Tengah,6206,Kab. Sukamara,Kalimantan,1,Kalimantan,,,0,0
+381,KAB_6207,KABKOTA,62,Kalimantan Tengah,6207,Kab. Lamandau,Kalimantan,1,Kalimantan,,,0,0
+382,KAB_6208,KABKOTA,62,Kalimantan Tengah,6208,Kab. Seruyan,Kalimantan,1,Kalimantan,,,0,0
+383,KAB_6209,KABKOTA,62,Kalimantan Tengah,6209,Kab. Katingan,Kalimantan,1,Kalimantan,,,0,0
+384,KAB_6210,KABKOTA,62,Kalimantan Tengah,6210,Kab. Pulang Pisau,Kalimantan,1,Kalimantan,,,0,0
+385,KAB_6211,KABKOTA,62,Kalimantan Tengah,6211,Kab. Gunung Mas,Kalimantan,1,Kalimantan,,,0,0
+386,KAB_6212,KABKOTA,62,Kalimantan Tengah,6212,Kab. Barito Timur,Kalimantan,1,Kalimantan,,,0,0
+387,KAB_6213,KABKOTA,62,Kalimantan Tengah,6213,Kab. Murung Raya,Kalimantan,1,Kalimantan,,,0,0
+388,KAB_6271,KABKOTA,62,Kalimantan Tengah,6271,Kota Palangkaraya,Kalimantan,1,Kalimantan,,,0,0
+389,KAB_6301,KABKOTA,63,Kalimantan Selatan,6301,Kab. Tanah Laut,Kalimantan,1,Kalimantan,,,0,0
+390,KAB_6302,KABKOTA,63,Kalimantan Selatan,6302,Kab. Kota Baru,Kalimantan,1,Kalimantan,,,0,0
+391,KAB_6303,KABKOTA,63,Kalimantan Selatan,6303,Kab. Banjar,Kalimantan,1,Kalimantan,,,0,0
+392,KAB_6304,KABKOTA,63,Kalimantan Selatan,6304,Kab. Barito Kuala,Kalimantan,1,Kalimantan,,,0,0
+393,KAB_6305,KABKOTA,63,Kalimantan Selatan,6305,Kab. Tapin,Kalimantan,1,Kalimantan,,,0,0
+394,KAB_6306,KABKOTA,63,Kalimantan Selatan,6306,Kab. Hulu Sungai Selatan,Kalimantan,1,Kalimantan,,,0,0
+395,KAB_6307,KABKOTA,63,Kalimantan Selatan,6307,Kab. Hulu Sungai Tengah,Kalimantan,1,Kalimantan,,,0,0
+396,KAB_6308,KABKOTA,63,Kalimantan Selatan,6308,Kab. Hulu Sungai Utara,Kalimantan,1,Kalimantan,,,0,0
+397,KAB_6309,KABKOTA,63,Kalimantan Selatan,6309,Kab. Tabalong,Kalimantan,1,Kalimantan,,,0,0
+398,KAB_6310,KABKOTA,63,Kalimantan Selatan,6310,Kab. Tanah Bumbu,Kalimantan,1,Kalimantan,,,0,0
+399,KAB_6311,KABKOTA,63,Kalimantan Selatan,6311,Kab. Balangan,Kalimantan,1,Kalimantan,,,0,0
+400,KAB_6371,KABKOTA,63,Kalimantan Selatan,6371,Kota Banjarmasin,Kalimantan,1,Kalimantan,,,0,0
+401,KAB_6372,KABKOTA,63,Kalimantan Selatan,6372,Kota Banjarbaru,Kalimantan,1,Kalimantan,,,0,0
+402,KAB_6401,KABKOTA,64,Kalimantan Timur,6401,Kab. Paser,Kalimantan,1,Kalimantan,,,0,0
+403,KAB_6402,KABKOTA,64,Kalimantan Timur,6402,Kab. Kutai Barat,Kalimantan,1,Kalimantan,,,0,0
+404,KAB_6403,KABKOTA,64,Kalimantan Timur,6403,Kab. Kutai Kertanegara,Kalimantan,1,Kalimantan,,,0,0
+405,KAB_6404,KABKOTA,64,Kalimantan Timur,6404,Kab. Kutai Timur,Kalimantan,1,Kalimantan,,,0,0
+406,KAB_6405,KABKOTA,64,Kalimantan Timur,6405,Kab. Berau,Kalimantan,1,Kalimantan,,,0,0
+407,KAB_6409,KABKOTA,64,Kalimantan Timur,6409,Kab. Penajam Paser Utara,Kalimantan,1,Kalimantan,,,0,0
+408,KAB_6411,KABKOTA,64,Kalimantan Timur,6411,Kab. Mahakam Hulu,Kalimantan,1,Kalimantan,,,0,0
+409,KAB_6471,KABKOTA,64,Kalimantan Timur,6471,Kota Balikpapan,Kalimantan,1,Kalimantan,,,0,0
+410,KAB_6472,KABKOTA,64,Kalimantan Timur,6472,Kota Samarinda,Kalimantan,1,Kalimantan,,,0,0
+411,KAB_6474,KABKOTA,64,Kalimantan Timur,6474,Kota Bontang,Kalimantan,1,Kalimantan,,,0,0
+412,KAB_6501,KABKOTA,65,Kalimantan Utara,6501,Kab. Malinau,Kalimantan,1,Kalimantan,,,0,0
+413,KAB_6502,KABKOTA,65,Kalimantan Utara,6502,Kab. Bulungan,Kalimantan,1,Kalimantan,,,0,0
+414,KAB_6503,KABKOTA,65,Kalimantan Utara,6503,Kab. Tana Tidung,Kalimantan,1,Kalimantan,,,0,0
+415,KAB_6504,KABKOTA,65,Kalimantan Utara,6504,Kab Nunukan,Kalimantan,1,Kalimantan,,,0,0
+416,KAB_6571,KABKOTA,65,Kalimantan Utara,6571,Kota Tarakan,Kalimantan,1,Kalimantan,,,0,0
+417,KAB_7101,KABKOTA,71,Sulawesi Utara,7101,Kab. Bolaang Mongondow,Sulawesi,1,Sulawesi,,,0,0
+418,KAB_7102,KABKOTA,71,Sulawesi Utara,7102,Kab. Minahasa,Sulawesi,1,Sulawesi,,,0,0
+419,KAB_7103,KABKOTA,71,Sulawesi Utara,7103,Kab. Kepulauan Sangihe,Sulawesi,1,Sulawesi,,,0,0
+420,KAB_7104,KABKOTA,71,Sulawesi Utara,7104,Kab. Kepulauan Talaud,Sulawesi,1,Sulawesi,,,0,0
+421,KAB_7105,KABKOTA,71,Sulawesi Utara,7105,Kab. Minahasa Selatan,Sulawesi,1,Sulawesi,,,0,0
+422,KAB_7106,KABKOTA,71,Sulawesi Utara,7106,Kab. Minahasa Utara,Sulawesi,1,Sulawesi,,,0,0
+423,KAB_7107,KABKOTA,71,Sulawesi Utara,7107,Kab. Bolaang Mongondow Utara,Sulawesi,1,Sulawesi,,,0,0
+424,KAB_7108,KABKOTA,71,Sulawesi Utara,7108,Kab. Siau Tagulandang Biaro,Sulawesi,1,Sulawesi,,,0,0
+425,KAB_7109,KABKOTA,71,Sulawesi Utara,7109,Kab. Minahasa Tenggara,Sulawesi,1,Sulawesi,,,0,0
+426,KAB_7110,KABKOTA,71,Sulawesi Utara,7110,Kab. Bolaang Mongondow Selatan,Sulawesi,1,Sulawesi,,,0,0
+427,KAB_7111,KABKOTA,71,Sulawesi Utara,7111,Kab. Bolaang Mongondow Timur,Sulawesi,1,Sulawesi,,,0,0
+428,KAB_7171,KABKOTA,71,Sulawesi Utara,7171,Kota Manado,Sulawesi,1,Sulawesi,,,0,0
+429,KAB_7172,KABKOTA,71,Sulawesi Utara,7172,Kota Bitung,Sulawesi,1,Sulawesi,,,0,0
+430,KAB_7173,KABKOTA,71,Sulawesi Utara,7173,Kota Tomohon,Sulawesi,1,Sulawesi,,,0,0
+431,KAB_7174,KABKOTA,71,Sulawesi Utara,7174,Kotamobagu,Sulawesi,1,Sulawesi,,,0,0
+432,KAB_7201,KABKOTA,72,Sulawesi Tengah,7201,Kab. Banggai Kepulauan,Sulawesi,1,Sulawesi,,,0,0
+433,KAB_7202,KABKOTA,72,Sulawesi Tengah,7202,Kab. Banggai,Sulawesi,1,Sulawesi,,,0,0
+434,KAB_7203,KABKOTA,72,Sulawesi Tengah,7203,Kab. Morowali,Sulawesi,1,Sulawesi,,,0,0
+435,KAB_7204,KABKOTA,72,Sulawesi Tengah,7204,Kab. Poso,Sulawesi,1,Sulawesi,,,0,0
+436,KAB_7205,KABKOTA,72,Sulawesi Tengah,7205,Kab. Donggala,Sulawesi,1,Sulawesi,,,0,0
+437,KAB_7206,KABKOTA,72,Sulawesi Tengah,7206,Kab. Toli-Toli,Sulawesi,1,Sulawesi,,,0,0
+438,KAB_7207,KABKOTA,72,Sulawesi Tengah,7207,Kab. Buol,Sulawesi,1,Sulawesi,,,0,0
+439,KAB_7208,KABKOTA,72,Sulawesi Tengah,7208,Kab. Parigi Moutong,Sulawesi,1,Sulawesi,,,0,0
+440,KAB_7209,KABKOTA,72,Sulawesi Tengah,7209,Kab. Tojo Una-una,Sulawesi,1,Sulawesi,,,0,0
+441,KAB_7210,KABKOTA,72,Sulawesi Tengah,7210,Kab. Sigi,Sulawesi,1,Sulawesi,,,0,0
+442,KAB_7211,KABKOTA,72,Sulawesi Tengah,7211,Kab. Banggai Laut,Sulawesi,1,Sulawesi,,,0,0
+443,KAB_7212,KABKOTA,72,Sulawesi Tengah,7212,Kab. Morowali Utara,Sulawesi,1,Sulawesi,,,0,0
+444,KAB_7271,KABKOTA,72,Sulawesi Tengah,7271,Kota Palu,Sulawesi,1,Sulawesi,,,0,0
+445,KAB_7301,KABKOTA,73,Sulawesi Selatan,7301,Kab. Kepulauan Selayar,Sulawesi,1,Sulawesi,,,0,0
+446,KAB_7302,KABKOTA,73,Sulawesi Selatan,7302,Kab. Bulukumba,Sulawesi,1,Sulawesi,,,0,0
+447,KAB_7303,KABKOTA,73,Sulawesi Selatan,7303,Kab. Bantaeng,Sulawesi,1,Sulawesi,,,0,0
+448,KAB_7304,KABKOTA,73,Sulawesi Selatan,7304,Kab. Jeneponto,Sulawesi,1,Sulawesi,,,0,0
+449,KAB_7305,KABKOTA,73,Sulawesi Selatan,7305,Kab. Takalar,Sulawesi,1,Sulawesi,,,0,0
+450,KAB_7306,KABKOTA,73,Sulawesi Selatan,7306,Kab. Gowa,Sulawesi,1,Sulawesi,,,0,0
+451,KAB_7307,KABKOTA,73,Sulawesi Selatan,7307,Kab. Sinjai,Sulawesi,1,Sulawesi,,,0,0
+452,KAB_7308,KABKOTA,73,Sulawesi Selatan,7308,Kab. Maros,Sulawesi,1,Sulawesi,,,0,0
+453,KAB_7309,KABKOTA,73,Sulawesi Selatan,7309,Kab. Pangkajene dan Kepulauan,Sulawesi,1,Sulawesi,,,0,0
+454,KAB_7310,KABKOTA,73,Sulawesi Selatan,7310,Kab. Barru,Sulawesi,1,Sulawesi,,,0,0
+455,KAB_7311,KABKOTA,73,Sulawesi Selatan,7311,Kab. Bone,Sulawesi,1,Sulawesi,,,0,0
+456,KAB_7312,KABKOTA,73,Sulawesi Selatan,7312,Kab. Soppeng,Sulawesi,1,Sulawesi,,,0,0
+457,KAB_7313,KABKOTA,73,Sulawesi Selatan,7313,Kab. Wajo,Sulawesi,1,Sulawesi,,,0,0
+458,KAB_7314,KABKOTA,73,Sulawesi Selatan,7314,Kab. Sidenreng Rappang,Sulawesi,1,Sulawesi,,,0,0
+459,KAB_7315,KABKOTA,73,Sulawesi Selatan,7315,Kab. Pinrang,Sulawesi,1,Sulawesi,,,0,0
+460,KAB_7316,KABKOTA,73,Sulawesi Selatan,7316,Kab. Enrekang,Sulawesi,1,Sulawesi,,,0,0
+461,KAB_7317,KABKOTA,73,Sulawesi Selatan,7317,Kab. Luwu,Sulawesi,1,Sulawesi,,,0,0
+462,KAB_7318,KABKOTA,73,Sulawesi Selatan,7318,Kab. Tana Toraja,Sulawesi,1,Sulawesi,,,0,0
+463,KAB_7322,KABKOTA,73,Sulawesi Selatan,7322,Kab. Luwu Utara,Sulawesi,1,Sulawesi,,,0,0
+464,KAB_7325,KABKOTA,73,Sulawesi Selatan,7325,Kab. Luwu Timur,Sulawesi,1,Sulawesi,,,0,0
+465,KAB_7326,KABKOTA,73,Sulawesi Selatan,7326,Kab. Toraja Utara,Sulawesi,1,Sulawesi,,,0,0
+466,KAB_7371,KABKOTA,73,Sulawesi Selatan,7371,Kota Makassar,Sulawesi,1,Sulawesi,,,0,0
+467,KAB_7372,KABKOTA,73,Sulawesi Selatan,7372,Kota Pare-Pare,Sulawesi,1,Sulawesi,,,0,0
+468,KAB_7373,KABKOTA,73,Sulawesi Selatan,7373,Kota Palopo,Sulawesi,1,Sulawesi,,,0,0
+469,KAB_7401,KABKOTA,74,Sulawesi Tenggara,7401,Kab. Buton,Sulawesi,1,Sulawesi,,,0,0
+470,KAB_7402,KABKOTA,74,Sulawesi Tenggara,7402,Kab. Muna,Sulawesi,1,Sulawesi,,,0,0
+471,KAB_7403,KABKOTA,74,Sulawesi Tenggara,7403,Kab. Konawe,Sulawesi,1,Sulawesi,,,0,0
+472,KAB_7404,KABKOTA,74,Sulawesi Tenggara,7404,Kab. Kolaka,Sulawesi,1,Sulawesi,,,0,0
+473,KAB_7405,KABKOTA,74,Sulawesi Tenggara,7405,Kab. Konawe Selatan,Sulawesi,1,Sulawesi,,,0,0
+474,KAB_7406,KABKOTA,74,Sulawesi Tenggara,7406,Kab. Bombana,Sulawesi,1,Sulawesi,,,0,0
+475,KAB_7407,KABKOTA,74,Sulawesi Tenggara,7407,Kab. Wakatobi,Sulawesi,1,Sulawesi,,,0,0
+476,KAB_7408,KABKOTA,74,Sulawesi Tenggara,7408,Kab. Kolaka Utara,Sulawesi,1,Sulawesi,,,0,0
+477,KAB_7409,KABKOTA,74,Sulawesi Tenggara,7409,Kab. Buton Utara,Sulawesi,1,Sulawesi,,,0,0
+478,KAB_7410,KABKOTA,74,Sulawesi Tenggara,7410,Kab. Konawe Utara,Sulawesi,1,Sulawesi,,,0,0
+479,KAB_7411,KABKOTA,74,Sulawesi Tenggara,7411,Kab. Kolaka Timur,Sulawesi,1,Sulawesi,,,0,0
+480,KAB_7412,KABKOTA,74,Sulawesi Tenggara,7412,Kab. Konawe Kepulauan,Sulawesi,1,Sulawesi,,,0,0
+481,KAB_7413,KABKOTA,74,Sulawesi Tenggara,7413,Kab. Muna Barat,Sulawesi,1,Sulawesi,,,0,0
+482,KAB_7414,KABKOTA,74,Sulawesi Tenggara,7414,Kab. Buton Tengah,Sulawesi,1,Sulawesi,,,0,0
+483,KAB_7415,KABKOTA,74,Sulawesi Tenggara,7415,Kab. Buton Selatan,Sulawesi,1,Sulawesi,,,0,0
+484,KAB_7471,KABKOTA,74,Sulawesi Tenggara,7471,Kota Kendari,Sulawesi,1,Sulawesi,,,0,0
+485,KAB_7472,KABKOTA,74,Sulawesi Tenggara,7472,Kota Bau Bau,Sulawesi,1,Sulawesi,,,0,0
+486,KAB_7501,KABKOTA,75,Gorontalo,7501,Kab. Boalemo,Sulawesi,1,Sulawesi,,,0,0
+487,KAB_7502,KABKOTA,75,Gorontalo,7502,Kab. Gorontalo,Sulawesi,1,Sulawesi,,,0,0
+488,KAB_7503,KABKOTA,75,Gorontalo,7503,Kab. Pohuwato,Sulawesi,1,Sulawesi,,,0,0
+489,KAB_7504,KABKOTA,75,Gorontalo,7504,Kab. Bone Bolango,Sulawesi,1,Sulawesi,,,0,0
+490,KAB_7505,KABKOTA,75,Gorontalo,7505,Kab. Gorontalo Utara,Sulawesi,1,Sulawesi,,,0,0
+491,KAB_7571,KABKOTA,75,Gorontalo,7571,Kota Gorontalo,Sulawesi,1,Sulawesi,,,0,0
+492,KAB_7601,KABKOTA,76,Sulawesi Barat,7601,Kab. Majene,Sulawesi,1,Sulawesi,,,0,0
+493,KAB_7602,KABKOTA,76,Sulawesi Barat,7602,Kab. Polewali Mandar,Sulawesi,1,Sulawesi,,,0,0
+494,KAB_7603,KABKOTA,76,Sulawesi Barat,7603,Kab. Mamasa,Sulawesi,1,Sulawesi,,,0,0
+495,KAB_7604,KABKOTA,76,Sulawesi Barat,7604,Kab. Mamuju,Sulawesi,1,Sulawesi,,,0,0
+496,KAB_7605,KABKOTA,76,Sulawesi Barat,7605,Kab. Mamuju Utara/Kab. Pasangkayu,Sulawesi,1,Sulawesi,,,0,0
+497,KAB_7606,KABKOTA,76,Sulawesi Barat,7606,Kab. Mamuju Tengah,Sulawesi,1,Sulawesi,,,0,0
+498,KAB_8101,KABKOTA,81,Maluku,8101,Kab. Maluku Tenggara Barat,Maluku,0,Maluku-Papua,,,0,0
+499,KAB_8102,KABKOTA,81,Maluku,8102,Kab. Maluku Tenggara,Maluku,0,Maluku-Papua,,,0,0
+500,KAB_8103,KABKOTA,81,Maluku,8103,Kab. Maluku Tengah,Maluku,0,Maluku-Papua,,,0,0
+501,KAB_8104,KABKOTA,81,Maluku,8104,Kab. Buru,Maluku,0,Maluku-Papua,,,0,0
+502,KAB_8105,KABKOTA,81,Maluku,8105,Kab. Kepulauan Aru,Maluku,0,Maluku-Papua,,,0,0
+503,KAB_8106,KABKOTA,81,Maluku,8106,Kab. Seram Bagian Barat,Maluku,0,Maluku-Papua,,,0,0
+504,KAB_8107,KABKOTA,81,Maluku,8107,Kab. Seram Bagian Timur,Maluku,0,Maluku-Papua,,,0,0
+505,KAB_8108,KABKOTA,81,Maluku,8108,Kab. Maluku Barat Daya,Maluku,0,Maluku-Papua,,,0,0
+506,KAB_8109,KABKOTA,81,Maluku,8109,Kab. Buru Selatan,Maluku,0,Maluku-Papua,,,0,0
+507,KAB_8171,KABKOTA,81,Maluku,8171,Kota Ambon,Maluku,0,Maluku-Papua,,,0,0
+508,KAB_8172,KABKOTA,81,Maluku,8172,Kota Tual,Maluku,0,Maluku-Papua,,,0,0
+509,KAB_8201,KABKOTA,82,Maluku Utara,8201,Kab. Halmahera Barat,Maluku,0,Maluku-Papua,,,0,0
+510,KAB_8202,KABKOTA,82,Maluku Utara,8202,Kab. Halmahera Tengah,Maluku,0,Maluku-Papua,,,0,0
+511,KAB_8203,KABKOTA,82,Maluku Utara,8203,Kab. Kepulauan Sula,Maluku,0,Maluku-Papua,,,0,0
+512,KAB_8204,KABKOTA,82,Maluku Utara,8204,Kab. Halmahera Selatan,Maluku,0,Maluku-Papua,,,0,0
+513,KAB_8205,KABKOTA,82,Maluku Utara,8205,Kab. Halmahera Utara,Maluku,0,Maluku-Papua,,,0,0
+514,KAB_8206,KABKOTA,82,Maluku Utara,8206,Kab. Halmahera Timur,Maluku,0,Maluku-Papua,,,0,0
+515,KAB_8207,KABKOTA,82,Maluku Utara,8207,Kab. Pulau Morotai,Maluku,0,Maluku-Papua,,,0,0
+516,KAB_8208,KABKOTA,82,Maluku Utara,8208,Kab. Pulau Taliabu,Maluku,0,Maluku-Papua,,,0,0
+517,KAB_8271,KABKOTA,82,Maluku Utara,8271,Kota Ternate,Maluku,0,Maluku-Papua,,,0,0
+518,KAB_8272,KABKOTA,82,Maluku Utara,8272,Kota Tidore Kepulauan,Maluku,0,Maluku-Papua,,,0,0
+519,KAB_9101,KABKOTA,91,Papua Barat,9101,Kab. Fak-Fak,Papua,1,Maluku-Papua,,,0,0
+520,KAB_9102,KABKOTA,91,Papua Barat,9102,Kab. Kaimana,Papua,1,Maluku-Papua,,,0,0
+521,KAB_9103,KABKOTA,91,Papua Barat,9103,Kab. Teluk Wondama,Papua,1,Maluku-Papua,,,0,0
+522,KAB_9104,KABKOTA,91,Papua Barat,9104,Kab. Teluk Bintuni,Papua,1,Maluku-Papua,,,0,0
+523,KAB_9105,KABKOTA,91,Papua Barat,9105,Kab. Manokwari,Papua,1,Maluku-Papua,,,0,0
+524,KAB_9111,KABKOTA,91,Papua Barat,9111,Kab. Manokwari Selatan,Papua,1,Maluku-Papua,,,0,0
+525,KAB_9112,KABKOTA,91,Papua Barat,9112,Kab. Pegunungan Arfak,Papua,1,Maluku-Papua,,,0,0
+526,KAB_9201,KABKOTA,92,Papua Barat Daya,9201,Kab. Raja Ampat,Papua,1,Maluku-Papua,,,0,1
+527,KAB_9202,KABKOTA,92,Papua Barat Daya,9202,Kab. Sorong,Papua,1,Maluku-Papua,,,0,1
+528,KAB_9203,KABKOTA,92,Papua Barat Daya,9203,Kab. Sorong Selatan,Papua,1,Maluku-Papua,,,0,1
+529,KAB_9204,KABKOTA,92,Papua Barat Daya,9204,Kab. Maybrat,Papua,1,Maluku-Papua,,,0,1
+530,KAB_9205,KABKOTA,92,Papua Barat Daya,9205,Kab. Tambrauw,Papua,1,Maluku-Papua,,,0,1
+531,KAB_9271,KABKOTA,92,Papua Barat Daya,9271,Kota Sorong,Papua,1,Maluku-Papua,,,0,1
+532,KAB_9403,KABKOTA,94,Papua,9403,Kab. Jayapura,Papua,1,Maluku-Papua,,,0,0
+533,KAB_9408,KABKOTA,94,Papua,9408,Kab. Kepulauan Yapen,Papua,1,Maluku-Papua,,,0,1
+534,KAB_9409,KABKOTA,94,Papua,9409,Kab. Biak Numfor,Papua,1,Maluku-Papua,,,0,0
+535,KAB_9419,KABKOTA,94,Papua,9419,Kab. Sarmi,Papua,1,Maluku-Papua,,,0,0
+536,KAB_9420,KABKOTA,94,Papua,9420,Kab. Keerom,Papua,1,Maluku-Papua,,,0,0
+537,KAB_9426,KABKOTA,94,Papua,9426,Kab. Waropen,Papua,1,Maluku-Papua,,,0,0
+538,KAB_9427,KABKOTA,94,Papua,9427,Kab. Supiori,Papua,1,Maluku-Papua,,,0,0
+539,KAB_9428,KABKOTA,94,Papua,9428,Kab. Mamberamo Raya,Papua,1,Maluku-Papua,,,0,0
+540,KAB_9471,KABKOTA,94,Papua,9471,Kota Jayapura,Papua,1,Maluku-Papua,,,0,0
+541,KAB_9501,KABKOTA,95,Papua Selatan,9501,Kab. Merauke,Papua,1,Maluku-Papua,,,0,1
+542,KAB_9502,KABKOTA,95,Papua Selatan,9502,Kab. Boven Digoel,Papua,1,Maluku-Papua,,,0,1
+543,KAB_9503,KABKOTA,95,Papua Selatan,9503,Kab. Mappi,Papua,1,Maluku-Papua,,,0,1
+544,KAB_9504,KABKOTA,95,Papua Selatan,9504,Kab. Asmat,Papua,1,Maluku-Papua,,,0,1
+545,KAB_9601,KABKOTA,96,Papua Tengah,9601,Kab. Mimika,Papua,1,Maluku-Papua,,,0,1
+546,KAB_9602,KABKOTA,96,Papua Tengah,9602,Kab. Dogiyai,Papua,1,Maluku-Papua,,,0,1
+547,KAB_9603,KABKOTA,96,Papua Tengah,9603,Kab. Deiyai,Papua,1,Maluku-Papua,,,0,1
+548,KAB_9604,KABKOTA,96,Papua Tengah,9604,Kab. Nabire,Papua,1,Maluku-Papua,,,0,1
+549,KAB_9605,KABKOTA,96,Papua Tengah,9605,Kab. Paniai,Papua,1,Maluku-Papua,,,0,1
+550,KAB_9606,KABKOTA,96,Papua Tengah,9606,Kab. Intan Jaya,Papua,1,Maluku-Papua,,,0,1
+551,KAB_9607,KABKOTA,96,Papua Tengah,9607,Kab. Puncak,Papua,1,Maluku-Papua,,,0,1
+552,KAB_9608,KABKOTA,96,Papua Tengah,9608,Kab. Puncak Jaya,Papua,1,Maluku-Papua,,,0,1
+553,KAB_9701,KABKOTA,97,Papua Pegunungan,9701,Kab. Nduga,Papua,1,Maluku-Papua,,,0,1
+554,KAB_9702,KABKOTA,97,Papua Pegunungan,9702,Kab. Jayawijaya,Papua,1,Maluku-Papua,,,0,1
+555,KAB_9703,KABKOTA,97,Papua Pegunungan,9703,Kab. Lanny Jaya,Papua,1,Maluku-Papua,,,0,1
+556,KAB_9704,KABKOTA,97,Papua Pegunungan,9704,Kab. Tolikara,Papua,1,Maluku-Papua,,,0,1
+557,KAB_9705,KABKOTA,97,Papua Pegunungan,9705,Kab. Mamberamo Tengah,Papua,1,Maluku-Papua,,,0,1
+558,KAB_9706,KABKOTA,97,Papua Pegunungan,9706,Kab. Yalimo,Papua,1,Maluku-Papua,,,0,1
+559,KAB_9707,KABKOTA,97,Papua Pegunungan,9707,Kab. Yahukimo,Papua,1,Maluku-Papua,,,0,1
+560,KAB_9708,KABKOTA,97,Papua Pegunungan,9708,Kab. Pegunungan Bintang,Papua,1,Maluku-Papua,,,0,1

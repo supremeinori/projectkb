@@ -1,0 +1,269 @@
+no,material,feedstock_category,ash_db,vm_db,fc_db,c_db,h_db,o_db,n_db,s_db,hhv_db,reference_code,is_n_imputed_bold_brown,is_s_imputed_bold_brown,prox_sum,ult_sum,is_daf_normalized,mass_balance_warning
+1,Alfalfa Stem,grass/plant,5.27,78.92,15.81,47.17,6.0,38.19,2.68,0.2,18.67,[1],False,False,100.0,99.51,False,False
+2,alfalfa (lucern),grass/plant,9.4,73.9,16.7,45.0,6.0,36.9,2.5,2.0,18.6,[2],False,False,100.00000000000001,101.80000000000001,False,False
+3,alfalfa seed straw,grass/plant,7.25,72.6,20.15,46.76,5.4,40.72,1.0,0.02,18.45,[2],False,False,100.0,101.14999999999999,False,False
+4,cotton gin waste,organic residue/product,9.36,82.16,8.48,49.03,4.71,35.08,1.45,0.36,16.27,[2],False,False,100.0,99.99,False,False
+5,Flax stalks,grass/plant,2.93,78.8,18.27,49.1,6.1,40.45,1.3,0.12,20.04,[2],False,False,100.0,100.00000000000001,False,False
+6,"hemp, fan-dried",grass/plant,5.51,75.2,19.29,45.68,5.95,43.08,0.73,0.1,18.33,[2],False,False,100.0,101.05000000000001,False,False
+7,"hemp, silage",grass/plant,8.28,74.5,17.22,46.17,5.9,40.14,1.14,0.16,19.5,[2],False,False,100.0,101.79,False,False
+8,"hemp, silage, dried",grass/plant,7.06,75.2,17.74,46.58,5.9,39.63,1.14,0.13,19.95,[2],False,False,100.0,100.44,False,False
+9,jute stick,grass/plant,0.9,92.55,6.55,49.04,6.69,40.19,2.92,0.25,19.34,[2],False,False,100.0,99.99,False,False
+10,Kenaf,grass/plant,3.63,79.4,16.97,46.0,5.8,42.83,1.1,0.14,18.58,[2],False,False,100.0,99.49999999999999,False,False
+11,Banagrass,grass/plant,3.05,81.6,15.35,48.69,5.61,41.82,0.48,0.06,18.3,[3],False,False,99.99999999999999,99.71000000000001,False,False
+12,Sugarcane waste,organic residue/product,15.68,71.61,12.71,44.5,5.18,33.84,0.51,0.16,17.84,[2],False,False,100.0,99.87,False,False
+13,walnut shell,husk/shell/pit,0.56,78.28,21.16,49.98,5.71,43.35,0.21,0.01,20.18,[2],False,False,100.0,99.82,False,False
+14,walnut shell,husk/shell/pit,2.8,59.3,39.0,53.5,6.6,35.0,1.5,0.1,20.6,[2],False,False,101.1,99.49999999999999,False,False
+15,Sunflower husk,husk/shell/pit,2.8,80.3,16.9,50.9,5.6,40.0,0.63,0.09,20.0,[2],False,False,100.0,100.02,False,False
+16,sunflower seed husk,husk/shell/pit,3.83,72.56,23.61,48.25,5.84,41.03,0.81,0.24,17.44,[2],False,False,100.0,100.0,False,False
+17,Sunflower shell,husk/shell/pit,4.0,76.2,19.8,47.4,5.8,41.4,1.4,0.05,18.0,[4],False,False,100.0,100.05,False,False
+18,Hazelnut shell,husk/shell/pit,1.4,70.3,28.3,51.6,6.2,40.2,1.6,0.04,20.2,[4],False,False,100.0,101.04,False,False
+19,Walnut shell,husk/shell/pit,2.5,59.3,37.9,53.5,6.6,35.5,1.5,0.1,21.6,[4],False,False,99.69999999999999,99.69999999999999,False,False
+20,Almond shell,husk/shell/pit,3.3,74.0,22.7,47.9,6.0,41.6,1.1,0.06,18.8,[4],False,False,100.0,99.96,False,False
+21,Olive shell,husk/shell/pit,3.3,63.9,32.8,52.8,6.7,36.7,0.5,0.05,20.9,[4],False,False,100.0,100.05,False,False
+22,Spent coffee,organic residue/product,0.3,86.4,13.3,57.0,7.6,32.9,2.1,0.1,25.29,[2],False,False,100.0,99.99999999999999,False,False
+23,Coffee grounds,organic residue/product,1.78,82.66,15.56,54.22,6.74,35.25,1.88,0.14,22.79,[2],False,False,100.0,100.01,False,False
+24,Coffee Husk,organic residue/product,2.5,83.2,14.3,49.4,6.1,41.2,0.81,0.07,20.4,[2],False,False,100.0,100.08,False,False
+25,grape pomace,organic residue/product,4.2,74.4,21.4,54.94,5.83,32.73,2.09,0.21,21.8,[2],False,False,100.0,100.0,False,False
+26,Litch Peel,organic residue/product,4.19,68.03,27.78,45.1,6.63,43.06,0.96,0.06,20.15,[2],False,False,100.0,100.0,False,False
+27,barley straw,straw (stalk/cob/ear),10.5,84.3,5.2,37.05,5.55,46.33,0.56,0.01,15.7,[2],False,False,100.0,100.0,False,False
+28,"flax straw, Canada",straw (stalk/cob/ear),3.26,87.2,9.54,41.69,6.0,48.3,0.66,0.09,17.0,[2],False,False,100.0,100.0,False,False
+29,"wheat straw, Canada",straw (stalk/cob/ear),1.38,83.3,15.32,41.03,6.02,51.38,0.14,0.06,20.3,[2],False,False,100.0,100.01,False,False
+30,Bamboo,grass/plant,1.71,76.61,21.68,51.11,6.22,42.52,0.09,0.06,15.47,[5],False,False,100.0,101.71,False,False
+31,Cassava pulp,organic residue/product,1.12,85.12,13.76,45.53,7.11,47.29,0.03,0.04,17.51,[5],False,False,100.00000000000001,101.12000000000002,False,False
+32,Corn cob,straw (stalk/cob/ear),1.92,80.01,18.07,43.61,6.55,49.74,0.01,0.09,16.67,[5],False,False,100.0,101.92000000000002,False,False
+33,Coir fiber,organic residue/product,3.45,68.12,28.43,51.2777,6.0054,39.151,0.0097,0.1062,13.91,[5],False,False,100.0,100.0,True,False
+34,Cassava Waste,organic residue/product,2.91,85.87,11.22,42.8361,6.2526,47.2052,0.7864,0.1942,17.21,[6],False,False,100.0,100.1845,True,False
+35,corn stover,straw (stalk/cob/ear),7.35,78.1,14.55,46.5,5.81,39.67,0.56,0.11,17.73,[7],False,False,99.99999999999999,100.0,False,False
+36,Rice Straw (RS),straw (stalk/cob/ear),13.7,65.0,11.3,38.8,6.7,38.8,0.2,0.2,15.4,[8],False,False,90.0,98.4,False,True
+37,Rice Husk (RH),husk/shell/pit,17.4,64.0,8.8,39.8,5.7,39.8,0.5,0.2,14.9,[8],False,False,90.2,103.4,False,True
+38,Cotton Stalk (CS),grass/plant,3.5,71.0,16.6,45.162,6.176,45.162,0.2895,0.193,17.3,[8],False,False,91.1,100.4825,True,True
+39,Mustard Stalk (MS),straw (stalk/cob/ear),7.9,70.0,12.3,43.8,5.9,43.8,0.3,0.3,15.9,[8],False,False,90.2,102.0,False,True
+40,Napier Grass Stem,grass/plant,1.75,81.51,16.74,48.61,6.01,44.07,0.99,0.32,18.11,[9],False,False,100.0,101.74999999999999,False,False
+41,Napier Grass Leaf,grass/plant,4.0,79.06,16.94,42.4032,5.2896,47.0784,0.9696,0.2592,16.21,[9],False,False,100.0,100.0,True,False
+42,Bamboo,grass/plant,2.84,77.55,19.59,37.8924,5.9268,52.4664,0.583,0.0194,17.24,[10],False,False,99.98,99.72800000000001,True,False
+43,Rice Straw,straw (stalk/cob/ear),12.21,69.28,14.46,40.74,5.53,40.32,0.79,0.36,14.31,[11],False,False,95.95000000000002,99.95000000000002,False,True
+44,Wheat Straw,straw (stalk/cob/ear),9.24,68.48,17.12,42.5,5.36,41.92,0.6,0.37,15.49,[11],False,False,94.84,99.99,False,True
+45,Corn Stover,straw (stalk/cob/ear),7.0,71.66,17.12,43.86,5.62,42.13,1.0,0.39,15.83,[11],False,False,95.78,100.0,False,True
+46,Rape Stalk,straw (stalk/cob/ear),6.64,74.71,14.03,42.93,5.83,42.92,0.77,0.62,15.37,[11],False,False,95.38,99.71000000000001,False,True
+47,Cotton Stalk,grass/plant,4.78,72.98,18.21,45.83,5.93,41.91,1.12,0.42,16.38,[11],False,False,95.97,99.99,False,True
+48,Briquette,organic residue/product,0.8,85.0,14.2,46.74,6.39,45.52,1.24,0.1,18.5,[12],False,False,100.0,100.78999999999999,False,False
+51,"Miscanthus (I,",grass/plant,2.21,80.59,10.39,49.6773,5.6327,42.0497,0.3618,0.2054,17.28,[13],False,False,93.19,100.1369,True,True
+52,"Miscanthus (II,",grass/plant,1.49,82.44,10.68,51.6,5.4,42.7,0.15,0.17,17.53,[13],False,False,94.60999999999999,101.51,False,True
+54,"Virginia Mallow (I,",grass/plant,4.25,77.26,9.74,47.5399,5.496,42.1587,0.3734,0.0287,16.8,[13],False,False,91.25,99.84670000000001,True,True
+55,Coffee Powder,organic residue/product,5.5,90.1,4.4,51.7,6.7,33.3,2.7,0.1,18.5,[14],False,False,100.0,100.0,False,False
+56,Cocoa Husks,organic residue/product,8.0,85.1,6.9,44.7,6.1,38.6,2.4,0.2,18.2,[14],False,False,100.0,100.00000000000001,False,False
+57,Coffee Pellets,organic residue/product,8.6,86.2,5.2,45.9,5.9,36.2,2.8,0.2,18.4,[14],False,False,100.0,99.6,False,False
+58,Banana,grass/plant,9.36,89.43,1.21,33.46,6.44,49.94,0.8,0.04,13.63,[15],False,False,100.0,100.04,False,False
+59,Corncob,straw (stalk/cob/ear),3.5,79.87,16.19,46.2235,5.8865,43.7145,0.4922,0.1834,16.78,[16],False,False,99.56,100.0001,True,False
+60,Palm kernel shell,husk/shell/pit,3.2,73.7,22.8,47.3352,5.2078,43.589,0.213,0.0194,18.7,[16],False,False,99.7,99.5644,True,False
+61,Sugarcane bagasse,organic residue/product,1.3,83.82,14.88,47.31,6.15,45.99,0.45,0.1,17.31,[16],False,False,99.99999999999999,101.3,False,False
+62,Rice Husk (RH),husk/shell/pit,9.57,62.83,27.6,45.87,5.87,38.0,0.56,0.14,18.78,[17],False,False,100.0,100.00999999999999,False,False
+63,Coconut Husk (CH),husk/shell/pit,6.7,61.78,31.52,49.03,5.37,38.36,0.41,0.13,19.33,[17],False,False,100.0,99.99999999999999,False,False
+64,Corncob (CC),straw (stalk/cob/ear),2.01,76.04,21.95,46.74,6.04,44.23,0.84,0.15,18.8,[17],False,False,100.00000000000001,100.01,False,False
+65,Wheat straw,straw (stalk/cob/ear),9.0,75.0,15.0,43.9,5.84,40.29,0.14,0.01,15.8,[17],False,False,99.0,99.18,False,False
+66,Corn stalks,straw (stalk/cob/ear),8.0,76.0,16.0,44.2,5.7,41.1,0.12,0.01,16.25,[17],False,False,100.0,99.13000000000001,False,False
+67,Miscanthus,grass/plant,5.0,75.0,20.0,48.5,5.8,39.8,0.06,0.01,17.2,[17],False,False,100.0,99.17,False,False
+68,Switchgrass,grass/plant,4.0,73.0,23.0,44.15,5.2,45.69,0.08,0.01,16.9,[17],False,False,100.0,99.13,False,False
+69,Bagasse,organic residue/product,2.0,74.0,24.0,45.0,5.5,46.65,0.05,0.01,16.5,[17],False,False,100.0,99.21000000000001,False,False
+70,Rice husk,husk/shell/pit,14.0,72.0,14.0,40.0,5.6,39.53,0.08,0.01,14.8,[17],False,False,100.0,99.22,False,False
+71,Rice Husk (RH),husk/shell/pit,20.7,59.95,19.2,33.87,4.57,41.28,0.84,0.12,14.09,[18],False,False,99.85000000000001,101.38000000000001,False,False
+72,Palm Kernel Shell,husk/shell/pit,2.89,75.02,22.13,46.05,5.14,45.4,0.62,0.14,18.96,[18],False,False,100.03999999999999,100.24000000000001,False,False
+73,Canola stalks,straw (stalk/cob/ear),5.63,75.48,18.89,45.8,5.6,41.51,0.47,0.01,17.33,[19],False,False,100.0,99.02,False,False
+74,Wheat straw,straw (stalk/cob/ear),4.6,80.0,15.4,43.7,5.6,39.3,0.5,0.01,15.7,[20],False,False,100.0,93.71,False,True
+75,Rice Husk,husk/shell/pit,13.3,76.7,10.0,37.8,4.0,38.4,0.5,0.06,14.7,[19],False,False,100.0,94.05999999999999,False,True
+76,Corn Stover,straw (stalk/cob/ear),6.1,81.1,12.8,44.1,5.6,43.5,0.6,0.03,15.5,[19],False,False,99.99999999999999,99.92999999999999,False,False
+77,Sugarcane Bagasse,organic residue/product,2.6,81.3,16.1,43.5378,5.9414,47.726,0.0974,0.0487,16.0,[19],False,False,100.0,99.95129999999997,True,False
+78,Miscanthus,grass/plant,3.0,83.0,14.0,46.3,5.7,45.0,0.3,0.02,15.6,[19],False,False,100.0,100.32,False,False
+79,Switchgrass,grass/plant,5.3,77.7,17.0,43.9,5.6,46.4,0.4,0.01,15.8,[19],False,False,100.0,101.61000000000001,False,False
+80,Barley Straw,straw (stalk/cob/ear),5.0,79.0,16.0,42.5,6.5,48.0,0.4,0.03,14.5,[19],False,False,100.0,102.43,False,True
+81,Coconut Shell,husk/shell/pit,6.8,74.6,18.6,47.5,5.9,42.8,0.3,0.08,19.1,[19],False,False,100.0,103.37999999999998,False,True
+82,Soybean Stalk,straw (stalk/cob/ear),6.0,77.3,16.7,42.0,5.3,46.7,0.6,0.02,15.4,[19],False,False,100.0,100.61999999999999,False,False
+83,Cassava rhizome,organic residue/product,4.95,71.92,23.13,45.14,5.82,43.12,0.84,0.13,18.04,[19],False,False,100.0,100.0,False,False
+84,Walnut Shell PSW,husk/shell/pit,4.8,74.8,25.2,43.4112,5.5692,45.477,0.1428,0.5998,14.54,[21],False,False,104.8,100.0,True,True
+85,Elephant Grass,grass/plant,5.95,73.91,21.14,43.82,5.65,43.87,0.69,0.02,19.7,[22],False,False,101.0,100.0,False,False
+86,Olive stones,husk/shell/pit,2.2,78.3,19.5,49.0,6.1,42.0,0.8,0.0,20.23,[23],False,True,100.0,100.1,False,False
+87,Almond shell,husk/shell/pit,1.1,80.5,18.4,48.8,5.9,43.7,0.5,0.0,19.92,[23],False,True,100.0,100.0,False,False
+88,Sunflower seed shell,husk/shell/pit,3.6,84.7,11.7,49.8388,5.9768,39.6204,0.964,0.0,17.6,[23],False,True,100.0,99.99999999999999,True,False
+89,Peanut shell,husk/shell/pit,1.7,84.9,13.4,47.4,6.1,44.4,2.1,0.0,18.6,[23],False,True,100.00000000000001,101.7,False,False
+90,Hazelnut shell,husk/shell/pit,1.1,68.9,30.0,50.9,5.9,42.8,0.4,0.0,19.9,[23],False,True,100.0,101.1,False,False
+91,C. equisetifolia leaf,grass/plant,3.93,73.5,16.46,46.12,6.9,42.64,1.18,0.0,18.48,[23],False,True,93.89000000000001,100.77000000000001,False,True
+92,Forest residue,organic residue/product,0.2,79.8,20.0,53.16,6.25,40.0,0.3,0.09,19.5,[23],False,False,100.0,100.0,False,False
+93,Cotton residue,organic residue/product,6.61,72.8,20.59,47.03,5.96,38.42,1.79,0.19,16.9,[23],False,False,100.0,100.0,False,False
+94,Palm kernels,husk/shell/pit,5.14,77.28,17.59,48.34,6.2,37.44,2.62,0.26,20.71,[23],False,False,100.01,100.00000000000001,False,False
+95,Pepper plantb,grass/plant,14.44,64.71,20.86,36.11,4.26,41.86,2.72,0.49,15.39,[23],False,False,100.00999999999999,99.87999999999998,False,False
+96,Biomass mixb,organic residue/product,12.49,69.36,18.14,49.59,5.79,28.87,2.43,0.74,18.4,[23],False,False,99.99,99.91,False,False
+97,Sugarcane bagasseb,organic residue/product,2.7,82.6,14.7,47.2,7.0,43.1,0.0,0.0,17.32,[23],True,True,100.0,100.00000000000001,False,False
+98,Rice huskb,husk/shell/pit,22.5,61.2,16.3,38.2,5.6,33.7,0.0,0.0,16.47,[23],True,True,100.0,100.0,False,False
+99,Olive pittsb,husk/shell/pit,1.72,82.0,16.28,52.8,6.69,38.25,0.45,0.05,21.59,[23],False,False,100.0,99.96,False,False
+100,Pistachio shellb,husk/shell/pit,1.41,81.64,16.95,50.2,6.32,41.15,0.69,0.22,18.22,[23],False,False,100.0,99.99,False,False
+101,Almond shellsb,husk/shell/pit,3.29,76.0,20.71,49.3,5.97,40.63,0.76,0.04,19.49,[23],False,False,100.0,99.99000000000002,False,False
+102,Almond,husk/shell/pit,1.63,76.83,21.54,51.3,5.29,40.9,0.66,0.01,20.01,[24],False,False,100.0,99.78999999999999,False,False
+104,Akhrot shell,husk/shell/pit,0.71,80.55,18.65,50.22,5.7,43.37,0.0,0.0,20.01,[24],False,False,99.91,99.99999999999999,False,False
+105,Bagasse,organic residue/product,11.27,73.78,14.95,44.8,5.35,38.55,0.38,0.01,17.33,[24],False,False,100.0,100.35999999999999,False,False
+106,Bamboo,grass/plant,3.62,75.83,20.55,43.84,6.05,46.53,0.07,0.0,17.55,[24],False,False,100.0,100.11,False,False
+107,Bamboo (Bambusa vulgaris) bottom,grass/plant,1.95,79.86,18.19,46.01,6.24,45.63,0.18,0.0,18.32,[24],False,False,100.0,100.01,False,False
+108,Bamboo (Bambusa vulgaris) middle,grass/plant,1.43,81.14,17.43,46.37,6.33,45.7,0.18,0.0,18.47,[24],False,False,100.0,100.01000000000002,False,False
+109,Bamboo (Bambusa vulgaris) mixture,grass/plant,2.12,80.13,17.75,45.79,6.24,45.6,0.24,0.0,18.21,[24],False,False,100.0,99.99,False,False
+110,Bamboo (Bambusa vulgaris) top,grass/plant,2.4,79.08,18.52,45.35,6.19,45.79,0.26,0.0,18.37,[24],False,False,100.0,99.99000000000001,False,False
+111,Bamboo leaf,grass/plant,20.02,71.67,8.31,39.81,5.68,31.32,3.26,0.0,17.76,[24],False,False,100.0,100.09,False,False
+112,Banana leaf,grass/plant,10.31,80.35,9.34,44.54,5.74,37.52,1.9,0.0,19.18,[24],False,False,100.0,100.01000000000002,False,False
+114,Caster bean cake,organic residue/product,8.79,69.8,21.41,40.32,5.41,38.25,7.22,0.0,19.12,[24],False,False,100.0,99.99000000000001,False,False
+115,Casuarina equisetifolia leaf,grass/plant,3.93,79.5,16.46,46.12,6.9,41.84,1.18,0.0,18.48,[24],False,False,99.89000000000001,99.97000000000001,False,False
+116,Coconut coir,organic residue/product,3.72,66.58,29.7,50.29,5.05,40.63,0.45,0.16,20.05,[24],False,False,100.0,100.3,False,False
+117,Coconut coir,organic residue/product,2.92,79.23,17.85,46.33,3.74,45.56,1.46,0.0,19.08,[24],False,False,100.0,100.00999999999999,False,False
+118,Coconut coir pitch,husk/shell/pit,5.16,66.02,28.82,43.36,4.98,44.87,1.63,0.0,18.07,[24],False,False,100.0,100.0,False,False
+119,Coconut leaf,grass/plant,6.33,80.75,12.92,47.89,6.19,37.93,1.66,0.0,20.83,[24],False,False,100.0,99.99999999999999,False,False
+120,Corncob,straw (stalk/cob/ear),2.0,80.5,17.5,49.7,5.9,42.0,0.38,0.03,19.06,[24],False,False,100.0,100.00999999999999,False,False
+121,Corncob,straw (stalk/cob/ear),2.1,80.1,17.8,46.6,5.97,44.84,0.49,0.0,18.51,[24],False,False,99.99999999999999,99.99999999999999,False,False
+122,Corncob,straw (stalk/cob/ear),1.36,80.1,18.54,46.58,5.87,45.46,0.47,0.01,18.77,[24],False,False,100.0,99.75,False,False
+123,Corncob,straw (stalk/cob/ear),1.0,86.5,12.5,49.0,5.4,44.6,0.04,0.0,17.0,[24],False,False,100.0,100.04,False,False
+124,Corncob,straw (stalk/cob/ear),2.23,88.25,9.51,43.77,4.67,48.16,1.17,0.0,18.76,[24],False,False,99.99000000000001,100.0,False,False
+125,Cotton gin waste,organic residue/product,1.61,83.41,14.97,42.66,6.05,49.5,0.18,0.0,17.48,[24],False,False,99.99,100.0,False,False
+126,Cotton residue,organic residue/product,6.61,72.8,20.59,47.3,5.96,38.42,1.79,0.19,16.9,[24],False,False,100.0,100.27000000000001,False,False
+127,Cotton stalk,straw (stalk/cob/ear),6.45,76.8,16.8,42.1,5.64,45.28,0.22,0.28,16.9,[24],False,False,100.05,99.97000000000001,False,False
+128,Cotton stalk,straw (stalk/cob/ear),17.3,65.4,17.3,39.47,5.07,37.14,1.2,0.02,15.83,[24],False,False,100.0,100.2,False,False
+129,Cotton stalk (dried),straw (stalk/cob/ear),6.53,75.38,18.09,48.43,6.93,37.18,0.93,0.0,16.53,[24],False,False,100.0,100.0,False,False
+130,Cotton stalk briquette,straw (stalk/cob/ear),3.37,79.13,17.5,49.93,5.73,39.16,0.27,1.54,18.64,[24],False,False,100.0,100.0,False,False
+131,Cotton stalk particle,straw (stalk/cob/ear),1.93,82.34,15.73,50.72,5.32,41.5,0.46,0.07,19.32,[24],False,False,100.00000000000001,99.99999999999999,False,False
+133,Grape pomace,organic residue/product,5.4,72.6,21.9,46.45,5.96,40.03,2.17,0.0,20.04,[24],False,False,99.9,100.01,False,False
+134,Groundnut shell,husk/shell/pit,5.7,72.7,21.6,48.59,5.64,39.49,0.58,0.0,19.85,[24],False,False,100.0,100.0,False,False
+135,Hazelnut shell,husk/shell/pit,1.1,68.9,30.0,50.34,5.84,42.33,0.4,0.0,19.9,[24],False,False,100.0,100.01,False,False
+136,Jackfruit leaf,grass/plant,16.28,70.05,13.67,42.33,4.7,33.57,3.12,0.0,17.03,[24],False,False,100.0,100.0,False,False
+137,Jawar straw,straw (stalk/cob/ear),8.88,75.97,15.15,42.1,5.6,43.38,0.04,0.0,17.95,[24],False,False,100.0,100.00000000000001,False,False
+138,Lawn grass,grass/plant,12.67,74.94,12.39,37.79,5.46,41.74,2.34,0.0,17.66,[24],False,False,100.0,100.00000000000001,False,False
+139,Macadamia shell,husk/shell/pit,0.4,75.92,23.68,54.41,4.99,39.69,0.36,0.01,21.01,[24],False,False,100.0,99.86000000000001,False,False
+140,Mango leaf,grass/plant,11.38,73.87,14.75,43.89,4.57,38.57,1.59,0.0,18.83,[24],False,False,100.0,100.0,False,False
+141,Mast tree leaf,grass/plant,5.26,84.0,10.74,50.6,5.93,35.52,2.69,0.0,22.37,[24],False,False,100.0,100.00000000000001,False,False
+142,Mulberry stick,straw (stalk/cob/ear),2.1,75.1,22.8,44.23,6.61,46.25,0.51,0.0,18.36,[24],False,False,99.99999999999999,99.7,False,False
+143,Millet grain waste,organic residue/product,8.4,77.1,14.5,40.56,5.26,45.5,0.4,0.0,15.21,[24],False,False,100.0,100.12,False,False
+144,Millet straw,straw (stalk/cob/ear),5.27,78.28,16.45,43.71,5.85,45.16,0.01,0.0,18.05,[24],False,False,100.0,100.0,False,False
+145,Miscanthus,grass/plant,2.7,82.2,15.1,48.4,5.8,42.9,0.2,0.0,17.9,[24],False,False,100.0,100.0,False,False
+146,Miscanthus,grass/plant,0.8,87.5,11.7,46.7,6.0,45.67,0.2,0.0,17.47,[24],False,False,100.0,99.37,False,False
+147,Miscanthus,grass/plant,39.9,54.4,5.7,30.11,3.97,25.18,0.84,0.0,11.81,[24],False,False,100.0,100.0,False,False
+148,Miscanthus giganteus,grass/plant,4.47,91.16,4.36,45.5,5.91,43.73,0.38,0.0,18.36,[24],False,False,99.99,99.98999999999998,False,False
+149,Narrow-leaf cattail,grass/plant,10.42,79.19,10.39,39.66,5.18,43.81,0.93,0.0,16.27,[24],False,False,100.0,100.00000000000001,False,False
+150,Oil palm fiber,organic residue/product,7.0,72.5,20.5,48.27,4.46,37.76,2.23,0.28,17.1,[24],False,False,100.0,100.00000000000001,False,False
+151,Oil palm frond,organic residue/product,4.0,79.1,16.9,44.8,5.5,45.3,0.31,0.12,18.21,[24],False,False,100.0,100.03,False,False
+153,Olive stone (Olive europaea),husk/shell/pit,0.37,82.41,17.22,51.62,5.97,41.78,0.25,0.01,20.5,[24],False,False,100.0,100.00000000000001,False,False
+154,Olive stones,husk/shell/pit,14.46,63.8,21.74,36.95,4.79,42.17,1.63,0.0,17.54,[24],False,False,99.99999999999999,100.0,False,False
+155,Paddy straw,straw (stalk/cob/ear),15.5,72.7,11.8,35.97,5.28,43.08,0.17,0.0,14.52,[24],False,False,100.0,100.0,False,False
+156,Palm kernel shells,husk/shell/pit,6.5,75.2,18.3,50.86,5.52,36.75,0.37,0.0,20.42,[24],False,False,100.0,100.0,False,False
+157,Palm kernel shells,husk/shell/pit,4.4,75.0,20.58,51.83,6.28,37.03,0.44,0.0,17.93,[24],False,False,99.98,99.98,False,False
+159,Peach pit,husk/shell/pit,1.1,79.1,19.8,48.6,6.27,43.04,0.47,0.02,19.42,[24],False,False,99.99999999999999,99.49999999999999,False,False
+160,Peanut shell,husk/shell/pit,1.7,84.9,13.4,46.59,6.0,43.65,2.06,0.0,18.6,[24],False,False,100.00000000000001,100.00000000000001,False,False
+161,Pennisetum,grass/plant,5.99,93.34,0.67,43.74,5.98,44.06,0.24,0.0,16.98,[24],False,False,100.0,100.00999999999999,False,False
+163,Pine shells,husk/shell/pit,1.51,68.41,30.08,47.08,5.52,45.6,0.3,0.0,18.82,[24],False,False,100.0,100.00999999999999,False,False
+164,Pistachio shell,husk/shell/pit,1.13,82.03,16.84,48.79,5.91,43.41,0.56,0.01,19.26,[24],False,False,100.0,99.81,False,False
+166,Rape stalk,straw (stalk/cob/ear),3.2,77.27,19.53,47.53,6.2,42.46,0.37,0.0,18.98,[24],False,False,100.0,99.76,False,False
+168,Residue (logging chips),organic residue/product,1.77,82.17,16.07,47.29,6.2,44.19,0.42,0.0,18.79,[24],False,False,100.00999999999999,99.87,False,False
+169,Residue 1 (forest),organic residue/product,1.9,83.0,15.1,50.82,5.69,41.5,0.0,0.0,18.8,[24],False,False,100.0,99.91,False,False
+170,Residue 2 (forest),organic residue/product,4.7,80.3,15.0,48.7,5.53,41.07,0.0,0.0,19.0,[24],False,False,100.0,100.00000000000001,False,False
+171,Residue 3 (forest),organic residue/product,1.7,82.4,15.9,50.23,5.7,42.37,0.0,0.0,18.7,[24],False,False,100.00000000000001,100.0,False,False
+172,Residue 4 (forest),organic residue/product,2.6,82.9,14.5,49.87,5.75,41.78,0.0,0.0,19.4,[24],False,False,100.0,100.0,False,False
+173,Residue 5 (forest),organic residue/product,2.9,79.3,17.8,50.49,5.73,40.88,0.0,0.0,18.6,[24],False,False,100.0,100.0,False,False
+174,Residues (Norwegian forest),organic residue/product,2.34,74.74,22.94,47.58,6.1,43.62,0.48,0.07,19.52,[24],False,False,100.02,100.19,False,False
+175,Rice husk,husk/shell/pit,15.23,64.89,19.83,42.13,5.4,36.47,0.55,0.17,15.16,[24],False,False,99.95,99.95,False,False
+176,Rice husk,husk/shell/pit,16.53,70.6,12.87,39.37,5.13,38.59,0.32,0.06,16.58,[24],False,False,100.0,100.0,False,False
+178,Rice husk,husk/shell/pit,10.95,80.45,8.6,41.2,6.13,41.11,0.22,0.0,17.4,[24],False,False,100.0,99.61,False,False
+179,Rice husk bran,husk/shell/pit,18.64,61.83,19.53,38.92,5.12,36.77,0.55,0.0,15.29,[24],False,False,100.0,100.0,False,False
+180,Rice husk briquette,husk/shell/pit,15.92,68.05,16.03,45.02,4.05,34.3,0.61,0.09,16.01,[24],False,False,100.0,99.99000000000001,False,False
+181,Rice husk particle,husk/shell/pit,11.39,82.77,5.84,45.93,5.02,37.03,0.38,0.24,16.36,[24],False,False,100.0,99.99,False,False
+182,Rice husk patni-23,husk/shell/pit,15.8,69.3,14.9,38.92,5.1,37.89,2.17,0.12,15.67,[24],False,False,100.0,100.0,False,False
+183,Rice husks,husk/shell/pit,16.6,68.0,15.4,41.2,5.25,36.53,0.42,0.0,16.67,[24],False,False,100.0,100.0,False,False
+184,Rice straw,straw (stalk/cob/ear),11.2,71.8,17.0,45.3,5.9,36.6,0.88,0.15,17.2,[24],False,False,100.0,100.03,False,False
+185,Rice straw,straw (stalk/cob/ear),4.09,79.6,15.9,43.16,5.78,46.42,0.22,0.29,19.0,[24],False,False,99.59,99.96000000000001,False,False
+186,Rice straw,straw (stalk/cob/ear),20.38,65.7,13.91,35.68,4.62,39.14,0.28,0.0,14.85,[24],False,False,99.99,100.1,False,False
+187,Rice straw,straw (stalk/cob/ear),29.51,63.61,6.88,34.81,4.41,30.07,1.21,0.0,15.07,[24],False,False,100.0,100.00999999999999,False,False
+188,Rice straw,straw (stalk/cob/ear),9.72,71.7,18.58,43.68,5.7,39.72,0.97,0.21,17.1,[24],False,False,100.0,99.99999999999999,False,False
+189,Rice straw,straw (stalk/cob/ear),9.82,88.78,1.43,41.7,5.6,41.69,1.19,0.0,16.16,[24],False,False,100.03,100.0,False,False
+190,Rice straw,straw (stalk/cob/ear),9.05,72.54,18.4,41.1,5.35,43.17,1.09,0.0,18.04,[24],False,False,99.99000000000001,99.76,False,False
+191,Sal seed husk,husk/shell/pit,9.4,62.54,28.06,48.12,6.55,35.93,0.0,0.0,20.6,[24],False,False,100.0,100.0,False,False
+192,Senna leaves,grass/plant,17.3,57.2,25.5,36.2,4.72,37.49,4.29,0.0,18.13,[24],False,False,100.0,100.0,False,False
+193,Spire-mint,grass/plant,18.1,70.1,11.8,37.23,5.34,33.38,5.95,0.0,15.53,[24],False,False,99.99999999999999,100.0,False,False
+194,Sudan grass,grass/plant,8.65,72.75,18.6,44.58,5.35,40.18,1.21,0.01,17.39,[24],False,False,100.0,99.98,False,False
+195,Sugar cane leaves,grass/plant,7.7,77.4,14.9,39.75,5.55,46.82,0.17,0.0,17.41,[24],False,False,100.00000000000001,99.99000000000001,False,False
+196,Sugarcane bagasse,organic residue/product,3.2,83.66,13.15,45.48,5.96,45.21,0.15,0.0,18.37,[24],False,False,100.01,100.00000000000001,False,False
+198,Sugarcane residue,organic residue/product,2.5,93.6,3.65,49.19,6.94,40.45,0.43,0.0,17.8,[24],False,False,99.75,99.51,False,False
+199,Sunflower seed shell,husk/shell/pit,3.6,84.7,11.7,49.84,5.98,39.62,0.96,0.0,17.6,[24],False,False,100.0,99.99999999999999,False,False
+200,Sweet sorghum bagasse,organic residue/product,4.64,79.16,16.2,41.48,5.34,48.15,0.27,0.12,18.68,[24],False,False,100.0,100.0,False,False
+201,Switch grass,grass/plant,3.5,80.63,15.87,45.71,6.38,42.43,0.6,1.38,20.6,[24],False,False,100.0,100.0,False,False
+202,Switch grass (densified raw),grass/plant,3.62,80.23,16.15,45.4,5.72,43.8,0.28,1.2,19.14,[24],False,False,100.0,100.02,False,False
+203,Tea bush,grass/plant,1.7,76.5,21.8,47.67,6.13,43.16,1.33,0.0,19.84,[24],False,False,100.0,99.99000000000001,False,False
+204,Tea waste,organic residue/product,1.4,85.0,13.6,48.6,5.5,44.0,0.5,0.0,17.1,[24],False,False,100.0,100.0,False,False
+205,Vine prunings,straw (stalk/cob/ear),2.6,80.8,16.6,49.48,5.65,41.4,0.88,0.0,19.25,[24],False,False,100.0,100.00999999999999,False,False
+206,Walnut,husk/shell/pit,0.7,78.5,20.8,48.2,6.25,43.24,1.61,0.0,19.97,[24],False,False,100.0,100.0,False,False
+207,Water hyacinth,grass/plant,10.98,76.85,12.17,37.42,3.3,46.27,2.04,0.0,16.65,[24],False,False,100.0,100.01000000000002,False,False
+208,Wheat straw,straw (stalk/cob/ear),8.0,76.3,15.7,45.3,5.6,40.2,0.9,0.0,16.8,[24],False,False,100.0,100.0,False,False
+209,Wheat straw,straw (stalk/cob/ear),16.14,71.24,12.62,33.04,4.36,46.04,0.42,0.0,19.0,[24],False,False,100.0,100.0,False,False
+210,Wheat straw,straw (stalk/cob/ear),13.5,63.0,23.5,45.5,5.1,34.1,1.8,0.0,17.0,[24],False,False,100.0,100.0,False,False
+211,Coconut shell,husk/shell/pit,0.71,77.19,22.1,50.22,5.7,43.37,0.0,0.0,20.5,[25],False,False,100.0,99.99999999999999,False,False
+212,Akhrot shell,husk/shell/pit,1.2,79.98,18.78,49.81,5.64,42.94,0.41,0.0,20.01,[25],False,False,99.96000000000001,100.0,False,False
+214,Bamboo wood,grass/plant,1.95,86.8,11.24,48.76,6.32,42.77,0.2,0.0,20.55,[25],False,False,99.99,100.0,False,False
+216,Wheat straw,straw (stalk/cob/ear),6.9,82.12,10.98,42.95,5.35,46.99,0.0,0.0,17.99,[25],False,False,100.00000000000001,102.19000000000001,False,True
+219,Rice husk,husk/shell/pit,21.24,61.81,16.95,38.5,5.2,34.61,0.45,0.0,14.69,[25],False,False,100.0,100.0,False,False
+222,Sugarcane bagasse,organic residue/product,3.2,83.66,13.15,45.48,5.96,45.21,0.15,0.0,18.73,[25],False,False,100.01,100.00000000000001,False,False
+223,Millet grain waste,organic residue/product,8.4,77.1,14.5,40.56,5.24,45.5,0.4,0.0,15.21,[25],False,False,100.0,100.10000000000002,False,False
+225,"cattle manure, partially composted",manure,41.6,47.3,11.1,32.95,4.9,17.48,0.69,0.78,15.12,[2],False,False,100.0,98.4,False,False
+226,"cattle manure, partially composted",manure,49.6,40.4,10.0,24.77,4.22,16.22,3.98,0.75,12.15,[2],False,False,100.0,99.53999999999999,False,False
+227,"cattle manure, fresh",manure,42.34,53.1,4.56,29.15,3.55,20.75,2.25,0.61,11.3,[2],False,False,100.0,98.65,False,False
+230,Horse manure,manure,9.8,66.98,23.22,49.01,6.14,33.51,1.39,0.14,19.35,[2],False,False,100.0,99.99,False,False
+231,sheep manure,manure,20.9,65.2,13.9,40.6,5.1,30.7,2.1,0.6,16.02,[2],False,False,100.0,100.0,False,False
+232,pig manure,manure,35.4,51.3,13.3,34.96,4.38,21.3,2.79,0.0,13.79,[2],False,True,99.99999999999999,98.83,False,False
+233,pig manure,manure,15.2,62.9,21.9,43.66,4.18,33.51,2.47,0.48,17.84,[2],False,False,100.0,99.5,False,False
+234,pig manure compost,manure,18.15,65.78,16.07,35.25,4.73,36.64,4.37,0.85,14.46,[2],False,False,100.0,99.99000000000001,False,False
+236,chicken manure,manure,27.4,61.36,11.24,35.91,4.98,27.38,3.56,0.77,13.76,[2],False,False,99.99999999999999,100.0,False,False
+237,chicken manure,manure,21.25,69.13,9.62,38.1,5.6,30.9,3.5,0.6,14.87,[2],False,False,100.0,99.94999999999999,False,False
+238,chicken manure (hens bred for meat),manure,25.3,60.0,14.7,34.87,4.66,32.35,2.84,0.66,14.4,[2],False,False,100.0,100.67999999999999,False,False
+239,chicken manure,manure,21.65,65.56,12.8,35.59,4.57,35.52,4.98,1.45,14.51,[2],False,False,100.01,103.76000000000002,False,True
+240,Poultry litter,manure,14.3,69.6,16.1,42.86,5.53,32.73,3.94,0.64,18.0,[2],False,False,100.0,100.0,False,False
+241,"chicken manure, digestate dried",manure,29.75,53.0,17.25,36.85,4.81,28.85,3.65,0.95,15.64,[2],False,False,100.0,104.86000000000001,False,True
+266,pine bark,untreated wood,1.9,73.7,24.4,52.8,5.79,39.2,0.3,0.07,20.51,[27],False,False,100.0,100.05999999999999,False,False
+267,Wood Biomass,untreated wood,5.59,74.36,20.1,48.13,5.37,42.75,0.7,0.33,18.98,[28],False,False,100.05000000000001,102.87,False,True
+268,Wood (average),untreated wood,1.0,82.0,17.0,51.6,6.3,41.5,0.0,0.1,18.6,[12],False,False,100.0,100.5,False,False
+269,Neem wood,untreated wood,1.93,85.86,12.19,48.26,6.27,43.46,0.08,0.0,20.26,[25],False,False,99.98,100.00000000000001,False,False
+270,oak sawdust,untreated wood,0.3,86.3,13.4,49.9,5.88,43.8,0.1,0.01,19.82,[27],False,False,100.0,99.99,False,False
+271,Spruce,untreated wood,0.68,85.18,14.14,50.96,6.18,42.06,0.12,0.02,20.7,[24],False,False,100.00000000000001,100.02000000000001,False,False
+272,Cedar wood,untreated wood,0.89,81.86,17.25,48.51,5.86,44.09,0.64,0.0,19.57,[24],False,False,100.0,99.99000000000001,False,False
+273,Douglass fir,untreated wood,1.2,73.0,25.8,56.2,5.9,36.7,0.0,0.0,22.1,[24],False,False,100.0,100.00000000000001,False,False
+274,fir mill residue,untreated wood,0.5,82.0,17.5,51.1,5.97,42.3,0.1,0.03,20.2,[27],False,False,100.0,100.0,False,False
+275,Pine needles,untreated wood,2.54,84.24,13.22,49.9,6.3,31.4,0.17,0.01,16.32,[29],False,False,100.0,90.32000000000001,False,True
+276,Leucaena,untreated wood,0.8,86.1,13.1,49.7,7.34,41.47,0.69,0.0,20.3,[24],False,False,99.99999999999999,100.0,False,False
+277,Hardwood (mixture of oak and birch),untreated wood,0.7,82.62,16.78,46.47,5.86,46.87,0.1,0.0,18.17,[24],False,False,100.10000000000001,99.99999999999999,False,False
+278,Rubber wood,untreated wood,1.91,80.21,17.88,51.44,6.32,41.99,0.17,0.08,16.77,[5],False,False,99.99999999999999,101.91,False,False
+279,Dry subabul wood,untreated wood,1.2,81.02,18.52,48.15,5.87,44.75,0.03,0.0,19.78,[25],False,False,100.74,100.0,False,False
+280,Acacia mangium (Hardwood),untreated wood,1.12,83.94,14.94,48.93,6.06,43.44,0.43,0.02,19.5,[24],False,False,100.0,100.00000000000001,False,False
+281,"Softwood (mixture of spruce, pine and larch)",untreated wood,0.1,82.92,16.98,46.65,5.89,47.35,0.0,0.0,18.38,[24],False,False,100.0,99.99,False,False
+282,Spruce (Norwegian),untreated wood,0.38,81.24,18.38,47.2,6.21,46.18,0.02,0.03,19.05,[24],False,False,99.99999999999999,100.02,False,False
+283,Eucalyptus wood,untreated wood,3.35,75.35,21.3,46.04,5.82,44.49,0.3,0.0,18.64,[25],False,False,99.99999999999999,99.99999999999999,False,False
+284,Oak wood (large branch),untreated wood,2.07,81.75,16.18,47.56,6.67,41.36,2.34,0.0,19.17,[24],False,False,100.0,100.0,False,False
+285,Jujuba wood,untreated wood,2.32,83.63,14.14,47.63,6.12,43.78,0.15,0.0,19.77,[24],False,False,100.08999999999999,100.0,False,False
+286,Wood (Spruce),untreated wood,0.4,80.6,19.0,48.5,6.4,45.0,0.1,0.01,17.4,[19],False,False,100.0,100.41000000000001,False,False
+287,Casurina wood,untreated wood,1.83,78.58,19.58,48.5,6.24,43.12,0.31,0.0,18.77,[25],False,False,99.99,100.0,False,False
+288,Red wood,untreated wood,0.36,79.72,19.92,50.64,5.98,42.88,0.05,0.03,20.72,[24],False,False,100.0,99.94,False,False
+289,B-wood,untreated wood,1.85,76.53,21.62,50.26,6.91,39.66,1.03,0.0,20.05,[24],False,False,100.0,99.71,False,False
+290,Birch,untreated wood,0.28,89.46,10.26,48.49,6.35,44.6,0.11,0.02,19.94,[24],False,False,100.0,99.85,False,False
+291,Chaparral wood,untreated wood,6.13,75.19,18.68,46.9,5.08,41.17,0.54,0.03,18.61,[24],False,False,100.0,99.85000000000001,False,False
+292,Juniper,untreated wood,2.03,82.85,15.19,52.36,6.03,39.3,0.3,0.01,20.18,[24],False,False,100.07,100.03,False,False
+293,White fir,untreated wood,0.25,83.17,16.58,49.0,5.98,44.75,0.05,0.01,19.95,[24],False,False,100.0,100.04,False,False
+294,Oak wood (medium branch),untreated wood,3.0,80.82,16.18,47.1614,6.3244,41.0116,2.5026,0.0,19.24,[23],False,True,100.0,100.0,True,False
+295,Fresh subabul wood,untreated wood,1.12,83.6,15.2,46.24,5.8,46.59,0.25,0.0,19.7,[25],False,False,99.92,100.0,False,False
+296,Eucalyptus,untreated wood,0.01,81.1,18.9,50.79,5.1,44.1,0.0,0.0,18.4,[24],False,False,100.00999999999999,100.00000000000001,False,False
+297,beech bark,untreated wood,7.8,73.7,18.5,47.4,5.53,38.5,0.6,0.1,18.62,[27],False,False,100.0,99.92999999999999,False,False
+298,Oak wood,untreated wood,6.0,79.0,15.0,49.75,6.25,36.94,0.11,0.01,17.6,[17],False,False,100.0,99.06,False,False
+299,Mesquite,untreated wood,1.98,78.22,19.76,51.6,5.89,39.76,0.73,0.04,19.76,[24],False,False,99.96000000000001,100.00000000000001,False,False
+300,hemlock bark,untreated wood,2.5,72.0,25.5,53.6,5.75,37.8,0.2,0.1,20.7,[27],False,False,100.0,99.95,False,False
+301,Canyon live oak,untreated wood,0.5,88.2,11.3,47.84,5.8,45.76,0.07,0.01,18.98,[24],False,False,100.0,99.98,False,False
+302,Eucalyptus saw dust,untreated wood,0.2,83.6,16.2,49.37,6.4,42.01,2.02,0.0,18.5,[24],False,False,100.0,100.0,False,False
+303,Wood SawDust,untreated wood,2.4,83.9,13.7,50.69,6.35,40.15,0.25,0.15,16.48,[30],False,False,100.00000000000001,99.99000000000001,False,False
+304,spruce wood,untreated wood,0.5,81.2,18.3,52.0,6.07,41.0,0.3,0.1,20.53,[27],False,False,100.0,99.96999999999998,False,False
+305,Wood chips,untreated wood,0.1,76.4,23.5,48.1,5.99,45.74,0.08,0.0,19.92,[24],False,False,100.0,100.01,False,False
+306,Eucalyptus grandis,untreated wood,0.52,82.55,16.93,48.33,5.89,45.13,0.15,0.01,19.35,[24],False,False,100.0,100.03,False,False
+307,Eucalyptus saligna (hardwood),untreated wood,0.79,82.55,16.66,49.79,6.02,42.95,0.37,0.08,19.6,[24],False,False,100.0,100.00000000000001,False,False
+308,Oak wood (large branch),untreated wood,2.07,81.75,16.18,47.5646,6.669,41.3558,2.3405,0.0,19.17,[23],False,True,100.0,99.9999,True,False
+309,Oak wood (medium branch),untreated wood,3.0,80.82,16.18,47.16,6.32,41.01,2.5,0.0,19.24,[24],False,False,100.0,99.99,False,False
+310,Douglass fir wood,untreated wood,0.1,87.3,12.6,50.64,6.18,43.0,0.06,0.02,20.38,[24],False,False,99.99999999999999,99.99999999999999,False,False
+311,Shea butter wood,untreated wood,0.9,82.92,15.89,50.0,6.0,43.79,0.2,0.01,20.49,[16],False,False,99.71000000000001,100.9,False,False
+312,Hardwood chips,untreated wood,0.65,84.74,14.83,55.04,5.36,38.95,0.01,0.0,19.48,[24],False,False,100.22,100.01,False,False
+313,Spruce (Norwegian),untreated wood,0.23,86.5,13.27,50.31,6.24,43.38,0.07,0.02,19.89,[24],False,False,100.0,100.25,False,False
+314,Subabul wood,untreated wood,1.2,80.05,18.3,48.15,5.87,44.75,0.03,0.0,19.78,[24],False,False,99.55,100.0,False,False
+315,Camphorwood,untreated wood,1.07,85.51,13.42,47.66,6.02,44.55,0.69,0.0,18.86,[24],False,False,100.0,99.98999999999998,False,False

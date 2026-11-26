@@ -1,0 +1,21 @@
+kode_pulau,pulau,tahun,produksi_m3,id_tabel_bps,satuan_asli,komoditas_bps,basis_produk,produksi_ton_est,sumber_segmen_kayu,cakupan_data,is_anchor_2022,is_latest_complete_year,is_latest_available_year
+1,SUMATERA,2019,687252.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),446713.8,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+2,JAWA,2019,,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+3,KALIMANTAN,2019,3930767.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),2554998.5500000003,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+4,"BALI, NUSA TENGGARA, DAN SULAWESI",2019,41507.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),26979.55,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+5,MALUKU DAN PAPUA,2019,1515284.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),984934.6,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+1,SUMATERA,2020,691527.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),449492.55,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+2,JAWA,2020,0.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),0.0,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+3,KALIMANTAN,2020,3157824.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),2052585.6,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+4,"BALI, NUSA TENGGARA, DAN SULAWESI",2020,8724.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),5670.6,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+5,MALUKU DAN PAPUA,2020,1402675.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),911738.75,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+1,SUMATERA,2021,741899.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),482234.35000000003,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+2,JAWA,2021,0.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),0.0,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+3,KALIMANTAN,2021,3581054.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),2327685.1,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+4,"BALI, NUSA TENGGARA, DAN SULAWESI",2021,3142.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),2042.3000000000002,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+5,MALUKU DAN PAPUA,2021,1729429.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),1124128.85,HPH_Hutan_Alam,HPH_HUTAN_ALAM,False,False,False
+1,SUMATERA,2022,1000486.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),650315.9,HPH_Hutan_Alam,HPH_HUTAN_ALAM,True,True,True
+2,JAWA,2022,0.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),0.0,HPH_Hutan_Alam,HPH_HUTAN_ALAM,True,True,True
+3,KALIMANTAN,2022,3369393.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),2190105.45,HPH_Hutan_Alam,HPH_HUTAN_ALAM,True,True,True
+4,"BALI, NUSA TENGGARA, DAN SULAWESI",2022,7489.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),4867.85,HPH_Hutan_Alam,HPH_HUTAN_ALAM,True,True,True
+5,MALUKU DAN PAPUA,2022,1387050.0,1973#2,M3,Kayu,m3 Kayu Bulat (rho 0.65),901582.5,HPH_Hutan_Alam,HPH_HUTAN_ALAM,True,True,True

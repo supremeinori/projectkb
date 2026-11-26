@@ -1,0 +1,25 @@
+scope,metric,expected_value,unit
+"Nasional (LATEST_COMPLETE, TECH01)",Eligible Generation (TWh),79.74,TWh
+"Nasional (LATEST_COMPLETE, TECH01)",Eligible Capacity (MW),13003.0,MW
+"Nasional (LATEST_COMPLETE, TECH01)",Eligible Biomass Supply (Mt),74.26,Mt
+"Nasional (LATEST_COMPLETE, TECH01)",Excluded FS04/FS05 Volume (Mt),55.17,Mt
+"Nasional (LATEST_COMPLETE, TECH01)",Max Coal Replaced (Mt),43.49,Mt
+"Nasional (LATEST_COMPLETE, TECH01)",Max CO2e Offset (Mt),82.29,Mt CO2e
+"Nasional (LATEST_COMPLETE, TECH01)",Weighted Field LHV (MJ/kg),11.71,MJ/kg
+"Nasional (LATEST_COMPLETE, TECH01)",Technical Suitability Score (%),57.4,%
+"Nasional (ANCHOR_2022, TECH01)",Eligible Generation (TWh),47.06,TWh
+"Nasional (ANCHOR_2022, TECH01)",Eligible Capacity (MW),7675.0,MW
+"Nasional (ANCHOR_2022, TECH01)",Eligible Biomass Supply (Mt),48.7,Mt
+"Nasional (ANCHOR_2022, TECH01)",Excluded FS04/FS05 Volume (Mt),49.8,Mt
+"Nasional (ANCHOR_2022, TECH01)",Max Coal Replaced (Mt),25.67,Mt
+"Nasional (ANCHOR_2022, TECH01)",Max CO2e Offset (Mt),48.57,Mt CO2e
+"Nasional (ANCHOR_2022, TECH01)",Weighted Field LHV (MJ/kg),10.54,MJ/kg
+"Nasional (ANCHOR_2022, TECH01)",Technical Suitability Score (%),49.4,%
+"Simulator 5 Pulau (Latest, 10%, TECH01)",Target Co-Firing 10%,21.87,TWh
+"Simulator 5 Pulau (Latest, 10%, TECH01)",Realizable Supply-Capped 10%,21.87,TWh
+"Simulator 5 Pulau (Latest, 10%, TECH01)",Coal Saved Realizable 10%,11.93,Mt
+"Simulator 5 Pulau (Latest, 10%, TECH01)",CO2e Offset Realizable 10%,22.57,Mt CO2e
+"Simulator 5 Pulau (Latest, 20%, TECH01)",Target Co-Firing 20%,43.74,TWh
+"Simulator 5 Pulau (Latest, 20%, TECH01)",Realizable Supply-Capped 20%,37.99,TWh
+"Simulator 5 Pulau (Latest, 20%, TECH01)",Coal Saved Realizable 20%,20.72,Mt
+"Simulator 5 Pulau (Latest, 20%, TECH01)",CO2e Offset Realizable 20%,39.21,Mt CO2e

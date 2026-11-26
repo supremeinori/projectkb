@@ -1,0 +1,3 @@
+view_mode_key,view_mode_code,view_mode_label,pltu_reference_year,sort_order,scope_note_id
+1,LATEST_COMPLETE,Latest Complete vs PLTU 2024,2024,1,"Mode Aktif: Latest Complete Year (Padi 2025, Sawit PR 2024, Kayu KLHK PHL 2024 level provinsi, Tebu 2022, Jagung 2017 karena seri BDSP berakhir 2017) dibandingkan terhadap PLTU Climate TRACE 2024 dan realisasi aktual CREA 2024 (48 PLTU, 1.506,1 GWh)."
+2,ANCHOR_2022,Anchor 2022 (Konservatif),2022,2,"Mode Aktif: Anchor 2022 konservatif satu tahun (Padi 2022, Sawit PR 2022, Tebu 2022, Kayu KLHK PHL 2022 level provinsi; Jagung tidak hadir karena BDSP berakhir 2017) dibandingkan terhadap operasi PLTU Climate TRACE 2022."
